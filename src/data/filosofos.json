@@ -1,0 +1,1817 @@
+[
+  {
+    "id": "tales",
+    "nombre": "Tales de Mileto",
+    "nivel": 1,
+    "epoca_año": "c. 624 a.C. - c. 546 a.C.",
+    "año_nacimiento": -624,
+    "año_fallecimiento": -546,
+    "coordenadas": {
+      "latitud": 37.5303,
+      "longitud": 27.2783,
+      "lugar": "Mileto, Jonia (actual Turquía)"
+    },
+    "resumen_breve": "Iniciador indiscutido de la filosofía occidental y de la explicación racional del cosmos (physis). Postuló el agua como principio primordial (arché) y predijo el eclipse solar del 585 a.C.",
+    "biografia_completa": "Tales de Mileto (c. 624 a.C. - c. 546 a.C.) es considerado tradicionalmente por Aristóteles como el primer filósofo de la historia y el fundador de la escuela jónica de Mileto. Fue un eminente matemático, astrónomo e ingeniero, célebre como uno de los Siete Sabios de Grecia.\n\nSu genialidad histórica consistió en el paso del mito al logos: abandonó las narraciones teogónicas y personificaciones míticas para explicar el origen y funcionamiento de la naturaleza mediante causas materiales inmanentes observables. Concluyó que el agua (lo húmedo) es el principio material sustancial (arché) que sostiene la vida y sobre el cual flota la Tierra.\n\nEn el campo de la geometría formuló los teoremas que llevan su nombre sobre la proporcionalidad y semejanza de triángulos, midiendo la altura de las pirámides egipcias a través de su sombra, y predijo con asombrosa precisión el eclipse solar del 28 de mayo del 585 a.C."
+  },
+  {
+    "id": "pitagoras",
+    "nombre": "Pitágoras de Samos",
+    "nivel": 1,
+    "epoca_año": "c. 570 a.C. - c. 495 a.C.",
+    "año_nacimiento": -570,
+    "año_fallecimiento": -495,
+    "coordenadas": {
+      "latitud": 39.0833,
+      "longitud": 17.1167,
+      "lugar": "Samos / Crotona, Magna Grecia (Italia)"
+    },
+    "resumen_breve": "Fundador de la hermandad pitagórica. Concibió el número y la proporción matemática como esencia ontológica del cosmos y se le atribuye haber acuñado el término 'filosofía'.",
+    "biografia_completa": "Pitágoras (c. 570 a.C. - c. 495 a.C.) nació en la isla de Samos y emigró hacia el 530 a.C. a Crotona, en el sur de Italia, donde fundó una célebre comunidad ético-religiosa y científica que admitía por igual a hombres y mujeres.\n\nRevolucionó el pensamiento presocrático al desplazar la búsqueda del arché desde una materia física tangible hacia la estructura formal abstracta: 'todas las cosas son números'. Descubrió que los intervalos musicales armónicos corresponden a relaciones numéricas exactas (octava, quinta, cuarta) y formuló la teoría de la 'armonía de las esferas' celestes.\n\nDefendió la inmortalidad y transmigración de las almas (metempsicosis) y la purificación del espíritu mediante el estudio matemático y la contemplación teórica. Su escuela legó el universal Teorema de Pitágoras y ejerció una influencia colosal y directa sobre la metafísica platónica."
+  },
+  {
+    "id": "jenofanes",
+    "nombre": "Jenófanes de Colofón",
+    "nivel": 2,
+    "epoca_año": "c. 570 a.C. - c. 475 a.C.",
+    "año_nacimiento": -570,
+    "año_fallecimiento": -475,
+    "coordenadas": {
+      "latitud": 38.1633,
+      "longitud": 27.1425,
+      "lugar": "Colofón, Jonia (actual Turquía)"
+    },
+    "resumen_breve": "Poeta y filósofo jónico, pionero de la teología racional. Criticó ferozmente el antropomorfismo de los dioses homéricos y afirmó la existencia de una divinidad única suprema e increada.",
+    "biografia_completa": "Jenófanes de Colofón (c. 570 a.C. - c. 475 a.C.) huyó de la invasión persa en Jonia y pasó su longeva existencia como un sabio rapsoda itinerante por el sur de Italia y Sicilia (Zancle, Catana y Elea).\n\nEs recordado como el primer demoledor del antropomorfismo religioso tradicional de Homero y Hesíodo, advirtiendo con agudo sarcasmo que 'si los bueyes, leones o caballos tuvieran manos y pudieran pintar, pintarían a sus dioses semejantes a bueyes o caballos'.\n\nEn contraposición, concibió una de las primeras teologías monoteístas y filosóficas de Occidente: un Dios supremo, inmóvil, incorpóreo, no semejante a los mortales ni en figura ni en pensamiento, que 'todo él ve, todo él oye y todo él rige el cosmos mediante la fuerza de su mente'."
+  },
+  {
+    "id": "heraclito",
+    "nombre": "Heráclito de Éfeso",
+    "nivel": 1,
+    "epoca_año": "c. 535 a.C. - c. 475 a.C.",
+    "año_nacimiento": -535,
+    "año_fallecimiento": -475,
+    "coordenadas": {
+      "latitud": 37.9497,
+      "longitud": 27.3639,
+      "lugar": "Éfeso, Jonia (actual Turquía)"
+    },
+    "resumen_breve": "El 'Oscuro de Éfeso', filósofo del devenir continuo y la unidad de los opuestos. Formuló que 'todo fluye' (panta rhei) y situó al fuego y al Logos como principio cósmico supremo.",
+    "biografia_completa": "Heráclito de Éfeso (c. 535 a.C. - c. 475 a.C.), de noble estirpe real a la que renunció para retirarse a filosofar en la soledad del templo de Artemisa, compuso una obra en estilo aforístico y enigmático que le valió el sobrenombre de 'el Oscuro'.\n\nFrente al estatismo, concibió la realidad como un flujo incesante y perpetuo cambio: 'Nadie puede bañarse dos veces en el mismo río, pues otras aguas fluyen siempre sobre él'. Sin embargo, este devenir no es caótico, sino que está regido por una ley cósmica racional: el Logos.\n\nSímbolo de este proceso es el Fuego eterno ('fuego eternamente vivo, que se enciende según medida y se apaga según medida') y la dialéctica de los contrarios: la guerra o tensión entre opuestos (Pólemos) es el padre y rey de todas las cosas, armonía profunda que Hegel y Nietzsche admiraron con devoción."
+  },
+  {
+    "id": "parmenides",
+    "nombre": "Parménides de Elea",
+    "nivel": 1,
+    "epoca_año": "c. 515 a.C. - c. 450 a.C.",
+    "año_nacimiento": -515,
+    "año_fallecimiento": -450,
+    "coordenadas": {
+      "latitud": 40.1583,
+      "longitud": 15.1561,
+      "lugar": "Elea (Velia), Magna Grecia (Italia)"
+    },
+    "resumen_breve": "Fundador de la escuela eleática y padre de la ontología metafísica. En su célebre poema proclamó la verdad absoluta del Ser: el Ser es único, inmutable y eterno; el no-ser no es.",
+    "biografia_completa": "Parménides de Elea (c. 515 a.C. - c. 450 a.C.) legisló sabiamente para su ciudad natal en el sur de Italia y compuso un solemne poema épico-filosófico en hexámetros dactílicos guiado por una diosa celestial.\n\nEn su poema distinguió dos senderos fundamentales del entendimiento: la 'Vía de la Opinión' (doxa), ilusoria y engañosa fundada en los sentidos mudables, y la 'Vía de la Verdad' (alétheia), accesible únicamente a través de la razón lógica estricta.\n\nFormuló la primera gran tesis ontológica de Occidente: 'El Ser es y el No-Ser no es ni puede ser pensado'. De esta premisa dedujo que el Ser es increado, imperecedero, indivisible, inmutable, esférico e idéntico a sí mismo ('pues lo mismo es pensar y ser'), estableciendo el principio de no contradicción que transformaría la dialéctica de Platón y Aristóteles."
+  },
+  {
+    "id": "leucipo",
+    "nombre": "Leucipo de Mileto",
+    "nivel": 2,
+    "epoca_año": "c. 500 a.C. - c. 440 a.C.",
+    "año_nacimiento": -500,
+    "año_fallecimiento": -440,
+    "coordenadas": {
+      "latitud": 37.5303,
+      "longitud": 27.2783,
+      "lugar": "Mileto / Abdera, Antigua Grecia"
+    },
+    "resumen_breve": "Maestro de Demócrito y creador originario de la filosofía atomista. Postuló que el cosmos está integrado por partículas materiales invisibles e indivisibles (átomos) en el vacío.",
+    "biografia_completa": "Leucipo de Mileto (c. 500 a.C. - c. 440 a.C.) desarrolló su pensamiento como una respuesta genial para conciliar la ontología eleática de Parménides con la realidad empírica del cambio y la pluralidad observable.\n\nPara salvar el movimiento sin admitir la generación ex nihilo (de la nada), postuló que la materia está constituida por un número infinito de corpúsculos microscópicos indivisibles, inalterables y macizos llamados átomos (a-tomon: sin corte o indivisible), que se mueven eternamente en el vacío (el no-ser relativo espacial).\n\nSe le atribuye el único fragmento textual explícito conservado: 'Ninguna cosa surge al azar, sino que todo nace a partir de una razón y por necesidad', sentando las bases del determinismo causal y mecanicista que desarrollaría ampliamente su discípulo Demócrito."
+  },
+  {
+    "id": "empedocles",
+    "nombre": "Empédocles de Agrigento",
+    "nivel": 2,
+    "epoca_año": "c. 494 a.C. - c. 434 a.C.",
+    "año_nacimiento": -494,
+    "año_fallecimiento": -434,
+    "coordenadas": {
+      "latitud": 37.3111,
+      "longitud": 13.5765,
+      "lugar": "Agrigento (Sicilia), Magna Grecia"
+    },
+    "resumen_breve": "Filósofo pluralista, médico y estadista democrático. Formuló la teoría clásica de los cuatro elementos primordiales regidos por dos fuerzas motrices cósmicas: el Amor y la Discordia.",
+    "biografia_completa": "Empédocles de Agrigento (c. 494 a.C. - c. 434 a.C.) fue una de las figuras más fascinantes y carismáticas del sur de Italia, rodeado de una aureola legendaria que cuenta su muerte arrojándose al cráter del volcán Etna.\n\nPara resolver la paradoja del Ser eleático y el cambio, propuso que no existe un único arché, sino cuatro elementos o 'raíces' eternas e indestructibles de la naturaleza: Fuego (Zeus), Aire (Hera), Tierra (Aidoneo) y Agua (Nestis).\n\nEl nacimiento, cambio y destrucción de los seres vivos no es más que la mezcla y separación física de estas cuatro raíces, impulsadas cíclicamente por dos fuerzas cósmicas cósmicas universales: el Amor (Filia), que las atrae y unifica en la armonía de la Esfera, y la Discordia (Neikos), que las disgrega y separa en la pluralidad del mundo."
+  },
+  {
+    "id": "protagoras",
+    "nombre": "Protágoras de Abdera",
+    "nivel": 1,
+    "epoca_año": "c. 490 a.C. - c. 420 a.C.",
+    "año_nacimiento": -490,
+    "año_fallecimiento": -420,
+    "coordenadas": {
+      "latitud": 40.9833,
+      "longitud": 24.9833,
+      "lugar": "Abdera / Atenas, Grecia"
+    },
+    "resumen_breve": "El más influyente de los sofistas griegos. Formuló el principio del homo mensura: 'El hombre es la medida de todas las cosas', inaugurando el relativismo moral y gnoseológico.",
+    "biografia_completa": "Protágoras de Abdera (c. 490 a.C. - c. 420 a.C.) fue el más respetado maestro de retórica y política en la Atenas de Pericles, para quien redactó la constitución democrática de la colonia de Turios.\n\nEn su tratado 'Sobre la verdad' inauguró el relativismo subjetivo y epistemológico al enunciar su célebre tesis: 'El hombre es la medida de todas las cosas: de las que son, en cuanto que son; y de las que no son, en cuanto que no son'. Para Protágoras, no existen verdades universales ni esencias eternas; las cosas son para cada sujeto tal como se le aparecen a sus sentidos.\n\nEn 'Sobre los dioses' adoptó un agnósticismo metodológico prudente ('Acerca de los dioses no puedo saber si existen o no existen, pues muchos son los obstáculos: la oscuridad del asunto y la brevedad de la vida humana'), por lo que fue acusado de impiedad en Atenas."
+  },
+  {
+    "id": "gorgias",
+    "nombre": "Gorgias de Leontinos",
+    "nivel": 2,
+    "epoca_año": "c. 485 a.C. - c. 380 a.C.",
+    "año_nacimiento": -485,
+    "año_fallecimiento": -380,
+    "coordenadas": {
+      "latitud": 37.2833,
+      "longitud": 14.9967,
+      "lugar": "Leontinos (Sicilia), Magna Grecia"
+    },
+    "resumen_breve": "Maestro supremo de la retórica y exponente del nihilismo dialéctico. Formuló en 'Sobre el no-ser' su célebre trilema: nada existe; si existiera no sería cognoscible; y si fuera cognoscible no sería comunicable.",
+    "biografia_completa": "Gorgias de Leontinos (c. 485 a.C. - c. 380 a.C.) deslumbró a los atenienses en el año 427 a.C. con su elocuencia y dominio de las figuras estilísticas de la oratoria, cobrando cuantiosas sumas por enseñar el arte de persuadir.\n\nEn su famoso tratado 'Sobre el no-ser o sobre la naturaleza', demolió la lógica eleática de Parménides llevando la dialéctica hasta el nihilismo ontológico más radical mediante tres tesis demoledoras: 1) Nada existe; 2) Si algo existiera, sería incognoscible e impensable para el ser humano; 3) Aun si fuera pensable, sería incomunicable e inexplicable al prójimo mediante palabras.\n\nEn su 'Elogio de Helena' proclamó el poder casi hipnótico del lenguaje: 'La palabra es una poderosa soberana que, con un cuerpo pequeñísimo e invisible, realiza las obras más divinas', fundando la retórica como persuasión pragmática ajena a la verdad ontológica."
+  },
+  {
+    "id": "antifonte",
+    "nombre": "Antifonte de Atenas",
+    "nivel": 3,
+    "epoca_año": "c. 480 a.C. - 411 a.C.",
+    "año_nacimiento": -480,
+    "año_fallecimiento": -411,
+    "coordenadas": {
+      "latitud": 37.9838,
+      "longitud": 23.7275,
+      "lugar": "Atenas, Grecia"
+    },
+    "resumen_breve": "Sofista y orador ateniense. Desarrolló la crítica a las convenciones sociales (nómos) en contraste con las leyes necesarias de la naturaleza (physis), defendiendo la igualdad originaria de todos los seres humanos.",
+    "biografia_completa": "Antifonte (c. 480 a.C. - 411 a.C.), orador y filósofo de la Atenas clásica, profundizó como pocos en la polaridad sofística entre Physis (naturaleza universal) y Nómos (ley y costumbre humana convencional).\n\nEn su tratado 'Sobre la verdad' denunció que la mayoría de los mandatos de las leyes civiles son contrarios a la naturaleza: las leyes de la ciudad son artificiales, contingentes y fruto de pactos que se acatan solo por temor al castigo público, mientras que las leyes de la naturaleza son inviolables e iguales para todos.\n\nFormuló un cosmopolitismo e igualitarismo radical asombroso para la época, afirmando que por naturaleza todos los seres humanos somos idénticos en todo (griegos y bárbaros), respiramos el mismo aire y compartimos idénticas necesidades biológicas."
+  },
+  {
+    "id": "socrates",
+    "nombre": "Sócrates",
+    "epoca_año": "c. 470/469 a.C. - 399 a.C.",
+    "año_nacimiento": -470,
+    "año_fallecimiento": -399,
+    "coordenadas": {
+      "latitud": 37.9715,
+      "longitud": 23.7257,
+      "lugar": "Atenas, Antigua Grecia"
+    },
+    "resumen_breve": "Padre de la filosofía moral y el método dialéctico. Consideraba que la sabiduría comienza por reconocer la propia ignorancia ('Solo sé que no sé nada') y empleaba la mayéutica para dar a luz la verdad.",
+    "biografia_completa": "Sócrates (c. 470/469 a.C. - 399 a.C.) nació y vivió en Atenas. No dejó ninguna obra escrita; conocemos su pensamiento principalmente a través de los diálogos de su discípulo Platón y los testimonios de Jenofonte.\n\nRevolucionó el pensamiento griego al desplazar el foco de la naturaleza física (cosmología presocrática) hacia la ética, el alma humana (psyché) y la justicia. Desarrolló el método socrático compuesto por la ironía (hacer dudar al interlocutor de sus falsas certezas) y la mayéutica (el arte de ayudar a parir conceptos e ideas universales).\n\nEn el 399 a.C. fue acusado de corromper a la juventud ateniense y de impiedad frente a los dioses de la polis. Condenado a muerte, rechazó el exilio por respeto a las leyes de su ciudad y bebió voluntariamente la cicuta, convirtiéndose en el arquetipo del mártir de la coherencia moral y el pensamiento crítico.",
+    "nivel": 1
+  },
+  {
+    "id": "prodico",
+    "nombre": "Pródico de Ceos",
+    "nivel": 3,
+    "epoca_año": "c. 465 a.C. - c. 395 a.C.",
+    "año_nacimiento": -465,
+    "año_fallecimiento": -395,
+    "coordenadas": {
+      "latitud": 37.6333,
+      "longitud": 24.3333,
+      "lugar": "Isla de Ceos, Grecia / Atenas"
+    },
+    "resumen_breve": "Sofista respetado por Sócrates por su precisión semántica y distinción de sinónimos. Autor del célebre mito de 'Heracles en la encrucijada' y de una teoría utilitarista del culto a los dioses.",
+    "biografia_completa": "Pródico de Ceos (c. 465 a.C. - c. 395 a.C.) acudió con frecuencia a Atenas en misiones diplomáticas, cobrando altos honorarios por sus lecciones de gramática y retórica a las que acudían personajes como Eurípides e Isócrates.\n\nSe consagró al estudio analítico del lenguaje y la 'corrección de los nombres' (orthoépeia), delimitando con minuciosa agudeza las sutiles diferencias de matiz entre vocablos aparentemente idénticos (como placer y gozo, estima y elogio), método de precisión conceptual que influyó enormemente en el método socrático de definición.\n\nCompuso la célebre alegoría moral de 'Heracles en la encrucijada', en la que el joven héroe elige el escarpado camino de la Virtud frente al seductor sendero del Vicio, e interpretó los orígenes de los cultos divinos como la divinización psicológica de los elementos y frutos de la tierra que prestaban utilidad vital a la supervivencia humana (el pan como Démeter, el vino como Dioniso)."
+  },
+  {
+    "id": "hipocrates",
+    "nombre": "Hipócrates de Cos",
+    "epoca_año": "c. 460 a.C. - c. 370 a.C.",
+    "año_nacimiento": -460,
+    "año_fallecimiento": -370,
+    "coordenadas": {
+      "latitud": 36.8931,
+      "longitud": 27.2878,
+      "lugar": "Isla de Cos, Antigua Grecia"
+    },
+    "resumen_breve": "Padre de la medicina occidental y la ética médica. Desmitificó las enfermedades, atribuyéndolas a causas naturales y desequilibrios biológicos en vez de castigos divinos.",
+    "biografia_completa": "Hipócrates de Cos (c. 460 a.C. - c. 370 a.C.) transformó la práctica médica de la Antigüedad en una disciplina científica racional independiente de la superstición y la religión.\n\nFundó la famosa Escuela Médica de Cos y se le atribuye el Corpus Hippocraticum. Introdujo la teoría humoral (sangre, bilis negra, bilis amarilla y flema) como explicación natural de la salud y la enfermedad, promoviendo el reposo, la alimentación equilibrada y la observación clínica sistemática del paciente.\n\nEs universalmente recordado por el 'Juramento Hipocrático', acta fundacional de la bioética y de la responsabilidad médica, que consagra el secreto profesional, el compromiso de sanar y el principio primordial de no dañar (primum non nocere).",
+    "nivel": 2
+  },
+  {
+    "id": "democrito",
+    "nombre": "Demócrito de Abdera",
+    "nivel": 1,
+    "epoca_año": "c. 460 a.C. - c. 370 a.C.",
+    "año_nacimiento": -460,
+    "año_fallecimiento": -370,
+    "coordenadas": {
+      "latitud": 40.9833,
+      "longitud": 24.9833,
+      "lugar": "Abdera (Tracia), Antigua Grecia"
+    },
+    "resumen_breve": "El gran filósofo del atomismo mecanicista y la risa reflexiva. Proclamó que 'nada existe excepto átomos y espacio vacío' y formuló una ética pionera de la serenidad de ánimo (eutimia).",
+    "biografia_completa": "Demócrito (c. 460 a.C. - c. 370 a.C.), apodado 'el filósofo que ríe' por su actitud jovial ante la futilidad de las vanidades humanas, viajó incansablemente por Egipto, Babilonia y Persia adquiriendo una inmensa cultura enciclopédica.\n\nSistematizó la física atomista: los átomos solo difieren en forma, tamaño, orden y posición. Todas las cualidades sensibles secundarias (colores, sabores, calor) son meras construcciones de la percepción: 'Por convención lo dulce, por convención lo amargo; pero en realidad, átomos y vacío'.\n\nEn moral formuló un hedonismo racional adelantado a Epicuro, situando la felicidad no en los placeres efímeros del cuerpo o las riquezas, sino en la serenidad imperturbable del alma, la templanza y el goce del conocimiento intelectual."
+  },
+  {
+    "id": "critias",
+    "nombre": "Critias de Atenas",
+    "nivel": 3,
+    "epoca_año": "c. 460 a.C. - 403 a.C.",
+    "año_nacimiento": -460,
+    "año_fallecimiento": -403,
+    "coordenadas": {
+      "latitud": 37.9838,
+      "longitud": 23.7275,
+      "lugar": "Atenas, Grecia"
+    },
+    "resumen_breve": "Filósofo sofista, político y poeta. Planteó en su drama satírico 'Sísifo' que la religión y los dioses fueron un artificio político creado por legisladores sagaces para asegurar la obediencia ciudadana en secreto.",
+    "biografia_completa": "Critias (c. 460 a.C. - 403 a.C.), tío de Platón y discípulo en su juventud de Sócrates y Gorgias, fue un hombre de refinada cultura que lideró con sangrienta crueldad el régimen pro-espartano de los Treinta Tiranos tras la derrota de Atenas en la Guerra del Peloponeso.\n\nEn su célebre fragmento teatral del 'Sísifo' formuló una de las teorías sociopolíticas del origen de la religión más audaces del mundo clásico: en tiempos primitivos, los hombres vivían como bestias sin ley, por lo que crearon las leyes punitivas; sin embargo, al ver que la gente seguía cometiendo delitos a escondidas, un hombre prudente y sagaz inventó a los dioses.\n\nIntrodujo así la figura de un ser divino inmortal que todo lo ve, todo lo escucha y conoce los secretos del corazón humano, utilizando el temor reverencial a los rayos y truenos celestes como un gendarme invisible para garantizar el orden social."
+  },
+  {
+    "id": "hipias",
+    "nombre": "Hipias de Élide",
+    "nivel": 3,
+    "epoca_año": "c. 460 a.C. - c. 390 a.C.",
+    "año_nacimiento": -460,
+    "año_fallecimiento": -390,
+    "coordenadas": {
+      "latitud": 37.8936,
+      "longitud": 21.3742,
+      "lugar": "Élide / Olimpia, Grecia"
+    },
+    "resumen_breve": "Sofista polímata de prodigiosa memoria mnemotécnica. Defendió el ideal de la autarquía en el saber, la erudición universal enciclopédica y la fraternidad de los hombres libres por ley natural.",
+    "biografia_completa": "Hipias de Élide (c. 460 a.C. - c. 390 a.C.) fue uno de los sofistas más polifacéticos de Grecia, admirado en los Juegos Olímpicos por su capacidad de disertar sobre astronomía, matemáticas, poesía, historia, música y gramática, vistiendo ropas y calzados fabricados enteramente por sus propias manos como muestra de autosuficiencia.\n\nDescubrió la curva geométrica llamada 'cuadratriz' para resolver los problemas clásicos de la trisección del ángulo y la cuadratura del círculo, y perfeccionó sofisticadas técnicas de mnemotecnia que le permitían recordar cincuenta nombres tras escucharlos una sola vez.\n\nEn el 'Protágoras' de Platón aparece defendiendo que los hombres sabios son parientes, conciudadanos y amigos por naturaleza (physis), aunque la ley humana convencional (nómos), siendo un tirano de los hombres, fuerce muchas cosas contra la naturaleza."
+  },
+  {
+    "id": "trasimaco",
+    "nombre": "Trasímaco de Calcedonia",
+    "nivel": 2,
+    "epoca_año": "c. 459 a.C. - c. 400 a.C.",
+    "año_nacimiento": -459,
+    "año_fallecimiento": -400,
+    "coordenadas": {
+      "latitud": 40.9833,
+      "longitud": 29.0333,
+      "lugar": "Calcedonia (Bitinia, actual Estambul)"
+    },
+    "resumen_breve": "Sofista y maestro de retórica, célebre en el Libro I de 'La República' de Platón. Formuló la tesis del realismo político: 'La justicia no es otra cosa que el interés del más fuerte'.",
+    "biografia_completa": "Trasímaco de Calcedonia (c. 459 a.C. - c. 400 a.C.) ejerció como brillante rétor y profesor de oratoria judicial en Atenas, pasando a la posteridad por su encendida discusión con Sócrates en el arranque de 'La República' platónica.\n\nDespojó a la política de cualquier idealismo moral o trascendente, sosteniendo un descarnado positivismo jurídico y realismo del poder: en cada ciudad, quien ostenta el poder soberano (sea un tirano, una oligarquía o la democracia) legisla leyes orientadas a su propio beneficio particular, calificando de 'justo' para los súbditos el cumplimiento de lo que al gobernante le conviene.\n\nAnticipó así en dos mil años el realismo maquiavélico y las teorías críticas del derecho, desvelando que tras la retórica del bien común suele esconderse la dominación de los fuertes sobre los débiles."
+  },
+  {
+    "id": "antistenes",
+    "nombre": "Antístenes",
+    "epoca_año": "c. 445 a.C. - c. 365 a.C.",
+    "año_nacimiento": -445,
+    "año_fallecimiento": -365,
+    "coordenadas": {
+      "latitud": 37.965,
+      "longitud": 23.732,
+      "lugar": "Atenas (Cinosargos), Antigua Grecia"
+    },
+    "resumen_breve": "Discípulo de Sócrates y fundador de la escuela cínica. Defendía que la virtud es el único bien necesario y suficiente para alcanzar la felicidad, despreciando el lujo y las convenciones sociales.",
+    "biografia_completa": "Antístenes (c. 445 a.C. - c. 365 a.C.) nació en Atenas de madre tracia, lo que le otorgaba un estatus social limítrofe. Fue discípulo de Gorgias antes de adherirse devotamente a Sócrates, cuya templanza y austeridad admiró profundamente.\n\nFundó su escuela en el gimnasio de Cinosargos (el 'perro ágil'), germen del cinismo. Rechazó la teoría platónica de las Ideas universales ('Veo el caballo, Platón, pero no la caballeidad') y postuló un nominalismo estricto.\n\nPara Antístenes, la virtud (areté) no es un ejercicio teórico, sino una práctica ascética y liberadora. Propuso la autarquía (bastarse a uno mismo) y la indiferencia ante la riqueza, el honor y los placeres sensoriales, sentando las bases directas sobre las que predicaría su discípulo Diógenes de Sínope.",
+    "nivel": 3
+  },
+  {
+    "id": "platon",
+    "nombre": "Platón",
+    "epoca_año": "c. 428/427 a.C. - 348/347 a.C.",
+    "año_nacimiento": -428,
+    "año_fallecimiento": -348,
+    "coordenadas": {
+      "latitud": 37.9908,
+      "longitud": 23.7078,
+      "lugar": "Atenas, Antigua Grecia"
+    },
+    "resumen_breve": "Figura colosal de la filosofía occidental. Formuló la Teoría de las Ideas, el mito de la caverna y fundó la Academia de Atenas, la primera institución de educación superior de Europa.",
+    "biografia_completa": "Platón (c. 428/427 a.C. - 348/347 a.C.), cuyo verdadero nombre era Aristocles, nació en el seno de una noble familia ateniense. Fue el discípulo más ilustre de Sócrates, cuya injusta ejecución moldeó para siempre su pensamiento político y filosófico.\n\nHacia el 387 a.C. fundó la Academia, centro intelectual donde se formó Aristóteles. Su filosofía sostiene un dualismo ontológico: el Mundo Sensible (material, cambiante y aparente) y el Mundo Inteligible (de las Ideas eternas, inmutables y verdaderas, presididas por la Idea del Bien), plasmado magistralmente en el célebre 'Mito de la caverna'.\n\nEn el terreno político, expuso en 'La República' su modelo de Estado ideal gobernado por filósofos-reyes, guiados por la justicia y el conocimiento de la verdad. Su vasto legado en forma de diálogos (Fedón, Banquete, Fedro, Teeteto) fundamentó la metafísica, la epistemología y la teoría política occidental.",
+    "nivel": 1
+  },
+  {
+    "id": "diogenes",
+    "nombre": "Diógenes de Sínope",
+    "epoca_año": "c. 412/404 a.C. - 323 a.C.",
+    "año_nacimiento": -412,
+    "año_fallecimiento": -323,
+    "coordenadas": {
+      "latitud": 42.0267,
+      "longitud": 35.1511,
+      "lugar": "Sínope, actual Turquía"
+    },
+    "resumen_breve": "El más radical y célebre filósofo cínico. Vivió en una tinaja en Atenas repudiando las posesiones materiales, la hipocresía social y proclamándose el primer 'ciudadano del mundo' (cosmopolita).",
+    "biografia_completa": "Diógenes de Sínope (c. 412/404 a.C. - 323 a.C.) fue desterrado de su ciudad natal tras un escándalo de falsificación de moneda. En Atenas conoció a Antístenes y adoptó el modo de vida cínico hasta sus últimas consecuencias materiales.\n\nDespojado de todo artificio, habitaba en una vasija o tinaja de barro en el ágora y deambulaba en pleno día con una lámpara encendida afirmando: 'Busco a un hombre honesto'. Rechazó las normas sociales y las jerarquías de poder, protagonizando el famoso encuentro con Alejandro Magno, a quien sólo le pidió que se apartara porque le tapaba el sol.\n\nSu doctrina encarna la libertad de palabra absoluta (parresía), la autosuficiencia radical (autarquía) y la vida conforme a la naturaleza sencilla, oponiéndose frontalmente a las abstracciones teóricas de la Academia platónica.",
+    "nivel": 2
+  },
+  {
+    "id": "aristoteles",
+    "nombre": "Aristóteles",
+    "epoca_año": "384 a.C. - 322 a.C.",
+    "año_nacimiento": -384,
+    "año_fallecimiento": -322,
+    "coordenadas": {
+      "latitud": 40.5964,
+      "longitud": 23.7936,
+      "lugar": "Estagira, Macedonia (Grecia)"
+    },
+    "resumen_breve": "Padre de la lógica formal, la metafísica del ser y la biología empírica. Discípulo de Platón y maestro de Alejandro Magno; fundó el Liceo e investigó prácticamente todos los saberes humanos.",
+    "biografia_completa": "Aristóteles (384 a.C. - 322 a.C.) nació en Estagira. Se formó durante dos décadas en la Academia de Platón y más tarde fundó su propia institución pedagógica, el Liceo (los peripatéticos).\n\nA diferencia de Platón, defendió que la realidad reside en las sustancias concretas individuales del mundo sensible y no en mundos trascendentes. Formuló la teoría hilemórfica (materia y forma), las cuatro causas (material, formal, eficiente y final) y la teoría del movimiento como paso de la potencia al acto conducido por el Primer Motor Inmóvil.\n\nEn ética planteó que el fin último humano es la felicidad (eudaimonía) alcanzada a través de la virtud como término medio prudencial, mientras que en política definió al hombre como un 'animal político' (zoon politikon) destinado a realizarse en la polis.",
+    "nivel": 1
+  },
+  {
+    "id": "pirron",
+    "nombre": "Pirrón de Elis",
+    "epoca_año": "c. 365/360 a.C. - c. 275/270 a.C.",
+    "año_nacimiento": -365,
+    "año_fallecimiento": -275,
+    "coordenadas": {
+      "latitud": 37.8936,
+      "longitud": 21.3742,
+      "lugar": "Élide, Grecia"
+    },
+    "resumen_breve": "Iniciador del escepticismo antiguo (pirronismo). Sostenía que la verdad es incognoscible y que la paz mental (ataraxia) solo se logra suspendiendo todo juicio categórico (epojé).",
+    "biografia_completa": "Pirrón de Elis (c. 365/360 a.C. - c. 275/270 a.C.) participó en la expedición de Alejandro Magno hacia la India, donde conoció las doctrinas ascéticas de los gimnosofistas y sabios orientales, lo que influyó profundamente en su visión de la existencia.\n\nNo dejó textos escritos; sus doctrinas se conservaron por medio de su discípulo Timón de Fliunte y más tarde por Sexto Empírico. Pirrón postulaba que las cosas son por naturaleza indiferenciadas, inmensurables e indecidibles, por lo que nuestras percepciones y juicios no son ni verdaderos ni falsos.\n\nLa respuesta filosófica ante la incertidumbre total es la afasia (renuncia a emitir veredictos dogmáticos) y la epojé (suspensión del juicio), único sendero que libera al ser humano de la zozobra y procura la imperturbabilidad del alma (ataraxia).",
+    "nivel": 2
+  },
+  {
+    "id": "epicuro",
+    "nombre": "Epicuro de Samos",
+    "epoca_año": "341 a.C. - 270 a.C.",
+    "año_nacimiento": -341,
+    "año_fallecimiento": -270,
+    "coordenadas": {
+      "latitud": 37.7548,
+      "longitud": 26.9778,
+      "lugar": "Samos / Atenas, Grecia"
+    },
+    "resumen_breve": "Creador del epicureísmo en 'El Jardín'. Defendió un hedonismo reflexivo basado en la serenidad espiritual (ataraxia), la ausencia de dolor corporal (aponía) y la amistad.",
+    "biografia_completa": "Epicuro (341 a.C. - 270 a.C.) nació en la isla de Samos y fundó en Atenas una comunidad filosófica igualitaria conocida como 'El Jardín', célebre por admitir a mujeres y esclavos.\n\nAdoptó y refinó el atomismo materialista de Demócrito, introduciendo el concepto de clinamen (desviación espontánea de los átomos) para salvaguardar la libertad humana frente al determinismo ciego. Enseñó que los dioses existen pero no intervienen en el mundo ni castigan a los mortales, y que la muerte no debe temerse: 'Mientras existimos, la muerte no está; y cuando la muerte está, nosotros ya no somos'.\n\nSu ética propone el 'Tetrafármaco' (cuatro remedios contra el sufrimiento) y clasifica los deseos en naturales y necesarios, naturales e innecesarios, y vanos, situando el placer más elevado en la quietud del alma y la dicha de la conversación amistosa.",
+    "nivel": 2
+  },
+  {
+    "id": "zenon-citio",
+    "nombre": "Zenón de Citio",
+    "epoca_año": "c. 334 a.C. - c. 262 a.C.",
+    "año_nacimiento": -334,
+    "año_fallecimiento": -262,
+    "coordenadas": {
+      "latitud": 34.9229,
+      "longitud": 33.6233,
+      "lugar": "Citio (actual Lárnaca), Chipre"
+    },
+    "resumen_breve": "Fundador del estoicismo. Enseñaba en la Stoa Poikilé de Atenas que la armonía y la felicidad se consiguen viviendo de acuerdo con la razón universal (Logos) y dominando las pasiones.",
+    "biografia_completa": "Zenón de Citio (c. 334 a.C. - c. 262 a.C.) era un comerciante de origen fenicio que, tras perder su cargamento en un naufragio frente al Pireo, acudió a Atenas y quedó fascinado por las enseñanzas socráticas transmitidas por Crates de Tebas.\n\nHacia el 300 a.C. comenzó a impartir lecciones en el pórtico pintado (Stoa Poikilé), dando origen a una de las escuelas filosóficas más influyentes de Roma y de la posteridad. El estoicismo integró física panteísta (el cosmos está animado por un fuego divino o Logos), lógica rigurosa y una exigente ética del deber.\n\nZenón proclamó que la libertad interior reside en distinguir lo que depende de nosotros de lo que no, alcanzando la impasibilidad serena (apatheia) frente al destino y abrazando la fraternidad universal de todos los seres racionales.",
+    "nivel": 2
+  },
+  {
+    "id": "euclides",
+    "nombre": "Euclides de Alejandría",
+    "epoca_año": "c. 325 a.C. - c. 265 a.C.",
+    "año_nacimiento": -325,
+    "año_fallecimiento": -265,
+    "coordenadas": {
+      "latitud": 31.2001,
+      "longitud": 29.9187,
+      "lugar": "Alejandría, Egipto helenístico"
+    },
+    "resumen_breve": "Padre de la geometría y la metodología matemática. Su obra magna, 'Los Elementos', fijó el método axiomático-deductivo como modelo supremo de demostración racional durante más de dos mil años.",
+    "biografia_completa": "Euclides (c. 325 a.C. - c. 265 a.C.) ejerció su magisterio en la gran Biblioteca y Museo de Alejandría durante el reinado de Ptolomeo I Sóter. Muy poco se conoce de su vida personal, pero su trascendencia en la historia del pensamiento humano es imborrable.\n\nSu obra cumbre, 'Los Elementos', sintetizó y estructuró sistemáticamente todo el saber geométrico y aritmético de su tiempo a través de definiciones, nociones comunes y cinco postulados básicos (entre ellos el célebre postulado de las paralelas).\n\nA partir de premisas mínimas y evidentes, dedujo lógicamente cientos de teoremas complejos sobre polígonos, círculos, proporciones y números primos. El paradigma euclidiano se convirtió en el canon de rigor epistemológico admirado por pensadores como Spinoza, Descartes y Newton.",
+    "nivel": 3
+  },
+  {
+    "id": "aristarco",
+    "nombre": "Aristarco de Samos",
+    "epoca_año": "c. 310 a.C. - c. 230 a.C.",
+    "año_nacimiento": -310,
+    "año_fallecimiento": -230,
+    "coordenadas": {
+      "latitud": 37.6917,
+      "longitud": 26.9417,
+      "lugar": "Isla de Samos, Antigua Grecia"
+    },
+    "resumen_breve": "Pionero astrónomo y matemático griego. Propuso por primera vez en la historia humana un modelo heliocéntrico, situando al Sol en el centro del sistema y a la Tierra en órbita alrededor de él.",
+    "biografia_completa": "Aristarco de Samos (c. 310 a.C. - c. 230 a.C.) fue uno de los astrónomos más audaces del período helenístico. Discípulo de Estratón de Lámpsaco en el Liceo, calculó mediante ingeniosas deducciones trigonométricas las distancias relativas de la Tierra al Sol y a la Luna en su tratado 'Sobre los tamaños y las distancias del Sol y la Luna'.\n\nAdelantándose casi dieciocho siglos a Nicolás Copérnico, dedujo que el Sol era infinitamente más grande que la Tierra, por lo que resultaba absurdo suponer que el astro rey orbitara alrededor de un cuerpo menor. Planteó que el Sol y las estrellas fijas permanecen inmóviles, mientras la Tierra gira sobre su propio eje y se traslada en una órbita circular alrededor del Sol.\n\nA pesar de la oposición de la física aristotélica y las críticas de Cleantes el estoico, la intuición de Aristarco permanece como uno de los destellos científicos más asombrosos del mundo antiguo.",
+    "nivel": 3
+  },
+  {
+    "id": "arquimedes",
+    "nombre": "Arquímedes de Siracusa",
+    "epoca_año": "c. 287 a.C. - c. 212 a.C.",
+    "año_nacimiento": -287,
+    "año_fallecimiento": -212,
+    "coordenadas": {
+      "latitud": 37.0755,
+      "longitud": 15.2866,
+      "lugar": "Siracusa, Magna Grecia (actual Italia)"
+    },
+    "resumen_breve": "Genio cumbre de las matemáticas, física e ingeniería de la Antigüedad. Formuló el principio hidrostático de la flotabilidad ('¡Eureka!'), la ley de la palanca y sentó las bases del cálculo infinitesimal.",
+    "biografia_completa": "Arquímedes (c. 287 a.C. - c. 212 a.C.) residió en la ciudad siciliana de Siracusa y perfeccionó sus estudios en Alejandría. Es considerado uno de los tres matemáticos más prodigiosos de todos los tiempos junto a Newton y Gauss.\n\nFormuló el 'Principio de Arquímedes' sobre la fuerza de empuje que experimenta cualquier cuerpo sumergido en un fluido, determinó con increíble exactitud el valor de Pi mediante el método exhaustivo de aproximación por polígonos, calculó áreas de parábolas y volúmenes de esferas y cilindros.\n\nEn mecánica teórica descubrió la ley fundamental de la palanca ('Dadme un punto de apoyo y moveré el mundo') y diseñó ingenios bélicos y civiles como el tornillo sin fin. Murió durante la toma de Siracusa a manos de un soldado romano mientras trazaba círculos geométricos en la arena.",
+    "nivel": 3
+  },
+  {
+    "id": "filon-larisa",
+    "nombre": "Filón de Larisa",
+    "epoca_año": "159/158 a.C. - 84/83 a.C.",
+    "año_nacimiento": -159,
+    "año_fallecimiento": -84,
+    "coordenadas": {
+      "latitud": 39.639,
+      "longitud": 22.4191,
+      "lugar": "Larisa, Grecia / Roma"
+    },
+    "resumen_breve": "Último escolarca ilustre de la Academia platónica en Atenas. Formuló un escepticismo moderado y fue el maestro de Cicerón, facilitando el trasvase de la filosofía griega a Roma.",
+    "biografia_completa": "Filón de Larisa (159/158 a.C. - 84/83 a.C.) asumió la dirección de la Academia platónica de Atenas en el año 110 a.C. Durante las guerras mitridáticas tuvo que huir a Roma en el 88 a.C., donde ejerció una formidable influencia en la élite intelectual y política romana.\n\nModificó el escepticismo radical de Carnéades, proponiendo una doctrina epistemológica intermedia: aunque las cosas no pueden ser aprehendidas con certeza absoluta mediante la 'representación comprensible' de los estoicos, sí son cognoscibles provisionalmente por su verosimilitud y probabilidad.\n\nEntre sus oyentes y devotos discípulos estuvo Marco Tulio Cicerón, quien plasmó el pensamiento de Filón en obras como las 'Cuestiones Académicas', preservando la herencia dialéctica de Platón para el mundo latino.",
+    "nivel": 3
+  },
+  {
+    "id": "ptolomeo",
+    "nombre": "Claudio Ptolomeo",
+    "epoca_año": "c. 100 d.C. - c. 170 d.C.",
+    "año_nacimiento": 100,
+    "año_fallecimiento": 170,
+    "coordenadas": {
+      "latitud": 31.2156,
+      "longitud": 29.9553,
+      "lugar": "Alejandría, Egipto romano"
+    },
+    "resumen_breve": "Astrónomo, geógrafo y matemático greco-egipcio. Sistematizó en el 'Almagesto' el modelo geocéntrico del cosmos que rigió la ciencia astronómica islámica y europea durante más de catorce siglos.",
+    "biografia_completa": "Claudio Ptolomeo (c. 100 d.C. - c. 170 d.C.) vivió y trabajó en Alejandría bajo el Imperio Romano. Su obra magna, la 'Sintaxis Matemática' (conocida en árabe y occidente como el 'Almagesto'), compendió todo el conocimiento astronómico de la Antigüedad clásica.\n\nPerfeccionó el modelo geocéntrico introduciendo complejos mecanismos geométricos de epiciclos, deferentes y puntos ecuantes para explicar las anomalías observadas en las trayectorias de los planetas manteniendo a la Tierra inmóvil en el centro del cosmos.\n\nAsimismo, en su 'Geografía' introdujo un sistema de coordenadas de latitud y longitud y proyecciones cartográficas que guiaron a los navegantes hasta la era de los grandes descubrimientos en el Renacimiento.",
+    "nivel": 3
+  },
+  {
+    "id": "galeno",
+    "nombre": "Galeno de Pérgamo",
+    "epoca_año": "129 d.C. - c. 201/216 d.C.",
+    "año_nacimiento": 129,
+    "año_fallecimiento": 216,
+    "coordenadas": {
+      "latitud": 39.1207,
+      "longitud": 27.1805,
+      "lugar": "Pérgamo, actual Turquía"
+    },
+    "resumen_breve": "Médico y filósofo de emperadores romanos como Marco Aurelio. Sistematizó la anatomía, la fisiología y la terapéutica clásica, constituyendo la máxima autoridad médica hasta Vesalio.",
+    "biografia_completa": "Galeno de Pérgamo (129 d.C. - c. 201/216 d.C.) combinó la formación hipocrática con el rigor lógico de Aristóteles y la ética de Platón. Ejerció como médico de los gladiadores en Pérgamo y más tarde como médico imperial en Roma.\n\nDemostró mediante vivisecciones anatómicas que las arterias transportan sangre y no aire, identificó siete pares de nervios craneales y descubrió la función del cerebro como centro de la sensibilidad y el movimiento motor frente a las tesis cardiocéntricas aristotélicas.\n\nSistematizó la teoría humoral y defendió una teleología médica: cada órgano está diseñado con una finalidad perfecta por la naturaleza. Su voluminosa obra fijó la ortodoxia médica en Bizancio, el Islam y la Cristiandad medieval durante milenio y medio.",
+    "nivel": 3
+  },
+  {
+    "id": "san-agustin",
+    "nombre": "San Agustín de Hipona",
+    "epoca_año": "354 d.C. - 430 d.C.",
+    "año_nacimiento": 354,
+    "año_fallecimiento": 430,
+    "coordenadas": {
+      "latitud": 36.4397,
+      "longitud": 7.987,
+      "lugar": "Tagaste / Hipona, Numidia (actual Argelia)"
+    },
+    "resumen_breve": "Padre de la Iglesia y filósofo de la interioridad. Realizó la gran síntesis entre el cristianismo y el platonismo, reflexionando sobre el tiempo, el libre albedrío y la gracia divina.",
+    "biografia_completa": "Agustín de Hipona (354 d.C. - 430 d.C.) nació en Tagaste (norte de África). Tras pasar por el maniqueísmo y el escepticismo, su encuentro con Ambrosio de Milán y la lectura de los neoplatónicos condujeron a su célebre conversión al cristianismo.\n\nEn sus 'Confesiones', inauguró el género autobiográfico de introspección psicológica profunda ('No salgas fuera de ti, vuelve a ti mismo; en el hombre interior habita la verdad'). Formuló la teoría de la iluminación divina, según la cual Dios es la luz inteligible que permite al intelecto aprehender las verdades inmutables.\n\nEn 'La ciudad de Dios' elaboró la primera gran teología de la historia, contraponiendo la Ciudad terrenal (fundada en el amor a sí mismo) y la Ciudad celeste (fundada en el amor a Dios), influyendo de modo decisivo en toda la Edad Media.",
+    "nivel": 1
+  },
+  {
+    "id": "boecio",
+    "nombre": "Anicio Manlio Torcuato Severino Boecio",
+    "epoca_año": "c. 477 d.C. - 524 d.C.",
+    "año_nacimiento": 477,
+    "año_fallecimiento": 524,
+    "coordenadas": {
+      "latitud": 45.1847,
+      "longitud": 9.1582,
+      "lugar": "Pavía / Roma, Italia ostrogoda"
+    },
+    "resumen_breve": "Conocido como 'el último romano y el primer escolástico'. Escribió 'La consolación de la filosofía' en prisión y tradujo al latín los textos lógicos de Aristóteles que nutrieron la Edad Media.",
+    "biografia_completa": "Boecio (c. 477 d.C. - 524 d.C.) pertenecía a la ilustre familia senatorial Anicia en Roma. Llegó a ser el consejero de máxima confianza del rey ostrogodo Teodorico el Grande, pero víctima de intrigas cortesanas fue acusado de traición y condenado a muerte en Pavía.\n\nEn su celda redactó su obra maestra 'La consolación de la filosofía', un diálogo alegórico entre él y la Dama Filosofía sobre la volubilidad de la fortuna, el sentido del mal y la compatibilidad entre el destino divino y el libre albedrío humano.\n\nSu gigantesco proyecto de traducir al latín y conciliar toda la obra de Platón y Aristóteles dotó a Occidente de la terminología lógica fundamental (cuadrivio, universales, sustancia y persona) con la que se cimentó el nacimiento de las universidades escolásticas.",
+    "nivel": 3
+  },
+  {
+    "id": "jahm-safwan",
+    "nombre": "Jahm ibn Safwan (Yam Ben Safwan)",
+    "nivel": 3,
+    "epoca_año": "c. 690 - 746",
+    "año_nacimiento": 690,
+    "año_fallecimiento": 746,
+    "coordenadas": {
+      "latitud": 39.6542,
+      "longitud": 66.9597,
+      "lugar": "Samarcanda / Kufa / Merv (Gran Jorasán)"
+    },
+    "resumen_breve": "Teólogo y filósofo islámico temprano, fundador de la escuela yabarí. Defendió un fatalismo absoluto, sosteniendo que el ser humano no tiene libre albedrío y que Dios predetermina todas las acciones.",
+    "biografia_completa": "Jahm ibn Safwan (c. 690 - 746) fue una figura central y controvertida en los intensos debates teológicos (Kalam) de los primeros siglos del Islam en el Jorasán omeya.\n\nFundó la corriente del yabarismo (predeterminismo estricto o fatalismo), postulando que Dios es el Creador único y omnipotente de absolutamente todos los sucesos: el ser humano no posee libre albedrío ni capacidad propia de acción (qudra), y se mueve de modo tan pasivo e inexorable ante los decretos divinos como una pluma en el viento o un árbol sacudido por la tormenta.\n\nAsimismo, defendió una interpretación trascendental radical de los atributos divinos rechazando el antropomorfismo, y sostuvo la tesis heterodoxa de que el Paraíso y el Infierno no serán eternos, desapareciendo cuando solo quede Dios subsistiendo en su eternidad absoluta."
+  },
+  {
+    "id": "remigio-auxerre",
+    "nombre": "Remigio de Auxerre",
+    "nivel": 3,
+    "epoca_año": "c. 841 - 908",
+    "año_nacimiento": 841,
+    "año_fallecimiento": 908,
+    "coordenadas": {
+      "latitud": 47.7983,
+      "longitud": 3.5678,
+      "lugar": "Auxerre / Reims / París, Francia"
+    },
+    "resumen_breve": "Teólogo y gramático carolingio de la escuela de Auxerre. Escribió glosas y comentarios a Boecio y Marciano Capela, sembrando el debate medieval sobre los universales hacia el conceptualismo.",
+    "biografia_completa": "Remigio de Auxerre (c. 841 - 908) fue uno de los más destacados eruditos del renacimiento carolingio tardío, enseñando en las escuelas abaciales de Auxerre y Reims antes de acudir a París.\n\nSus extensos comentarios y glosas a textos latinos clásicos, en particular a la 'Consolación de la filosofía' de Boecio y las 'Bodas de Filología y Mercurio' de Marciano Capela, se convirtieron en manuales de texto indispensables para la formación de clérigos y maestros durante más de dos siglos.\n\nEn sus reflexiones sobre las categorías lógicas de Porfirio, adoptó una postura intermedia frente a la naturaleza de los géneros y las especies: aunque admitía la existencia real de las cosas individuales creadas, consideraba que los universales son conceptos comunes aprendidos por el intelecto mediante abstracción, prefigurando el conceptualismo escolástico del siglo XII."
+  },
+  {
+    "id": "al-farabi",
+    "nombre": "Al-Farabi",
+    "nivel": 2,
+    "epoca_año": "c. 872 - 950",
+    "año_nacimiento": 872,
+    "año_fallecimiento": 950,
+    "coordenadas": {
+      "latitud": 33.5138,
+      "longitud": 36.2765,
+      "lugar": "Farab (Kazajistán) / Bagdad / Damasco"
+    },
+    "resumen_breve": "Apodado 'El Segundo Maestro' en la civilización islámica (tras Aristóteles). Concilió el pensamiento de Platón y Aristóteles y escribió el clásico de teoría política 'La ciudad ideal'.",
+    "biografia_completa": "Abu Nasr al-Farabi (c. 872 - 950), sabio polímata de origen túrquico o persa, estudió lógica, música, matemáticas y filosofía en el gran foco intelectual de Bagdad antes de instalarse en la corte de Sayf al-Dawla en Damasco.\n\nRecibió el venerado título honorífico de 'El Segundo Maestro' por sus magistrales comentarios y clasificaciones sistemáticas de la lógica aristotélica (el Organon), facilitando la asimilación del pensamiento griego clásico en el mundo musulmán.\n\nEn su obra más célebre, 'Las opiniones de los habitantes de la ciudad virtuosa' (Al-Madina al-Fadila), fusionó la 'República' de Platón con la cosmología emanacionista neoplatónica y la profecía islámica, diseñando una polis justa gobernada por un sabio que reúne en su persona al filósofo-rey platónico y al legislador ético."
+  },
+  {
+    "id": "avicena",
+    "nombre": "Avicena (Ibn Sina)",
+    "epoca_año": "c. 980 d.C. - 1037 d.C.",
+    "año_nacimiento": 980,
+    "año_fallecimiento": 1037,
+    "coordenadas": {
+      "latitud": 39.7747,
+      "longitud": 64.4286,
+      "lugar": "Afshana (cerca de Bujará), actual Uzbekistán"
+    },
+    "resumen_breve": "Príncipe de los sabios de la Edad de Oro del Islam. Fusionó la metafísica aristotélica con el neoplatonismo y escribió 'El Canon de medicina', biblia médica indiscutida durante siglos.",
+    "biografia_completa": "Abu Ali al-Husayn ibn Sina, conocido en Occidente como Avicena (c. 980 d.C. - 1037 d.C.), fue un erudito persa polímata de asombrosa precocidad intelectual en Bujará, Isfahán y Hamadán.\n\nEn su monumental enciclopedia 'El libro de la curación' (Kitab al-Shifa) reinterpretó la ontología de Aristóteles distinguiendo nítidamente entre la esencia (lo que una cosa es) y la existencia (el hecho de que sea), postulando que en las criaturas la existencia es un accidente recibido de un Ser Necesario (Dios).\n\nFormuló el experimento mental del 'hombre flotante' para probar la autoconciencia inmaterial del alma independiente de los sentidos. Su 'Canon de medicina' unificó la patología y la farmacología con una precisión científica que rigió las facultades de medicina hasta el siglo XVII.",
+    "nivel": 2
+  },
+  {
+    "id": "san-anselmo",
+    "nombre": "San Anselmo de Canterbury",
+    "nivel": 1,
+    "epoca_año": "1033 - 1109",
+    "año_nacimiento": 1033,
+    "año_fallecimiento": 1109,
+    "coordenadas": {
+      "latitud": 45.7373,
+      "longitud": 7.3206,
+      "lugar": "Aosta (Italia) / Bec (Normandía) / Canterbury"
+    },
+    "resumen_breve": "Padre de la teología escolástica. Formuló el lema 'Fides quaerens intellectum' (la fe que busca comprender) y en el 'Proslogion' el célebre 'argumento ontológico' sobre la existencia de Dios.",
+    "biografia_completa": "Anselmo de Canterbury (1033 - 1109) nació en Aosta (norte de Italia), ingresó en la célebre abadía benedictina de Bec en Normandía bajo el magisterio de Lanfranco y llegó a ser arzobispo primado de Canterbury en Inglaterra.\n\nInauguró la era escolástica fijando el método racional de la teología con su máxima: 'No busco comprender para creer, sino que creo para comprender' (Credo ut intelligam / Fides quaerens intellectum). Defendió un realismo ontológico estricto en la querella de los universales frente al nominalismo incipiente.\n\nEn el 'Proslogion' concibió el inmortal argumento a priori de la existencia de Dios (rebautizado por Kant como 'argumento ontológico'): Dios es definido como 'aquello mayor de lo cual nada puede pensarse'. Si tal ser existiera solo en el intelecto, podría pensarse algo mayor (que existiera también en la realidad fuera de la mente); luego, necesariamente tiene que existir en la realidad."
+  },
+  {
+    "id": "roscelino",
+    "nombre": "Roscelino de Compiègne",
+    "nivel": 3,
+    "epoca_año": "c. 1050 - c. 1125",
+    "año_nacimiento": 1050,
+    "año_fallecimiento": 1125,
+    "coordenadas": {
+      "latitud": 49.4179,
+      "longitud": 2.8261,
+      "lugar": "Compiègne / Loches / Besançon, Francia"
+    },
+    "resumen_breve": "Maestro escolástico considerado el iniciador del nominalismo extremo medieval. Sostuvo que los géneros y especies universales no son realidades sustanciales, sino meras emisiones vocales de aire (flatus vocis).",
+    "biografia_completa": "Roscelino de Compiègne (c. 1050 - c. 1125) fue canónigo en Compiègne y enseñó dialéctica en Tours y Loches, donde tuvo entre sus discípulos a Pedro Abelardo.\n\nFue el primer pensador en defender con virulencia una postura antimetafísica frente al realismo exagerado platónico en la disputa de los universales: afirmó tajantemente que solo existen los seres individuales tangibles (esta casa, este caballo, este hombre). Los términos generales o universales como 'humanidad' o 'animalidad' carecen por completo de realidad subsistente y son únicamente ruidos físicos articulados por la voz ('flatus vocis').\n\nSus detractores, como San Anselmo, lo acusaron de herejía por aplicar este nominalismo extremo al misterio de la Santísima Trinidad (acusándolo de triteísmo, al afirmar que las tres divinas personas son tres sustancias individuales separadas), obligándole a retractarse en el concilio de Soissons de 1092."
+  },
+  {
+    "id": "guillermo-champeaux",
+    "nombre": "Guillermo de Champeaux",
+    "nivel": 3,
+    "epoca_año": "c. 1070 - 1121",
+    "año_nacimiento": 1070,
+    "año_fallecimiento": 1121,
+    "coordenadas": {
+      "latitud": 48.8566,
+      "longitud": 2.3522,
+      "lugar": "Champeaux / París / Châlons-en-Champagne, Francia"
+    },
+    "resumen_breve": "Maestro de la escuela catedralicia de Notre Dame de París y fundador de la Abadía de San Víctor. Defensor del realismo de los universales, polemizó intensamente con su discípulo Pedro Abelardo.",
+    "biografia_completa": "Guillermo de Champeaux (c. 1070 - 1121), discípulo de Anselmo de Laon y del nominalista Roscelino, fue la máxima autoridad dialéctica de París a comienzos del siglo XII antes de fundar la influyente comunidad canónica de San Víctor y ser nombrado obispo de Châlons.\n\nProtagonizó el más famoso enfrentamiento intelectual de la querella de los universales frente a su joven y brillante alumno Pedro Abelardo. Inicialmente defendió el realismo de la 'identidad sustancial': la misma especie humana existe esencial y plenamente en todos los hombres, siendo Sócrates y Platón distintos solo por sus accidentes externos.\n\nTras ser acorralado lógicamente por las objeciones de Abelardo (que le demostró que tal postura implicaba panteísmo o absurdos donde el mismo ser estaba a la vez en dos lugares contradictorios), Guillermo modificó su teoría hacia el 'realismo de la indiferencia', afirmando que los individuos de una misma especie no poseen la misma esencia numérica, sino esencias no-diferentes."
+  },
+  {
+    "id": "pedro-abelardo",
+    "nombre": "Pedro Abelardo",
+    "epoca_año": "1079 d.C. - 1142 d.C.",
+    "año_nacimiento": 1079,
+    "año_fallecimiento": 1142,
+    "coordenadas": {
+      "latitud": 47.1375,
+      "longitud": -1.3353,
+      "lugar": "Le Pallet (Nantes), Francia"
+    },
+    "resumen_breve": "Maestro de la dialéctica escolástica y protagonista de una legendaria historia de amor con Eloísa. Revolucionó el método teológico con 'Sic et Non' y formuló el conceptualismo.",
+    "biografia_completa": "Pedro Abelardo (1079 - 1142) fue la figura más brillante y polémica del renacimiento del siglo XII en París. Su agudo ingenio dialéctico le granjeó feroces rivales, entre ellos Bernardo de Claraval, así como una turbulenta vida reflejada en su célebre 'Historia Calamitatum'.\n\nEn la disputa de los universales superó tanto el realismo exagerado como el nominalismo tosco mediante su doctrina del 'conceptualismo' o sermocinalismo: los universales no son cosas subsistentes ni meros sonidos de la voz, sino conceptos y significados mentales universales extraídos por abstracción.\n\nCon su tratado 'Sic et Non' (Sí y No), sentó el método escolástico al confrontar textos bíblicos y patrísticos aparentemente contradictorios para resolverlos mediante el análisis semántico riguroso, mientras que en su 'Ética' proclamó que la bondad o maldad de un acto radica exclusivamente en la intención del sujeto.",
+    "nivel": 3
+  },
+  {
+    "id": "juan-salisbury",
+    "nombre": "Juan de Salisbury",
+    "nivel": 3,
+    "epoca_año": "c. 1120 - 1180",
+    "año_nacimiento": 1120,
+    "año_fallecimiento": 1180,
+    "coordenadas": {
+      "latitud": 51.0688,
+      "longitud": -1.7945,
+      "lugar": "Salisbury (Inglaterra) / Chartres (Francia)"
+    },
+    "resumen_breve": "Cúspide del humanismo del siglo XII, diplomático y obispo de Chartres. Autor del 'Policraticus' (teoría política del tiranicidio legítimo) y del 'Metalogicon' sobre el aprendizaje humanista.",
+    "biografia_completa": "Juan de Salisbury (c. 1120 - 1180) se formó en París con Pedro Abelardo y en la prestigiosa escuela humanista de Chartres, sirviendo como secretario y leal confidente del arzobispo Tomás Becket en Canterbury y presenciando su brutal martirio.\n\nEn su tratado 'Policraticus' (1159) compuso el primer tratado sistemático de teoría política de la Edad Media occidental, comparando el Estado con un cuerpo orgánico armónico donde el rey es la cabeza y el sacerdocio el alma, defendiendo la supremacía de la ley moral y legitimando el tiranicidio cuando el gobernante oprime a su pueblo.\n\nEn el 'Metalogicon' reivindicó el trivium (gramática, retórica y dialéctica) frente a los sofistas pragmáticos que querían atajos formativos, inmortalizando la hermosa metáfora atribuida a Bernardo de Chartres: 'Somos como enanos sentados a hombros de gigantes, de modo que podemos ver más cosas y más lejos que ellos'."
+  },
+  {
+    "id": "averroes",
+    "nombre": "Averroes (Ibn Rushd)",
+    "epoca_año": "1126 d.C. - 1198 d.C.",
+    "año_nacimiento": 1126,
+    "año_fallecimiento": 1198,
+    "coordenadas": {
+      "latitud": 37.8882,
+      "longitud": -4.7794,
+      "lugar": "Córdoba, al-Ándalus (España)"
+    },
+    "resumen_breve": "El gran filósofo andalusí apodado 'El Comentador' de Aristóteles. Defendió la primacía de la razón frente al fundamentalismo religioso y ejerció una influencia decisiva en la Europa universitaria.",
+    "biografia_completa": "Ibn Rushd, universalmente conocido como Averroes (1126 - 1198), nació en Córdoba en una influyente familia de juristas y cadíes. Ejerció la judicatura y la medicina en las cortes almohades de Sevilla y Marrakech.\n\nConsagró su vida a purificar la obra de Aristóteles de adherencias neoplatónicas mediante sus célebres comentarios menores, medios y mayores, labor que le valió el título de 'El Comentador' por antonomasia en palabras de Dante y Santo Tomás.\n\nEn su tratado 'Fasl al-Maqal' defendió la armonía última entre filosofía y religión, señalando que la verdad no puede contradecir a la verdad. Su polémica doctrina del entendimiento agente único universal y la eternidad del mundo desencadenó el averroísmo latino, sacudiendo los cimientos de la teología escolástica parisina.",
+    "nivel": 2
+  },
+  {
+    "id": "amalrico-bena",
+    "nombre": "Amalrico de Bena",
+    "nivel": 3,
+    "epoca_año": "c. 1150 - c. 1206",
+    "año_nacimiento": 1150,
+    "año_fallecimiento": 1206,
+    "coordenadas": {
+      "latitud": 48.4469,
+      "longitud": 1.4892,
+      "lugar": "Bena (Chartres) / París, Francia"
+    },
+    "resumen_breve": "Teólogo y filósofo medieval parisino. Formuló un panteísmo místico neoplatónico en el que afirmaba la identidad sustancial de Dios con todas las criaturas creadas.",
+    "biografia_completa": "Amalrico de Bena (c. 1150 - c. 1206) fue un influyente profesor de lógica y teología en la Universidad de París que atrajo a una devota comunidad de seguidores conocidos como los 'amalricianos'.\n\nNutrido por el neoplatonismo de Juan Escoto Eriúgena y de las traducciones recién llegadas de Aristóteles, propuso que Dios es la esencia formal íntima de todas las cosas (omnia sunt Deus): el Creador no es una entidad extrínseca al universo, sino la sustancia invisible inmanente en la que todas las cosas subsisten y a la que finalmente retornarán.\n\nSus tesis fueron condenadas formalmente por el papa Inocencio III en 1204 y en el Concilio de París de 1210; sus discípulos laicos y sacerdotes fueron quemados en la hoguera como herejes y sus propios restos mortales fueron desenterrados y arrojados a un muladar, prohibiéndose la lectura de la física aristotélica."
+  },
+  {
+    "id": "david-dinan",
+    "nombre": "David de Dinan",
+    "nivel": 3,
+    "epoca_año": "c. 1160 - c. 1217",
+    "año_nacimiento": 1160,
+    "año_fallecimiento": 1217,
+    "coordenadas": {
+      "latitud": 50.2608,
+      "longitud": 4.9122,
+      "lugar": "Dinant (Bélgica) / París / Roma"
+    },
+    "resumen_breve": "Filósofo medieval heterodoxo. Formuló un audaz panteísmo materialista en su tratado 'De Tomis', sosteniendo la identidad sustancial entre Dios, la mente (nous) y la materia primordial.",
+    "biografia_completa": "David de Dinan (c. 1160 - c. 1217), clérigo de origen flamenco o valón formado en el norte de Francia y capellán papal en Roma, compuso una singular obra filosófica titulada 'De Tomis' (o Cuadernos).\n\nApoyándose en una lectura ontológica audaz de la 'Física' y 'Metafísica' de Aristóteles, dividió la realidad en tres órdenes de seres invisibles e indivisibles: los cuerpos (cuya base es la materia prima), las almas o mentes (cuyo principio es el nous) y las sustancias eternas inmateriales (cuyo ápice es Dios).\n\nConcluyó con implacable rigor lógico que, dado que ninguno de estos tres principios puede tener una diferencia formal anterior que los divida, Dios, el intelecto y la materia prima son exactamente una y la misma sustancia cósmica indivisible, constituyendo uno de los panteísmos materialistas más radicales de la Edad Media, rigurosamente condenado por la Iglesia en 1210."
+  },
+  {
+    "id": "alberto-magno",
+    "nombre": "San Alberto Magno",
+    "nivel": 2,
+    "epoca_año": "c. 1200 - 1280",
+    "año_nacimiento": 1200,
+    "año_fallecimiento": 1280,
+    "coordenadas": {
+      "latitud": 48.5706,
+      "longitud": 10.4286,
+      "lugar": "Lauingen (Baviera) / Colonia / París"
+    },
+    "resumen_breve": "El 'Doctor Universalis' de la Iglesia. Sabio dominico, botánico, alquimista y maestro de Santo Tomás de Aquino. Fue el artífice pionero de asimilar el aristotelismo y la ciencia natural en la Europa medieval.",
+    "biografia_completa": "Alberto Magno (c. 1200 - 1280) ingresó en la Orden de Predicadores (dominicos) en Padua y enseñó en Colonia y en la Universidad de París, siendo una de las mentes científicas y eruditas más colosales del siglo XIII.\n\nEmprendió el titánico proyecto de parafrasear, comentar y hacer accesible al mundo latino toda la obra de Aristóteles, enriqueciéndola con la ciencia árabe e islámica y con minuciosas observaciones empíricas propias sobre zoología, botánica, geología y minerales ('El objetivo de la ciencia natural no es aceptar simplemente lo que otros dicen, sino investigar las causas de lo que ocurre en la naturaleza').\n\nReconoció tempranamente la genialidad silenciosa de su discípulo Santo Tomás de Aquino ('Llamamos a este joven un buey mudo, pero sus mugidos resonarán en el mundo entero') y sentó el principio metodológico de respetar la legítima autonomía de las ciencias empíricas frente a la teología sagrada."
+  },
+  {
+    "id": "roger-bacon",
+    "nombre": "Roger Bacon",
+    "nivel": 2,
+    "epoca_año": "c. 1220 - 1292",
+    "año_nacimiento": 1220,
+    "año_fallecimiento": 1292,
+    "coordenadas": {
+      "latitud": 50.9997,
+      "longitud": -2.6847,
+      "lugar": "Ilchester (Somerset) / Oxford / París"
+    },
+    "resumen_breve": "El 'Doctor Mirabilis'. Fraile franciscano inglés y precursor visionario del método experimental moderno. Defendió en el 'Opus Majus' las matemáticas y la óptica empírica como alma de la ciencia.",
+    "biografia_completa": "Roger Bacon (c. 1220 - 1292) enseñó en las universidades de Oxford y París antes de profesar como franciscano, recibiendo el título de 'Doctor Mirabilis' por sus asombrosas intuiciones mecánicas y científicas (anticipando el telescopio, la pólvora, los barcos a motor y las máquinas voladoras).\n\nEn su enciclopédica obra 'Opus Majus' (1267), dirigida al papa Clemente IV, arremetió con dureza contra la escolástica puramente livresca y deductiva, señalando cuatro causas del error humano: el ejemplo de la autoridad ciega, la costumbre inveterada, la ignorancia vulgar y la falsa apariencia de sabiduría.\n\nProclamó que existen dos modos de conocer: el argumento y la experiencia. El argumento puede concluir una cuestión, pero no asegura la mente hasta que el hecho es verificado y corroborado por la ciencia experimental (scientia experimentalis) y fundamentado en las leyes matemáticas universales."
+  },
+  {
+    "id": "tomas-aquino",
+    "nombre": "Santo Tomás de Aquino",
+    "epoca_año": "1225 d.C. - 1274 d.C.",
+    "año_nacimiento": 1225,
+    "año_fallecimiento": 1274,
+    "coordenadas": {
+      "latitud": 41.5528,
+      "longitud": 13.6667,
+      "lugar": "Roccasecca (Nápoles), Italia"
+    },
+    "resumen_breve": "El 'Doctor Angélico' y cumbre de la filosofía escolástica medieval. Logró la síntesis definitiva entre la teología cristiana y el pensamiento aristotélico con su célebre 'Summa Theologiae'.",
+    "biografia_completa": "Tomás de Aquino (1225 - 1274) ingresó en la Orden de Predicadores (dominicos) contra la voluntad de su noble familia y fue discípulo de San Alberto Magno en París y Colonia. Su pensamiento se convirtió en la doctrina oficial de la Iglesia católica (tomismo).\n\nEstableció con meridiana claridad la frontera y colaboración entre fe y razón: la gracia no destruye la naturaleza, sino que la perfecciona. En su 'Summa Theologiae', formuló las 'Cinco Vías' para demostrar racionalmente la existencia de Dios a partir de los efectos en el mundo sensible (el movimiento, la causalidad eficiente, la contingencia, los grados de perfección y el orden teleológico).\n\nSu ontología del 'actus essendi' concibe a Dios como el Ser Mismo Subsistente (Ipsum Esse Subsistens) en quien esencia y existencia coinciden plenamente, coronando el pensamiento medieval con una imponente arquitectura conceptual.",
+    "nivel": 1
+  },
+  {
+    "id": "duns-escoto",
+    "nombre": "Juan Duns Escoto",
+    "nivel": 1,
+    "epoca_año": "c. 1266 - 1308",
+    "año_nacimiento": 1266,
+    "año_fallecimiento": 1308,
+    "coordenadas": {
+      "latitud": 55.7777,
+      "longitud": -2.3424,
+      "lugar": "Duns (Escocia) / Oxford / París / Colonia"
+    },
+    "resumen_breve": "El 'Doctor Sutil' de la escolástica franciscana. Formuló la univocidad del ser frente a la analogía tomista, la distinción formal a parte rei y la 'haecceitas' (estaidad) como principio de individuación.",
+    "biografia_completa": "Juan Duns Escoto (c. 1266 - 1308) nació en Escocia, vistió el hábito franciscano y enseñó en las dos grandes universidades de su tiempo, Oxford y París, antes de fallecer prematuramente en Colonia, ganándose el apodo de 'Doctor Sutil' por la asombrosa agudeza y precisión de sus distinciones metafísicas.\n\nFrente a la doctrina de la analogía de Santo Tomás, defendió la 'univocidad del ser': el concepto de Ser se predica con un sentido unívoco e idéntico tanto de Dios como de las criaturas, difiriendo no en el significado del ser, sino en su modo (infinito en Dios, finito en los entes creados).\n\nEn ontología formuló el concepto de 'haecceitas' (estaidad): lo que hace que una cosa individual sea este ser concreto irrepetible y no otro no es la materia indeterminada, sino una perfección formal positiva individualizante. Asimismo, sentó las bases teológicas de la Inmaculada Concepción y dio primacía a la voluntad y al amor libre por encima del intelecto."
+  },
+  {
+    "id": "pedro-auriol",
+    "nombre": "Pedro Auriol",
+    "nivel": 3,
+    "epoca_año": "c. 1280 - 1322",
+    "año_nacimiento": 1280,
+    "año_fallecimiento": 1322,
+    "coordenadas": {
+      "latitud": 44.7375,
+      "longitud": 1.3828,
+      "lugar": "Gourdon / Toulouse / París / Aviñón, Francia"
+    },
+    "resumen_breve": "Teólogo franciscano y filósofo escolástico innovador. Formuló la teoría del 'ser aparente' (esse apparens) y del conocimiento sensible directo, precursor inmediato del nominalismo de Ockham.",
+    "biografia_completa": "Pedro Auriol (c. 1280 - 1322) enseñó teología en Bolonia, Toulouse y en la Universidad de París, donde fue conocido como el 'Doctor Facundus' antes de ser consagrado arzobispo de Aix-en-Provence por el papa Juan XXII.\n\nRevolucionó la epistemología de la escolástica tardía al cuestionar la teoría aristotélico-tomista de las 'especies inteligibles' intermediarias. Sostuvo que el entendimiento capta de manera directa e intuitiva la realidad individual del objeto sensible.\n\nIntrodujo la distinción ontológica del 'esse apparens' o 'esse intentionale': cuando percibimos algo (como una rama sumergida en el agua que parece quebrada, o el movimiento aparente de los árboles desde un barco), el objeto posee una presencia fenoménica aparente en la mente que no coincide necesariamente con su ser real extramental, abriendo las compuertas al nominalismo y al empirismo moderno."
+  },
+  {
+    "id": "guillermo-ockham",
+    "nombre": "Guillermo de Ockham",
+    "nivel": 1,
+    "epoca_año": "c. 1287 - 1347",
+    "año_nacimiento": 1287,
+    "año_fallecimiento": 1347,
+    "coordenadas": {
+      "latitud": 51.2986,
+      "longitud": -0.4686,
+      "lugar": "Ockham (Surrey), Inglaterra / Aviñón / Múnich"
+    },
+    "resumen_breve": "Cumbre del nominalismo medieval y padre de la modernidad. Célebre por la 'Navaja de Ockham' (principio de economía ontológica: no multiplicar los entes sin necesidad) y la separación tajante entre fe y razón.",
+    "biografia_completa": "Guillermo de Ockham (c. 1287 - 1347), fraile franciscano formado en Oxford conocido como el 'Doctor Invencible', rompió con la gran síntesis escolástica medieval. Acusado de herejía por el papa Juan XXII, huyó de Aviñón y se refugió en Múnich bajo la protección del emperador Luis IV de Baviera ('Tú defiéndeme con la espada, y yo te defenderé con la pluma').\n\nInstauró el nominalismo radical: los universales no tienen existencia ontológica alguna fuera de la mente; solo existen cosas singulares concretas, y las palabras o conceptos generales no son más que signos lingüísticos o términos (de ahí 'terminismo') que sustituyen a una pluralidad de individuos en el discurso.\n\nFormuló su principio metodológico universal, la 'Navaja de Ockham': 'No se debe postular la pluralidad sin necesidad' (entia non sunt multiplicanda praeter necessitatem). Desvinculó de raíz la teología de la filosofía, disolvió el orden metafísico en el voluntarismo divino omnipotente y sentó las bases del empirismo moderno, la ciencia experimental y el laicismo político."
+  },
+  {
+    "id": "copernico",
+    "nombre": "Nicolás Copérnico",
+    "epoca_año": "1473 - 1543",
+    "año_nacimiento": 1473,
+    "año_fallecimiento": 1543,
+    "coordenadas": {
+      "latitud": 53.0138,
+      "longitud": 18.5984,
+      "lugar": "Toruń, Polonia"
+    },
+    "resumen_breve": "Iniciador de la Revolución Científica. Su obra 'De revolutionibus orbium coelestium' sustituyó el geocentrismo tradicional por la teoría heliocéntrica, cambiando para siempre el lugar del hombre en el cosmos.",
+    "biografia_completa": "Nicolás Copérnico (1473 - 1543) fue canónigo, matemático, médico y astrónomo polaco que cursó estudios en Cracovia, Bolonia y Padua. Durante décadas maduró en silencio sus revolucionarias tesis cosmológicas en la catedral de Frombork.\n\nEn 1543, en el lecho de muerte, vio publicada su obra magna: 'De revolutionibus orbium coelestium' (Sobre las revoluciones de las orbes celestes). En ella demostró matemáticamente que los movimientos aparentes del Sol y las estrellas se explican con infinita mayor elegancia si se asume que la Tierra gira diariamente sobre su eje y describe una órbita anual alrededor del Sol.\n\nEl 'giro copernicano' demolió la jerarquía cósmica aristotélico-ptolomeica, inaugurando la física moderna y desencadenando un cambio epistemológico y cultural sin parangón en la historia de la humanidad.",
+    "nivel": 2
+  },
+  {
+    "id": "tycho-brahe",
+    "nombre": "Tycho Brahe",
+    "epoca_año": "1546 - 1601",
+    "año_nacimiento": 1546,
+    "año_fallecimiento": 1601,
+    "coordenadas": {
+      "latitud": 55.9734,
+      "longitud": 13.1235,
+      "lugar": "Knudstrup, Dinamarca (actual Suecia)"
+    },
+    "resumen_breve": "El más grande astrónomo observacional previo al telescopio. Sus mediciones astronómicas exactas permitieron a Kepler formular las leyes del movimiento planetario.",
+    "biografia_completa": "Tycho Brahe (1546 - 1601), noble danés de desbordante personalidad, construyó en la isla de Hven el fabuloso observatorio de Uraniborg, equipado con los cuadrantes y sextantes más precisos de la época.\n\nEn 1572 observó una 'estrella nueva' (supernova) y en 1577 demostró que la trayectoria de un cometa cruzaba las supuestas esferas celestes de cristal, probando que los cielos no son inmutables ni sólidos como sostenía la física aristotélica.\n\nIdeó un modelo geo-heliocéntrico de transición (la Luna y el Sol orbitan la Tierra, y el resto de planetas orbitan al Sol). Al final de su vida en Praga contrató a Johannes Kepler como asistente, legándole sus minuciosos registros astronómicos sin los cuales jamás se habrían descubierto las órbitas elípticas.",
+    "nivel": 3
+  },
+  {
+    "id": "francis-bacon",
+    "nombre": "Francis Bacon",
+    "epoca_año": "1561 - 1626",
+    "año_nacimiento": 1561,
+    "año_fallecimiento": 1626,
+    "coordenadas": {
+      "latitud": 51.5074,
+      "longitud": -0.1278,
+      "lugar": "Londres, Inglaterra"
+    },
+    "resumen_breve": "Filósofo y estadista inglés, heraldo del método científico experimental y del empirismo moderno. Acuñó la máxima 'Saber es poder' y denunció los 'ídolos de la mente' en su 'Novum Organum'.",
+    "biografia_completa": "Francis Bacon (1561 - 1626), barón de Verulam y Lord Canciller de Inglaterra, combinó la alta política isabelina con una ambiciosa refundación de las ciencias plasmada en su proyecto de la 'Gran Restauración'.\n\nEn su tratado 'Novum Organum' (1620) refutó el silogismo deductivo aristotélico por considerarlo estéril para el descubrimiento, proponiendo en su lugar la inducción sistemática basada en la experimentación controlada, la recolección de tablas de presencia, ausencia y grados, y la verificación empírica.\n\nFue pionero en advertir los sesgos cognitivos que nublan el juicio humano mediante su célebre doctrina de los cuatro ídolos (de la tribu, de la caverna, del foro y del teatro), concibiendo la ciencia como una empresa colectiva y utilitaria orientada a doblegar a la naturaleza en beneficio de la humanidad.",
+    "nivel": 2
+  },
+  {
+    "id": "galileo",
+    "nombre": "Galileo Galilei",
+    "epoca_año": "1564 - 1642",
+    "año_nacimiento": 1564,
+    "año_fallecimiento": 1642,
+    "coordenadas": {
+      "latitud": 43.7228,
+      "longitud": 10.4017,
+      "lugar": "Pisa / Florencia, Italia"
+    },
+    "resumen_breve": "Padre de la ciencia y la física moderna. Perfeccionó el telescopio astronómico, descubrió las lunas de Júpiter y proclamó que 'el libro de la naturaleza está escrito en lenguaje matemático'.",
+    "biografia_completa": "Galileo Galilei (1564 - 1642) nació en Pisa y enseñó matemáticas en Padua y Florencia. En 1609 apuntó al firmamento con un telescopio fabricado por él mismo, descubriendo los cráteres lunares, las fases de Venus, las manchas solares y las cuatro lunas principales de Júpiter, aportando pruebas empíricas irrebatibles del heliocentrismo copernicano.\n\nFundó la cinemática moderna formulando la ley de la caída de los cuerpos, el principio de inercia y la relatividad clásica del movimiento uniforme. Defendió con valentía la separación entre el magisterio de la fe bíblica y la investigación científica de la naturaleza ('La Biblia enseña cómo se va al cielo, no cómo van los cielos').\n\nTras publicar su brillante 'Diálogo sobre los dos máximos sistemas del mundo' (1632), la Inquisición romana lo obligó a retractarse bajo amenaza de condena, pasando los últimos años de su vida recluido en Arcetri sin dejar de investigar.",
+    "nivel": 2
+  },
+  {
+    "id": "kepler",
+    "nombre": "Johannes Kepler",
+    "epoca_año": "1571 - 1630",
+    "año_nacimiento": 1571,
+    "año_fallecimiento": 1630,
+    "coordenadas": {
+      "latitud": 48.7508,
+      "longitud": 8.8711,
+      "lugar": "Weil der Stadt, Sacro Imperio (Alemania)"
+    },
+    "resumen_breve": "Figura colosal de la astronomía renacentista. Demostró que las órbitas planetarias son elípticas y no circulares, formulando las tres leyes fundamentales del movimiento de los astros.",
+    "biografia_completa": "Johannes Kepler (1571 - 1630) creció en el Sacro Imperio Romano Germánico y combinó una fe mística en la armonía matemática pitagórica del cosmos con una devoción implacable por el cálculo empírico exacto. Sucedió a Tycho Brahe como matemático imperial en Praga.\n\nTras agotar años de titánicos cálculos sobre la órbita de Marte que discrepaban por apenas ocho minutos de arco del círculo perfecto, tuvo el coraje científico de abandonar el dogma milenario de la circularidad celeste y proclamar su Primera Ley: los planetas giran alrededor del Sol en órbitas elípticas, con el Sol en uno de sus focos.\n\nEn 'Astronomia Nova' (1609) y 'Harmonices Mundi' (1619) completó sus tres leyes del movimiento planetario (áreas iguales en tiempos iguales y relación entre períodos y semiejes mayores), derribando el último reducto de la física peripatética y preparando el terreno para la síntesis newtoniana.",
+    "nivel": 3
+  },
+  {
+    "id": "descartes",
+    "nombre": "René Descartes",
+    "epoca_año": "1596 - 1650",
+    "año_nacimiento": 1596,
+    "año_fallecimiento": 1650,
+    "coordenadas": {
+      "latitud": 46.9723,
+      "longitud": 0.6978,
+      "lugar": "La Haye en Touraine, Francia"
+    },
+    "resumen_breve": "Padre de la filosofía moderna y el racionalismo continental. Formuló la duda metódica, la certeza indubitable del 'Pienso, luego existo' (Cogito ergo sum) y el dualismo cartesiano.",
+    "biografia_completa": "René Descartes (1596 - 1650) fue un filósofo, matemático y científico educado en el colegio jesuita de La Flèche. Creó la geometría analítica (coordenadas cartesianas) unificando el álgebra y la geometría euclidiana.\n\nEn su 'Discurso del método' (1637) y sus 'Meditaciones metafísicas' (1641) emprendió la búsqueda de un fundamento inamovible para la ciencia mediante la duda hiperbólica metódica: dudar de los sentidos, del mundo exterior e incluso de las matemáticas ante la hipótesis de un genio maligno.\n\nDe esa duda radical brotó su primera verdad indestructible: 'Cogito, ergo sum'. A partir de la certidumbre de la sustancia pensante (res cogitans), demostró la existencia de Dios (sustancia infinita) y del mundo material extenso (res extensa), inaugurando el giro epistemológico de la subjetividad moderna.",
+    "nivel": 1
+  },
+  {
+    "id": "locke",
+    "nombre": "John Locke",
+    "epoca_año": "1632 - 1704",
+    "año_nacimiento": 1632,
+    "año_fallecimiento": 1704,
+    "coordenadas": {
+      "latitud": 51.3619,
+      "longitud": -2.7661,
+      "lugar": "Wrington (Somerset), Inglaterra"
+    },
+    "resumen_breve": "Fundador del empirismo moderno y padre del liberalismo político. Sostuvo que la mente humana al nacer es una 'hoja en blanco' (tabula rasa) y defendió los derechos naturales a la vida, libertad y propiedad.",
+    "biografia_completa": "John Locke (1632 - 1704) estudió medicina y filosofía en Oxford y participó activamente en los vaivenes políticos que culminaron en la Revolución Gloriosa inglesa de 1688.\n\nEn su 'Ensayo sobre el entendimiento humano' (1690) combatió frontalmente la existencia de ideas innatas postulada por Descartes, defendiendo que todos nuestros conocimientos derivan exclusivamente de la experiencia a través de la sensación externa y la reflexión interna.\n\nEn sus 'Dos tratados sobre el gobierno civil', sentó las bases del contractualismo liberal: el Estado legítimo nace del consentimiento libre de los gobernados para proteger sus derechos inalienables (vida, libertad, propiedad y salud). Formuló por primera vez la separación de poderes y el derecho de resistencia contra la tiranía, inspirando directamente la Ilustración y la Constitución de los Estados Unidos.",
+    "nivel": 1
+  },
+  {
+    "id": "spinoza",
+    "nombre": "Baruch Spinoza",
+    "epoca_año": "1632 - 1677",
+    "año_nacimiento": 1632,
+    "año_fallecimiento": 1677,
+    "coordenadas": {
+      "latitud": 52.3676,
+      "longitud": 4.9041,
+      "lugar": "Ámsterdam, Provincias Unidas (Países Bajos)"
+    },
+    "resumen_breve": "Cumbre del racionalismo y filósofo de la libertad interior. Formuló un monismo panteísta radical ('Deus sive Natura': Dios o la Naturaleza) en su 'Ética demostrada según el orden geométrico'.",
+    "biografia_completa": "Baruch Spinoza (1632 - 1677) nació en Ámsterdam en el seno de una familia de judíos sefardíes huidos de Portugal. En 1656 fue expulsado y excomulgado (jérem) de la sinagoga por sus heterodoxas opiniones teológicas, dedicando el resto de su austera vida a pulir lentes ópticas y a filosofar con total independencia.\n\nEn su obra cumbre, la 'Ética' (1677), estructurada como un riguroso sistema de teoremas geométricos al estilo de Euclides, superó el dualismo cartesiano proclamando que solo existe una única e infinita Sustancia: Dios o la Naturaleza (Deus sive Natura), de la cual la mente y la materia son solo dos de sus infinitos atributos.\n\nEn el 'Tratado teológico-político' defendió la exégesis bíblica crítica y la libertad de pensamiento y culto como pilar indispensable del Estado democrático, concibiendo la beatitud suprema en el 'amor intelectual de Dios'.",
+    "nivel": 2
+  },
+  {
+    "id": "malebranche",
+    "nombre": "Nicolas Malebranche",
+    "nivel": 2,
+    "epoca_año": "1638 - 1715",
+    "año_nacimiento": 1638,
+    "año_fallecimiento": 1715,
+    "coordenadas": {
+      "latitud": 48.8566,
+      "longitud": 2.3522,
+      "lugar": "París, Francia"
+    },
+    "resumen_breve": "Filósofo cartesiano y teólogo oratoriano. Célebre por formular el 'ocasionalismo' (Dios es la única causa activa real del cosmos) y la doctrina metafísica de que 'vemos todas las cosas en Dios'.",
+    "biografia_completa": "Nicolas Malebranche (1638 - 1715), sacerdote de la Congregación del Oratorio en París, quedó fascinado tras leer el 'Tratado del hombre' de Descartes, consagrando su vida a conciliar el mecanicismo cartesiano con el agustinismo teológico.\n\nEn su obra cumbre, 'De la búsqueda de la verdad' (1674-1675), resolvió el insalvable escollo cartesiano de la interacción entre cuerpo y alma formulando el 'ocasionalismo': las criaturas no tienen eficacia causal por sí mismas; un deseo de la mente no mueve físicamente el brazo, ni una pelota que golpea a otra le transmite movimiento directamente. Las criaturas son meras 'causas ocasionales', con ocasión de las cuales Dios, única causa eficiente y soberana del universo, actúa conforme a leyes generales inmutables.\n\nEn epistemología sostuvo que el entendimiento humano no crea sus ideas ni las recibe de la materia inerte, sino que 'vemos todas las cosas en Dios' (visión en Dios), contemplando las esencias arquetípicas eternas presentes en la Sabiduría infinita."
+  },
+  {
+    "id": "newton",
+    "nombre": "Sir Isaac Newton",
+    "epoca_año": "1643 - 1727",
+    "año_nacimiento": 1643,
+    "año_fallecimiento": 1727,
+    "coordenadas": {
+      "latitud": 52.8092,
+      "longitud": -0.63,
+      "lugar": "Woolsthorpe (Lincolnshire), Inglaterra"
+    },
+    "resumen_breve": "Figura monumental de la ciencia universal. Unificó la física terrestre y celeste con la Ley de la Gravitación Universal y las tres leyes de la dinámica en sus 'Principia Mathematica'.",
+    "biografia_completa": "Isaac Newton (1643 - 1727) se educó en el Trinity College de Cambridge. En su 'annus mirabilis' (1665-1666) concibió el cálculo infinitesimal (método de fluxiones), descubrió que la luz blanca está compuesta por el espectro de colores mediante prismas ópticos y sentó las bases de la gravitación.\n\nEn 1687 publicó 'Philosophiae Naturalis Principia Mathematica', considerada la obra científica más influyente de la historia. En ella postuló las tres leyes fundamentales del movimiento (inercia, fuerza y acción-reacción) y la gravitación universal, demostrando matemáticamente que la misma fuerza que hace caer una manzana en la Tierra mantiene a la Luna y los planetas en sus órbitas.\n\nInstauró el método hipotético-deductivo moderno ('Hypotheses non fingo'), consolidando la visión mecanicista y matemática del universo que dominó hasta la llegada de la relatividad y la física cuántica.",
+    "nivel": 2
+  },
+  {
+    "id": "leibniz",
+    "nombre": "Gottfried Wilhelm Leibniz",
+    "epoca_año": "1646 - 1716",
+    "año_nacimiento": 1646,
+    "año_fallecimiento": 1716,
+    "coordenadas": {
+      "latitud": 51.3397,
+      "longitud": 12.3731,
+      "lugar": "Leipzig / Hannover, Alemania"
+    },
+    "resumen_breve": "Genio universal, filósofo racionalista, matemático y jurista. Descubrió el cálculo infinitesimal de forma independiente a Newton y formuló la teoría de las mónadas y el Principio de Razón Suficiente.",
+    "biografia_completa": "Gottfried Wilhelm Leibniz (1646 - 1716) fue uno de los polímatas más asombrosos de todos los tiempos. Desarrolló el cálculo diferencial e integral de forma independiente a Newton, legando la elegante notación matemática (diferenciales e integrales) que aún empleamos en la actualidad, y diseñó la primera máquina calculadora capaz de multiplicar y dividir.\n\nEn metafísica, expuesta en la 'Monadología' (1714), concibió la realidad compuesta no por materia inerte, sino por infinitas sustancias espirituales simples, activas e indivisibles llamadas 'mónadas', coordinadas por una 'armonía preestablecida' por Dios.\n\nFormuló el 'Principio de Razón Suficiente' (nada sucede sin que haya una razón por la que sea así y no de otro modo) y sostuvo en su 'Teodicea' que vivimos en el mejor de los mundos posibles, sembrando los cimientos de la lógica formal moderna con su anhelo de una 'Characteristica Universalis'.",
+    "nivel": 2
+  },
+  {
+    "id": "berkeley",
+    "nombre": "George Berkeley",
+    "epoca_año": "1685 - 1753",
+    "año_nacimiento": 1685,
+    "año_fallecimiento": 1753,
+    "coordenadas": {
+      "latitud": 52.6541,
+      "longitud": -7.2448,
+      "lugar": "Kilkenny / Cloyne, Irlanda"
+    },
+    "resumen_breve": "Filósofo anglo-irlandés y obispo anglicano. Formuló el inmaterialismo o idealismo subjetivo bajo la célebre fórmula 'Esse est percipi' (Ser es ser percibido).",
+    "biografia_completa": "George Berkeley (1685 - 1753) estudió en el Trinity College de Dublín y llegó a ser obispo de Cloyne. Llevó el empirismo de Locke hasta sus últimas consecuencias lógicas para refutar el materialismo y el ateísmo de su tiempo.\n\nEn su 'Tratado sobre los principios del conocimiento humano' (1710) demostró que todas las supuestas cualidades de los objetos (tanto primarias como la extensión y figura, como secundarias como el color y el sonido) no son sino sensaciones o ideas en la mente del sujeto cognoscente: 'Esse est percipi aut percipere' (Ser es ser percibido o percibir).\n\nNegó la existencia de una sustancia material exterior independiente; las cosas materiales existen de modo continuo porque son percibidas permanentemente por la mente infinita de Dios, constituyendo un idealismo inmaterialista de singular agudeza lógica.",
+    "nivel": 2
+  },
+  {
+    "id": "voltaire",
+    "nombre": "Voltaire (François-Marie Arouet)",
+    "nivel": 2,
+    "epoca_año": "1694 - 1778",
+    "año_nacimiento": 1694,
+    "año_fallecimiento": 1778,
+    "coordenadas": {
+      "latitud": 48.8566,
+      "longitud": 2.3522,
+      "lugar": "París / Ferney, Francia"
+    },
+    "resumen_breve": "Encarnación suprema de la Ilustración europea. Maestro de la sátira y azote del fanatismo religioso, la superstición y la injusticia judicial en 'Cándido' y el 'Tratado sobre la tolerancia'.",
+    "biografia_completa": "François-Marie Arouet, universalmente conocido por su seudónimo Voltaire (1694 - 1778), dominó el siglo XVIII europeo con su pluma incisiva, combatiendo desde París, la corte prusiana de Federico el Grande y su retiro en Ferney contra la intolerancia oscurantista bajo su célebre consigna: '¡Aplastad a la infame!' (Écrasez l'infâme).\n\nEn sus 'Cartas filosóficas' (1734) introdujo en el continente el empirismo de Locke, la física gravitatoria de Newton y las libertades parlamentarias inglesas. En su brillante cuento filosófico 'Cándido' (1759) demolió con despiadada ironía el optimismo leibniziano del 'mejor de los mundos posibles' tras el terremoto de Lisboa, concluyendo con el sabio pragmatismo de 'hay que cultivar nuestro jardín'.\n\nEn el 'Tratado sobre la tolerancia' (1763) defendió con apasionada lucidez la libertad de conciencia y el respeto a la discrepancia de opiniones, convirtiéndose en el gran faro laico de los derechos civiles modernos y en una de las figuras más reverenciadas por Friedrich Nietzsche."
+  },
+  {
+    "id": "hume",
+    "nombre": "David Hume",
+    "epoca_año": "1711 - 1776",
+    "año_nacimiento": 1711,
+    "año_fallecimiento": 1776,
+    "coordenadas": {
+      "latitud": 55.9533,
+      "longitud": -3.1883,
+      "lugar": "Edimburgo, Escocia"
+    },
+    "resumen_breve": "Máximo representante del empirismo escocés y del escepticismo moderno. Sometió a demoledora crítica el principio de causalidad y la noción tradicional de sustancia, 'despertando a Kant de su sueño dogmático'.",
+    "biografia_completa": "David Hume (1711 - 1776) nació y murió en Edimburgo. Fue filósofo, historiador y economista, amigo íntimo de Adam Smith y una de las luminarias de la Ilustración escocesa.\n\nEn su 'Tratado de la naturaleza humana' (1739) y en la 'Investigación sobre el entendimiento humano' (1748), redujo todos los contenidos mentales a impresiones directas e ideas (copias débiles de las impresiones). Desde este criterio empirista, demolió la noción metafísica de causalidad necesaria, demostrando que la conexión entre causa y efecto es fruto exclusivo del hábito psicológico y la costumbre, no de una deducción lógica ni de una observación sensible.\n\nAsimismo, disolvió el concepto de 'yo' o alma en un mero haz de percepciones cambiantes y fundó la ética emotivista: la moral se asienta en los sentimientos de agrado o rechazo y en la simpatía natural, no en la fría razón ('la razón es y debe ser esclava de las pasiones').",
+    "nivel": 1
+  },
+  {
+    "id": "kant",
+    "nombre": "Immanuel Kant",
+    "epoca_año": "1724 - 1804",
+    "año_nacimiento": 1724,
+    "año_fallecimiento": 1804,
+    "coordenadas": {
+      "latitud": 54.7104,
+      "longitud": 20.4522,
+      "lugar": "Königsberg, Prusia (actual Kaliningrado)"
+    },
+    "resumen_breve": "Genio supremo de la Ilustración alemana. Protagonizó el 'giro copernicano' del conocimiento con el criticismo y formuló la ética deontológica del imperativo categórico.",
+    "biografia_completa": "Immanuel Kant (1724 - 1804) pasó casi toda su metódica existencia en su ciudad natal de Königsberg, ejerciendo como profesor de lógica y metafísica en la universidad local.\n\nEn su obra cumbre, la 'Crítica de la razón pura' (1781), sintetizó y superó el antagonismo entre racionalismo y empirismo mediante su idealismo trascendental: el sujeto cognoscente no es un receptor pasivo, sino que estructura activamente la experiencia sensible mediante las formas a priori de la sensibilidad (espacio y tiempo) y las doce categorías del entendimiento.\n\nEn el ámbito moral, plasmado en la 'Crítica de la razón práctica' y la 'Fundamentación de la metafísica de las costumbres', postuló una ética formal y autónoma basada en el deber puro y el imperativo categórico ('Obra solo según aquella máxima por la cual puedas querer que al mismo tiempo se convierta en ley universal'), consagrando la dignidad absoluta de la persona humana como fin en sí misma.",
+    "nivel": 1
+  },
+  {
+    "id": "saint-simon",
+    "nombre": "Henri de Saint-Simon",
+    "nivel": 2,
+    "epoca_año": "1760 - 1825",
+    "año_nacimiento": 1760,
+    "año_fallecimiento": 1825,
+    "coordenadas": {
+      "latitud": 48.8566,
+      "longitud": 2.3522,
+      "lugar": "París, Francia"
+    },
+    "resumen_breve": "Pensador social visionario y filósofo de la historia, precursor directo del positivismo de Comte y del socialismo utópico. Defendió la dirección científica e industrial de la sociedad moderna.",
+    "biografia_completa": "Claude-Henri de Rouvroy, conde de Saint-Simon (1760 - 1825), aristócrata ilustrado que combatió como voluntario en la Guerra de Independencia de los Estados Unidos y renunció a sus títulos nobiliarios durante la Revolución Francesa, consagró su fortuna y vida a reorganizar Europa tras las guerras napoleónicas.\n\nFormuló una concepción orgánica y dialéctica de la historia que avanza a través de períodos orgánicos (de estabilidad armónica) y épocas críticas (de ruptura y transición revolucionaria). Concibió que la época moderna exige sustituir el gobierno militar y teológico tradicional por una 'fisiología social' administrada por científicos, ingenieros, artistas y productores industriales.\n\nEn su famosa 'Parábola de Saint-Simon' demostró que una nación sobreviviría si perdiera a sus gobernantes, cortesanos y prelados, pero se arruinaría si desaparecieran sus científicos, artesanos y trabajadores, e inspiró con su 'Nuevo Cristianismo' las primeras corrientes cooperativistas y socialistas decimonónicas."
+  },
+  {
+    "id": "fichte",
+    "nombre": "Johann Gottlieb Fichte",
+    "nivel": 2,
+    "epoca_año": "1762 - 1814",
+    "año_nacimiento": 1762,
+    "año_fallecimiento": 1814,
+    "coordenadas": {
+      "latitud": 51.1558,
+      "longitud": 14.1206,
+      "lugar": "Rammenau / Jena / Berlín, Alemania"
+    },
+    "resumen_breve": "Figura señera del idealismo alemán entre Kant y Hegel. Desarrolló la 'Doctrina de la ciencia' (Wissenschaftslehre), fundamentando la realidad en la autoafirmación incondicionada del Yo.",
+    "biografia_completa": "Johann Gottlieb Fichte (1762 - 1814) estudió teología y filosofía en Jena y Leipzig, cautivando al propio Kant con su 'Ensayo de una crítica de toda revelación'. Catedrático en Jena y primer rector electo de la Universidad de Berlín.\n\nEn su 'Doctrina de la ciencia' (1794), buscó superar el dualismo kantiano del fenómeno y la inalcanzable 'cosa en sí', proponiendo que toda la realidad procede de la actividad pura y libre del 'Yo absoluto', que se autoafirma y opone dialécticamente a sí mismo un 'No-Yo' (el mundo material) como obstáculo moral a superar.\n\nEn el terreno político redactó los célebres 'Discursos a la nación alemana' (1808) durante la ocupación napoleónica, constituyendo el puente doctrinal indispensable que preparó el idealismo objetivo de Schelling y la síntesis dialéctica absoluta de Hegel."
+  },
+  {
+    "id": "hegel",
+    "nombre": "Georg Wilhelm Friedrich Hegel",
+    "epoca_año": "1770 - 1831",
+    "año_nacimiento": 1770,
+    "año_fallecimiento": 1831,
+    "coordenadas": {
+      "latitud": 48.7758,
+      "longitud": 9.1829,
+      "lugar": "Stuttgart / Berlín, Alemania"
+    },
+    "resumen_breve": "Cumbre del idealismo absoluto alemán. Concibió la realidad y la historia como el despliegue dialéctico del Espíritu ('Todo lo racional es real y todo lo real es racional') en su 'Fenomenología del espíritu'.",
+    "biografia_completa": "G. W. F. Hegel (1770 - 1831) enseñó en Jena, Heidelberg y culminó su magisterio como rector de la Universidad de Berlín, dominando el panorama intelectual europeo de su época.\n\nEn la 'Fenomenología del espíritu' (1807) expuso el itinerario por el cual la conciencia humana asciende desde la certeza sensible inmediata hasta el saber absoluto. Concibió la totalidad del ser no como una sustancia estática, sino como un proceso dialéctico dinámico (tesis, antítesis y síntesis) impulsado por las contradicciones internas que el Espíritu (Geist) supera y conserva (Aufhebung).\n\nEn su 'Filosofía del derecho' y lecciones sobre la historia universal, interpretó la historia como el progreso de la conciencia de la libertad encarnada en las instituciones del Estado ético, influyendo de forma decisiva tanto en el marxismo como en el existencialismo y la filosofía política contemporánea.",
+    "nivel": 1
+  },
+  {
+    "id": "schelling",
+    "nombre": "F. W. J. Schelling",
+    "nivel": 2,
+    "epoca_año": "1775 - 1854",
+    "año_nacimiento": 1775,
+    "año_fallecimiento": 1854,
+    "coordenadas": {
+      "latitud": 48.8014,
+      "longitud": 9.0136,
+      "lugar": "Leonberg (Stuttgart) / Jena / Múnich / Berlín"
+    },
+    "resumen_breve": "Vértice del idealismo alemán entre Fichte y Hegel. Desarrolló la 'Filosofía de la Naturaleza' y el 'Sistema del idealismo trascendental', concibiendo la naturaleza como espíritu inconsciente en devenir.",
+    "biografia_completa": "Friedrich Wilhelm Joseph von Schelling (1775 - 1854) compartió habitación y entusiasmo juvenil en el seminario de Tubinga con Hölderlin y Hegel. Con tan solo 23 años fue nombrado catedrático en la Universidad de Jena gracias al apoyo de Goethe.\n\nFrente al subjetivismo de Fichte, que reducía la naturaleza a un mero obstáculo moral para el Yo, Schelling elaboró una fascinante 'Filosofía de la Naturaleza' (Naturphilosophie), entendiéndola como un organismo vivo impregnado de dinamismo espiritual: 'La naturaleza es el espíritu visible; el espíritu es la naturaleza invisible'.\n\nEn su 'Sistema del idealismo trascendental' (1800) postuló la Identidad absoluta originaria entre el sujeto y el objeto, situando en el Arte y la intuición estética la reconciliación suprema de lo consciente y lo inconsciente. En su etapa tardía ('Filosofía positiva') exploró el mito, la religión y el abismo insondable de la libertad divina."
+  },
+  {
+    "id": "bolzano",
+    "nombre": "Bernard Bolzano",
+    "nivel": 2,
+    "epoca_año": "1781 - 1848",
+    "año_nacimiento": 1781,
+    "año_fallecimiento": 1848,
+    "coordenadas": {
+      "latitud": 50.0755,
+      "longitud": 14.4378,
+      "lugar": "Praga, Bohemia (Imperio austríaco)"
+    },
+    "resumen_breve": "Matemático, lógico y teólogo praguense. Pionero indiscutido del logicismo y la semántica moderna; en su 'Teoría de la ciencia' (1837) postuló las 'proposiciones en sí' contra el psicologismo.",
+    "biografia_completa": "Bernard Bolzano (1781 - 1848), sacerdote católico y profesor de filosofía de la religión en la Universidad de Praga apartado de la docencia por sus posturas pacifistas y sociales liberales, fue una de las inteligencias matemáticas y lógicas más asombrosas y adelantadas a su tiempo del siglo XIX.\n\nEn matemáticas formuló rigurosamente la definición de continuidad de una función (Teorema de Bolzano) y concibió conjuntos infinitos paradójicos antes que Cantor en 'Las paradojas del infinito' (1851).\n\nEn su obra maestra 'Teoría de la ciencia' (Wissenschaftslehre, 1837) refutó brillantemente el subjetivismo kantiano y el psicologismo, postulando la objetividad absoluta de las 'proposiciones en sí' (Sätze an sich) y las 'verdades en sí': las leyes de la lógica y la verdad matemática existen independientemente de que alguien las piense, las formule en palabras o existan mentes conscientes que las conciban, anticipando de forma decisiva a Frege y Husserl."
+  },
+  {
+    "id": "schopenhauer",
+    "nombre": "Arthur Schopenhauer",
+    "nivel": 1,
+    "epoca_año": "1788 - 1860",
+    "año_nacimiento": 1788,
+    "año_fallecimiento": 1860,
+    "coordenadas": {
+      "latitud": 54.352,
+      "longitud": 18.6466,
+      "lugar": "Danzig (actual Gdańsk) / Fráncfort del Meno"
+    },
+    "resumen_breve": "El gran filósofo del pesimismo metafísico. En 'El mundo como voluntad y representación' (1819) postuló que la esencia íntima del cosmos es una ciega, irracional e insaciable Voluntad de vivir.",
+    "biografia_completa": "Arthur Schopenhauer (1788 - 1860) nació en una acomodada familia mercantil en Danzig. Conectó de forma pionera la epistemología de Kant y el desengaño platónico con las sabidurías orientales milenarias de los Upanishads y el Budismo.\n\nEn su obra cumbre, 'El mundo como voluntad y representación' (1819), identificó la escurridiza 'cosa en sí' kantiana: el mundo fenoménico espacial y temporal es solo nuestra representación mental regida por el principio de razón suficiente; pero su núcleo ontológico oculto es la 'Voluntad' cósmica, una fuerza ciega, voraz, infinita y sin finalidad que se devora a sí misma en todas las criaturas.\n\nDe ahí deriva la tragedia existencial: la vida oscila como un péndulo entre el dolor y el aburrimiento. Para liberarse del yugo del sufrimiento propuso tres vías ascendentes: la contemplación estética y musical (donde la mente contempla las ideas puras sin deseo), la compasión ética hacia todo ser viviente y el ascetismo absoluto de negación de la voluntad."
+  },
+  {
+    "id": "comte",
+    "nombre": "Auguste Comte",
+    "epoca_año": "1798 - 1857",
+    "año_nacimiento": 1798,
+    "año_fallecimiento": 1857,
+    "coordenadas": {
+      "latitud": 43.6108,
+      "longitud": 3.8767,
+      "lugar": "Montpellier / París, Francia"
+    },
+    "resumen_breve": "Padre del positivismo filosófico y fundador de la sociología científica. Formuló la célebre 'Ley de los tres estados' y promovió el método científico como único camino para el progreso de la humanidad.",
+    "biografia_completa": "Auguste Comte (1798 - 1857) fue secretario del socialista utópico Saint-Simon antes de emprender su colosal proyecto pedagógico e institucional plasmado en su 'Curso de filosofía positiva' (1830-1842).\n\nEnunció la 'Ley de los tres estados' por la que atraviesa el conocimiento humano: el estado teológico (donde los fenómenos se atribuyen a dioses o fuerzas sobrenaturales), el estado metafísico (explicado mediante abstracciones y esencias ocultas) y el estado positivo o científico (que renuncia a buscar las causas últimas para limitarse a descubrir las leyes invariables de los hechos observables mediante la experimentación y el cálculo).\n\nClasificó jerárquicamente las ciencias desde las matemáticas hasta la cúspide de la 'física social' o sociología, acuñando este término para reorganizar científicamente la sociedad moderna bajo el lema: 'Amor por principio, orden por base y progreso por fin'.",
+    "nivel": 2
+  },
+  {
+    "id": "mill",
+    "nombre": "John Stuart Mill",
+    "epoca_año": "1806 - 1873",
+    "año_nacimiento": 1806,
+    "año_fallecimiento": 1873,
+    "coordenadas": {
+      "latitud": 51.512,
+      "longitud": -0.119,
+      "lugar": "Londres, Reino Unido / Aviñón"
+    },
+    "resumen_breve": "Filósofo, economista político y pionero de los derechos de la mujer. Perfeccionó el utilitarismo cualitativo y defendió la libertad individual frente a la tiranía de la mayoría en 'Sobre la libertad'.",
+    "biografia_completa": "John Stuart Mill (1806 - 1873), educado rigurosamente por su padre James Mill y Jeremy Bentham, fue una de las inteligencias más influyentes de la era victoriana.\n\nEn 'El utilitarismo' (1861) refinó la doctrina benthamiana estableciendo una distinción cualitativa entre los placeres: los placeres del intelecto, la sensibilidad estética y los sentimientos morales son intrínsecamente superiores a los meramente corporales ('Es mejor ser un Sócrates insatisfecho que un cerdo satisfecho').\n\nEn su inmortal ensayo 'Sobre la libertad' (1859) consagró el 'principio del daño': el único fin por el cual el poder puede ejercerse legítimamente sobre cualquier miembro de una comunidad contra su voluntad es evitar el daño a terceros. Asimismo, junto a su esposa Harriet Taylor, publicó 'La servidumbre de las mujeres' (1869), alegato pionero por la plena igualdad civil y política entre los sexos.",
+    "nivel": 2
+  },
+  {
+    "id": "darwin",
+    "nombre": "Charles Darwin",
+    "epoca_año": "1809 - 1882",
+    "año_nacimiento": 1809,
+    "año_fallecimiento": 1882,
+    "coordenadas": {
+      "latitud": 52.7073,
+      "longitud": -2.7553,
+      "lugar": "Shrewsbury / Down House (Kent), Inglaterra"
+    },
+    "resumen_breve": "Naturalista y biólogo británico. Transformó la concepción del ser humano y la naturaleza con su teoría de la evolución mediante la selección natural en 'El origen de las especies' (1859).",
+    "biografia_completa": "Charles Darwin (1809 - 1882) emprendió entre 1831 y 1836 una expedición científica alrededor del mundo a bordo del HMS Beagle, cuyas observaciones zoológicas y geológicas (particularmente en las islas Galápagos) sembraron la génesis de su pensamiento.\n\nEn 1859 publicó 'El origen de las especies por medio de la selección natural', demostrando con abrumadora masa probatoria que todas las especies vivas descienden de antepasados comunes y que la variabilidad biológica y la lucha por la supervivencia seleccionan las adaptaciones más ventajosas a lo largo de las eras geológicas.\n\nSu posterior obra 'El origen del hombre' (1871) asestó un golpe definitivo al antropocentrismo tradicional al insertar a la especie humana dentro del árbol genealógico animal, provocando una conmoción filosófica, religiosa y epistemológica que redefinió para siempre las ciencias de la vida.",
+    "nivel": 2
+  },
+  {
+    "id": "marx",
+    "nombre": "Karl Marx",
+    "nivel": 1,
+    "epoca_año": "1818 - 1883",
+    "año_nacimiento": 1818,
+    "año_fallecimiento": 1883,
+    "coordenadas": {
+      "latitud": 49.7596,
+      "longitud": 6.6442,
+      "lugar": "Tréveris, Prusia (Alemania) / París / Londres"
+    },
+    "resumen_breve": "Titán del pensamiento revolucionario y de la crítica sociopolítica. Creador del materialismo histórico; analizó la plusvalía y la lucha de clases en 'El Capital' ('Hasta ahora los filósofos han interpretado el mundo; de lo que se trata es de transformarlo').",
+    "biografia_completa": "Karl Marx (1818 - 1883) estudió derecho e historia en Bonn y Berlín, adscribiéndose al círculo de la izquierda hegeliana antes de exiliarse en París, Bruselas y finalmente en Londres, donde desarrolló su titánica labor teórica en estrecha alianza intelectual con Friedrich Engels.\n\nInvirtió la dialéctica idealista hegeliana poniéndola sobre sus pies materiales: no es la conciencia la que determina la vida humana, sino las condiciones materiales y económicas de producción las que determinan la conciencia social e ideológica (materialismo histórico). Analizó la alienación en el trabajo bajo el capitalismo, donde el obrero queda despojado del fruto de su actividad y convertido en mercancía.\n\nEn su obra cumbre, 'El Capital' (1867), desentrañó el funcionamiento del modo de producción capitalista, la teoría del valor-trabajo, la extracción de plusvalía y las crisis estructurales intrínsecas del sistema, proclamando que la historia de la humanidad es la historia de la lucha de clases y transformando para siempre la política, la sociología y la economía mundial."
+  },
+  {
+    "id": "herbert-spencer",
+    "nombre": "Herbert Spencer",
+    "epoca_año": "1820 - 1903",
+    "año_nacimiento": 1820,
+    "año_fallecimiento": 1903,
+    "coordenadas": {
+      "latitud": 52.9225,
+      "longitud": -1.4746,
+      "lugar": "Derby / Londres, Inglaterra"
+    },
+    "resumen_breve": "Filósofo y sociólogo victoriano de la 'Filosofía Sintética'. Formuló una teoría universal de la evolución cósmica, acuñó la expresión 'supervivencia del más apto' y desarrolló el darwinismo social.",
+    "biografia_completa": "Herbert Spencer (1820 - 1903) fue un autodidacta inglés que concibió un ambicioso sistema de 'Filosofía Sintética' de diez volúmenes, buscando unificar todas las ramas del saber bajo un principio universal único: la ley de la evolución.\n\nDefinió la evolución como el paso continuo desde una homogeneidad simple, incoherente e indefinida hacia una heterogeneidad compleja, coherente y definida, aplicable al cosmos inorgánico, a la biología, a la psicología y a las instituciones sociales.\n\nAcuñó la famosa frase 'la supervivencia del más apto' (posteriormente adoptada por Darwin) y desarrolló una sociología organicista y ultraindividualista, oponiéndose a cualquier injerencia del Estado en la economía y la beneficencia pública por considerarla una interferencia perjudicial en la selección natural social.",
+    "nivel": 3
+  },
+  {
+    "id": "brentano",
+    "nombre": "Franz Brentano",
+    "nivel": 2,
+    "epoca_año": "1838 - 1917",
+    "año_nacimiento": 1838,
+    "año_fallecimiento": 1917,
+    "coordenadas": {
+      "latitud": 50.2317,
+      "longitud": 7.5886,
+      "lugar": "Boppard, Alemania / Viena / Zúrich"
+    },
+    "resumen_breve": "Filósofo y psicólogo austro-alemán. Reintrodujo el concepto escolástico de 'intencionalidad' como rasgo definitorio de los fenómenos psíquicos, siendo maestro directo de Husserl y Freud.",
+    "biografia_completa": "Franz Brentano (1838 - 1917), sacerdote católico secularizado tras rechazar el dogma de la infalibilidad papal, ejerció un magisterio de legendario magnetismo en la Universidad de Viena sobre mentes como Edmund Husserl, Sigmund Freud, Alexius Meinong y Christian von Ehrenfels.\n\nEn su obra cumbre, 'Psicología desde el punto de vista empírico' (1874), estableció el criterio demarcatorio definitivo entre lo físico y lo mental mediante la 'in-existencia intencional' o referencia a un contenido: todo fenómeno psíquico contiene en sí un objeto intencionalmente (en el amor hay algo amado, en el juicio algo afirmado o negado, en la percepción algo percibido).\n\nEsta recuperación y refinamiento moderno de la intencionalidad aristotélico-escolástica fue el germen directo del que brotó la fenomenología husserliana y la teoría de los actos de habla, transformando la filosofía de la mente contemporánea."
+  },
+  {
+    "id": "ernst-mach",
+    "nombre": "Ernst Mach",
+    "nivel": 2,
+    "epoca_año": "1838 - 1916",
+    "año_nacimiento": 1838,
+    "año_fallecimiento": 1916,
+    "coordenadas": {
+      "latitud": 49.1951,
+      "longitud": 16.6068,
+      "lugar": "Chirlitz (Moravia) / Praga / Viena"
+    },
+    "resumen_breve": "Físico y filósofo austríaco, padre del empiriocriticismo. Sometió a demoledora crítica las nociones newtonianas de espacio y tiempo absoluto, influyendo en Einstein y el Círculo de Viena.",
+    "biografia_completa": "Ernst Mach (1838 - 1916) fue un eminente físico experimental en la Universidad de Viena (célebre por sus estudios pioneros en óptica y ondas de choque supersónicas, origen del 'número de Mach') y titular de la cátedra de filosofía de las ciencias inductivas.\n\nEn su monumental obra 'La ciencia de la mecánica' (1883) emprendió una crítica radical al mecanicismo dogmático de Newton, denunciando que nociones como 'espacio absoluto' o 'tiempo absoluto' son invenciones metafísicas indemostrables carentes de correlato sensible empírico.\n\nFormuló el 'Principio de Economía del Pensamiento': la ciencia no desentraña esencias ocultas misteriosas, sino que busca describir y resumir de la manera más económica y simple posible las relaciones entre sensaciones empíricas. Sus reflexiones epistemológicas fueron la chispa directa que despertó a Albert Einstein para concebir la Relatividad General."
+  },
+  {
+    "id": "nietzsche",
+    "nombre": "Friedrich Nietzsche",
+    "epoca_año": "1844 - 1900",
+    "año_nacimiento": 1844,
+    "año_fallecimiento": 1900,
+    "coordenadas": {
+      "latitud": 51.2403,
+      "longitud": 12.1158,
+      "lugar": "Röcken (Leipzig), Prusia (Alemania)"
+    },
+    "resumen_breve": "El filósofo del martillo y la transvaloración de todos los valores. Proclamó la 'muerte de Dios', la voluntad de poder, el eterno retorno de lo mismo y la llegada del Superhombre (Übermensch).",
+    "biografia_completa": "Friedrich Nietzsche (1844 - 1900) fue catedrático de filología clásica en Basilea a la insólita edad de 24 años antes de retirarse por graves problemas de salud para escribir de modo itinerante entre los Alpes suizos e Italia.\n\nEn su primera obra, 'El nacimiento de la tragedia' (1872), desveló la dualidad griega entre el espíritu apolíneo (orden, forma, armonía) y el espíritu dionisíaco (éxtasis, embriaguez, vitalidad desbordante). En obras maestras como 'Así habló Zaratustra', 'Más allá del bien y del mal' y 'La genealogía de la moral', denunció que la moral judeocristiana es una moral de esclavos fundada en el resentimiento contra la vida terrenal.\n\nTras diagnosticar el nihilismo con la 'muerte de Dios', propuso la transvaloración de todos los valores, el amor al destino (Amor fati) y la afirmación dionisíaca de la existencia a través de la Voluntad de Poder y el advenimiento del Superhombre.",
+    "nivel": 1
+  },
+  {
+    "id": "frege",
+    "nombre": "Gottlob Frege",
+    "epoca_año": "1848 - 1925",
+    "año_nacimiento": 1848,
+    "año_fallecimiento": 1925,
+    "coordenadas": {
+      "latitud": 53.8925,
+      "longitud": 11.4647,
+      "lugar": "Wismar / Jena, Alemania"
+    },
+    "resumen_breve": "Padre indiscutido de la lógica matemática moderna y de la filosofía analítica del lenguaje. Introdujo la lógica de predicados con cuantificadores y la distinción entre sentido y referencia.",
+    "biografia_completa": "Gottlob Frege (1848 - 1925) ejerció como profesor de matemáticas en la Universidad de Jena en un relativo anonimato durante la mayor parte de su carrera, antes de que Bertrand Russell y Ludwig Wittgenstein reconocieran su genialidad precursora.\n\nEn su revolucionaria 'Conceptografía' (Begriffsschrift, 1879) reinventó la lógica por primera vez desde Aristóteles, inventando la notación formalizada de funciones, argumentos y cuantificadores lógicos (para todo, existe), fundando el programa logicista: demostrar que la aritmética es deducible a partir de leyes puramente lógicas.\n\nEn su trascendental artículo 'Sobre sentido y referencia' (Über Sinn und Bedeutung, 1892), resolvió el enigma de los juicios de identidad distinguiendo entre el modo de darse de un objeto (sentido, como 'el lucero del alba') y el objeto real al que designa (referencia, el planeta Venus), fundando las bases de la semántica y la filosofía analítica contemporánea.",
+    "nivel": 3
+  },
+  {
+    "id": "natorp",
+    "nombre": "Paul Natorp",
+    "nivel": 3,
+    "epoca_año": "1854 - 1924",
+    "año_nacimiento": 1854,
+    "año_fallecimiento": 1924,
+    "coordenadas": {
+      "latitud": 50.809,
+      "longitud": 8.7707,
+      "lugar": "Düsseldorf / Marburgo, Alemania"
+    },
+    "resumen_breve": "Líder de la Escuela Neokantiana de Marburgo junto a Hermann Cohen. Defendió el idealismo lógico de la ciencia matemática y sentó las bases de la moderna pedagogía social comunitaria.",
+    "biografia_completa": "Paul Natorp (1854 - 1924) cursó estudios clásicos y de música antes de incorporarse a la Universidad de Marburgo, donde compartió con Hermann Cohen la dirección del neokantismo lógico y tuvo entre sus alumnos a pensadores como Ernst Cassirer, José Ortega y Gasset y Martin Heidegger.\n\nEn epistemología defendió un riguroso idealismo del método científico: el 'objeto' no es un dato pasivo recibido por los sentidos, sino un producto y una tarea infinita construida activamente por las leyes del pensamiento lógico y matemático ('Platón y la teoría de las ideas').\n\nEn el terreno sociopolítico fue el pionero de la 'Pedagogía social' (Sozialpädagogik, 1899), sosteniendo que la educación del individuo es inseparable de la comunidad y del progreso moral colectivo, rechazando el individualismo atomista para defender una democracia socialista fundamentada en la ética del deber kantiano."
+  },
+  {
+    "id": "freud",
+    "nombre": "Sigmund Freud",
+    "epoca_año": "1856 - 1939",
+    "año_nacimiento": 1856,
+    "año_fallecimiento": 1939,
+    "coordenadas": {
+      "latitud": 49.6394,
+      "longitud": 18.1444,
+      "lugar": "Příbor (Moravia) / Viena / Londres"
+    },
+    "resumen_breve": "Médico neurólogo austríaco y padre del psicoanálisis. Descubrió la decisiva influencia del inconsciente, la represión sexual y la estructura psíquica del Ello, el Yo y el Superyó.",
+    "biografia_completa": "Sigmund Freud (1856 - 1939) desarrolló su prolífica labor clínica e investigadora en Viena antes de tener que exiliarse en Londres huyendo de la persecución nazi en 1938.\n\nCon 'La interpretación de los sueños' (1900) postuló que los sueños son la vía regia hacia el inconsciente y que los lapsus y síntomas neuróticos expresan deseos y conflictos reprimidos. Formuló el modelo topográfico (inconsciente, preconsciente y consciente) y más tarde el modelo estructural de la mente dividido en el Ello (pulsiones instintivas primarias), el Yo (principio de realidad) y el Superyó (conciencia moral introyectada).\n\nEn tratados culturales tardíos como 'El malestar en la cultura' (1930), analizó el trágico tributo de renuncia pulsional que la civilización impone a los individuos para evitar la autodestrucción entre Eros (pulsión de vida) y Tánatos (pulsión de muerte), transformando la autocomprensión del siglo XX.",
+    "nivel": 2
+  },
+  {
+    "id": "husserl",
+    "nombre": "Edmund Husserl",
+    "epoca_año": "1859 - 1938",
+    "año_nacimiento": 1859,
+    "año_fallecimiento": 1938,
+    "coordenadas": {
+      "latitud": 49.4722,
+      "longitud": 17.1128,
+      "lugar": "Prossnitz (Moravia) / Friburgo, Alemania"
+    },
+    "resumen_breve": "Fundador de la fenomenología trascendental. Propuso 'volver a las cosas mismas', superar el psicologismo lógico y analizar las estructuras intencionales de la conciencia mediante la epojé.",
+    "biografia_completa": "Edmund Husserl (1859 - 1938), formado en matemáticas con Karl Weierstrass antes de entregarse a la filosofía con Franz Brentano, enseñó en Halle, Gotinga y Friburgo, donde ejerció una influencia inmensa sobre discípulos como Heidegger, Merleau-Ponty y Sartre.\n\nEn sus 'Investigaciones lógicas' (1900-1901) demolió el psicologismo demostrando que las leyes lógicas y matemáticas son ideales y objetivas, no meros procesos cerebrales contingentes. Concibió la fenomenología como una ciencia estricta dedicada a describir las vivencias puras de la conciencia tal como se presentan en sí mismas.\n\nIntrodujo el método de la reducción fenomenológica o epojé (poner entre paréntesis la creencia en el mundo exterior) para estudiar la intencionalidad constituyente de la conciencia pura ('toda conciencia es siempre conciencia de algo'), buscando fundamentar la crisis del saber europeo en el mundo de la vida (Lebenswelt).",
+    "nivel": 1
+  },
+  {
+    "id": "max-weber",
+    "nombre": "Max Weber",
+    "epoca_año": "1864 - 1920",
+    "año_nacimiento": 1864,
+    "año_fallecimiento": 1920,
+    "coordenadas": {
+      "latitud": 50.9848,
+      "longitud": 11.0299,
+      "lugar": "Érfurt / Heidelberg / Múnich, Alemania"
+    },
+    "resumen_breve": "Pilar de la sociología moderna y la filosofía de la cultura. Célebre por 'La ética protestante y el espíritu del capitalismo' y su análisis del desencantamiento del mundo y la burocracia.",
+    "biografia_completa": "Max Weber (1864 - 1920) fue jurista, economista, historiador y sociólogo de colosal erudición en Heidelberg y Múnich. Estableció la sociología comprensiva frente a los modelos naturalistas de las ciencias duras.\n\nEn 'La ética protestante y el espíritu del capitalismo' (1905) demostró la influencia de los factores éticos e ideales en la historia económica, vinculando la doctrina calvinista de la predestinación con una ascética intramundana de laboriosidad metódica que favoreció el nacimiento del capitalismo moderno.\n\nAnalizó el proceso de racionalización occidental que conduce a la 'jaula de hierro' burocrática y al 'desencantamiento del mundo' (Entzauberung der Welt), definió el Estado como la entidad que ostenta con éxito el monopolio legítimo de la violencia física e introdujo herramientas metodológicas esenciales como los 'tipos ideales' y la neutralidad valorativa del científico.",
+    "nivel": 2
+  },
+  {
+    "id": "unamuno",
+    "nombre": "Miguel de Unamuno",
+    "nivel": 2,
+    "epoca_año": "1864 - 1936",
+    "año_nacimiento": 1864,
+    "año_fallecimiento": 1936,
+    "coordenadas": {
+      "latitud": 40.9701,
+      "longitud": -5.6635,
+      "lugar": "Bilbao / Salamanca, España"
+    },
+    "resumen_breve": "Cumbre de la Generación del 98 y rector perpetuo de Salamanca. En 'Del sentimiento trágico de la vida' articuló un existencialismo apasionado sobre la sed humana de inmortalidad personal.",
+    "biografia_completa": "Miguel de Unamuno (1864 - 1936) nació en Bilbao y ejerció como catedrático de griego y rector de la Universidad de Salamanca, convirtiéndose en la figura moral más desgarrada y reverenciada de las letras y el pensamiento hispánico del siglo XX.\n\nEn su obra cumbre filosófica, 'Del sentimiento trágico de la vida en los hombres y en los pueblos' (1913), colocó en el centro al 'hombre de carne y hueso, el que nace, sufre y muere', analizando la íntima agonía y combate irreconciliable entre la razón (que concluye fríamente que con la muerte corporal todo acaba) y el sentimiento o corazón (que exige con hambre insaciable la eternidad y la pervivencia del yo singular).\n\nEn 'La agonía del cristianismo' y sus novelas ('nivolas' como 'Niebla' o 'San Manuel Bueno, mártir') exploró las paradojas de la fe viva que duda para no petrificarse en dogma, defendiendo con bravura su lema de vida frente a la barbarie: 'Venceréis, pero no convenceréis'."
+  },
+  {
+    "id": "russell",
+    "nombre": "Bertrand Russell",
+    "nivel": 1,
+    "epoca_año": "1872 - 1970",
+    "año_nacimiento": 1872,
+    "año_fallecimiento": 1970,
+    "coordenadas": {
+      "latitud": 51.7456,
+      "longitud": -2.7247,
+      "lugar": "Trellech (Gales) / Cambridge / Londres"
+    },
+    "resumen_breve": "Padre de la filosofía analítica moderna, lógico monumental y pacifista. Coautor de 'Principia Mathematica' con Whitehead, formuló la teoría de las descripciones y la paradoja de Russell.",
+    "biografia_completa": "Bertrand Russell (1872 - 1970), tercer conde Russell, educado en el Trinity College de Cambridge, aunó una genialidad lógica sin parangón con un incansable activismo pacifista y humanista que le valió la prisión en dos ocasiones y el Premio Nobel de Literatura en 1950.\n\nEn 1901 descubrió la célebre 'Paradoja de Russell' en la teoría de conjuntos de Cantor y Frege (el conjunto de todos los conjuntos que no se contienen a sí mismos), resolviéndola con la 'Teoría de Tipos' y publicando junto a Alfred North Whitehead los tres volúmenes de 'Principia Mathematica' (1910-1913), hito supremo del proyecto logicista.\n\nEn su artículo 'Sobre el denotar' (1905) formuló su 'Teoría de las descripciones definidas' (considerada por Ramsey un paradigma de la filosofía), y desarrolló el 'atomismo lógico': el mundo se compone de hechos atómicos lógicamente independientes que un lenguaje idealizado formalmente transparente puede reflejar con exactitud indiscutible."
+  },
+  {
+    "id": "scheler",
+    "nombre": "Max Scheler",
+    "nivel": 2,
+    "epoca_año": "1874 - 1928",
+    "año_nacimiento": 1874,
+    "año_fallecimiento": 1928,
+    "coordenadas": {
+      "latitud": 48.1351,
+      "longitud": 11.582,
+      "lugar": "Múnich / Colonia / Fráncfort del Meno"
+    },
+    "resumen_breve": "Filósofo de la fenomenología axiológica y la antropología filosófica. En 'El formalismo en la ética' postuló una jerarquía objetiva y apriórica de los valores captados por el sentir emocional.",
+    "biografia_completa": "Max Scheler (1874 - 1928) fue discípulo de Rudolf Eucken y se unió con entusiasmo al movimiento fenomenológico de Husserl en Múnich y Gotinga, siendo considerado por Ortega y Gasset y Heidegger como uno de los espíritus filosóficos más deslumbrantes de su época.\n\nEn su obra cumbre, 'El formalismo en la ética y la ética material de los valores' (1913-1916), superó el rigorismo formal abstracto de Kant: los valores no son mandatos vacíos de la razón, sino cualidades objetivas, materiales y jerárquicas aprehendidas inmediatamente por una intuición emocional del corazón (un 'ordo amoris' de raigambre pascaliana), escalonados desde lo sensible (agradable/desagradable), lo vital, lo espiritual (estético/jurídico) hasta lo sagrado.\n\nEn sus últimos años fundó la antropología filosófica contemporánea con 'El puesto del hombre en el cosmos' (1928), definiendo al ser humano como el único ser capaz de decir 'no' a las pulsiones biológicas gracias a la libertad del espíritu (Geist)."
+  },
+  {
+    "id": "einstein",
+    "nombre": "Albert Einstein",
+    "epoca_año": "1879 - 1955",
+    "año_nacimiento": 1879,
+    "año_fallecimiento": 1955,
+    "coordenadas": {
+      "latitud": 48.4011,
+      "longitud": 9.9876,
+      "lugar": "Ulm, Alemania / Princeton, EE.UU."
+    },
+    "resumen_breve": "El físico más universal del siglo XX y pensador epistemológico. Revolucionó los conceptos absolutos de espacio y tiempo con la Teoría de la Relatividad Especial y General y la ecuación E=mc².",
+    "biografia_completa": "Albert Einstein (1879 - 1955) formuló en su 'annus mirabilis' de 1905 mientras trabajaba en la oficina de patentes de Berna el efecto fotoeléctrico (que le valió el Nobel), el movimiento browniano y la Relatividad Especial, unificando espacio y tiempo en un continuo espacio-temporal tetradimensional y derivando la famosa equivalencia entre masa y energía: E=mc².\n\nEn 1915 completó la Teoría de la Relatividad General, reinterpretando la gravedad no como una misteriosa atracción a distancia newtoniana, sino como la curvatura geométrica del espacio-tiempo producida por la presencia de masa y energía, confirmada estelarmente por Arthur Eddington en el eclipse de 1919.\n\nExiliado en Princeton ante el ascenso del nazismo, mantuvo intensos debates epistemológicos con Niels Bohr sobre el determinismo ontológico de la física cuántica ('Dios no juega a los dados'), defendiendo incansablemente el pacifismo, el socialismo humanista y la libertad de pensamiento.",
+    "nivel": 2
+  },
+  {
+    "id": "neurath",
+    "nombre": "Otto Neurath",
+    "epoca_año": "1882 - 1945",
+    "año_nacimiento": 1882,
+    "año_fallecimiento": 1945,
+    "coordenadas": {
+      "latitud": 48.2082,
+      "longitud": 16.3738,
+      "lugar": "Viena, Austria / Oxford, Reino Unido"
+    },
+    "resumen_breve": "Sociólogo, economista y figura destacada del Círculo de Viena. Defendió el positivismo lógico, el fisicalismo y la enciclopedia unificada, célebre por la metáfora del 'barco de Neurath'.",
+    "biografia_completa": "Otto Neurath (1882 - 1945) fue la voz más combativa, heterodoxa y socialmente comprometida del Círculo de Viena. Participó activamente en la República Soviética de Baviera y concibió el sistema gráfico de comunicación universal ISOTYPE.\n\nRechazó el atomismo lógico solipsista y los enunciados protocolares infalibles propuestos por Schlick, defendiendo un 'fisicalismo' riguroso en el que todo enunciado científico debe formularse en el lenguaje espacio-temporal de la física empírica accesible a la observación pública.\n\nFue el alma máter de la 'Enciclopedia Internacional de la Ciencia Unificada' e inmortalizó el holismo epistemológico con su genial parábola: 'Somos como marineros que deben reconstruir su barco en mar abierto, sin poder llevarlo nunca a un dique seco para renovarlo desde la quilla', anticipando la crítica contemporánea a los fundamentos absolutos del saber.",
+    "nivel": 3
+  },
+  {
+    "id": "nicolai-hartmann",
+    "nombre": "Nicolai Hartmann",
+    "nivel": 3,
+    "epoca_año": "1882 - 1950",
+    "año_nacimiento": 1882,
+    "año_fallecimiento": 1950,
+    "coordenadas": {
+      "latitud": 56.9496,
+      "longitud": 24.1052,
+      "lugar": "Riga (Letonia) / Marburgo / Colonia / Gotinga"
+    },
+    "resumen_breve": "Filósofo de la ontología crítica y la teoría de los estratos del ser. Rompió con el neokantismo de Marburgo para reconstruir una metafísica realista del conocimiento y de los problemas filosóficos.",
+    "biografia_completa": "Nicolai Hartmann (1882 - 1950), nacido en el Báltico y formado en San Petersburgo y Marburgo, sucedió a Paul Natorp en la cátedra de Marburgo antes de enseñar en Colonia, Berlín y Gotinga.\n\nEn sus 'Rasgos fundamentales de una metafísica del conocimiento' (1921) protagonizó una célebre ruptura con el idealismo neokantiano: el conocimiento no crea su objeto ni lo produce lógicamente, sino que aprehende una realidad que es 'en sí' independiente del sujeto cognoscente.\n\nConstruyó una imponente 'Ontología crítica' de cuatro estratos superpuestos de la realidad (lo inorgánico, lo orgánico o biológico, lo anímico o psicológico y lo espiritual o cultural e histórico), gobernados por leyes categoriales de novedad y fuerza ontológica, reivindicando la aporeticidad inherente a las grandes preguntas de la metafísica."
+  },
+  {
+    "id": "schlick",
+    "nombre": "Moritz Schlick",
+    "nivel": 2,
+    "epoca_año": "1882 - 1936",
+    "año_nacimiento": 1882,
+    "año_fallecimiento": 1936,
+    "coordenadas": {
+      "latitud": 48.2082,
+      "longitud": 16.3738,
+      "lugar": "Berlín / Viena, Austria"
+    },
+    "resumen_breve": "Físico y filósofo alemán, fundador y alma rectora del Círculo de Viena. Formuló el criterio de verificabilidad empírica del significado: 'El sentido de una proposición es el método de su verificación'.",
+    "biografia_completa": "Moritz Schlick (1882 - 1936) se doctoró en física bajo la dirección de Max Planck en Berlín y sucedió a Ernst Mach y Ludwig Boltzmann en la cátedra de filosofía de las ciencias inductivas en la Universidad de Viena en 1922.\n\nFundó y lideró las históricas reuniones semanales del 'Círculo de Viena' (con Carnap, Neurath, Gödel y Hahn), dando origen al neopositivismo o empirismo lógico contemporáneo bajo la inspiración de Einstein y el 'Tractatus' de Wittgenstein.\n\nDefendió que la filosofía no es una ciencia sustantiva que produce doctrinas sobre el mundo, sino una actividad de clarificación lógica del lenguaje y del pensamiento. Proclamó que solo tienen sentido cognoscitivo las tautologías formales (lógica y matemática) y las proposiciones fácticas empíricamente verificables mediante la observación ('enunciados de confirmación' o Konstatierungen), siendo trágicamente asesinado en las escalinatas de la universidad por un estudiante filonazi en 1936."
+  },
+  {
+    "id": "bloch",
+    "nombre": "Ernst Bloch",
+    "nivel": 2,
+    "epoca_año": "1885 - 1977",
+    "año_nacimiento": 1885,
+    "año_fallecimiento": 1977,
+    "coordenadas": {
+      "latitud": 49.4811,
+      "longitud": 8.4464,
+      "lugar": "Ludwigshafen / Leipzig / Tubinga, Alemania"
+    },
+    "resumen_breve": "El filósofo de la utopía y la esperanza concreta. En 'El principio esperanza' fundamentó la ontología de 'lo que todavía-no-es' (Noch-Nicht-Sein) y la fuerza transformadora del soñar despierto.",
+    "biografia_completa": "Ernst Bloch (1885 - 1977) se formó en Würzburg y compartió amistad y debates con Georg Lukács y Walter Benjamin. Exiliado en Estados Unidos huyendo del nazismo, enseñó en la Universidad de Leipzig en la Alemania oriental antes de afincarse definitivamente en Tubinga tras el levantamiento del Muro de Berlín en 1961.\n\nEn su trilogía colosal 'El principio esperanza' (Das Prinzip Hoffnung, 1954-1959) formuló una profunda renovación humanista y poética del marxismo: la realidad no es un sistema cerrado y terminado, sino un proceso abierto preñado de posibilidades no realizadas.\n\nDefinió el 'soñar despierto' como la pulsión anticipatoria esencial del ser humano hacia adelante, explorando cómo la utopía se manifiesta en el arte, la arquitectura, la literatura, los cuentos infantiles y la música como anuncios luminosos de un hogar reconciliado (Heimat) que el hombre aún no ha alcanzado."
+  },
+  {
+    "id": "heidegger",
+    "nombre": "Martin Heidegger",
+    "epoca_año": "1889 - 1976",
+    "año_nacimiento": 1889,
+    "año_fallecimiento": 1976,
+    "coordenadas": {
+      "latitud": 48.0067,
+      "longitud": 9.1122,
+      "lugar": "Meßkirch / Friburgo, Alemania"
+    },
+    "resumen_breve": "Filósofo de la ontología fundamental y pensador cumbre del siglo XX. En 'Ser y tiempo' (1927) replanteó el sentido del Ser a través del análisis existencial del Dasein (el ser-ahí).",
+    "biografia_completa": "Martin Heidegger (1889 - 1976), formado en la teología y discípulo predilecto de Edmund Husserl, revolucionó la filosofía continental con la publicación en 1927 de 'Ser y tiempo' (Sein und Zeit).\n\nDenunció que la metafísica occidental desde Platón cayó en el 'olvido del Ser', confundiendo al Ser con los entes concretos. Para desentrañar el Ser, acometió la analítica existencial del único ente que se interroga por su propia existencia: el ser humano, definido como 'Dasein' (ser-ahí), un ser arrojado al mundo (Geworfenheit), estructurado por la cura (Sorge) y proyectado hacia su propia finitud como 'ser-para-la-muerte' (Sein-zum-Tode).\n\nTras su 'giro' (Kehre) en los años treinta y su controvertido compromiso con el régimen nacionalsocialista durante su rectorado en Friburgo, centró su pensamiento en la poesía de Hölderlin, la crítica ontológica a la técnica moderna (el Gestell) y la escucha silenciosa del lenguaje como la 'casa del Ser'.",
+    "nivel": 1
+  },
+  {
+    "id": "wittgenstein",
+    "nombre": "Ludwig Wittgenstein",
+    "epoca_año": "1889 - 1951",
+    "año_nacimiento": 1889,
+    "año_fallecimiento": 1951,
+    "coordenadas": {
+      "latitud": 48.198,
+      "longitud": 16.365,
+      "lugar": "Viena, Austria / Cambridge, Reino Unido"
+    },
+    "resumen_breve": "Genio de la filosofía del lenguaje que revolucionó el pensamiento contemporáneo en dos ocasiones: con el 'Tractatus Logico-Philosophicus' y más tarde con los 'juegos de lenguaje' de las 'Investigaciones filosóficas'.",
+    "biografia_completa": "Ludwig Wittgenstein (1889 - 1951) nació en una de las familias industriales más ricas del Imperio austrohúngaro. Estudió ingeniería aeronáutica antes de formarse en lógica con Bertrand Russell en Cambridge y combatir como voluntario en la Primera Guerra Mundial.\n\nEn las trincheras compuso el 'Tractatus Logico-Philosophicus' (1921), donde defendió la teoría figurativa del lenguaje: las proposiciones con sentido son figuras lógicas de los hechos del mundo ('Los límites de mi lenguaje son los límites de mi mundo'). Lo que cae más allá (la ética, la estética y lo místico) no puede decirse con sentido y debe callarse ('De lo que no se puede hablar, hay que callar').\n\nAños más tarde repudió su dogmatismo inicial en las 'Investigaciones filosóficas' (1953), concibiendo el lenguaje ya no como un cálculo formal rígido, sino como una pluralidad viva de 'juegos de lenguaje' (Sprachspiele) entrelazados con diversas 'formas de vida', donde el significado de una palabra es su uso concreto en la comunidad.",
+    "nivel": 1
+  },
+  {
+    "id": "carnap",
+    "nombre": "Rudolf Carnap",
+    "epoca_año": "1891 - 1970",
+    "año_nacimiento": 1891,
+    "año_fallecimiento": 1970,
+    "coordenadas": {
+      "latitud": 51.272,
+      "longitud": 7.185,
+      "lugar": "Wuppertal, Alemania / Los Ángeles, EE.UU."
+    },
+    "resumen_breve": "Líder teórico del positivismo lógico y del Círculo de Viena. Formuló la superación de la metafísica mediante el análisis lógico del lenguaje y defendió el 'Principio de Tolerancia' lógica.",
+    "biografia_completa": "Rudolf Carnap (1891 - 1970) fue discípulo de Gottlob Frege en Jena y la figura metodológica más influyente del Círculo de Viena antes de emigrar a los Estados Unidos ante la barbarie nazi, impartiendo cátedra en Chicago y UCLA.\n\nEn 'La estructura lógica del mundo' (Der logische Aufbau der Welt, 1928) intentó reconstruir sistemáticamente todos los conceptos científicos a partir de una base empírica elemental de vivencias fenoménicas mediante la lógica formal moderna.\n\nEn su sonado ensayo 'La superación de la metafísica mediante el análisis lógico del lenguaje' (1932), sentenció que las proposiciones metafísicas carecen de valor cognoscitivo por no ser tautologías lógicas ni verificables empíricamente. En 'Sintaxis lógica del lenguaje' proclamó el célebre 'Principio de Tolerancia': no hay una moral en la lógica, cada quien puede construir el sistema de reglas lingüísticas que desee siempre que estipule claramente su sintaxis.",
+    "nivel": 3
+  },
+  {
+    "id": "reichenbach",
+    "nombre": "Hans Reichenbach",
+    "nivel": 3,
+    "epoca_año": "1891 - 1953",
+    "año_nacimiento": 1891,
+    "año_fallecimiento": 1953,
+    "coordenadas": {
+      "latitud": 53.5511,
+      "longitud": 9.9937,
+      "lugar": "Hamburgo / Berlín / Estambul / UCLA, EE.UU."
+    },
+    "resumen_breve": "Líder del Círculo de Berlín y figura cumbre del empirismo lógico. Acuñó la célebre distinción epistemológica entre el 'contexto de descubrimiento' y el 'contexto de justificación' de las teorías.",
+    "biografia_completa": "Hans Reichenbach (1891 - 1953), formado en ingeniería, física y matemáticas con Planck, Sommerfeld y Einstein, fundó el Círculo de Berlín (Sociedad para la Filosofía Empírica) y coeditó con Carnap la revista 'Erkenntnis', exiliándose en Turquía y posteriormente en la Universidad de California en Los Ángeles (UCLA).\n\nEn 'Experiencia y predicción' (1938) fijó una de las distinciones metodológicas más influyentes de la filosofía de la ciencia: el 'contexto de descubrimiento' (los factores psicológicos, históricos o casuales por los que a un científico se le ocurre una hipótesis) frente al 'contexto de justificación' (la evaluación lógica, contrastación empírica y validez formal de la teoría).\n\nInvestigó con rigor las interpretaciones probabilísticas de la mecánica cuántica y la teoría filosófica de la relatividad y el tiempo en 'La filosofía del espacio y del tiempo' (1928), defendiendo una concepción inductiva probabilística frente al determinismo clásico."
+  },
+  {
+    "id": "horkheimer",
+    "nombre": "Max Horkheimer",
+    "epoca_año": "1895 - 1973",
+    "año_nacimiento": 1895,
+    "año_fallecimiento": 1973,
+    "coordenadas": {
+      "latitud": 48.831,
+      "longitud": 9.167,
+      "lugar": "Stuttgart, Alemania / Fráncfort / Núremberg"
+    },
+    "resumen_breve": "Fundador y director de la Escuela de Frankfurt. Distinguió la Teoría Crítica de la teoría tradicional y coescribió con Adorno la célebre 'Dialéctica de la Ilustración'.",
+    "biografia_completa": "Max Horkheimer (1895 - 1973) asumió en 1930 la dirección del Instituto de Investigación Social de Fráncfort, articulando un fértil proyecto interdisciplinar de filosofía, sociología, economía y psicoanálisis que tuvo que trasladar al exilio en Nueva York y California durante el nazismo.\n\nEn su manifiesto 'Teoría tradicional y teoría crítica' (1937), diferenció la teoría positivista tradicional (que describe la sociedad como un dato natural inmutable) de la 'Teoría Crítica', orientada a denunciar las contradicciones sociales y fomentar la emancipación humana frente a la dominación.\n\nEn 1944 redactó junto a Theodor W. Adorno la 'Dialéctica de la Ilustración', donde sostuvieron que el proyecto ilustrado de dominio técnico de la naturaleza sobre sí misma y el prójimo terminó invirtiéndose en una nueva mitología totalitaria y en la degradación de la razón en mera razón instrumental.",
+    "nivel": 2
+  },
+  {
+    "id": "marcuse",
+    "nombre": "Herbert Marcuse",
+    "epoca_año": "1898 - 1979",
+    "año_nacimiento": 1898,
+    "año_fallecimiento": 1979,
+    "coordenadas": {
+      "latitud": 52.52,
+      "longitud": 13.405,
+      "lugar": "Berlín, Alemania / San Diego, EE.UU."
+    },
+    "resumen_breve": "Filósofo de la Escuela de Frankfurt e inspirador intelectual del Mayo del 68. Analizó la alienación tecnológica en 'El hombre unidimensional' y concilió a Marx y Freud en 'Eros y civilización'.",
+    "biografia_completa": "Herbert Marcuse (1898 - 1979) estudió con Heidegger e ingresó en el Instituto de Investigación Social de Fráncfort en 1933, estableciéndose en Estados Unidos donde enseñó en Columbia, Harvard y la Universidad de California en San Diego.\n\nEn 'Eros y civilización' (1955) formuló una audaz reinterpretación liberadora del psicoanálisis freudiano, distinguiendo entre la represión básica imprescindible para la supervivencia y la 'plus-represión' impuesta por el principio de rendimiento capitalista, soñando con una civilización no represiva basada en la pulsión creadora de Eros.\n\nEn 'El hombre unidimensional' (1964) denunció los refinados mecanismos de control social e integración que la sociedad industrial avanzada ejerce sobre la conciencia a través del consumo masivo y la técnica, convirtiéndose en el icono filosófico de los movimientos de protesta estudiantil y la Nueva Izquierda en la década de 1960.",
+    "nivel": 3
+  },
+  {
+    "id": "gadamer",
+    "nombre": "Hans-Georg Gadamer",
+    "epoca_año": "1900 - 2002",
+    "año_nacimiento": 1900,
+    "año_fallecimiento": 2002,
+    "coordenadas": {
+      "latitud": 50.809,
+      "longitud": 8.7707,
+      "lugar": "Marburgo / Heidelberg, Alemania"
+    },
+    "resumen_breve": "Padre de la hermenéutica filosófica contemporánea. En su obra maestra 'Verdad y método' (1960) demostró que el comprender no es una técnica científica, sino el modo de ser originario del ser humano.",
+    "biografia_completa": "Hans-Georg Gadamer (1900 - 2002), discípulo de Martin Heidegger y Paul Natorp, ejerció como catedrático en Leipzig y sucedió a Karl Jaspers en la prestigiosa cátedra de Heidelberg, viviendo más de un siglo lúcido dedicado al diálogo filosófico.\n\nEn 'Verdad y método' (Wahrheit und Methode, 1960) rescató la pretensión de verdad de las ciencias humanas, el arte y la historia frente al monopolio del método positivista de las ciencias naturales. Rehabilitó el concepto de prejuicio legítimo (precomprensión) como condición ineludible de todo acto de entender, enraizado en la historia efectiva (Wirkungsgeschichte).\n\nFormuló la célebre noción de la 'fusión de horizontes' (Horizontverschmelzung) en el diálogo hermenéutico entre el intérprete y el texto del pasado, proclamando que 'el ser que puede ser comprendido es lenguaje', haciendo de la conversación la esencia misma de la razón.",
+    "nivel": 2
+  },
+  {
+    "id": "ryle",
+    "nombre": "Gilbert Ryle",
+    "nivel": 2,
+    "epoca_año": "1900 - 1976",
+    "año_nacimiento": 1900,
+    "año_fallecimiento": 1976,
+    "coordenadas": {
+      "latitud": 51.752,
+      "longitud": -1.2577,
+      "lugar": "Brighton / Oxford, Reino Unido"
+    },
+    "resumen_breve": "Líder de la filosofía del lenguaje ordinario en Oxford. En 'El concepto de lo mental' (1949) denunció el dualismo cartesiano como un error categorial, acuñando el 'mito del fantasma en la máquina'.",
+    "biografia_completa": "Gilbert Ryle (1900 - 1976), profesor Waynflete de filosofía metafísica en la Universidad de Oxford y director de la emblemática revista 'Mind' durante un cuarto de siglo, fue una de las mentes más ingeniosas y determinantes de la filosofía analítica británica de posguerra.\n\nEn su obra maestra 'El concepto de lo mental' (The Concept of Mind, 1949) emprendió un asalto demoledor contra el dualismo psicofísico cartesiano tradicional, al que calificó irónicamente como el 'dogma del fantasma en la máquina'. Demostró que concebir la mente como una sustancia inmaterial oculta dentro del cuerpo es un 'error categorial' masivo (como quien visita todas las aulas, bibliotecas y campos de Oxford y pregunta '¿pero dónde está la Universidad?').\n\nReinterpretó los conceptos psicológicos como disposiciones conductuales públicas observables y estableció la clásica distinción epistemológica entre el 'saber qué' (knowledge that, conocimiento teórico proposicional) y el 'saber cómo' (knowledge how, destreza práctica y habilidad adquirida)."
+  },
+  {
+    "id": "heisenberg",
+    "nombre": "Werner Heisenberg",
+    "epoca_año": "1901 - 1976",
+    "año_nacimiento": 1901,
+    "año_fallecimiento": 1976,
+    "coordenadas": {
+      "latitud": 49.7913,
+      "longitud": 9.9534,
+      "lugar": "Wurzburgo / Múnich, Alemania"
+    },
+    "resumen_breve": "Genio de la física teórica y la filosofía cuántica. Formuló el Principio de Incertidumbre en 1927, derribando el determinismo causal estricto de la física clásica tradicional.",
+    "biografia_completa": "Werner Heisenberg (1901 - 1976) se doctoró con Arnold Sommerfeld y colaboró estrechamente con Niels Bohr en Copenhague. En 1925 creó la mecánica cuántica matricial y en 1932 recibió el Premio Nobel de Física a los 31 años.\n\nEn 1927 enunció el trascendental 'Principio de Incertidumbre o Indeterminación', demostrando que es imposible medir simultáneamente y con precisión arbitraria ciertas magnitudes conjugadas de una partícula subatómica, como su posición y su momento lineal (Δx · Δp ≥ ℏ/2). Cuanto con mayor exactitud se fija la posición, más indeterminada queda su velocidad.\n\nEn sus reflexiones epistemológicas ('La imagen de la naturaleza en la física actual'), subrayó que en el mundo atómico el observador no puede desligarse del fenómeno observado: la ciencia ya no describe la naturaleza en sí misma, sino la naturaleza expuesta a nuestro método de interrogación humana.",
+    "nivel": 3
+  },
+  {
+    "id": "popper",
+    "nombre": "Sir Karl Popper",
+    "epoca_año": "1902 - 1994",
+    "año_nacimiento": 1902,
+    "año_fallecimiento": 1994,
+    "coordenadas": {
+      "latitud": 48.212,
+      "longitud": 16.381,
+      "lugar": "Viena, Austria / Londres, Reino Unido"
+    },
+    "resumen_breve": "Creador del racionalismo crítico y el falsacionismo metodológico. Defendió la falsabilidad como criterio de demarcación científica y combatió el totalitarismo en 'La sociedad abierta y sus enemigos'.",
+    "biografia_completa": "Karl Popper (1902 - 1994) nació en Viena y tras el auge del nazismo se exilió en Nueva Zelanda, enseñando posteriormente en la London School of Economics donde fue ordenado caballero por la reina Isabel II.\n\nEn 'La lógica de la investigación científica' (1934) resolvió el problema de la inducción planteado por Hume: ninguna cantidad de cisnes blancos observados permite afirmar con certeza que todos los cisnes son blancos, pero basta uno solo negro para refutar la hipótesis. Propuso el criterio de 'falsabilidad': una teoría solo es genuinamente científica si es susceptible de ser contrastada y potencialmente refutada por la experiencia.\n\nEn su monumental obra sociopolítica 'La sociedad abierta y sus enemigos' (1945), denunció las raíces totalitarias del historicismo profético en Platón, Hegel y Marx, defendiendo la ingeniería social gradual y las instituciones de la democracia liberal abierta al ensayo y error.",
+    "nivel": 2
+  },
+  {
+    "id": "adorno",
+    "nombre": "Theodor W. Adorno",
+    "epoca_año": "1903 - 1969",
+    "año_nacimiento": 1903,
+    "año_fallecimiento": 1969,
+    "coordenadas": {
+      "latitud": 50.1109,
+      "longitud": 8.6821,
+      "lugar": "Fráncfort del Meno, Alemania"
+    },
+    "resumen_breve": "Filósofo, sociólogo, musicólogo y figura axial de la Escuela de Frankfurt. Célebre por la 'Dialéctica negativa', su crítica feroz a la industria cultural y su dictum sobre la poesía tras Auschwitz.",
+    "biografia_completa": "Theodor Wiesengrund Adorno (1903 - 1969) aunó una sólida formación filosófica con el estudio de la composición musical vanguardista junto a Alban Berg en Viena, regresando tras su exilio americano para refundar el Instituto de Fráncfort.\n\nJunto a Horkheimer acuñó en la 'Dialéctica de la Ilustración' el concepto de 'industria cultural', desenmascarando cómo los medios de comunicación de masas y el entretenimiento mercantilizado estandarizan y adormecen la conciencia crítica de los ciudadanos en las democracias capitalistas.\n\nEn 'Dialéctica negativa' (1966) combatió la pretensión hegeliana de una síntesis totalizadora que aniquila la diferencia, defendiendo la 'no-identidad' y el sufrimiento de lo singular. Conmovido por el Holocausto, proclamó su imperativo categórico: 'Pensar y actuar de tal modo que Auschwitz no se repita, ni nada semejante ocurra'.",
+    "nivel": 1
+  },
+  {
+    "id": "church",
+    "nombre": "Alonzo Church",
+    "nivel": 3,
+    "epoca_año": "1903 - 1995",
+    "año_nacimiento": 1903,
+    "año_fallecimiento": 1995,
+    "coordenadas": {
+      "latitud": 40.344,
+      "longitud": -74.6514,
+      "lugar": "Washington D.C. / Princeton / UCLA, EE.UU."
+    },
+    "resumen_breve": "Lógico y matemático monumental en Princeton y UCLA. Creó el cálculo lambda, demostró la indecidibilidad de la lógica de predicados (Teorema de Church) y formuló la tesis de Church-Turing.",
+    "biografia_completa": "Alonzo Church (1903 - 1995) ejerció durante cuatro décadas un magisterio fundacional en la Universidad de Princeton y más tarde en UCLA, siendo el director editorial fundador del emblemático 'Journal of Symbolic Logic' y maestro de genios como Alan Turing, Stephen Kleene y Donald Davidson.\n\nEn los años treinta ideó el 'cálculo lambda' (λ-calculus), un sistema formal matemático revolucionario para la definición de funciones que se convirtió en el fundamento teórico supremo de la ciencia de la computación y de los lenguajes de programación funcionales modernos (como Lisp y Haskell).\n\nEn 1936 demostró el célebre 'Teorema de Church' (indecidibilidad del Entscheidungsproblem de Hilbert): no existe ningún algoritmo general que pueda decidir si una sentencia arbitraria de la lógica de predicados de primer orden es verdadera o falsa, formulando junto a Turing la 'Tesis de Church-Turing', principio ontológico que define qué es computable en el universo físico."
+  },
+  {
+    "id": "sartre",
+    "nombre": "Jean-Paul Sartre",
+    "nivel": 1,
+    "epoca_año": "1905 - 1980",
+    "año_nacimiento": 1905,
+    "año_fallecimiento": 1980,
+    "coordenadas": {
+      "latitud": 48.8566,
+      "longitud": 2.3522,
+      "lugar": "París, Francia"
+    },
+    "resumen_breve": "Máxima figura del existencialismo ateo mundial y el intelectual comprometido. En 'El ser y la nada' proclamó que 'la existencia precede a la esencia' y que 'el ser humano está condenado a ser libre'.",
+    "biografia_completa": "Jean-Paul Sartre (1905 - 1980), formado en la École Normale Supérieure de París, descubrió la fenomenología de Husserl y Heidegger en Berlín en los años treinta y compartió una legendaria vida intelectual y afectiva junto a Simone de Beauvoir, rechazando el Premio Nobel de Literatura en 1964.\n\nEn su tratado ontológico 'El ser y la nada' (1943) dividió la realidad entre el 'Ser-en-sí' (la materia maciza, opaca y contingente) y el 'Ser-para-sí' (la conciencia humana, que es libertad pura, negatividad y proyecto). Al no existir un Dios creador que determine una esencia humana previa, 'la existencia precede a la esencia': el hombre empieza por existir, surge en el mundo y solo después se define a sí mismo mediante sus actos libres.\n\nDe ahí nace la angustia ineludible y la responsabilidad absoluta: no hay excusas ni determinismos biológicos o divinos; quien se escuda en ellos incurre en 'mala fe'. En 'El existencialismo es un humanismo' y la 'Crítica de la razón dialéctica' integró su defensa radical de la libertad en el compromiso sociopolítico de la emancipación colectiva."
+  },
+  {
+    "id": "levinas",
+    "nombre": "Emmanuel Levinas",
+    "nivel": 2,
+    "epoca_año": "1906 - 1995",
+    "año_nacimiento": 1906,
+    "año_fallecimiento": 1995,
+    "coordenadas": {
+      "latitud": 54.8985,
+      "longitud": 23.9036,
+      "lugar": "Kaunas (Lituania) / Estrasburgo / París"
+    },
+    "resumen_breve": "Filósofo de la alteridad radical y la ética como filosofía primera. En 'Totalidad e infinito' situó el punto de partida del pensamiento en la interpelación originaria e incondicionada del 'Rostro del Otro'.",
+    "biografia_completa": "Emmanuel Levinas (1906 - 1995) nació en el seno de una familia judía en Lituania, estudió en Estrasburgo y asistió en Friburgo a las lecciones de Husserl y Heidegger, perdiendo a casi toda su familia en el Holocausto nazi.\n\nEn su obra cumbre, 'Totalidad e infinito' (1961), asestó una enmienda a la totalidad de la tradición ontológica occidental desde Parménides hasta Heidegger, acusándola de haber sido una 'filosofía del Mismo' que neutraliza, asimila y domina violentamente la diferencia del Otro.\n\nProclamó que la Ética, y no la Ontología, es la filosofía primera: el encuentro cara a cara con el 'Rostro' (Visage) desnudo y vulnerable del prójimo es una epifanía infinita que no puede ser apresada como concepto y que impone el mandamiento ético fundamental: 'No matarás', fundando una responsabilidad infinita previa a cualquier libertad subjetiva."
+  },
+  {
+    "id": "goodman",
+    "nombre": "Nelson Goodman",
+    "nivel": 3,
+    "epoca_año": "1906 - 1998",
+    "año_nacimiento": 1906,
+    "año_fallecimiento": 1998,
+    "coordenadas": {
+      "latitud": 42.3736,
+      "longitud": -71.1097,
+      "lugar": "Somerville (Massachusetts) / Harvard, EE.UU."
+    },
+    "resumen_breve": "Filósofo y epistemólogo analítico en Harvard. Formuló el 'nuevo enigma de la inducción' con la paradoja del predicado verazul (grue) y defendió el pluralismo relativista en 'Maneras de hacer mundos'.",
+    "biografia_completa": "Nelson Goodman (1906 - 1998) compaginó su labor como marchante de arte con una carrera académica estelar en la Universidad de Pensilvania y la Universidad de Harvard, destacando como una de las voces analíticas más sutiles y originales del siglo XX.\n\nEn 'Hecho, ficción y pronóstico' (1954) formuló el 'nuevo enigma de la inducción', demostrando mediante el ingenioso predicado 'verazul' (grue: un objeto que es verde antes del tiempo t y azul después) que las reglas de la inducción no pueden basarse únicamente en la forma lógica sintáctica, sino en qué predicados están arraigados (entrenched) en el uso lingüístico de una comunidad.\n\nEn 'Los lenguajes del arte' (1968) y 'Maneras de hacer mundos' (1978) desarrolló una epistemología constructivista y relativista radical: no existe un único 'mundo real' en sí mismo independiente, sino múltiples 'versiones de mundos' fabricadas a través de diferentes sistemas simbólicos, científicos y artísticos válidos."
+  },
+  {
+    "id": "quine",
+    "nombre": "Willard Van Orman Quine",
+    "epoca_año": "1908 - 2000",
+    "año_nacimiento": 1908,
+    "año_fallecimiento": 2000,
+    "coordenadas": {
+      "latitud": 41.0814,
+      "longitud": -81.519,
+      "lugar": "Akron (Ohio) / Harvard, EE.UU."
+    },
+    "resumen_breve": "Gigante de la filosofía analítica contemporánea y la lógica matemática en Harvard. Célebre por demoler los 'Dos dogmas del empirismo', el holismo confirmacional y la tesis de la indeterminación de la traducción.",
+    "biografia_completa": "W. V. O. Quine (1908 - 2000) ejerció una cátedra legendaria durante décadas en la Universidad de Harvard, influyendo en varias generaciones de filósofos analíticos mundiales.\n\nEn su celebérrimo artículo 'Dos dogmas del empirismo' (1951), sacudió las bases del positivismo lógico al refutar la distinción infranqueable entre verdades analíticas (necesarias por puro significado) y sintéticas (contingentes de hecho), así como el reduccionismo radical de que cada enunciado científico aislado puede verificarse por sí solo.\n\nPropuso un 'holismo epistemológico': nuestras creencias sobre el mundo no se contrastan sentencia por sentencia, sino en conjunto como una red interconectada ante el tribunal de la experiencia. Formuló la 'epistemología naturalizada' como un capítulo continuo de la psicología empírica y defendió el principio ontológico: 'Ser es ser el valor de una variable ligada'.",
+    "nivel": 3
+  },
+  {
+    "id": "merleau-ponty",
+    "nombre": "Maurice Merleau-Ponty",
+    "nivel": 2,
+    "epoca_año": "1908 - 1961",
+    "año_nacimiento": 1908,
+    "año_fallecimiento": 1961,
+    "coordenadas": {
+      "latitud": 45.9431,
+      "longitud": -0.9631,
+      "lugar": "Rochefort / París, Francia"
+    },
+    "resumen_breve": "Fenomenólogo fundamental de la corporalidad y la percepción. En su 'Fenomenología de la percepción' (1945) demostró que el sujeto es ante todo un 'cuerpo propio' encarnado e inserto en el mundo.",
+    "biografia_completa": "Maurice Merleau-Ponty (1908 - 1961) fue cofundador junto a Sartre de la influyente revista 'Les Temps Modernes' y titular de la prestigiosa cátedra de filosofía en el Collège de France.\n\nSuperó el clásico dualismo cartesiano de mente y cuerpo mediante su concepto central del 'cuerpo propio' (corps propre) o cuerpo vivido: el cuerpo no es un objeto exterior ni un mecanismo biológico que el alma pilota, sino el anclaje existencial originario a través del cual existimos y percibimos el mundo ('yo no tengo un cuerpo, yo soy mi cuerpo').\n\nEn su obra inacabada 'Lo visible y lo invisible' (1964) formuló la ontología de la 'carne' (chair) del mundo, donde el vidente y lo visible, el tocante y lo tocado, se entrelazan en un quiasmo reversible, influyendo hondamente en la psicología de la Gestalt, el psicoanálisis y la neurociencia cognitiva moderna."
+  },
+  {
+    "id": "ayer",
+    "nombre": "Alfred Jules Ayer",
+    "nivel": 2,
+    "epoca_año": "1910 - 1989",
+    "año_nacimiento": 1910,
+    "año_fallecimiento": 1989,
+    "coordenadas": {
+      "latitud": 51.5074,
+      "longitud": -0.1278,
+      "lugar": "Londres / Oxford, Reino Unido"
+    },
+    "resumen_breve": "Filósofo analítico británico que introdujo el positivismo lógico en el mundo anglosajón con su manifiesto juvenil 'Lenguaje, verdad y lógica' (1936), formulando la teoría emotivista de la ética.",
+    "biografia_completa": "Sir A. J. Ayer (1910 - 1989), tras formarse en Eton y Oxford, viajó a Viena a los 22 años para asistir a los debates del Círculo de Viena apadrinado por Moritz Schlick, siendo posteriormente catedrático en el University College London y Wykeham Professor de lógica en Oxford.\n\nEn 1936, con tan solo 26 años, publicó el fulgurante manifiesto 'Lenguaje, verdad y lógica', que popularizó el positivismo lógico en Gran Bretaña y Norteamérica: dividió los enunciados con sentido entre analíticos a priori (tautologías lógicas) y sintéticos a posteriori verificables empíricamente, arrojando la metafísica y la teología a la categoría de sinsentidos lingüísticos literales.\n\nFormuló la 'teoría emotivista' de la ética: los juicios de valor morales y estéticos ('matar es malo' o 'este cuadro es bello') no son proposiciones empíricas que informen sobre hechos del mundo, sino meras exclamaciones que expresan y suscitan sentimientos emocionales de aprobación o rechazo (teoría del 'hurra / bu')."
+  },
+  {
+    "id": "austin",
+    "nombre": "John Langshaw Austin",
+    "nivel": 2,
+    "epoca_año": "1911 - 1960",
+    "año_nacimiento": 1911,
+    "año_fallecimiento": 1960,
+    "coordenadas": {
+      "latitud": 51.752,
+      "longitud": -1.2577,
+      "lugar": "Lancaster / Oxford, Reino Unido"
+    },
+    "resumen_breve": "Padre de la pragmática lingüística moderna en Oxford. En 'Cómo hacer cosas con palabras' (1962) demostró que el lenguaje no solo describe el mundo, sino que realiza acciones mediante actos de habla.",
+    "biografia_completa": "J. L. Austin (1911 - 1960), catedrático de filosofía moral en la Universidad de Oxford y oficial de inteligencia en el desembarco de Normandía durante la guerra, lideró las célebres tertulias del 'lenguaje ordinario' de los sábados por la mañana en Oxford.\n\nDemolió la 'ilusión descriptiva' que sostenía que el único propósito del lenguaje es declarar si los enunciados son verdaderos o falsos. Descubrió que existen expresiones 'realizativas' o 'performativas' (como decir 'Sí, quiero' en una boda, 'Bautizo este barco' o 'Te prometo que iré') en las que decir algo equivale a ejecutar una acción en el mundo real.\n\nEn sus históricas lecciones William James publicadas póstumamente como 'Cómo hacer cosas con palabras' (1962), sistematizó la teoría de los 'actos de habla', dividiendo cada emisión lingüística en tres dimensiones simultáneas: acto locutivo (el significado de lo que se dice), acto ilocutivo (la fuerza o intención: ordenar, prometer, jurar) y acto perlocutivo (el efecto que se produce en el oyente), revolucionando la lingüística y la filosofía del lenguaje."
+  },
+  {
+    "id": "ricoeur",
+    "nombre": "Paul Ricoeur",
+    "nivel": 2,
+    "epoca_año": "1913 - 2005",
+    "año_nacimiento": 1913,
+    "año_fallecimiento": 2005,
+    "coordenadas": {
+      "latitud": 44.9333,
+      "longitud": 4.8917,
+      "lugar": "Valence / París / Estrasburgo / Chicago"
+    },
+    "resumen_breve": "Gran maestro de la hermenéutica filosófica y la teoría de la narración. En 'Tiempo y narración' y 'Sí mismo como otro' exploró la identidad narrativa, la memoria histórica y la ética del perdón.",
+    "biografia_completa": "Paul Ricoeur (1913 - 2005), prisionero de guerra durante la Segunda Guerra Mundial donde tradujo a Husserl en su cautiverio, enseñó en Estrasburgo, la Sorbona, París-Nanterre y en la Universidad de Chicago, erigiéndose en un puente fecundo entre la filosofía continental y la tradición analítica anglosajona.\n\nEn 'El conflicto de las interpretaciones' (1969) articuló la crítica a los 'maestros de la sospecha' (Marx, Nietzsche y Freud), proponiendo que la comprensión de uno mismo solo puede alcanzarse por la 'vía larga' de los signos, símbolos y textos culturales que la humanidad ha producido.\n\nEn su trilogía monumental 'Tiempo y narración' (1983-1985) demostró que el tiempo humano se vuelve inteligible solo cuando se estructura a través de un relato narrativo, mientras que en 'Sí mismo como otro' (1990) formuló la 'identidad narrativa' (la identidad como promesa y responsabilidad ante los demás), culminando con sus decisivas meditaciones éticas sobre 'La memoria, la historia, el olvido'."
+  },
+  {
+    "id": "strawson",
+    "nombre": "P. F. Strawson",
+    "nivel": 2,
+    "epoca_año": "1919 - 2006",
+    "año_nacimiento": 1919,
+    "año_fallecimiento": 2006,
+    "coordenadas": {
+      "latitud": 51.752,
+      "longitud": -1.2577,
+      "lugar": "Londres / Oxford, Reino Unido"
+    },
+    "resumen_breve": "Filósofo analítico de Oxford. Célebre por refutar la teoría de las descripciones de Russell en 'Sobre el referir' y por formular en 'Individuos' el programa de la 'metafísica descriptiva'.",
+    "biografia_completa": "Sir Peter Frederick Strawson (1919 - 2006), sucesor de Gilbert Ryle en la cátedra de Oxford, combinó el análisis del lenguaje ordinario con una asombrosa agudeza para rehabilitar la legitimidad de las grandes cuestiones metafísicas en el seno de la filosofía analítica.\n\nEn su histórico artículo 'Sobre el referir' (On Referring, 1950) debatió contra Bertrand Russell, demostrando que expresiones como 'el actual rey de Francia es sabio' no son proposiciones lógicas falsas, sino usos fallidos del lenguaje en los que la presuposición de existencia no se cumple, diferenciando claramente el significado abstracto de una oración y su uso referencial en un contexto real.\n\nEn 'Individuos' (1959) inauguró la 'metafísica descriptiva', dedicada a describir la estructura conceptual real e inmutable con la que pensamos el mundo frente a la metafísica revisionista tradicional, identificando a los cuerpos materiales y a las personas humanas como los 'particulares básicos' ontológicos irreductibles de nuestro esquema conceptual."
+  },
+  {
+    "id": "hans-albert",
+    "nombre": "Hans Albert",
+    "epoca_año": "1921 - 2023",
+    "año_nacimiento": 1921,
+    "año_fallecimiento": 2023,
+    "coordenadas": {
+      "latitud": 50.9375,
+      "longitud": 6.9603,
+      "lugar": "Colonia / Heidelberg, Alemania"
+    },
+    "resumen_breve": "Principal representante del racionalismo crítico popperiano en Alemania. Famoso por formular el 'Trilema de Münchhausen' contra las pretensiones de fundamentación última en epistemología y ética.",
+    "biografia_completa": "Hans Albert (1921 - 2023) fue profesor en la Universidad de Mannheim y el abanderado más lúcido de las tesis de Karl Popper en el ámbito germánico, protagonizando en los años sesenta la célebre 'disputa del positivismo en la sociología alemana' frente a Habermas y Adorno.\n\nEn su obra cumbre, el 'Tratado sobre la razón crítica' (Traktat über kritische Vernunft, 1968), enunció el célebre 'Trilema de Münchhausen', según el cual todo intento de hallar una fundamentación última e infalible para el conocimiento está condenado a encallar en una de tres salidas inadmisibles: una regresión infinita en la cadena de razones, un círculo vicioso lógico o la interrupción arbitraria del procedimiento en un dogma indiscutible.\n\nFrente al dogmatismo teológico y filosófico, defendió el principio del falibilismo universal: todo enunciado humano es provisional y debe permanecer siempre abierto a la crítica racional permanente.",
+    "nivel": 3
+  },
+  {
+    "id": "lakatos",
+    "nombre": "Imre Lakatos",
+    "nivel": 2,
+    "epoca_año": "1922 - 1974",
+    "año_nacimiento": 1922,
+    "año_fallecimiento": 1974,
+    "coordenadas": {
+      "latitud": 47.5316,
+      "longitud": 21.6273,
+      "lugar": "Debrecen (Hungría) / LSE (Londres)"
+    },
+    "resumen_breve": "Gran filósofo de la ciencia y la matemática. Concilió el falsacionismo de Popper con los paradigmas históricos de Kuhn mediante su 'Metodología de los Programas de Investigación Científica'.",
+    "biografia_completa": "Imre Lakatos (1922 - 1974), nacido en Hungría como Imre Lipschitz, sobrevivió a la persecución nazi cambiando de identidad y combatió en la resistencia clandestina comunista, huyendo tras la revolución húngara de 1956 hacia Gran Bretaña, donde sucedió a Karl Popper en la cátedra de la London School of Economics.\n\nEn su clásica obra 'Pruebas y refutaciones' (1976) analizó la heurística matemática informal, demostrando cómo los teoremas evolucionan a través de conjeturas, refutaciones y excepciones.\n\nEn epistemología formuló la 'Metodología de los Programas de Investigación Científica' (PIC) para superar las insuficiencias del falsacionismo ingenuo: las teorías científicas no se abandonan ante una anomalía aislada, sino que están estructuradas por un 'núcleo duro' (hard core) innegociable protegido por un 'cinturón protector' de hipótesis auxiliares, siendo evaluados como 'progresivos' (si predicen con éxito hechos nuevos) o 'degenerativos'."
+  },
+  {
+    "id": "deleuze",
+    "nombre": "Gilles Deleuze",
+    "nivel": 2,
+    "epoca_año": "1925 - 1995",
+    "año_nacimiento": 1925,
+    "año_fallecimiento": 1995,
+    "coordenadas": {
+      "latitud": 48.8566,
+      "longitud": 2.3522,
+      "lugar": "París, Francia"
+    },
+    "resumen_breve": "Filósofo de la inmanencia, la diferencia y el rizoma. En 'Diferencia y repetición' y 'El Antiedipo' (junto a Guattari) concibió el filosofar como la invención creadora de conceptos no jerárquicos.",
+    "biografia_completa": "Gilles Deleuze (1925 - 1995), profesor en la emblemática Universidad de París VIII (Vincennes), fue uno de los pensadores más deslumbrantes y radicales del posestructuralismo francés, fascinado por autores heterodoxos de la inmanencia como Spinoza, Nietzsche y Bergson.\n\nEn su tesis 'Diferencia y repetición' (1968) acometió una refundación ontológica liberando la Diferencia del yugo tradicional de la representación, la identidad y la dialéctica hegeliana, concibiendo el Ser como pura multiplicidad unívoca en continuo devenir.\n\nEn colaboración con el psicoanalista Félix Guattari redactó las incendiarias obras de 'Capitalismo y esquizofrenia' ('El Antiedipo', 1972, y 'Mil Mesetas', 1980), donde propusieron el modelo del 'rizoma' (red horizontal abierta sin tronco ni raíces jerárquicas centrales) frente al pensamiento arbóreo autoritario, definiendo a la filosofía en '¿Qué es la filosofía?' (1991) no como contemplación pasiva de la verdad, sino como el arte supremo de crear conceptos nuevos."
+  },
+  {
+    "id": "chomsky",
+    "nombre": "Noam Chomsky",
+    "nivel": 1,
+    "epoca_año": "1928 - presente",
+    "año_nacimiento": 1928,
+    "año_fallecimiento": "presente",
+    "coordenadas": {
+      "latitud": 42.3601,
+      "longitud": -71.0942,
+      "lugar": "Filadelfia / MIT (Boston) / Tucson, EE.UU."
+    },
+    "resumen_breve": "Padre de la lingüística moderna y científico cognitivo en el MIT. Formuló la Gramática Generativa y Universal, reivindicando un racionalismo innatista de la mente frente al conductismo empírico.",
+    "biografia_completa": "Noam Chomsky (1928 - presente) revolucionó las ciencias humanas en 1957 con la publicación de 'Estructuras sintácticas', demoliendo las teorías conductistas imperantes de B. F. Skinner y fundando la lingüística generativa moderna en el Instituto Tecnológico de Massachusetts (MIT).\n\nFormuló el argumento de la 'pobreza del estímulo': los niños aprenden a hablar su lengua materna con una velocidad y perfección asombrosa a partir de un input auditivo fragmentario e imperfecto, lo que demuestra que la mente humana no es una tábula rasa, sino que cuenta con una facultad innata biológicamente determinada: la 'Gramática Universal'.\n\nEn 'Lingüística cartesiana' (1966) conectó su teoría con el racionalismo de Descartes y los ilustrados del siglo XVII, defendiendo la creatividad ilimitada del lenguaje como rasgo único de la naturaleza humana, combinando su titánica labor científica con un compromiso implacable de crítica geopolítica a los poderes hegemónicos y a la manufactura del consentimiento en los medios."
+  },
+  {
+    "id": "habermas",
+    "nombre": "Jürgen Habermas",
+    "epoca_año": "1929 - presente",
+    "año_nacimiento": 1929,
+    "año_fallecimiento": "presente",
+    "coordenadas": {
+      "latitud": 51.2277,
+      "longitud": 6.7735,
+      "lugar": "Düsseldorf / Fráncfort / Starnberg, Alemania"
+    },
+    "resumen_breve": "Máximo exponente de la segunda generación de la Escuela de Frankfurt. Creador de la 'Teoría de la acción comunicativa', la ética del discurso y la defensa de la democracia deliberativa.",
+    "biografia_completa": "Jürgen Habermas (1929 - presente), asistente de Adorno en Fráncfort y posterior catedrático, es el pensador vivo más respetado de la filosofía y teoría social europea.\n\nEn su obra fundamental, la 'Teoría de la acción comunicativa' (1981), superó el pesimismo de la primera generación frankfurtiana rescatando la racionalidad no instrumental: la razón comunicativa orientada al entendimiento mutuo libre de coacciones. Distinguió entre el 'Mundo de la vida' (el espacio intersubjetivo del lenguaje y la cultura) y los 'Sistemas' (la economía y el poder burocrático), alertando contra la colonización del primero por parte de los segundos.\n\nDesarrolló junto a Karl-Otto Apel la 'ética del discurso' basada en las pretensiones universales de validez (verdad, rectitud normativa y veracidad) y ha sido un defensor incansable del patriotismo constitucional, el proyecto inacabado de la Ilustración y la esfera pública democrática.",
+    "nivel": 1
+  },
+  {
+    "id": "derrida",
+    "nombre": "Jacques Derrida",
+    "epoca_año": "1930 - 2004",
+    "año_nacimiento": 1930,
+    "año_fallecimiento": 2004,
+    "coordenadas": {
+      "latitud": 36.7698,
+      "longitud": 3.0319,
+      "lugar": "El Biar (Argelia) / París, Francia"
+    },
+    "resumen_breve": "Filósofo francés de origen argelino y padre de la Deconstrucción. Cuestionó el 'logocentrismo' y la 'metafísica de la presencia' que han dominado el pensamiento occidental.",
+    "biografia_completa": "Jacques Derrida (1930 - 2004) enseñó en la École Normale Supérieure de París y en prestigiosas universidades norteamericanas como Yale y UC Irvine, erigiéndose en la figura estelar del posestructuralismo mundial.\n\nEn su deslumbrante tríada de 1967 ('De la gramatología', 'La escritura y la diferencia' y 'La voz y el fenómeno') introdujo la estrategia de la 'Deconstrucción', consistente en desarticular los binarismos jerárquicos tradicionales de la filosofía occidental (habla/escritura, presencia/ausencia, inteligible/sensible).\n\nAcuñó el concepto de la 'différance' (diferencia y diferimiento simultáneos) para expresar que el significado en el lenguaje nunca es pleno ni estático, sino que se desplaza y reenvía perpetuamente en la cadena de significantes ('No hay un fuera-del-texto'), ejerciendo una colosal influencia en la teoría literaria, el derecho y los estudios culturales.",
+    "nivel": 2
+  },
+  {
+    "id": "vattimo",
+    "nombre": "Gianni Vattimo",
+    "nivel": 2,
+    "epoca_año": "1936 - 2023",
+    "año_nacimiento": 1936,
+    "año_fallecimiento": 2023,
+    "coordenadas": {
+      "latitud": 45.0703,
+      "longitud": 7.6869,
+      "lugar": "Turín, Italia"
+    },
+    "resumen_breve": "Filósofo hermenéutico italiano y teórico de la posmodernidad. Formuló el 'pensamiento débil' (pensiero debole) como respuesta no dogmática, pluralista y tolerante ante el declive de la metafísica occidental.",
+    "biografia_completa": "Gianni Vattimo (1936 - 2023), discípulo predilecto de Luigi Pareyson en Turín y de Hans-Georg Gadamer en Heidelberg, fue catedrático de estética en la Universidad de Turín y parlamentario europeo activamente comprometido con los derechos civiles y la diversidad.\n\nEn 'El fin de la modernidad' (1985) y 'El pensamiento débil' (1983) combinó la hermenéutica de Heidegger y el nihilismo consumado de Nietzsche para diagnosticar la era posmoderna: la metafísica de los fundamentos absolutos, las verdades eternas y las certezas totalitarias ha entrado en un irreversible proceso de desintegración y debilitamiento ontológico.\n\nLejos de lamentar este fin, celebró el 'pensamiento débil' como una conquista emancipadora de la libertad humana y la caridad: la secularización y la renuncia a la verdad absoluta abren el paso a una sociedad de la interpretación pluralista, tolerante y compasiva donde ningún dogma puede imponerse por la violencia."
+  },
+  {
+    "id": "kripke",
+    "nombre": "Saul Kripke",
+    "epoca_año": "1940 - 2022",
+    "año_nacimiento": 1940,
+    "año_fallecimiento": 2022,
+    "coordenadas": {
+      "latitud": 40.7251,
+      "longitud": -73.2454,
+      "lugar": "Bay Shore (Nueva York) / Princeton, EE.UU."
+    },
+    "resumen_breve": "Pionero indiscutible de la lógica modal y la filosofía del lenguaje contemporánea. Autor de 'El nombrar y la necesidad', formuló los designadores rígidos y las verdades necesarias a posteriori.",
+    "biografia_completa": "Saul Kripke (1940 - 2022) fue un niño prodigio de la lógica matemática en Omaha que ideó con apenas 18 años la célebre semántica relacional de 'mundos posibles' (semántica de Kripke) para la lógica modal.\n\nEn sus históricas conferencias de Princeton publicadas como 'El nombrar y la necesidad' (Naming and Necessity, 1972), demolió la teoría descriptivista del significado de Frege y Russell, introduciendo la noción de 'designador rígido': un nombre propio o término de género natural (como 'agua' o 'oro') designa el mismo objeto en todos los mundos posibles donde existe.\n\nRevolucionó la metafísica al desvincular radicalmente lo a priori (noción epistemológica) de lo necesario (noción ontológica), probando la existencia de verdades necesarias a posteriori (como 'El agua es H₂O'). Más tarde publicó un seminal estudio sobre el argumento escéptico de las reglas en Wittgenstein ('Kripkenstein'), marcando a fuego la filosofía analítica actual.",
+    "nivel": 3
+  }
+]
