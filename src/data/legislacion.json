@@ -1,0 +1,294 @@
+{
+  "nacional": [
+    {
+      "id": "lomloe",
+      "siglas": "LOMLOE",
+      "nombre": "Ley Orgánica 3/2020, de 29 de diciembre",
+      "subtitulo": "Por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación (LOE)",
+      "boletin": "BOE nº 340, de 30 de diciembre de 2020",
+      "boeUrl": "https://www.boe.es/eli/es/lo/2020/12/29/3",
+      "descripcion": "Establece los principios rectores del sistema educativo, los fines de la educación, el perfil competencial de salida y el régimen de competencias clave.",
+      "relevanciaFilosofia": "Garantiza la materia de Filosofía en 1º de Bachillerato y de Historia de la Filosofía en 2º de Bachillerato para todas las modalidades, así como la Educación en Valores Cívicos y Éticos en la ESO."
+    },
+    {
+      "id": "rd-eso",
+      "siglas": "RD ESO",
+      "nombre": "Real Decreto 217/2022, de 29 de marzo",
+      "subtitulo": "Por el que se establece la ordenación y las enseñanzas mínimas de la Educación Secundaria Obligatoria",
+      "boletin": "BOE nº 76, de 30 de marzo de 2022",
+      "boeUrl": "https://www.boe.es/eli/es/rd/2022/03/29/217",
+      "descripcion": "Define los objetivos, competencias clave, competencias específicas, criterios de evaluación y saberes básicos de la Educación Secundaria Obligatoria a nivel estatal.",
+      "relevanciaFilosofia": "Establece el currículo básico estatal de la materia 'Educación en Valores Cívicos y Éticos' (obligatoria en uno de los cursos de la etapa)."
+    },
+    {
+      "id": "rd-bachillerato",
+      "siglas": "RD Bachillerato",
+      "nombre": "Real Decreto 243/2022, de 5 de abril",
+      "subtitulo": "Por el que se establecen la ordenación y las enseñanzas mínimas del Bachillerato",
+      "boletin": "BOE nº 82, de 6 de abril de 2022",
+      "boeUrl": "https://www.boe.es/eli/es/rd/2022/04/06/243",
+      "descripcion": "Determina las competencias específicas, saberes básicos y criterios de evaluación de todas las materias comunes y de modalidad de Bachillerato.",
+      "relevanciaFilosofia": "Fija los saberes mínimos de 'Filosofía' (materia común de 1º de Bachillerato) y de 'Historia de la Filosofía' (materia común obligatoria para todas las modalidades en 2º de Bachillerato)."
+    }
+  ],
+  "ccaa": [
+    {
+      "id": "andalucia",
+      "nombre": "Andalucía",
+      "bocm_diario": "BOJA",
+      "eso": {
+        "norma": "Decreto 102/2023, de 9 de mayo",
+        "descripcion": "Ordenación y currículo de la Educación Secundaria Obligatoria en Andalucía.",
+        "url": "https://www.juntadeandalucia.es/boja"
+      },
+      "bachillerato": {
+        "norma": "Decreto 103/2023, de 9 de mayo",
+        "descripcion": "Ordenación y currículo del Bachillerato en Andalucía.",
+        "url": "https://www.juntadeandalucia.es/boja"
+      }
+    },
+    {
+      "id": "aragon",
+      "nombre": "Aragón",
+      "bocm_diario": "BOA",
+      "eso": {
+        "norma": "Orden ECD/1172/2022 / Decreto 73/2022",
+        "descripcion": "Currículo y ordenación de la ESO en Aragón.",
+        "url": "http://www.boa.aragon.es"
+      },
+      "bachillerato": {
+        "norma": "Orden ECD/1173/2022 / Decreto 74/2022",
+        "descripcion": "Currículo y ordenación del Bachillerato en Aragón.",
+        "url": "http://www.boa.aragon.es"
+      }
+    },
+    {
+      "id": "asturias",
+      "nombre": "Asturias (Principado de)",
+      "bocm_diario": "BOPA",
+      "eso": {
+        "norma": "Decreto 59/2022, de 30 de agosto",
+        "descripcion": "Ordenación y currículo de la ESO en el Principado de Asturias.",
+        "url": "https://sede.asturias.es/bopa"
+      },
+      "bachillerato": {
+        "norma": "Decreto 60/2022, de 30 de agosto",
+        "descripcion": "Ordenación y currículo del Bachillerato en el Principado de Asturias.",
+        "url": "https://sede.asturias.es/bopa"
+      }
+    },
+    {
+      "id": "baleares",
+      "nombre": "Balears (Illes)",
+      "bocm_diario": "BOIB",
+      "eso": {
+        "norma": "Decret 32/2022, de 1 d'agost",
+        "descripcion": "Estableix l'ordenació i el currículum de l'ESO a les Illes Balears.",
+        "url": "https://www.caib.es/eboibfront"
+      },
+      "bachillerato": {
+        "norma": "Decret 33/2022, de 1 d'agost",
+        "descripcion": "Estableix l'ordenació i el currículum del Batxillerat a les Illes Balears.",
+        "url": "https://www.caib.es/eboibfront"
+      }
+    },
+    {
+      "id": "canarias",
+      "nombre": "Canarias",
+      "bocm_diario": "BOC",
+      "eso": {
+        "norma": "Decreto 30/2023, de 16 de marzo",
+        "descripcion": "Currículo de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Canarias.",
+        "url": "http://www.gobiernodecanarias.org/boc"
+      },
+      "bachillerato": {
+        "norma": "Decreto 31/2023, de 16 de marzo",
+        "descripcion": "Currículo del Bachillerato en la Comunidad Autónoma de Canarias.",
+        "url": "http://www.gobiernodecanarias.org/boc"
+      }
+    },
+    {
+      "id": "cantabria",
+      "nombre": "Cantabria",
+      "bocm_diario": "BOC",
+      "eso": {
+        "norma": "Decreto 75/2022, de 7 de julio",
+        "descripcion": "Currículo de la Educación Secundaria Obligatoria en Cantabria.",
+        "url": "https://boc.cantabria.es"
+      },
+      "bachillerato": {
+        "norma": "Decreto 76/2022, de 7 de julio",
+        "descripcion": "Currículo del Bachillerato en Cantabria.",
+        "url": "https://boc.cantabria.es"
+      }
+    },
+    {
+      "id": "castilla-la-mancha",
+      "nombre": "Castilla-La Mancha",
+      "bocm_diario": "DOCM",
+      "eso": {
+        "norma": "Decreto 82/2022, de 12 de julio",
+        "descripcion": "Currículo de la Educación Secundaria Obligatoria en Castilla-La Mancha.",
+        "url": "https://docm.castillalamancha.es"
+      },
+      "bachillerato": {
+        "norma": "Decreto 83/2022, de 12 de julio",
+        "descripcion": "Currículo del Bachillerato en Castilla-La Mancha.",
+        "url": "https://docm.castillalamancha.es"
+      }
+    },
+    {
+      "id": "castilla-y-leon",
+      "nombre": "Castilla y León",
+      "bocm_diario": "BOCYL",
+      "eso": {
+        "norma": "Decreto 39/2022, de 29 de septiembre",
+        "descripcion": "Currículo de la Educación Secundaria Obligatoria en Castilla y León.",
+        "url": "https://bocyl.jcyl.es"
+      },
+      "bachillerato": {
+        "norma": "Decreto 40/2022, de 29 de septiembre",
+        "descripcion": "Currículo del Bachillerato en Castilla y León.",
+        "url": "https://bocyl.jcyl.es"
+      }
+    },
+    {
+      "id": "cataluna",
+      "nombre": "Cataluña",
+      "bocm_diario": "DOGC",
+      "eso": {
+        "norma": "Decret 175/2022, de 27 de setembre",
+        "descripcion": "Ordenació dels ensenyaments de l'educació secundària obligatòria a Catalunya.",
+        "url": "https://dogc.gencat.cat"
+      },
+      "bachillerato": {
+        "norma": "Decret 171/2022, de 20 de setembre",
+        "descripcion": "Ordenació dels ensenyaments del batxillerat a Catalunya.",
+        "url": "https://dogc.gencat.cat"
+      }
+    },
+    {
+      "id": "comunidad-de-madrid",
+      "nombre": "Comunidad de Madrid",
+      "bocm_diario": "BOCM",
+      "destacado": true,
+      "eso": {
+        "norma": "Decreto 65/2022, de 20 de julio",
+        "descripcion": "Del Consejo de Gobierno, por el que se establecen para la Comunidad de Madrid la ordenación y el currículo de la Educación Secundaria Obligatoria.",
+        "boletinDetalle": "BOCM nº 176, de 26 de julio de 2022",
+        "url": "https://www.bocm.es/bocm-20220726-1"
+      },
+      "bachillerato": {
+        "norma": "Decreto 64/2022, de 20 de julio",
+        "descripcion": "Del Consejo de Gobierno, por el que se establecen para la Comunidad de Madrid la ordenación y el currículo del Bachillerato.",
+        "boletinDetalle": "BOCM nº 176, de 26 de julio de 2022",
+        "url": "https://www.bocm.es/bocm-20220726-2"
+      }
+    },
+    {
+      "id": "comunitat-valenciana",
+      "nombre": "Comunitat Valenciana",
+      "bocm_diario": "DOGV",
+      "eso": {
+        "norma": "Decret 107/2022, de 5 d'agost",
+        "descripcion": "Ordenació i currículum de l'Educació Secundària Obligatòria a la Comunitat Valenciana.",
+        "url": "https://dogv.gva.es"
+      },
+      "bachillerato": {
+        "norma": "Decret 108/2022, de 5 d'agost",
+        "descripcion": "Ordenació i currículum del Batxillerat a la Comunitat Valenciana.",
+        "url": "https://dogv.gva.es"
+      }
+    },
+    {
+      "id": "extremadura",
+      "nombre": "Extremadura",
+      "bocm_diario": "DOE",
+      "eso": {
+        "norma": "Decreto 110/2022, de 25 de agosto",
+        "descripcion": "Currículo de la Educación Secundaria Obligatoria para la Comunidad Autónoma de Extremadura.",
+        "url": "http://doe.juntaex.es"
+      },
+      "bachillerato": {
+        "norma": "Decreto 111/2022, de 25 de agosto",
+        "descripcion": "Currículo del Bachillerato para la Comunidad Autónoma de Extremadura.",
+        "url": "http://doe.juntaex.es"
+      }
+    },
+    {
+      "id": "galicia",
+      "nombre": "Galicia",
+      "bocm_diario": "DOG",
+      "eso": {
+        "norma": "Decreto 156/2022, do 15 de setembro",
+        "descripcion": "Ordenación e o currículo da educación secundaria obrigatoria na Comunidade Autónoma de Galicia.",
+        "url": "https://www.xunta.gal/diario-oficial-galicia"
+      },
+      "bachillerato": {
+        "norma": "Decreto 157/2022, do 15 de setembro",
+        "descripcion": "Ordenación e o currículo do bacharelato na Comunidade Autónoma de Galicia.",
+        "url": "https://www.xunta.gal/diario-oficial-galicia"
+      }
+    },
+    {
+      "id": "la-rioja",
+      "nombre": "La Rioja",
+      "bocm_diario": "BOR",
+      "eso": {
+        "norma": "Decreto 42/2022, de 13 de julio",
+        "descripcion": "Currículo de la Educación Secundaria Obligatoria en la Comunidad Autónoma de La Rioja.",
+        "url": "https://web.larioja.org/bor-forma"
+      },
+      "bachillerato": {
+        "norma": "Decreto 43/2022, de 13 de julio",
+        "descripcion": "Currículo del Bachillerato en la Comunidad Autónoma de La Rioja.",
+        "url": "https://web.larioja.org/bor-forma"
+      }
+    },
+    {
+      "id": "navarra",
+      "nombre": "Navarra (Comunidad Foral de)",
+      "bocm_diario": "BON",
+      "eso": {
+        "norma": "Decreto Foral 71/2022, de 29 de junio",
+        "descripcion": "Currículo de las enseñanzas de la ESO en la Comunidad Foral de Navarra.",
+        "url": "https://bon.navarra.es"
+      },
+      "bachillerato": {
+        "norma": "Decreto Foral 72/2022, de 29 de junio",
+        "descripcion": "Currículo de las enseñanzas del Bachillerato en la Comunidad Foral de Navarra.",
+        "url": "https://bon.navarra.es"
+      }
+    },
+    {
+      "id": "pais-vasco",
+      "nombre": "País Vasco",
+      "bocm_diario": "BOPV",
+      "eso": {
+        "norma": "Decreto 77/2023, de 30 de mayo",
+        "descripcion": "Currículo de la Educación Básica en la Comunidad Autónoma del País Vasco.",
+        "url": "https://www.euskadi.eus/bopv"
+      },
+      "bachillerato": {
+        "norma": "Decreto 76/2023, de 30 de mayo",
+        "descripcion": "Currículo del Bachillerato en la Comunidad Autónoma del País Vasco.",
+        "url": "https://www.euskadi.eus/bopv"
+      }
+    },
+    {
+      "id": "region-de-murcia",
+      "nombre": "Región de Murcia",
+      "bocm_diario": "BORM",
+      "eso": {
+        "norma": "Decreto 235/2022, de 7 de diciembre",
+        "descripcion": "Ordenación y currículo de la Educación Secundaria Obligatoria en la Región de Murcia.",
+        "url": "https://www.borm.es"
+      },
+      "bachillerato": {
+        "norma": "Decreto 236/2022, de 7 de diciembre",
+        "descripcion": "Ordenación y currículo del Bachillerato en la Región de Murcia.",
+        "url": "https://www.borm.es"
+      }
+    }
+  ]
+}
