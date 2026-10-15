@@ -31,9 +31,13 @@ export default function FloatingPopover({
   }, [filosofo, allFilosofos]);
 
   return (
-    <div className="fixed bottom-6 right-6 z-40 w-96 max-w-[calc(100vw-2rem)] bg-slate-900/95 border border-amber-500/40 rounded-2xl p-5 shadow-2xl backdrop-blur-md animate-in fade-in slide-in-from-bottom-4 duration-300">
+    <div className="fixed inset-x-0 bottom-0 sm:bottom-6 sm:right-6 sm:inset-x-auto sm:w-96 max-w-full sm:max-w-md z-40 max-h-[85vh] flex flex-col bg-slate-900/95 border-t sm:border border-amber-500/40 rounded-t-3xl sm:rounded-2xl p-4 sm:p-5 shadow-2xl backdrop-blur-md animate-in fade-in slide-in-from-bottom-4 duration-300">
+      
+      {/* Píldora de arrastre superior para móviles */}
+      <div className="w-12 h-1.5 bg-slate-700/80 rounded-full mx-auto mb-2 sm:hidden shrink-0" />
+
       {/* Botón de cierre y etiqueta */}
-      <div className="flex items-center justify-between pb-3 border-b border-slate-800">
+      <div className="flex items-center justify-between pb-3 border-b border-slate-800 shrink-0">
         <div className="flex items-center gap-2">
           <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
           <span className="text-xs font-semibold uppercase tracking-wider text-amber-400">
@@ -42,21 +46,22 @@ export default function FloatingPopover({
         </div>
         <button
           onClick={onClose}
-          className="text-slate-400 hover:text-white p-1 rounded-lg hover:bg-slate-800 transition-colors"
+          className="text-slate-400 hover:text-white p-2 min-w-[36px] min-h-[36px] flex items-center justify-center rounded-xl hover:bg-slate-800 transition-colors"
           title="Cerrar resumen"
+          aria-label="Cerrar resumen"
         >
           <X className="w-4 h-4" />
         </button>
       </div>
 
-      {/* Contenido principal */}
-      <div className="mt-3">
+      {/* Contenido principal con scroll vertical suave */}
+      <div className="mt-3 overflow-y-auto max-h-[calc(85vh-5rem)] pr-0.5" style={{ WebkitOverflowScrolling: 'touch' }}>
         <div className="flex items-center justify-between gap-2">
-          <h3 className="text-2xl font-bold text-white tracking-tight">
+          <h3 className="text-xl sm:text-2xl font-bold text-white tracking-tight">
             {filosofo.nombre}
           </h3>
           <span className="text-[10px] font-semibold uppercase px-2 py-0.5 rounded-full bg-amber-400/10 text-amber-300 border border-amber-400/20 shrink-0">
-            {filosofo.nivel === 1 ? 'Nivel 1: Canon' : filosofo.nivel === 2 ? 'Nivel 2: Iniciado' : 'Nivel 3: Académico'}
+            {filosofo.nivel === 1 ? 'Nivel 1: Canon' : filosofo.nivel === 2 ? 'Nivel 2: Universitario' : 'Nivel 3: Académico'}
           </span>
         </div>
 
@@ -100,7 +105,7 @@ export default function FloatingPopover({
                 <button
                   key={c.id}
                   onClick={() => onSelectFilosofo && onSelectFilosofo(c)}
-                  className="text-[11px] px-2 py-0.5 rounded-lg bg-slate-800 hover:bg-amber-400 hover:text-slate-950 text-slate-300 border border-slate-700/80 transition"
+                  className="text-[11px] px-2.5 py-1 rounded-lg bg-slate-800 hover:bg-amber-400 hover:text-slate-950 text-slate-300 border border-slate-700/80 transition min-h-[30px] flex items-center"
                   title={`Ver a ${c.nombre} (${c.epoca_año})`}
                 >
                   {c.nombre}
@@ -113,7 +118,7 @@ export default function FloatingPopover({
         {/* Botón para abrir la biografía completa */}
         <button
           onClick={() => onOpenBiography(filosofo)}
-          className="mt-4 w-full py-2.5 px-4 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-semibold text-xs rounded-xl shadow-lg shadow-amber-500/10 flex items-center justify-center gap-2 transition-all group"
+          className="mt-4 w-full min-h-[44px] py-2.5 px-4 bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-semibold text-xs rounded-xl shadow-lg shadow-amber-500/10 flex items-center justify-center gap-2 transition-all group"
         >
           <BookOpen className="w-4 h-4" />
           <span>Abrir biografía completa</span>

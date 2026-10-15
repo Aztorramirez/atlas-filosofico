@@ -14,17 +14,9 @@ export default function GeographicView({
   const markersRef = useRef({});
   const [mapStyle, setMapStyle] = useState('dark'); // 'dark' | 'osm'
 
-  // Capas de mapas gratuitas sin API Key
-  const tileLayers = {
-    dark: {
-      url: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    },
-    osm: {
-      url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    },
-  };
+  // Capa OpenStreetMap estándar 100% libre sin necesidad de API Key ni servicios externos
+  const OSM_URL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+  const OSM_ATTRIBUTION = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors';
 
   // Función para generar icono HTML personalizado con Tailwind
   const createMarkerIcon = (filosofo, isSelected) => {
@@ -89,9 +81,10 @@ export default function GeographicView({
     // Control de zoom en la esquina inferior izquierda
     L.control.zoom({ position: 'bottomleft' }).addTo(map);
 
-    // Capa base inicial
-    const currentLayer = L.tileLayer(tileLayers[mapStyle].url, {
-      attribution: tileLayers[mapStyle].attribution,
+    // Capa base estándar OpenStreetMap (Zero-API, 100% libre)
+    const currentLayer = L.tileLayer(OSM_URL, {
+      attribution: OSM_ATTRIBUTION,
+      maxZoom: 19,
     }).addTo(map);
 
     mapInstanceRef.current = { map, layer: currentLayer };
@@ -114,19 +107,6 @@ export default function GeographicView({
       mapInstanceRef.current = null;
     };
   }, []);
-
-  // Cambio de estilo de mapa (Dark / OSM)
-  useEffect(() => {
-    if (!mapInstanceRef.current) return;
-    const { map, layer } = mapInstanceRef.current;
-
-    map.removeLayer(layer);
-    const newLayer = L.tileLayer(tileLayers[mapStyle].url, {
-      attribution: tileLayers[mapStyle].attribution,
-    }).addTo(map);
-
-    mapInstanceRef.current.layer = newLayer;
-  }, [mapStyle]);
 
   // Renderizado y actualización de Marcadores
   useEffect(() => {
@@ -225,16 +205,32 @@ export default function GeographicView({
   };
 
   return (
-    <div className="w-full h-full relative bg-slate-950 overflow-hidden">
+    <div className="w-full h-full relative bg-[#1a1a1a] overflow-hidden">
+      {/* Estilo CSS puro para Modo Oscuro (Zero-API): invierte solo las teselas del mapa sin tocar marcadores */}
+      <style>{`
+        .leaflet-container {
+          background-color: #1a1a1a !important;
+        }
+        .leaflet-dark-mode .leaflet-tile-pane {
+          filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%);
+        }
+      `}</style>
+
       {/* Contenedor Leaflet */}
-      <div ref={mapContainerRef} className="w-full h-full z-0" />
+      <div
+        ref={mapContainerRef}
+        className={`w-full h-full z-0 transition-opacity duration-300 ${
+          mapStyle === 'dark' ? 'leaflet-dark-mode' : ''
+        }`}
+        style={{ backgroundColor: '#1a1a1a' }}
+      />
 
       {/* Barra de herramientas flotante del mapa (Esquina superior derecha) */}
-      <div className="absolute top-4 right-4 z-20 flex items-center gap-2 bg-slate-900/90 backdrop-blur-md p-1.5 rounded-2xl border border-slate-800 shadow-2xl">
+      <div className="absolute top-3 right-3 sm:top-4 sm:right-4 z-20 flex items-center gap-1.5 sm:gap-2 bg-slate-900/90 backdrop-blur-md p-1 sm:p-1.5 rounded-2xl border border-slate-800 shadow-2xl">
         {/* Selector de capa de mapa */}
         <button
           onClick={() => setMapStyle(mapStyle === 'dark' ? 'osm' : 'dark')}
-          className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-medium text-slate-300 hover:text-white hover:bg-slate-800 transition"
+          className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-medium text-slate-300 hover:text-white hover:bg-slate-800 transition min-h-[38px]"
           title="Cambiar estilo de mapa"
         >
           <Layers className="w-3.5 h-3.5 text-amber-400" />
@@ -246,7 +242,7 @@ export default function GeographicView({
         {/* Reencuadrar todos los autores */}
         <button
           onClick={handleFitAll}
-          className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-medium text-slate-300 hover:text-white hover:bg-slate-800 transition"
+          className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-medium text-slate-300 hover:text-white hover:bg-slate-800 transition min-h-[38px]"
           title="Ver todos los filósofos"
         >
           <Maximize2 className="w-3.5 h-3.5 text-amber-400" />
@@ -254,7 +250,7 @@ export default function GeographicView({
         </button>
       </div>
 
-      {/* Leyenda de navegación del mapa en la esquina inferior derecha */}
+      {/* Leyenda de navegación del mapa en la esquina inferior izquierda */}
       <div className="absolute bottom-6 left-16 z-20 hidden md:flex items-center gap-3 bg-slate-900/85 backdrop-blur-md px-3.5 py-2 rounded-xl border border-slate-800/80 text-[11px] text-slate-400 shadow-xl">
         <span className="flex items-center gap-1 text-slate-300">
           <MapPin className="w-3 h-3 text-amber-400" /> Clic en marcador: resumen

@@ -252,18 +252,18 @@ export default function TimelineFlow({
 
   const handleMouseUp = () => setIsDragging(false);
 
-  // Altura dinámica por carril
-  const trackHeight = 54;
+  // Altura dinámica por carril ajustada para jerarquía visual
+  const trackHeight = 68;
   const tracksContainerHeight = totalTracks * trackHeight + 40;
 
   return (
     <div className="w-full h-full flex flex-col bg-slate-950 text-slate-100 select-none overflow-hidden relative">
       
       {/* 1. Barra de Herramientas Superior: Épocas, Zoom y Estado de Coetáneos */}
-      <div className="h-14 bg-slate-900/90 border-b border-slate-800 px-4 flex items-center justify-between shrink-0 z-20 backdrop-blur-md gap-3">
+      <div className="h-14 bg-slate-900/90 border-b border-slate-800 px-3 sm:px-4 flex items-center justify-between shrink-0 z-20 backdrop-blur-md gap-2 sm:gap-3">
         
         {/* Atajos a grandes épocas históricas */}
-        <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-1">
+        <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-1 touch-pan-x">
           <span className="text-[11px] font-semibold text-slate-500 uppercase tracking-wider mr-1 hidden sm:inline">
             Épocas:
           </span>
@@ -271,7 +271,7 @@ export default function TimelineFlow({
             <button
               key={era.id}
               onClick={() => scrollToEra(era.start)}
-              className="text-xs px-2.5 py-1 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700/60 whitespace-nowrap transition"
+              className="text-xs px-2.5 py-1.5 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700/60 whitespace-nowrap transition min-h-[36px] flex items-center"
             >
               {era.shortName}
             </button>
@@ -293,7 +293,7 @@ export default function TimelineFlow({
         <div className="flex items-center gap-1.5 shrink-0 bg-slate-800/60 p-1 rounded-xl border border-slate-700/80">
           <button
             onClick={() => setPixelsPerYear((prev) => Math.max(prev - 0.7, 1.2))}
-            className="p-1.5 text-slate-400 hover:text-white hover:bg-slate-700 rounded-lg transition"
+            className="p-1.5 text-slate-400 hover:text-white hover:bg-slate-700 rounded-lg transition min-w-[32px] min-h-[32px] flex items-center justify-center"
             title="Alejar (Zoom Out)"
           >
             <ZoomOut className="w-4 h-4" />
@@ -307,7 +307,7 @@ export default function TimelineFlow({
           </button>
           <button
             onClick={() => setPixelsPerYear((prev) => Math.min(prev + 0.7, 7.0))}
-            className="p-1.5 text-slate-400 hover:text-white hover:bg-slate-700 rounded-lg transition"
+            className="p-1.5 text-slate-400 hover:text-white hover:bg-slate-700 rounded-lg transition min-w-[32px] min-h-[32px] flex items-center justify-center"
             title="Acercar (Zoom In)"
           >
             <ZoomIn className="w-4 h-4" />
@@ -315,17 +315,21 @@ export default function TimelineFlow({
         </div>
       </div>
 
-      {/* 2. Contenedor de la Línea de Tiempo con Desplazamiento */}
+      {/* 2. Contenedor de la Línea de Tiempo con Desplazamiento y soporte táctil fluido */}
       <div
         ref={containerRef}
         onMouseDown={handleMouseDown}
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseUp}
-        className={`flex-1 overflow-x-auto overflow-y-auto relative cursor-grab active:cursor-grabbing ${
+        className={`flex-1 overflow-x-auto overflow-y-auto relative cursor-grab active:cursor-grabbing touch-pan-x touch-pan-y ${
           isDragging ? 'cursor-grabbing' : ''
         }`}
-        style={{ scrollBehavior: isDragging ? 'auto' : 'smooth' }}
+        style={{
+          scrollBehavior: isDragging ? 'auto' : 'smooth',
+          WebkitOverflowScrolling: 'touch',
+          touchAction: 'pan-x pan-y',
+        }}
       >
         <div
           className="relative min-h-full"
@@ -420,14 +424,19 @@ export default function TimelineFlow({
               />
             ))}
 
-            {/* Renderizado de las Barras de Vida de cada Filósofo */}
+            {/* Renderizado de las Barras de Vida de cada Filósofo con Jerarquía Visual */}
             {processedFilosofos.map((filosofo) => {
               const xStart = yearToX(filosofo.lifespanStart);
               const barWidth = Math.max(
                 filosofo.durationYears * pixelsPerYear,
                 140 // Ancho mínimo para que el texto sea siempre legible
               );
-              const top = filosofo.track * trackHeight + 28;
+
+              // Jerarquía Visual: Nivel 1 (Canon) tiene un 1.5x de grosor transversal (60px vs 40px standard)
+              const isCanon = (filosofo.nivel || 1) === 1;
+              const barHeight = isCanon ? 60 : 40;
+              // Centrado vertical exacto en su carril
+              const top = filosofo.track * trackHeight + 24 + (trackHeight - barHeight) / 2;
 
               const isSelected = selectedFilosofo?.id === filosofo.id;
               const isCoetaneo = coetaneosInfo?.coetaneosIds.has(filosofo.id);
@@ -449,26 +458,32 @@ export default function TimelineFlow({
                     left: `${xStart}px`,
                     top: `${top}px`,
                     width: `${barWidth}px`,
-                    height: '42px',
+                    height: `${barHeight}px`,
                   }}
                   className={`interactive-bar absolute z-20 flex items-center px-3 rounded-2xl cursor-pointer transition-all duration-300 shadow-md border ${
                     isSelected
                       ? 'bg-gradient-to-r from-amber-400 to-amber-500 text-slate-950 font-bold ring-4 ring-amber-400/50 shadow-2xl shadow-amber-500/40 z-30 scale-105 border-white'
                       : isCoetaneo
-                      ? `bg-slate-800/95 text-white border-amber-400/60 ring-2 ring-amber-400/20 shadow-lg hover:scale-105`
+                      ? 'bg-slate-800/95 text-white border-amber-400/60 ring-2 ring-amber-400/20 shadow-lg hover:scale-105'
                       : isDimmed
                       ? 'bg-slate-900/40 text-slate-500 border-slate-800/60 opacity-35 hover:opacity-100 hover:scale-102'
-                      : `bg-slate-900/90 text-slate-200 border-slate-700/80 hover:border-amber-400/80 hover:bg-slate-800 hover:scale-102`
+                      : isCanon
+                      ? 'bg-slate-900/95 text-amber-50 border-amber-400/80 shadow-lg shadow-amber-950/40 ring-1 ring-amber-400/40 hover:border-amber-300 hover:bg-slate-800 hover:scale-102'
+                      : 'bg-slate-900/90 text-slate-200 border-slate-700/80 hover:border-amber-400/80 hover:bg-slate-800 hover:scale-102'
                   }`}
-                  title={`${filosofo.nombre} (${filosofo.epoca_año})\n1 clic: Resumen • 2 clics: Biografía completa`}
+                  title={`${filosofo.nombre} (${filosofo.epoca_año})${isCanon ? ' • [Canon]' : ''}\n1 clic: Resumen • 2 clics: Biografía completa`}
                 >
-                  {/* Avatar o Inicial */}
+                  {/* Avatar o Inicial con distinción para Canon */}
                   <div
-                    className={`w-6 h-6 rounded-full flex items-center justify-center text-[10px] font-extrabold mr-2 shrink-0 ${
+                    className={`${
+                      isCanon ? 'w-7 h-7 text-[11px]' : 'w-6 h-6 text-[10px]'
+                    } rounded-full flex items-center justify-center font-extrabold mr-2 shrink-0 ${
                       isSelected
                         ? 'bg-slate-950 text-amber-400'
                         : isCoetaneo
                         ? 'bg-amber-400 text-slate-950'
+                        : isCanon
+                        ? 'bg-gradient-to-br from-amber-400 to-amber-600 text-slate-950 shadow-sm shadow-amber-500/30'
                         : 'bg-slate-800 text-slate-300 border border-slate-700'
                     }`}
                   >
@@ -477,7 +492,7 @@ export default function TimelineFlow({
 
                   {/* Nombre y Años */}
                   <div className="flex flex-col min-w-0 pr-1 overflow-hidden leading-tight">
-                    <span className="font-bold text-xs truncate">
+                    <span className={`font-bold truncate ${isCanon ? 'text-xs text-white' : 'text-xs'}`}>
                       {filosofo.nombre}
                     </span>
                     <span
@@ -486,6 +501,8 @@ export default function TimelineFlow({
                           ? 'text-slate-900 font-semibold'
                           : isCoetaneo
                           ? 'text-amber-300'
+                          : isCanon
+                          ? 'text-amber-200/80'
                           : 'text-slate-400'
                       }`}
                     >
@@ -493,12 +510,16 @@ export default function TimelineFlow({
                     </span>
                   </div>
 
-                  {/* Distintivo de coetáneo */}
-                  {isCoetaneo && (
+                  {/* Distintivos: Coetáneo o Canon */}
+                  {isCoetaneo ? (
                     <span className="ml-auto shrink-0 text-[9px] uppercase tracking-wider font-extrabold px-1.5 py-0.5 rounded-full bg-amber-400/20 text-amber-300 border border-amber-400/30">
                       Coetáneo
                     </span>
-                  )}
+                  ) : isCanon ? (
+                    <span className="ml-auto shrink-0 text-[9px] uppercase tracking-wider font-extrabold px-1.5 py-0.5 rounded-full bg-amber-400/15 text-amber-300 border border-amber-400/30 hidden sm:inline-block">
+                      Canon
+                    </span>
+                  ) : null}
                 </div>
               );
             })}
