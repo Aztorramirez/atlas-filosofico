@@ -11,6 +11,7 @@ import {
   FileText,
   ExternalLink,
   Sparkles,
+  HelpCircle,
 } from 'lucide-react';
 
 export default function Sidebar({
@@ -179,7 +180,7 @@ export default function Sidebar({
             )}
           </div>
 
-          {/* Opción 3: Sobre nosotros */}
+          {/* Opción 3: ¿Qué es esto? */}
           <button
             onClick={() => {
               onSelectSection('sobre_nosotros');
@@ -198,16 +199,16 @@ export default function Sidebar({
                   : 'bg-slate-800 text-amber-400'
               }`}
             >
-              <Users className="w-5 h-5" />
+              <HelpCircle className="w-5 h-5" />
             </div>
             <div>
-              <div className="text-sm font-bold">Sobre nosotros</div>
+              <div className="text-sm font-bold">¿Qué es esto?</div>
               <div
                 className={`text-[11px] ${
                   activeSection === 'sobre_nosotros' ? 'text-slate-800' : 'text-slate-400'
                 }`}
               >
-                Propósito, destinatarios y contacto
+                Para estudiantes, universitarios y opositores
               </div>
             </div>
           </button>

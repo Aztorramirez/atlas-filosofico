@@ -137,7 +137,7 @@ export default function App() {
                         ? 'Ley Vigente'
                         : activeSection === 'temario'
                         ? 'Temario Oficial'
-                        : 'Sobre nosotros'}
+                        : '¿Qué es esto?'}
                     </span>
                   )}
                 </h1>

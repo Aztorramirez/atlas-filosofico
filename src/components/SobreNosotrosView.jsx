@@ -1,226 +1,165 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Compass,
-  GraduationCap,
-  BookOpen,
-  Users,
-  Mail,
-  Send,
-  MessageSquare,
   Sparkles,
-  Award,
+  MessageSquareHeart,
   ExternalLink,
-  Layers,
+  ChevronDown,
+  ChevronUp,
   Heart,
-  CheckCircle2,
+  Send,
 } from 'lucide-react';
 
 // ==============================================================================
-// CONFIGURACIÓN DE CONTACTO Y FORMULARIO DE GOOGLE
-// Pega aquí la URL de tu Google Form y tu dirección de correo electrónico:
+// CONFIGURACIÓN DEL FORMULARIO DE GOOGLE (GOOGLE FORMS)
+// 👉 Pega aquí la URL de tu Google Forms:
+//    - GOOGLE_FORMS_URL: Para el botón principal que abre el formulario en pestaña nueva.
+//    - GOOGLE_FORMS_EMBED_URL: (Opcional) Si quieres incrustarlo directamente, pega
+//      aquí el enlace de inserción de Google Forms (que suele terminar en /viewform?embedded=true).
 // ==============================================================================
-export const GOOGLE_FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSc_EJEMPLO_PEGA_AQUI_TU_ENLACE/viewform';
-export const CONTACT_EMAIL = 'contacto@atlasfilosofico.com';
+export const GOOGLE_FORMS_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSekhwCfkAzrtRfabUs1GyLCB3QRQuRT4AzMQyR_fzy9gY5-CQ/viewform?usp=publish-editor';
+export const GOOGLE_FORMS_EMBED_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSekhwCfkAzrtRfabUs1GyLCB3QRQuRT4AzMQyR_fzy9gY5-CQ/viewform?embedded=true';
 
 export default function SobreNosotrosView() {
+  const [showIframe, setShowIframe] = useState(Boolean(GOOGLE_FORMS_EMBED_URL));
+
+  // Comprueba si ya se ha configurado un enlace real
+  const isUrlConfigured =
+    GOOGLE_FORMS_URL && !GOOGLE_FORMS_URL.includes('TU_ENLACE_DE_GOOGLE_FORMS_AQUI');
+
   return (
-    <div className="w-full h-full overflow-y-auto bg-slate-950 text-slate-100 p-4 sm:p-6 md:p-8 lg:p-12 space-y-12">
+    <div className="w-full h-full overflow-y-auto bg-slate-950 text-slate-100 px-4 py-8 sm:py-12 md:py-16 flex flex-col items-center select-text">
       
-      {/* Cabecera Principal */}
-      <div className="max-w-4xl mx-auto text-center space-y-4">
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-400/10 text-amber-300 border border-amber-400/20 text-xs font-semibold">
-          <Sparkles className="w-4 h-4 text-amber-400" />
-          <span>Proyecto Educativo de Acceso Abierto</span>
-        </div>
-        <h2 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white leading-tight">
-          Sobre el <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">Atlas Filosófico</span>
-        </h2>
-        <p className="text-slate-300 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed">
-          Una plataforma visual e interactiva concebida para transformar el aprendizaje de la historia del pensamiento humano, 
-          uniendo rigor académico, coordenadas espacio-temporales y divulgación progresiva.
-        </p>
-      </div>
+      {/* Contenedor centralizado con enfoque Mobile-First */}
+      <div className="w-full max-w-2xl mx-auto space-y-8 sm:space-y-10">
 
-      {/* 1. Propósito de la Herramienta */}
-      <div className="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div className="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-3">
-          <div className="w-10 h-10 rounded-xl bg-amber-400/10 text-amber-400 flex items-center justify-center">
-            <Compass className="w-5 h-5" />
-          </div>
-          <h3 className="text-lg font-bold text-white">Coordenadas Reales</h3>
-          <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">
-            La filosofía no ocurrió en el vacío. Visualizar dónde nació, debatió o enseñó cada pensador permite comprender los flujos culturales mediterráneos, europeos y globales.
-          </p>
-        </div>
-
-        <div className="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-3">
-          <div className="w-10 h-10 rounded-xl bg-amber-400/10 text-amber-400 flex items-center justify-center">
-            <Layers className="w-5 h-5" />
-          </div>
-          <h3 className="text-lg font-bold text-white">Divulgación Progresiva</h3>
-          <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">
-            Eliminamos el «efecto plato de espaguetis» mediante 3 niveles de complejidad curricular: <strong>Canon</strong> (16 figuras axiales), <strong>Universitario</strong> y <strong>Académico</strong>.
-          </p>
-        </div>
-
-        <div className="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-3">
-          <div className="w-10 h-10 rounded-xl bg-amber-400/10 text-amber-400 flex items-center justify-center">
-            <Award className="w-5 h-5" />
-          </div>
-          <h3 className="text-lg font-bold text-white">Coetaneidad Viva</h3>
-          <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">
-            Un solo clic resalta instantáneamente a todos los pensadores que compartieron época histórica, facilitando la comprensión de debates cruzados e influencias mutuas.
-          </p>
-        </div>
-      </div>
-
-      {/* 2. Destinatarios del Proyecto */}
-      <div className="max-w-5xl mx-auto space-y-6">
-        <div className="text-center space-y-2">
-          <h3 className="text-2xl sm:text-3xl font-bold text-white">
-            ¿A quién va dirigida esta herramienta?
-          </h3>
-          <p className="text-sm text-slate-400">
-            Diseñada con versatilidad para acompañar en las distintas etapas formativas y profesionales.
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
-          {/* Bloque 1: Bachillerato */}
-          <div className="p-5 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-amber-400/40 transition flex flex-col justify-between space-y-3">
-            <div className="space-y-2">
-              <span className="w-8 h-8 rounded-lg bg-sky-400/10 text-sky-300 flex items-center justify-center font-bold text-xs">
-                1
-              </span>
-              <h4 className="text-base font-bold text-white">Alumnos de Bachillerato</h4>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                Preparación estructurada de <strong>Historia de la Filosofía</strong> para las pruebas de acceso a la universidad (PAU/EBAU) con esquemas cronológicos claros.
-              </p>
-            </div>
-            <div className="text-[11px] font-mono text-sky-400 font-semibold pt-2 border-t border-slate-800">
-              Nivel recomendado: Canon
-            </div>
-          </div>
-
-          {/* Bloque 2: Grado Universitario */}
-          <div className="p-5 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-amber-400/40 transition flex flex-col justify-between space-y-3">
-            <div className="space-y-2">
-              <span className="w-8 h-8 rounded-lg bg-emerald-400/10 text-emerald-300 flex items-center justify-center font-bold text-xs">
-                2
-              </span>
-              <h4 className="text-base font-bold text-white">Estudiantes de Grado</h4>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                Grados en Filosofía, Humanidades, Filología, Historia y Ciencias para contextualizar corrientes de pensamiento y genealogías conceptuales.
-              </p>
-            </div>
-            <div className="text-[11px] font-mono text-emerald-400 font-semibold pt-2 border-t border-slate-800">
-              Nivel: Universitario
-            </div>
-          </div>
-
-          {/* Bloque 3: Opositores de Secundaria */}
-          <div className="p-5 rounded-2xl bg-slate-900/90 border border-amber-500/40 shadow-lg shadow-amber-500/5 transition flex flex-col justify-between space-y-3">
-            <div className="space-y-2">
-              <span className="w-8 h-8 rounded-lg bg-amber-400/20 text-amber-300 flex items-center justify-center font-bold text-xs">
-                3
-              </span>
-              <h4 className="text-base font-bold text-white">Opositores a Secundaria</h4>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                Aspirantes al Cuerpo de Profesores de Enseñanza Secundaria (Filosofía) para fundamentar temas, marco curricular LOMLOE y defensas ante el tribunal.
-              </p>
-            </div>
-            <div className="text-[11px] font-mono text-amber-300 font-semibold pt-2 border-t border-slate-800">
-              Sección: Oposiciones & Temario
-            </div>
-          </div>
-
-          {/* Bloque 4: Académicos y Aficionados */}
-          <div className="p-5 rounded-2xl bg-slate-900/90 border border-slate-800 hover:border-amber-400/40 transition flex flex-col justify-between space-y-3">
-            <div className="space-y-2">
-              <span className="w-8 h-8 rounded-lg bg-purple-400/10 text-purple-300 flex items-center justify-center font-bold text-xs">
-                4
-              </span>
-              <h4 className="text-base font-bold text-white">Docentes y Académicos</h4>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                Investigadores, profesores de secundaria y lectores apasionados por el pensamiento crítico que buscan un compendio visual ordenado y riguroso.
-              </p>
-            </div>
-            <div className="text-[11px] font-mono text-purple-400 font-semibold pt-2 border-t border-slate-800">
-              Nivel: Académico
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* 3. Sección de Sugerencias, Contacto y Formulario de Google */}
-      <div className="max-w-4xl mx-auto bg-gradient-to-b from-slate-900 to-slate-900/80 border border-amber-500/30 rounded-3xl p-6 sm:p-10 shadow-2xl space-y-8">
-        <div className="text-center space-y-2">
-          <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-400/10 text-amber-300 text-xs font-semibold">
-            <MessageSquare className="w-3.5 h-3.5" />
-            <span>Colabora con el Atlas</span>
-          </div>
-          <h3 className="text-2xl sm:text-3xl font-extrabold text-white">
-            Sugerencias, Erratas y Contacto
-          </h3>
-          <p className="text-sm text-slate-300 max-w-xl mx-auto leading-relaxed">
-            ¿Echas en falta a algún autor? ¿Quieres proponernos una mejora o notificar una corrección histórica? 
-            Tu aportación nos ayuda a seguir perfeccionando este recurso libre.
-          </p>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 sm:gap-6">
+        {/* 1. Cabecera y Títulos */}
+        <div className="text-center space-y-4">
           
-          {/* Tarjeta Destacada: Formulario de Google */}
-          <div className="p-6 rounded-2xl bg-slate-950/80 border border-amber-400/40 flex flex-col justify-between space-y-4 hover:border-amber-400 transition shadow-lg group">
-            <div className="space-y-2">
-              <div className="flex items-center gap-2 text-amber-400 font-bold text-sm">
-                <FileText className="w-4 h-4" />
-                <span>Formulario Oficial de Google</span>
+          {/* Badge superior discreto */}
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-amber-400/10 text-amber-300 border border-amber-400/25 text-xs font-semibold shadow-sm">
+            <Compass className="w-3.5 h-3.5 text-amber-400" />
+            <span>Atlas Filosófico</span>
+          </div>
+
+          {/* Título Principal */}
+          <h1 className="text-3xl sm:text-5xl font-extrabold tracking-tight text-white">
+            ¿Qué es esto?
+          </h1>
+
+          {/* Subtítulo destacado visualmente */}
+          <div className="pt-1">
+            <span className="inline-block px-4 py-2 rounded-2xl bg-gradient-to-r from-amber-400/15 via-amber-400/25 to-amber-500/15 text-amber-300 border border-amber-400/30 text-sm sm:text-base font-bold tracking-wide shadow-md shadow-amber-500/5">
+              Para estudiantes, universitarios y opositores
+            </span>
+          </div>
+        </div>
+
+        {/* 2. Cuerpo de Texto Principal */}
+        <div className="p-6 sm:p-8 rounded-3xl bg-slate-900/80 border border-slate-800 shadow-xl space-y-5 text-slate-200 text-sm sm:text-base leading-relaxed backdrop-blur-sm">
+          
+          <p className="text-slate-200 font-normal">
+            Si has llegado hasta aquí, es porque eres colega o conocido. Pero si no, te explico: el Atlas pretende ser una herramienta interactiva que te permita tener a la mano información sobre escuelas, filósofos y leyes educativas.
+          </p>
+
+          <div className="h-px w-full bg-gradient-to-r from-transparent via-slate-700/60 to-transparent" />
+
+          <p className="text-slate-300 font-normal">
+            Aún queda mucho por mejorar (¡la hice literalmente antes de ayer!). Cualquier feedback hará esto un espacio más útil para todos. Mucha suerte ;)
+          </p>
+        </div>
+
+        {/* 3. Área Destacada: Buzón de Sugerencias */}
+        <div className="p-6 sm:p-8 rounded-3xl bg-gradient-to-b from-slate-900 via-slate-900/95 to-slate-950 border border-amber-500/35 shadow-2xl shadow-amber-500/10 space-y-6">
+          
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div className="flex items-center gap-3.5">
+              <div className="w-11 h-11 rounded-2xl bg-amber-400/15 border border-amber-400/30 flex items-center justify-center text-amber-400 shrink-0 shadow-inner">
+                <MessageSquareHeart className="w-6 h-6" />
               </div>
-              <h4 className="text-base font-bold text-white">
-                Buzón de Propuestas y Mejoras
-              </h4>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                Envía tus propuestas de nuevos filósofos, sugerencias de interfaz o erratas en solo 1 minuto mediante nuestro formulario estructurado.
-              </p>
+              <div>
+                <h2 className="text-lg sm:text-xl font-bold text-white tracking-tight">
+                  Buzón de sugerencias
+                </h2>
+                <p className="text-xs text-slate-400">
+                  Críticas, propuestas de mejora, erratas o nuevas ideas
+                </p>
+              </div>
             </div>
 
+            {/* Botón Principal: Dejar una sugerencia */}
             <a
-              href={GOOGLE_FORM_URL}
+              href={GOOGLE_FORMS_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full min-h-[44px] py-3 px-4 bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 font-bold text-xs sm:text-sm rounded-xl shadow-lg shadow-amber-500/20 flex items-center justify-center gap-2 transition group/btn"
+              className="inline-flex items-center justify-center gap-2.5 px-5 py-3 rounded-2xl bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 font-bold text-xs sm:text-sm shadow-lg shadow-amber-500/20 hover:shadow-amber-500/30 transition-all transform hover:-translate-y-0.5 active:translate-y-0 text-center shrink-0 cursor-pointer"
             >
-              <span>Abrir Formulario de Google</span>
-              <ExternalLink className="w-4 h-4 group-hover/btn:translate-x-0.5 transition-transform" />
+              <Send className="w-4 h-4 text-slate-950" />
+              <span>Dejar una sugerencia</span>
+              <ExternalLink className="w-3.5 h-3.5 text-slate-950 opacity-80" />
             </a>
           </div>
 
-          {/* Tarjeta: Correo Electrónico Directo */}
-          <div className="p-6 rounded-2xl bg-slate-950/80 border border-slate-800 flex flex-col justify-between space-y-4 hover:border-slate-700 transition shadow-lg">
-            <div className="space-y-2">
-              <div className="flex items-center gap-2 text-slate-300 font-bold text-sm">
-                <Mail className="w-4 h-4 text-amber-400" />
-                <span>Contacto Directo por Email</span>
-              </div>
-              <h4 className="text-base font-bold text-white">
-                Escríbenos directamente
-              </h4>
-              <p className="text-xs text-slate-400 leading-relaxed">
-                Si prefieres un contacto institucional, académico o consultar cualquier duda sobre el proyecto, escríbenos directamente.
-              </p>
-            </div>
-
-            <a
-              href={`mailto:${CONTACT_EMAIL}?subject=Atlas%20Filos%C3%B3fico%20-%20Consulta%20o%20Sugerencia`}
-              className="w-full min-h-[44px] py-3 px-4 bg-slate-800 hover:bg-slate-700 text-white font-semibold text-xs sm:text-sm rounded-xl border border-slate-700 flex items-center justify-center gap-2 transition"
+          {/* Opción secundaria: Alternar vista incrustada (iframe) */}
+          <div className="pt-2 border-t border-slate-800/80">
+            <button
+              onClick={() => setShowIframe(!showIframe)}
+              className="flex items-center gap-2 text-xs font-semibold text-slate-400 hover:text-amber-300 transition-colors py-1 cursor-pointer"
             >
-              <Send className="w-3.5 h-3.5 text-amber-400" />
-              <span>{CONTACT_EMAIL}</span>
-            </a>
+              {showIframe ? (
+                <>
+                  <ChevronUp className="w-3.5 h-3.5 text-amber-400" />
+                  <span>Ocultar formulario integrado</span>
+                </>
+              ) : (
+                <>
+                  <ChevronDown className="w-3.5 h-3.5 text-amber-400" />
+                  <span>¿Prefieres responderlo aquí mismo sin salir de la página?</span>
+                </>
+              )}
+            </button>
+
+            {/* Contenedor Adaptado y Responsivo para Google Forms (iframe) */}
+            {showIframe && (
+              <div className="mt-4 rounded-2xl overflow-hidden border border-slate-800 bg-slate-950 shadow-inner p-1 sm:p-2">
+                {isUrlConfigured ? (
+                  <iframe
+                    src={GOOGLE_FORMS_EMBED_URL || GOOGLE_FORMS_URL}
+                    width="100%"
+                    height="620"
+                    frameBorder="0"
+                    marginHeight="0"
+                    marginWidth="0"
+                    className="w-full min-h-[520px] rounded-xl"
+                    title="Formulario de Google de sugerencias"
+                  >
+                    Cargando formulario de Google…
+                  </iframe>
+                ) : (
+                  <div className="p-6 text-center space-y-3 bg-slate-900/60 rounded-xl">
+                    <p className="text-xs sm:text-sm text-slate-300">
+                      El formulario está listo para incrustarse.
+                    </p>
+                    <p className="text-[11px] text-amber-400/90 font-mono bg-slate-950/70 p-3 rounded-lg border border-amber-400/20 max-w-lg mx-auto">
+                      💡 Abre <span className="text-amber-300 font-semibold">src/components/SobreNosotrosView.jsx</span> y sustituye <span className="text-amber-300">GOOGLE_FORMS_URL</span> por el enlace de tu Google Forms.
+                    </p>
+                  </div>
+                )}
+              </div>
+            )}
           </div>
 
         </div>
+
+        {/* Pie cálido y sutil */}
+        <div className="text-center pt-4">
+          <p className="text-xs text-slate-500 flex items-center justify-center gap-1.5">
+            <span>Hecho con</span>
+            <Heart className="w-3.5 h-3.5 text-amber-400 fill-amber-400/30" />
+            <span>para la comunidad filosófica y educativa</span>
+          </p>
+        </div>
+
       </div>
 
     </div>
