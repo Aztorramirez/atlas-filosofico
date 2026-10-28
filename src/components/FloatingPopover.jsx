@@ -8,9 +8,7 @@ export default function FloatingPopover({
   onOpenBiography,
   onSelectFilosofo,
 }) {
-  if (!filosofo) return null;
-
-  // Cálculo de los pensadores coetáneos
+  // Cálculo incondicional de los pensadores coetáneos (regla de hooks de React)
   const coetaneos = useMemo(() => {
     if (!filosofo || !allFilosofos.length) return [];
     const start = filosofo.año_nacimiento;
@@ -29,6 +27,8 @@ export default function FloatingPopover({
       })
       .slice(0, 6); // Mostramos hasta 6 destacados
   }, [filosofo, allFilosofos]);
+
+  if (!filosofo) return null;
 
   return (
     <div className="fixed inset-x-0 bottom-0 sm:bottom-6 sm:right-6 sm:inset-x-auto sm:w-96 max-w-full sm:max-w-md z-40 max-h-[85vh] flex flex-col bg-slate-900/95 border-t sm:border border-amber-500/40 rounded-t-3xl sm:rounded-2xl p-4 sm:p-5 shadow-2xl backdrop-blur-md animate-in fade-in slide-in-from-bottom-4 duration-300">

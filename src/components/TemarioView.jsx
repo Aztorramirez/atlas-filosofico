@@ -2,89 +2,10 @@ import React, { useState, useMemo } from 'react';
 import {
   BookOpen,
   Search,
-  Sparkles,
-  ExternalLink,
-  ChevronRight,
   GraduationCap,
-  FileText,
   Compass,
 } from 'lucide-react';
-
-// Estructura representativa de los 71 temas oficiales (Orden de 9 de septiembre de 1993)
-const BLOQUES_TEMARIO = [
-  {
-    bloque: 'Bloque I: El saber filosófico, metafísica y ontología',
-    temas: [
-      { num: 1, titulo: 'El sentido del saber filosófico. Los orígenes de la filosofía.' },
-      { num: 2, titulo: 'La metafísica como saber fundamental. Problemas centrales de la ontología.' },
-      { num: 3, titulo: 'El problema del ser y de la nada en la historia de la filosofía.' },
-      { num: 4, titulo: 'La categoría de sustancia: de Aristóteles a la crítica empirista.' },
-      { num: 5, titulo: 'El tiempo y el espacio: enfoques metafísicos y cosmológicos.' },
-      { num: 6, titulo: 'El problema de Dios en la metafísica occidental.' },
-    ],
-  },
-  {
-    bloque: 'Bloque II: Lógica, lenguaje y teoría del conocimiento',
-    temas: [
-      { num: 7, titulo: 'Lógica formal: cálculo proposicional y de predicados.' },
-      { num: 8, titulo: 'La teoría del conocimiento: realismo, idealismo y escepticismo.' },
-      { num: 9, titulo: 'La verdad: criterios, teorías clásicas y contemporáneas.' },
-      { num: 10, titulo: 'Filosofía del lenguaje: significado, referencia y actos de habla.' },
-      { num: 11, titulo: 'El método científico: inducción, falsacionismo y revoluciones científicas.' },
-      { num: 12, titulo: 'Lógica informal y argumentación: falacias y dialéctica.' },
-    ],
-  },
-  {
-    bloque: 'Bloque III: Antropología, psicología y mente',
-    temas: [
-      { num: 13, titulo: 'El debate naturaleza y cultura. Hominización y humanización.' },
-      { num: 14, titulo: 'El problema mente-cuerpo: dualismo, fisicalismo y funcionalismo.' },
-      { num: 15, titulo: 'La conciencia y el inconsciente: de Descartes a Freud.' },
-      { num: 16, titulo: 'La libertad humana: determinismo y libre albedrío.' },
-      { num: 17, titulo: 'Las pasiones y las emociones en la filosofía moral.' },
-    ],
-  },
-  {
-    bloque: 'Bloque IV: Ética, moral y filosofía práctica',
-    temas: [
-      { num: 18, titulo: 'Fundamentación de la moral: éticas teleológicas y deontológicas.' },
-      { num: 19, titulo: 'La virtud en Aristóteles y la ética del término medio.' },
-      { num: 20, titulo: 'La ética formal de Kant: imperativo categórico y autonomía moral.' },
-      { num: 21, titulo: 'El utilitarismo: Bentham, John Stuart Mill y el bienestar social.' },
-      { num: 22, titulo: 'Bioética y ética aplicada en el siglo XXI.' },
-    ],
-  },
-  {
-    bloque: 'Bloque V: Filosofía política, sociedad y derecho',
-    temas: [
-      { num: 23, titulo: 'El origen del Estado: teorías contractualistas (Hobbes, Locke, Rousseau).' },
-      { num: 24, titulo: 'Justicia y derecho: iusnaturalismo y positivismo jurídico.' },
-      { num: 25, titulo: 'Democracia, ciudadanía y derechos humanos fundamentales.' },
-      { num: 26, titulo: 'Filosofía política contemporánea: Rawls, Habermas y el debate comunitarista.' },
-      { num: 27, titulo: 'Poder, legitimidad y crítica de la ideología en Marx y la Escuela de Frankfurt.' },
-    ],
-  },
-  {
-    bloque: 'Bloque VI: Historia de la Filosofía (Grecia al Siglo XX)',
-    temas: [
-      { num: 28, titulo: 'Los presocráticos y la búsqueda de la arjé.' },
-      { num: 29, titulo: 'Sócrates y los sofistas: el giro antropológico y la dialéctica.' },
-      { num: 30, titulo: 'Platón: la teoría de las Ideas, la República y la paideia.' },
-      { num: 31, titulo: 'Aristóteles: física, metafísica, ética a Nicómaco y política.' },
-      { num: 32, titulo: 'Filosofía helenística: estoicismo, epicureísmo y escepticismo.' },
-      { num: 35, titulo: 'Filosofía medieval: San Agustín y Santo Tomás de Aquino.' },
-      { num: 42, titulo: 'La revolución científica: Copérnico, Galileo, Kepler y Newton.' },
-      { num: 45, titulo: 'El racionalismo continental: Descartes, Spinoza y Leibniz.' },
-      { num: 48, titulo: 'El empirismo británico: Locke, Berkeley y David Hume.' },
-      { num: 51, titulo: 'La Ilustración y la Crítica de la razón pura de Kant.' },
-      { num: 55, titulo: 'El idealismo alemán: Hegel y la dialéctica del espíritu.' },
-      { num: 60, titulo: 'Los filósofos de la sospecha: Marx, Nietzsche y Freud.' },
-      { num: 65, titulo: 'Fenomenología y existencialismo: Husserl, Heidegger y Sartre.' },
-      { num: 70, titulo: 'Filosofía analítica y neopositivismo: Frege, Russell, Wittgenstein y Popper.' },
-      { num: 71, titulo: 'Hermenéutica y posmodernidad: Gadamer, Habermas, Derrida y Foucault.' },
-    ],
-  },
-];
+import BLOQUES_TEMARIO from '../data/temario.json';
 
 export default function TemarioView({ onNavigateToAtlas }) {
   const [searchTerm, setSearchTerm] = useState('');
@@ -115,6 +36,9 @@ export default function TemarioView({ onNavigateToAtlas }) {
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-400/10 text-amber-300 border border-amber-400/20 text-xs font-semibold">
           <GraduationCap className="w-3.5 h-3.5" />
           <span>Oposiciones de Filosofía • Temario Oficial</span>
+          {searchTerm && (
+            <span className="text-amber-400 font-mono text-[11px]">({totalTemasFiltrados} temas encontrados)</span>
+          )}
         </div>
         <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
           Temario Oficial de Oposiciones de Secundaria
