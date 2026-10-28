@@ -1,316 +1,670 @@
 [
   {
+    "id": 1,
+    "num": 1,
     "bloque": "Bloque I: El saber filosófico, lógica y teoría del conocimiento",
-    "temas": [
-      {
-        "num": 1,
-        "titulo": "La experiencia filosófica y sus formas: las concepciones de la filosofía."
-      },
-      {
-        "num": 2,
-        "titulo": "La función de la filosofía en el conjunto de la cultura. La relación del saber filosófico con el saber científico y otros saberes."
-      },
-      {
-        "num": 3,
-        "titulo": "La comunicación humana y el lenguaje: lenguaje natural y lenguajes formales."
-      },
-      {
-        "num": 4,
-        "titulo": "Sentido y referencia. Teorías del significado."
-      },
-      {
-        "num": 5,
-        "titulo": "De la lógica clásica a la lógica simbólica."
-      },
-      {
-        "num": 6,
-        "titulo": "El cálculo de proposiciones y de predicados."
-      },
-      {
-        "num": 7,
-        "titulo": "La Lógica como sistema formal axiomático; los límites de los sistemas formales axiomáticos."
-      },
-      {
-        "num": 8,
-        "titulo": "La verdad en las matemáticas y en las ciencias empíricas (sociales y naturales)."
-      },
-      {
-        "num": 9,
-        "titulo": "Naturaleza de las Leyes, las teorías y los modelos científicos. El contexto de la justificación científica y el contexto del descubrimiento científico."
-      },
-      {
-        "num": 10,
-        "titulo": "La construcción científica de la realidad; determinismo e indeterminismo; el postulado de la objetividad."
-      },
-      {
-        "num": 11,
-        "titulo": "Conocimiento y lenguaje: el problema de los conceptos universales."
-      },
-      {
-        "num": 12,
-        "titulo": "Los elementos a priori en el conocimiento."
-      },
-      {
-        "num": 13,
-        "titulo": "Los límites del conocimiento humano y el problema de lo irracional."
-      }
-    ]
+    "titulo": "La experiencia filosófica y sus formas: las concepciones de la filosofía.",
+    "autores_relacionados": [
+      "platon",
+      "aristoteles"
+    ],
+    "corrientes_relacionadas": [
+      "platonismo",
+      "aristotelismo"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
   },
   {
+    "id": 2,
+    "num": 2,
+    "bloque": "Bloque I: El saber filosófico, lógica y teoría del conocimiento",
+    "titulo": "La función de la filosofía en el conjunto de la cultura. La relación del saber filosófico con el saber científico y otros saberes.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 3,
+    "num": 3,
+    "bloque": "Bloque I: El saber filosófico, lógica y teoría del conocimiento",
+    "titulo": "La comunicación humana y el lenguaje: lenguaje natural y lenguajes formales.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 4,
+    "num": 4,
+    "bloque": "Bloque I: El saber filosófico, lógica y teoría del conocimiento",
+    "titulo": "Sentido y referencia. Teorías del significado.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 5,
+    "num": 5,
+    "bloque": "Bloque I: El saber filosófico, lógica y teoría del conocimiento",
+    "titulo": "De la lógica clásica a la lógica simbólica.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 6,
+    "num": 6,
+    "bloque": "Bloque I: El saber filosófico, lógica y teoría del conocimiento",
+    "titulo": "El cálculo de proposiciones y de predicados.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 7,
+    "num": 7,
+    "bloque": "Bloque I: El saber filosófico, lógica y teoría del conocimiento",
+    "titulo": "La Lógica como sistema formal axiomático; los límites de los sistemas formales axiomáticos.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 8,
+    "num": 8,
+    "bloque": "Bloque I: El saber filosófico, lógica y teoría del conocimiento",
+    "titulo": "La verdad en las matemáticas y en las ciencias empíricas (sociales y naturales).",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 9,
+    "num": 9,
+    "bloque": "Bloque I: El saber filosófico, lógica y teoría del conocimiento",
+    "titulo": "Naturaleza de las Leyes, las teorías y los modelos científicos. El contexto de la justificación científica y el contexto del descubrimiento científico.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 10,
+    "num": 10,
+    "bloque": "Bloque I: El saber filosófico, lógica y teoría del conocimiento",
+    "titulo": "La construcción científica de la realidad; determinismo e indeterminismo; el postulado de la objetividad.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 11,
+    "num": 11,
+    "bloque": "Bloque I: El saber filosófico, lógica y teoría del conocimiento",
+    "titulo": "Conocimiento y lenguaje: el problema de los conceptos universales.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 12,
+    "num": 12,
+    "bloque": "Bloque I: El saber filosófico, lógica y teoría del conocimiento",
+    "titulo": "Los elementos a priori en el conocimiento.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 13,
+    "num": 13,
+    "bloque": "Bloque I: El saber filosófico, lógica y teoría del conocimiento",
+    "titulo": "Los límites del conocimiento humano y el problema de lo irracional.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 14,
+    "num": 14,
     "bloque": "Bloque II: Metafísica, ontología y estética",
-    "temas": [
-      {
-        "num": 14,
-        "titulo": "La Metafísica como problema."
-      },
-      {
-        "num": 15,
-        "titulo": "Formación y sentido de la idea de ente."
-      },
-      {
-        "num": 16,
-        "titulo": "Los primeros principios y su valor ontológico."
-      },
-      {
-        "num": 17,
-        "titulo": "Las categorías y los diversos sistemas categoriales."
-      },
-      {
-        "num": 18,
-        "titulo": "Los distintos planteamientos en torno al concepto de sustancia. Valoración crítica del principio de causalidad."
-      },
-      {
-        "num": 19,
-        "titulo": "La realidad personal y el problema de la libertad."
-      },
-      {
-        "num": 20,
-        "titulo": "El debate histórico en torno a la relación entre la fe y la razón."
-      },
-      {
-        "num": 21,
-        "titulo": "Ontologismo, agnosticismo y ateísmo."
-      },
-      {
-        "num": 22,
-        "titulo": "La reflexión filosófica sobre la belleza."
-      }
-    ]
+    "titulo": "La Metafísica como problema.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
   },
   {
+    "id": 15,
+    "num": 15,
+    "bloque": "Bloque II: Metafísica, ontología y estética",
+    "titulo": "Formación y sentido de la idea de ente.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 16,
+    "num": 16,
+    "bloque": "Bloque II: Metafísica, ontología y estética",
+    "titulo": "Los primeros principios y su valor ontológico.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 17,
+    "num": 17,
+    "bloque": "Bloque II: Metafísica, ontología y estética",
+    "titulo": "Las categorías y los diversos sistemas categoriales.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 18,
+    "num": 18,
+    "bloque": "Bloque II: Metafísica, ontología y estética",
+    "titulo": "Los distintos planteamientos en torno al concepto de sustancia. Valoración crítica del principio de causalidad.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 19,
+    "num": 19,
+    "bloque": "Bloque II: Metafísica, ontología y estética",
+    "titulo": "La realidad personal y el problema de la libertad.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 20,
+    "num": 20,
+    "bloque": "Bloque II: Metafísica, ontología y estética",
+    "titulo": "El debate histórico en torno a la relación entre la fe y la razón.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 21,
+    "num": 21,
+    "bloque": "Bloque II: Metafísica, ontología y estética",
+    "titulo": "Ontologismo, agnosticismo y ateísmo.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 22,
+    "num": 22,
+    "bloque": "Bloque II: Metafísica, ontología y estética",
+    "titulo": "La reflexión filosófica sobre la belleza.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 23,
+    "num": 23,
     "bloque": "Bloque III: El ser humano: antropología y psicología",
-    "temas": [
-      {
-        "num": 23,
-        "titulo": "La evolución y sus implicaciones filosóficas."
-      },
-      {
-        "num": 24,
-        "titulo": "La antropología como campo de estudio. Diversas concepciones de la antropología."
-      },
-      {
-        "num": 25,
-        "titulo": "La antropogénesis: naturaleza y cultura."
-      },
-      {
-        "num": 26,
-        "titulo": "Las distintas concepciones de la Psicología como ciencia."
-      },
-      {
-        "num": 27,
-        "titulo": "La actividad perceptiva y representativa en la persona humana."
-      },
-      {
-        "num": 28,
-        "titulo": "El carácter simbólico del ser humano: pensamiento y lenguaje. El cognitivismo."
-      },
-      {
-        "num": 29,
-        "titulo": "La motivación humana y la vida afectiva."
-      },
-      {
-        "num": 30,
-        "titulo": "El aprendizaje y la conducta humana."
-      }
-    ]
+    "titulo": "La evolución y sus implicaciones filosóficas.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
   },
   {
+    "id": 24,
+    "num": 24,
+    "bloque": "Bloque III: El ser humano: antropología y psicología",
+    "titulo": "La antropología como campo de estudio. Diversas concepciones de la antropología.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 25,
+    "num": 25,
+    "bloque": "Bloque III: El ser humano: antropología y psicología",
+    "titulo": "La antropogénesis: naturaleza y cultura.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 26,
+    "num": 26,
+    "bloque": "Bloque III: El ser humano: antropología y psicología",
+    "titulo": "Las distintas concepciones de la Psicología como ciencia.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 27,
+    "num": 27,
+    "bloque": "Bloque III: El ser humano: antropología y psicología",
+    "titulo": "La actividad perceptiva y representativa en la persona humana.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 28,
+    "num": 28,
+    "bloque": "Bloque III: El ser humano: antropología y psicología",
+    "titulo": "El carácter simbólico del ser humano: pensamiento y lenguaje. El cognitivismo.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 29,
+    "num": 29,
+    "bloque": "Bloque III: El ser humano: antropología y psicología",
+    "titulo": "La motivación humana y la vida afectiva.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 30,
+    "num": 30,
+    "bloque": "Bloque III: El ser humano: antropología y psicología",
+    "titulo": "El aprendizaje y la conducta humana.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 31,
+    "num": 31,
     "bloque": "Bloque IV: Filosofía social, política y técnica",
-    "temas": [
-      {
-        "num": 31,
-        "titulo": "Las distintas concepciones de la sociología como ciencia."
-      },
-      {
-        "num": 32,
-        "titulo": "Origen y naturaleza en la sociedad."
-      },
-      {
-        "num": 33,
-        "titulo": "Formas de organización política."
-      },
-      {
-        "num": 34,
-        "titulo": "Fundamentos filosóficos del derecho y la justicia."
-      },
-      {
-        "num": 35,
-        "titulo": "Conflicto y cambio social: factores típicos."
-      },
-      {
-        "num": 36,
-        "titulo": "El desarrollo de la técnica y sus implicaciones en la sociedad contemporánea."
-      }
-    ]
+    "titulo": "Las distintas concepciones de la sociología como ciencia.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
   },
   {
+    "id": 32,
+    "num": 32,
+    "bloque": "Bloque IV: Filosofía social, política y técnica",
+    "titulo": "Origen y naturaleza en la sociedad.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 33,
+    "num": 33,
+    "bloque": "Bloque IV: Filosofía social, política y técnica",
+    "titulo": "Formas de organización política.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 34,
+    "num": 34,
+    "bloque": "Bloque IV: Filosofía social, política y técnica",
+    "titulo": "Fundamentos filosóficos del derecho y la justicia.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 35,
+    "num": 35,
+    "bloque": "Bloque IV: Filosofía social, política y técnica",
+    "titulo": "Conflicto y cambio social: factores típicos.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 36,
+    "num": 36,
+    "bloque": "Bloque IV: Filosofía social, política y técnica",
+    "titulo": "El desarrollo de la técnica y sus implicaciones en la sociedad contemporánea.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 37,
+    "num": 37,
     "bloque": "Bloque V: Ética, moral y derecho",
-    "temas": [
-      {
-        "num": 37,
-        "titulo": "Bases antropológicas de la conducta moral."
-      },
-      {
-        "num": 38,
-        "titulo": "La génesis de los valores morales: naturaleza y convención."
-      },
-      {
-        "num": 39,
-        "titulo": "El lenguaje moral, Forma y justificación de los juicios morales."
-      },
-      {
-        "num": 40,
-        "titulo": "Bien y valor."
-      },
-      {
-        "num": 41,
-        "titulo": "Éticas materiales y éticas formales."
-      },
-      {
-        "num": 42,
-        "titulo": "Ética y política."
-      },
-      {
-        "num": 43,
-        "titulo": "Principales problemas éticos en la actividad científica y técnica y en la convivencia social de nuestro tiempo."
-      },
-      {
-        "num": 44,
-        "titulo": "Ética y derecho: los derechos humanos."
-      },
-      {
-        "num": 45,
-        "titulo": "El estado de bienestar: alienación y libertad en las sociedades tecnificadas."
-      }
-    ]
+    "titulo": "Bases antropológicas de la conducta moral.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
   },
   {
+    "id": 38,
+    "num": 38,
+    "bloque": "Bloque V: Ética, moral y derecho",
+    "titulo": "La génesis de los valores morales: naturaleza y convención.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 39,
+    "num": 39,
+    "bloque": "Bloque V: Ética, moral y derecho",
+    "titulo": "El lenguaje moral, Forma y justificación de los juicios morales.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 40,
+    "num": 40,
+    "bloque": "Bloque V: Ética, moral y derecho",
+    "titulo": "Bien y valor.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 41,
+    "num": 41,
+    "bloque": "Bloque V: Ética, moral y derecho",
+    "titulo": "Éticas materiales y éticas formales.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 42,
+    "num": 42,
+    "bloque": "Bloque V: Ética, moral y derecho",
+    "titulo": "Ética y política.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 43,
+    "num": 43,
+    "bloque": "Bloque V: Ética, moral y derecho",
+    "titulo": "Principales problemas éticos en la actividad científica y técnica y en la convivencia social de nuestro tiempo.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 44,
+    "num": 44,
+    "bloque": "Bloque V: Ética, moral y derecho",
+    "titulo": "Ética y derecho: los derechos humanos.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 45,
+    "num": 45,
+    "bloque": "Bloque V: Ética, moral y derecho",
+    "titulo": "El estado de bienestar: alienación y libertad en las sociedades tecnificadas.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 46,
+    "num": 46,
     "bloque": "Bloque VI: Historia de la Filosofía",
-    "temas": [
-      {
-        "num": 46,
-        "titulo": "La historia de la filosofía como problema filosófico."
-      },
-      {
-        "num": 47,
-        "titulo": "Los modelos de explicación racional en los presocráticos."
-      },
-      {
-        "num": 48,
-        "titulo": "El debate ético-político en Sócrates y los sofistas."
-      },
-      {
-        "num": 49,
-        "titulo": "La justicia en la Polis como objetivo de la filosofía de Platón."
-      },
-      {
-        "num": 50,
-        "titulo": "La Naturaleza en Aristóteles."
-      },
-      {
-        "num": 51,
-        "titulo": "El desarrollo de la ciencia en el pensamiento helenístico."
-      },
-      {
-        "num": 52,
-        "titulo": "La síntesis escolástica de Santo Tomás de Aquino."
-      },
-      {
-        "num": 53,
-        "titulo": "El nominalismo y la ciencia del siglo XIV."
-      },
-      {
-        "num": 54,
-        "titulo": "La revolución científica. Galileo y Newton."
-      },
-      {
-        "num": 55,
-        "titulo": "El método cartesiano."
-      },
-      {
-        "num": 56,
-        "titulo": "El sujeto ético-político en Spinoza."
-      },
-      {
-        "num": 57,
-        "titulo": "Ciencia y conocimiento en Leibniz."
-      },
-      {
-        "num": 58,
-        "titulo": "El empirismo y las ciencias morales: Locke y Hume."
-      },
-      {
-        "num": 59,
-        "titulo": "El uso teórico de la razón en Kant."
-      },
-      {
-        "num": 60,
-        "titulo": "El uso práctico de la razón en Kant."
-      },
-      {
-        "num": 61,
-        "titulo": "La filosofía de Hegel: sujeto, sistema y estado."
-      },
-      {
-        "num": 62,
-        "titulo": "El positivismo y el avance científico del siglo XIX."
-      },
-      {
-        "num": 63,
-        "titulo": "La crítica de Marx al capitalismo y su influjo en la historia del pensamiento occidental."
-      },
-      {
-        "num": 64,
-        "titulo": "Nietzsche y la crisis de la cultura occidental."
-      },
-      {
-        "num": 65,
-        "titulo": "La fenomenología de E. Husserl."
-      },
-      {
-        "num": 66,
-        "titulo": "Freud: el psicoanálisis como crítica de la cultura occidental."
-      },
-      {
-        "num": 67,
-        "titulo": "El problema del ser en Heidegger y en las filosofías de la existencia."
-      },
-      {
-        "num": 68,
-        "titulo": "L. Wittgenstein y B. Russell: la corriente analítica de la filosofía."
-      },
-      {
-        "num": 69,
-        "titulo": "Razón y sociedad en la escuela de Frankfurt y en K.R. Popper."
-      },
-      {
-        "num": 70,
-        "titulo": "Ortega y Gasset y la filosofía del exilio español."
-      },
-      {
-        "num": 71,
-        "titulo": "La filosofía de “fin de siglo”: hermenéutica y postmodernidad."
-      }
-    ]
+    "titulo": "La historia de la filosofía como problema filosófico.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 47,
+    "num": 47,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "Los modelos de explicación racional en los presocráticos.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 48,
+    "num": 48,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "El debate ético-político en Sócrates y los sofistas.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 49,
+    "num": 49,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "La justicia en la Polis como objetivo de la filosofía de Platón.",
+    "autores_relacionados": [
+      "socrates",
+      "platon",
+      "aristoteles"
+    ],
+    "corrientes_relacionadas": [
+      "platonismo"
+    ],
+    "video_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  },
+  {
+    "id": 50,
+    "num": 50,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "La Naturaleza en Aristóteles.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 51,
+    "num": 51,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "El desarrollo de la ciencia en el pensamiento helenístico.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 52,
+    "num": 52,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "La síntesis escolástica de Santo Tomás de Aquino.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 53,
+    "num": 53,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "El nominalismo y la ciencia del siglo XIV.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 54,
+    "num": 54,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "La revolución científica. Galileo y Newton.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 55,
+    "num": 55,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "El método cartesiano.",
+    "autores_relacionados": [
+      "descartes"
+    ],
+    "corrientes_relacionadas": [
+      "racionalismo"
+    ],
+    "video_url": ""
+  },
+  {
+    "id": 56,
+    "num": 56,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "El sujeto ético-político en Spinoza.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 57,
+    "num": 57,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "Ciencia y conocimiento en Leibniz.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 58,
+    "num": 58,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "El empirismo y las ciencias morales: Locke y Hume.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 59,
+    "num": 59,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "El uso teórico de la razón en Kant.",
+    "autores_relacionados": [
+      "kant"
+    ],
+    "corrientes_relacionadas": [
+      "criticismo",
+      "idealismo"
+    ],
+    "video_url": ""
+  },
+  {
+    "id": 60,
+    "num": 60,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "El uso práctico de la razón en Kant.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 61,
+    "num": 61,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "La filosofía de Hegel: sujeto, sistema y estado.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 62,
+    "num": 62,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "El positivismo y el avance científico del siglo XIX.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 63,
+    "num": 63,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "La crítica de Marx al capitalismo y su influjo en la historia del pensamiento occidental.",
+    "autores_relacionados": [
+      "marx"
+    ],
+    "corrientes_relacionadas": [
+      "marxismo"
+    ],
+    "video_url": ""
+  },
+  {
+    "id": 64,
+    "num": 64,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "Nietzsche y la crisis de la cultura occidental.",
+    "autores_relacionados": [
+      "nietzsche"
+    ],
+    "corrientes_relacionadas": [
+      "vitalismo"
+    ],
+    "video_url": ""
+  },
+  {
+    "id": 65,
+    "num": 65,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "La fenomenología de E. Husserl.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 66,
+    "num": 66,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "Freud: el psicoanálisis como crítica de la cultura occidental.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 67,
+    "num": 67,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "El problema del ser en Heidegger y en las filosofías de la existencia.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 68,
+    "num": 68,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "L. Wittgenstein y B. Russell: la corriente analítica de la filosofía.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 69,
+    "num": 69,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "Razón y sociedad en la escuela de Frankfurt y en K.R. Popper.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 70,
+    "num": 70,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "Ortega y Gasset y la filosofía del exilio español.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
+  },
+  {
+    "id": 71,
+    "num": 71,
+    "bloque": "Bloque VI: Historia de la Filosofía",
+    "titulo": "La filosofía de “fin de siglo”: hermenéutica y postmodernidad.",
+    "autores_relacionados": [],
+    "corrientes_relacionadas": [],
+    "video_url": ""
   }
 ]
