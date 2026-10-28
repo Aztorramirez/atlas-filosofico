@@ -12,7 +12,8 @@
       "platonismo",
       "aristotelismo"
     ],
-    "video_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    "video_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "obras_relacionadas": []
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "titulo": "La función de la filosofía en el conjunto de la cultura. La relación del saber filosófico con el saber científico y otros saberes.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "titulo": "La comunicación humana y el lenguaje: lenguaje natural y lenguajes formales.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 4,
@@ -39,7 +42,8 @@
     "titulo": "Sentido y referencia. Teorías del significado.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 5,
@@ -48,7 +52,8 @@
     "titulo": "De la lógica clásica a la lógica simbólica.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 6,
@@ -57,7 +62,8 @@
     "titulo": "El cálculo de proposiciones y de predicados.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 7,
@@ -66,7 +72,8 @@
     "titulo": "La Lógica como sistema formal axiomático; los límites de los sistemas formales axiomáticos.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 8,
@@ -75,7 +82,8 @@
     "titulo": "La verdad en las matemáticas y en las ciencias empíricas (sociales y naturales).",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 9,
@@ -84,7 +92,8 @@
     "titulo": "Naturaleza de las Leyes, las teorías y los modelos científicos. El contexto de la justificación científica y el contexto del descubrimiento científico.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 10,
@@ -93,7 +102,8 @@
     "titulo": "La construcción científica de la realidad; determinismo e indeterminismo; el postulado de la objetividad.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 11,
@@ -102,7 +112,8 @@
     "titulo": "Conocimiento y lenguaje: el problema de los conceptos universales.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 12,
@@ -111,7 +122,8 @@
     "titulo": "Los elementos a priori en el conocimiento.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 13,
@@ -120,7 +132,8 @@
     "titulo": "Los límites del conocimiento humano y el problema de lo irracional.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 14,
@@ -129,7 +142,8 @@
     "titulo": "La Metafísica como problema.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 15,
@@ -138,7 +152,8 @@
     "titulo": "Formación y sentido de la idea de ente.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 16,
@@ -147,7 +162,8 @@
     "titulo": "Los primeros principios y su valor ontológico.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 17,
@@ -156,7 +172,8 @@
     "titulo": "Las categorías y los diversos sistemas categoriales.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 18,
@@ -165,7 +182,8 @@
     "titulo": "Los distintos planteamientos en torno al concepto de sustancia. Valoración crítica del principio de causalidad.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 19,
@@ -174,7 +192,8 @@
     "titulo": "La realidad personal y el problema de la libertad.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 20,
@@ -183,7 +202,8 @@
     "titulo": "El debate histórico en torno a la relación entre la fe y la razón.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 21,
@@ -192,7 +212,8 @@
     "titulo": "Ontologismo, agnosticismo y ateísmo.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 22,
@@ -201,7 +222,8 @@
     "titulo": "La reflexión filosófica sobre la belleza.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 23,
@@ -210,7 +232,8 @@
     "titulo": "La evolución y sus implicaciones filosóficas.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 24,
@@ -219,7 +242,8 @@
     "titulo": "La antropología como campo de estudio. Diversas concepciones de la antropología.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 25,
@@ -228,16 +252,38 @@
     "titulo": "La antropogénesis: naturaleza y cultura.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 26,
     "num": 26,
     "bloque": "Bloque III: El ser humano: antropología y psicología",
     "titulo": "Las distintas concepciones de la Psicología como ciencia.",
-    "autores_relacionados": [],
+    "autores_relacionados": [
+      {
+        "id_filosofo": "platon",
+        "justificacion": "Reflexionó por primera vez en la Atenas clásica sobre la psique en contrapunto con el cuerpo, trasladando el interés filosófico hacia la antropología."
+      },
+      {
+        "id_filosofo": "aristoteles",
+        "justificacion": "Elaboró el primer estudio sistemático de la mente en su tratado Acerca del alma, defendiendo una concepción biologista."
+      }
+    ],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "https://youtu.be/YKz3ggWxwHo",
+    "obras_relacionadas": [
+      {
+        "titulo": "Acerca del alma (De Anima)",
+        "autor": "Aristóteles",
+        "justificacion": "Tratado pionero dedicado al estudio sistemático de la psique y las funciones vitales."
+      },
+      {
+        "titulo": "Leviatán",
+        "autor": "Thomas Hobbes",
+        "justificacion": "Obra donde expone una concepción mecanicista del pensamiento y el razonamiento como cálculo o computación."
+      }
+    ]
   },
   {
     "id": 27,
@@ -246,7 +292,8 @@
     "titulo": "La actividad perceptiva y representativa en la persona humana.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 28,
@@ -255,7 +302,8 @@
     "titulo": "El carácter simbólico del ser humano: pensamiento y lenguaje. El cognitivismo.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 29,
@@ -264,7 +312,8 @@
     "titulo": "La motivación humana y la vida afectiva.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 30,
@@ -273,7 +322,8 @@
     "titulo": "El aprendizaje y la conducta humana.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 31,
@@ -282,7 +332,8 @@
     "titulo": "Las distintas concepciones de la sociología como ciencia.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 32,
@@ -291,7 +342,8 @@
     "titulo": "Origen y naturaleza en la sociedad.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 33,
@@ -300,7 +352,8 @@
     "titulo": "Formas de organización política.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 34,
@@ -309,7 +362,8 @@
     "titulo": "Fundamentos filosóficos del derecho y la justicia.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 35,
@@ -318,7 +372,8 @@
     "titulo": "Conflicto y cambio social: factores típicos.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 36,
@@ -327,7 +382,8 @@
     "titulo": "El desarrollo de la técnica y sus implicaciones en la sociedad contemporánea.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 37,
@@ -336,7 +392,8 @@
     "titulo": "Bases antropológicas de la conducta moral.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 38,
@@ -345,7 +402,8 @@
     "titulo": "La génesis de los valores morales: naturaleza y convención.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 39,
@@ -354,7 +412,8 @@
     "titulo": "El lenguaje moral, Forma y justificación de los juicios morales.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 40,
@@ -363,7 +422,8 @@
     "titulo": "Bien y valor.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 41,
@@ -372,7 +432,8 @@
     "titulo": "Éticas materiales y éticas formales.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 42,
@@ -381,7 +442,8 @@
     "titulo": "Ética y política.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 43,
@@ -390,7 +452,8 @@
     "titulo": "Principales problemas éticos en la actividad científica y técnica y en la convivencia social de nuestro tiempo.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 44,
@@ -399,7 +462,8 @@
     "titulo": "Ética y derecho: los derechos humanos.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 45,
@@ -408,7 +472,8 @@
     "titulo": "El estado de bienestar: alienación y libertad en las sociedades tecnificadas.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 46,
@@ -417,7 +482,8 @@
     "titulo": "La historia de la filosofía como problema filosófico.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 47,
@@ -426,7 +492,8 @@
     "titulo": "Los modelos de explicación racional en los presocráticos.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 48,
@@ -435,7 +502,8 @@
     "titulo": "El debate ético-político en Sócrates y los sofistas.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 49,
@@ -450,7 +518,8 @@
     "corrientes_relacionadas": [
       "platonismo"
     ],
-    "video_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    "video_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "obras_relacionadas": []
   },
   {
     "id": 50,
@@ -459,7 +528,8 @@
     "titulo": "La Naturaleza en Aristóteles.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 51,
@@ -468,7 +538,8 @@
     "titulo": "El desarrollo de la ciencia en el pensamiento helenístico.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 52,
@@ -477,7 +548,8 @@
     "titulo": "La síntesis escolástica de Santo Tomás de Aquino.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 53,
@@ -486,7 +558,8 @@
     "titulo": "El nominalismo y la ciencia del siglo XIV.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 54,
@@ -495,7 +568,8 @@
     "titulo": "La revolución científica. Galileo y Newton.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 55,
@@ -508,7 +582,8 @@
     "corrientes_relacionadas": [
       "racionalismo"
     ],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 56,
@@ -517,7 +592,8 @@
     "titulo": "El sujeto ético-político en Spinoza.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 57,
@@ -526,7 +602,8 @@
     "titulo": "Ciencia y conocimiento en Leibniz.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 58,
@@ -535,7 +612,8 @@
     "titulo": "El empirismo y las ciencias morales: Locke y Hume.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 59,
@@ -549,7 +627,8 @@
       "criticismo",
       "idealismo"
     ],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 60,
@@ -558,7 +637,8 @@
     "titulo": "El uso práctico de la razón en Kant.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 61,
@@ -567,7 +647,8 @@
     "titulo": "La filosofía de Hegel: sujeto, sistema y estado.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 62,
@@ -576,7 +657,8 @@
     "titulo": "El positivismo y el avance científico del siglo XIX.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 63,
@@ -589,7 +671,8 @@
     "corrientes_relacionadas": [
       "marxismo"
     ],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 64,
@@ -602,7 +685,8 @@
     "corrientes_relacionadas": [
       "vitalismo"
     ],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 65,
@@ -611,7 +695,8 @@
     "titulo": "La fenomenología de E. Husserl.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 66,
@@ -620,7 +705,8 @@
     "titulo": "Freud: el psicoanálisis como crítica de la cultura occidental.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 67,
@@ -629,7 +715,8 @@
     "titulo": "El problema del ser en Heidegger y en las filosofías de la existencia.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 68,
@@ -638,7 +725,8 @@
     "titulo": "L. Wittgenstein y B. Russell: la corriente analítica de la filosofía.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 69,
@@ -647,7 +735,8 @@
     "titulo": "Razón y sociedad en la escuela de Frankfurt y en K.R. Popper.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 70,
@@ -656,7 +745,8 @@
     "titulo": "Ortega y Gasset y la filosofía del exilio español.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   },
   {
     "id": 71,
@@ -665,6 +755,7 @@
     "titulo": "La filosofía de “fin de siglo”: hermenéutica y postmodernidad.",
     "autores_relacionados": [],
     "corrientes_relacionadas": [],
-    "video_url": ""
+    "video_url": "",
+    "obras_relacionadas": []
   }
 ]

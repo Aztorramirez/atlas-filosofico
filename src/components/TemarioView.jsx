@@ -26,9 +26,25 @@ export default function TemarioView({ onNavigateToAtlas }) {
       const matchTitulo = t.titulo.toLowerCase().includes(term);
       const matchNum = t.num.toString() === term || `tema ${t.num}`.includes(term);
       const matchBloque = t.bloque.toLowerCase().includes(term);
-      const matchAutores = t.autores_relacionados?.some((id) => id.toLowerCase().includes(term));
+      const matchAutores = t.autores_relacionados?.some((item) => {
+        if (typeof item === 'string') return item.toLowerCase().includes(term);
+        if (item && typeof item === 'object') {
+          return (
+            item.id_filosofo?.toLowerCase().includes(term) ||
+            item.justificacion?.toLowerCase().includes(term)
+          );
+        }
+        return false;
+      });
       const matchCorrientes = t.corrientes_relacionadas?.some((c) => c.toLowerCase().includes(term));
-      return matchTitulo || matchNum || matchBloque || matchAutores || matchCorrientes;
+      const matchObras = t.obras_relacionadas?.some((obra) => {
+        return (
+          obra.titulo?.toLowerCase().includes(term) ||
+          obra.autor?.toLowerCase().includes(term) ||
+          obra.justificacion?.toLowerCase().includes(term)
+        );
+      });
+      return matchTitulo || matchNum || matchBloque || matchAutores || matchCorrientes || matchObras;
     });
   }, [searchTerm]);
 
@@ -157,13 +173,19 @@ export default function TemarioView({ onNavigateToAtlas }) {
                               <span>{tema.autores_relacionados.length} autores</span>
                             </span>
                           )}
+                          {tema.obras_relacionadas && tema.obras_relacionadas.length > 0 && (
+                            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-amber-400/10 text-amber-300 border border-amber-400/20 text-[10px] font-mono">
+                              <BookOpen className="w-2.5 h-2.5" />
+                              <span>{tema.obras_relacionadas.length} {tema.obras_relacionadas.length === 1 ? 'obra' : 'obras'}</span>
+                            </span>
+                          )}
                           {hasVideo && (
                             <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-emerald-400/10 text-emerald-300 border border-emerald-400/20 text-[10px] font-mono">
                               <Play className="w-2.5 h-2.5 fill-current" />
                               <span>Videoclase</span>
                             </span>
                           )}
-                          {!hasAutores && !hasVideo && (
+                          {!hasAutores && !hasVideo && (!tema.obras_relacionadas || tema.obras_relacionadas.length === 0) && (
                             <span className="text-[10px] text-slate-600 font-mono">
                               Ficha de estudio
                             </span>

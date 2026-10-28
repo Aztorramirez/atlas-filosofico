@@ -11,6 +11,8 @@ import {
   ChevronLeft,
   Compass,
   Layers,
+  GraduationCap,
+  Bookmark,
 } from 'lucide-react';
 import TimelineFlow from './TimelineFlow';
 import FloatingPopover from './FloatingPopover';
@@ -26,14 +28,43 @@ export default function TemaDetail({
   const [selectedFilosofo, setSelectedFilosofo] = useState(null);
   const [modalFilosofo, setModalFilosofo] = useState(null);
 
-  // Filtrar los filósofos correspondientes a los IDs del tema
-  const relatedFilosofos = useMemo(() => {
+  // Extraer los IDs de los filósofos relacionados (soporta strings u objetos enriquecidos con id_filosofo)
+  const authorIds = useMemo(() => {
     if (!tema?.autores_relacionados || tema.autores_relacionados.length === 0) {
       return [];
     }
-    const idsSet = new Set(tema.autores_relacionados.map((id) => id.toLowerCase()));
+    return tema.autores_relacionados
+      .map((item) => (typeof item === 'string' ? item : item.id_filosofo))
+      .filter(Boolean);
+  }, [tema]);
+
+  // Filtrar los objetos completos de filósofos correspondientes a los IDs del tema
+  const relatedFilosofos = useMemo(() => {
+    if (authorIds.length === 0) return [];
+    const idsSet = new Set(authorIds.map((id) => id.toLowerCase()));
     return allFilosofos.filter((f) => idsSet.has(f.id.toLowerCase()));
+  }, [authorIds, allFilosofos]);
+
+  // Lista de autores que cuentan con texto de justificación
+  const autoresConJustificacion = useMemo(() => {
+    if (!tema?.autores_relacionados || tema.autores_relacionados.length === 0) {
+      return [];
+    }
+    return tema.autores_relacionados
+      .filter((item) => typeof item === 'object' && item.id_filosofo && item.justificacion)
+      .map((item) => {
+        const idLower = item.id_filosofo.toLowerCase();
+        const filosofoObj = allFilosofos.find((f) => f.id.toLowerCase() === idLower);
+        return {
+          id_filosofo: item.id_filosofo,
+          justificacion: item.justificacion,
+          filosofo: filosofoObj || null,
+        };
+      });
   }, [tema, allFilosofos]);
+
+  const hasAutoresJustificados = autoresConJustificacion.length > 0;
+  const hasObrasJustificadas = tema?.obras_relacionadas && tema.obras_relacionadas.length > 0;
 
   // Navegación secuencial entre temas (Anterior / Siguiente)
   const currentIndex = useMemo(() => {
@@ -50,7 +81,7 @@ export default function TemaDetail({
       <div className="max-w-6xl mx-auto flex items-center justify-between gap-3 flex-wrap">
         <button
           onClick={onBack}
-          className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-300 hover:text-white text-xs sm:text-sm font-semibold transition"
+          className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-300 hover:text-white text-xs sm:text-sm font-semibold transition cursor-pointer"
         >
           <ArrowLeft className="w-4 h-4 text-amber-400" />
           <span>Volver al listado de temas</span>
@@ -64,7 +95,7 @@ export default function TemaDetail({
                 setSelectedFilosofo(null);
                 onSelectTema(prevTema);
               }}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-400 hover:text-slate-200 text-xs transition"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-400 hover:text-slate-200 text-xs transition cursor-pointer"
               title={`Tema ${prevTema.num}: ${prevTema.titulo}`}
             >
               <ChevronLeft className="w-4 h-4" />
@@ -82,7 +113,7 @@ export default function TemaDetail({
                 setSelectedFilosofo(null);
                 onSelectTema(nextTema);
               }}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-400 hover:text-slate-200 text-xs transition"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-400 hover:text-slate-200 text-xs transition cursor-pointer"
               title={`Tema ${nextTema.num}: ${nextTema.titulo}`}
             >
               <span>Tema {nextTema.num}</span>
@@ -112,7 +143,7 @@ export default function TemaDetail({
           </h1>
         </div>
 
-        {/* Acciones principales: Videoclase */}
+        {/* Acciones principales: Botón de Videoclase de YouTube en cabecera */}
         <div className="pt-4 border-t border-slate-800/80 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
           <div>
             {tema.video_url ? (
@@ -168,7 +199,7 @@ export default function TemaDetail({
                   key={f.id}
                   onClick={() => setSelectedFilosofo(isSelected ? null : f)}
                   onDoubleClick={() => setModalFilosofo(f)}
-                  className={`px-3 py-1.5 rounded-xl border text-xs font-medium transition flex items-center gap-2 ${
+                  className={`px-3 py-1.5 rounded-xl border text-xs font-medium transition flex items-center gap-2 cursor-pointer ${
                     isSelected
                       ? 'bg-amber-400 text-slate-950 font-bold border-amber-300 shadow-md shadow-amber-500/20'
                       : 'bg-slate-900/80 hover:bg-slate-800 text-slate-200 border-slate-800 hover:border-slate-700'
@@ -199,7 +230,7 @@ export default function TemaDetail({
               <span>Línea Temporal Filtrada</span>
             </h2>
             <p className="text-xs text-slate-400">
-              Marco cronológico interactivo con los pensadores y coetáneos de este tema.
+              Marco cronológico interactivo con los pensadores vinculados a este tema de oposición.
             </p>
           </div>
           {relatedFilosofos.length > 0 && (
@@ -232,14 +263,130 @@ export default function TemaDetail({
                   <code className="text-amber-400 bg-slate-900 px-1 py-0.5 rounded font-mono">
                     "autores_relacionados"
                   </code>{' '}
-                  de <code className="text-slate-400 font-mono">src/data/temario.json</code> (por ejemplo:{' '}
-                  <span className="text-slate-400">"platon", "aristoteles", "kant"</span>).
+                  de <code className="text-slate-400 font-mono">src/data/temario.json</code>.
                 </p>
               </div>
             </div>
           )}
         </div>
       </div>
+
+      {/* =========================================================================
+          NUEVA SECCIÓN: JUSTIFICACIÓN CURRICULAR PARA EL EXAMEN
+      ========================================================================= */}
+      {(hasAutoresJustificados || hasObrasJustificadas) && (
+        <div className="max-w-6xl mx-auto space-y-4">
+          <div className="p-6 sm:p-8 rounded-3xl bg-slate-900/80 border border-slate-800 shadow-2xl space-y-6">
+            
+            {/* Cabecera del panel de justificación */}
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-5 border-b border-slate-800/80">
+              <div className="space-y-1">
+                <div className="inline-flex items-center gap-2 text-xs font-bold font-mono uppercase tracking-wider text-amber-400">
+                  <GraduationCap className="w-4 h-4 text-amber-400" />
+                  <span>Preparación de Oposiciones • Argumentario para el Tribunal</span>
+                </div>
+                <h3 className="text-xl sm:text-2xl font-extrabold text-white">
+                  Justificación Curricular para el Examen
+                </h3>
+                <p className="text-xs sm:text-sm text-slate-400">
+                  Fundamentación conceptual de la presencia de cada autor y obra en el desarrollo temático.
+                </p>
+              </div>
+              <span className="text-xs text-slate-400 font-mono bg-slate-950 px-3 py-1.5 rounded-xl border border-slate-800 self-start sm:self-auto">
+                Tema {tema.num} • BOE
+              </span>
+            </div>
+
+            {/* Sub-bloque 1: Autores y su Justificación */}
+            {hasAutoresJustificados && (
+              <div className="space-y-3">
+                <div className="flex items-center gap-2 text-sm font-bold text-amber-300">
+                  <Users className="w-4 h-4 text-amber-400" />
+                  <h4>Autores Clave y Enfoque Filosófico</h4>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {autoresConJustificacion.map(({ filosofo, justificacion, id_filosofo }) => {
+                    const nombre = filosofo ? filosofo.nombre : id_filosofo;
+                    const epoca = filosofo ? filosofo.epoca_año : '';
+                    return (
+                      <div
+                        key={id_filosofo}
+                        onClick={() => filosofo && setSelectedFilosofo(filosofo)}
+                        className="p-5 rounded-2xl bg-slate-950/70 border border-slate-800/90 hover:border-amber-400/40 hover:bg-slate-950 transition-all space-y-3 cursor-pointer group"
+                        title={filosofo ? "Haz clic para seleccionar en la línea temporal" : ""}
+                      >
+                        <div className="flex items-center justify-between">
+                          <div className="flex items-center gap-2.5">
+                            <span className="w-8 h-8 rounded-xl bg-amber-400/10 text-amber-300 border border-amber-400/20 flex items-center justify-center font-bold text-xs uppercase font-mono group-hover:bg-amber-400 group-hover:text-slate-950 transition-colors">
+                              {nombre.charAt(0)}
+                            </span>
+                            <div>
+                              <div className="text-sm sm:text-base font-bold text-white group-hover:text-amber-300 transition-colors">
+                                {nombre}
+                              </div>
+                              {filosofo?.corrientes?.[0] && (
+                                <div className="text-[10px] text-slate-500 font-mono">
+                                  {filosofo.corrientes[0]}
+                                </div>
+                              )}
+                            </div>
+                          </div>
+                          {epoca && (
+                            <span className="text-[11px] font-mono text-slate-500">
+                              {epoca}
+                            </span>
+                          )}
+                        </div>
+
+                        <p className="text-xs sm:text-sm text-slate-300 leading-relaxed pl-0.5">
+                          {justificacion}
+                        </p>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
+            {/* Sub-bloque 2: Obras y Tratados Fundamentales */}
+            {hasObrasJustificadas && (
+              <div className="space-y-3 pt-3 border-t border-slate-800/60">
+                <div className="flex items-center gap-2 text-sm font-bold text-amber-300">
+                  <BookOpen className="w-4 h-4 text-amber-400" />
+                  <h4>Obras y Tratados Fundamentales</h4>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {tema.obras_relacionadas.map((obra, idx) => (
+                    <div
+                      key={idx}
+                      className="p-5 rounded-2xl bg-slate-950/70 border border-slate-800/90 hover:border-amber-400/30 transition-all space-y-2.5"
+                    >
+                      <div className="flex items-center justify-between gap-2 flex-wrap">
+                        <div className="flex items-center gap-2">
+                          <Bookmark className="w-4 h-4 text-amber-400 shrink-0" />
+                          <h5 className="text-sm sm:text-base font-bold text-amber-300 italic">
+                            {obra.titulo}
+                          </h5>
+                        </div>
+                        <span className="px-2.5 py-0.5 rounded-lg bg-slate-800 border border-slate-700 text-slate-200 text-xs font-semibold">
+                          {obra.autor}
+                        </span>
+                      </div>
+
+                      <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                        {obra.justificacion}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+          </div>
+        </div>
+      )}
 
       {/* Popover Flotante de Autor (1 Clic) */}
       {selectedFilosofo && (
