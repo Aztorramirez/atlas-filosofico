@@ -4,599 +4,1088 @@ import {
   Scale,
   ExternalLink,
   BookOpen,
-  Building2,
   ChevronDown,
   ChevronUp,
-  ChevronRight,
   Search,
-  Sparkles,
-  Layers,
   GraduationCap,
-  Tag,
   X,
   Target,
   ListChecks,
   CheckCircle2,
-  Filter,
+  Layers,
+  Sparkles,
+  Info,
+  Brain,
+  Shield,
+  ScrollText,
 } from 'lucide-react';
 
 export default function LegislacionView() {
-  const [searchTerm, setSearchTerm] = useState('');
-  const [openCcaa, setOpenCcaa] = useState({ 'comunidad-de-madrid': true }); // Madrid abierta por defecto
-  
-  // Estado para la ley estatal seleccionada para ver su desglose curricular (LOMLOE, RD ESO, RD Bachillerato)
-  const [selectedLeyId, setSelectedLeyId] = useState('rd-bachillerato'); // Abierto por defecto en Bachillerato
-  // Pestaña activa dentro del desglose curricular: 'competencias' | 'criterios' | 'saberes'
-  const [activeTab, setActiveTab] = useState('competencias');
-  // Filtro de materia para leyes con múltiples materias (como RD Bachillerato)
-  const [materiaFilter, setMateriaFilter] = useState('todas');
+  // Pestaña principal activa: 'asignaturas' | 'descriptores' | 'objetivos'
+  const [mainTab, setMainTab] = useState('asignaturas');
 
-  const toggleCcaa = (id) => {
-    setOpenCcaa((prev) => ({
+  // En 'asignaturas': id de la asignatura activa ('valores', 'filosofia', 'historia-filosofia', 'psicologia')
+  const [selectedAsignaturaId, setSelectedAsignaturaId] = useState('filosofia');
+
+  // Sub-pestaña dentro de la asignatura: 'competencias' | 'saberes' | 'criterios'
+  const [asignaturaSubTab, setAsignaturaSubTab] = useState('competencias');
+
+  // Filtro de bloque en saberes básicos
+  const [selectedBloqueFilter, setSelectedBloqueFilter] = useState('TODOS');
+
+  // En 'descriptores': filtro de competencia clave ('TODAS' | 'CCL' | 'CP' | 'STEM' | 'CD' | 'CPSAA' | 'CC' | 'CE' | 'CCEC')
+  const [selectedClaveFilter, setSelectedClaveFilter] = useState('TODAS');
+
+  // En 'objetivos': etapa activa ('eso' | 'bachillerato')
+  const [selectedEtapa, setSelectedEtapa] = useState('bachillerato');
+
+  // Término de búsqueda global/local
+  const [searchTerm, setSearchTerm] = useState('');
+
+  // Estado de acordeones de competencias específicas { [numero]: boolean }
+  const [openCompetencias, setOpenCompetencias] = useState({ 1: true, 2: true });
+
+  // Estado del modal de información rápida de descriptor
+  const [activeDescriptorModal, setActiveDescriptorModal] = useState(null);
+
+  // Diccionario global de descriptores operativos y sus competencias clave
+  const descriptoresMap = useMemo(() => {
+    const map = {};
+    legislacionData.descriptoresOperativos.competencias.forEach((comp) => {
+      comp.descriptores.forEach((desc) => {
+        map[desc.codigo] = {
+          ...desc,
+          claveCodigo: comp.codigo,
+          claveNombre: comp.nombre,
+        };
+      });
+    });
+    return map;
+  }, []);
+
+  // Mapeo inverso: para cada descriptor, en qué materias y competencias se utiliza
+  const descriptorUsos = useMemo(() => {
+    const usos = {};
+    legislacionData.asignaturas.forEach((asig) => {
+      asig.competencias.forEach((comp) => {
+        comp.descriptores.forEach((dCode) => {
+          if (!usos[dCode]) usos[dCode] = [];
+          usos[dCode].push({
+            asignaturaId: asig.id,
+            asignaturaNombre: asig.nombreCorto || asig.nombre,
+            competenciaNumero: comp.numero,
+            competenciaTexto: comp.texto,
+          });
+        });
+      });
+    });
+    return usos;
+  }, []);
+
+  // Asignatura activa
+  const activeAsignatura = useMemo(() => {
+    return (
+      legislacionData.asignaturas.find((a) => a.id === selectedAsignaturaId) ||
+      legislacionData.asignaturas[1]
+    );
+  }, [selectedAsignaturaId]);
+
+  // Manejar click en un descriptor tag para abrir modal
+  const handleOpenDescriptor = (code) => {
+    const info = descriptoresMap[code];
+    if (info) {
+      setActiveDescriptorModal({
+        ...info,
+        usos: descriptorUsos[code] || [],
+      });
+    } else {
+      setActiveDescriptorModal({
+        codigo: code,
+        texto: 'Descriptor operativo oficial recogido en el perfil de salida.',
+        claveCodigo: code.replace(/[0-9.]/g, ''),
+        claveNombre: 'Competencia Clave',
+        usos: descriptorUsos[code] || [],
+      });
+    }
+  };
+
+  // Alternar acordeón de competencia
+  const toggleCompetencia = (num) => {
+    setOpenCompetencias((prev) => ({
       ...prev,
-      [id]: !prev[id],
+      [num]: !prev[num],
     }));
   };
 
-  const handleSelectLey = (id) => {
-    if (selectedLeyId === id) {
-      setSelectedLeyId(null); // Permite contraer si se pulsa de nuevo
-    } else {
-      setSelectedLeyId(id);
-      setMateriaFilter('todas');
-    }
+  const expandAllCompetencias = () => {
+    const all = {};
+    activeAsignatura.competencias.forEach((c) => {
+      all[c.numero] = true;
+    });
+    setOpenCompetencias(all);
   };
 
-  const selectedLey = useMemo(() => {
-    return legislacionData.nacional.find((l) => l.id === selectedLeyId);
-  }, [selectedLeyId]);
+  const collapseAllCompetencias = () => {
+    setOpenCompetencias({});
+  };
 
-  // Obtener las materias únicas disponibles en la ley seleccionada
-  const availableMaterias = useMemo(() => {
-    if (!selectedLey) return [];
-    const set = new Set();
-    if (selectedLey.competencias_especificas) {
-      selectedLey.competencias_especificas.forEach((ce) => {
-        if (ce.materia) set.add(ce.materia);
-      });
-    }
-    return Array.from(set);
-  }, [selectedLey]);
-
-  // Filtrado de Competencias Específicas por materia
+  // Filtrado de Competencias Específicas
   const filteredCompetencias = useMemo(() => {
-    if (!selectedLey?.competencias_especificas) return [];
-    if (materiaFilter === 'todas') return selectedLey.competencias_especificas;
-    return selectedLey.competencias_especificas.filter(
-      (ce) => !ce.materia || ce.materia === materiaFilter
-    );
-  }, [selectedLey, materiaFilter]);
+    if (!searchTerm.trim()) return activeAsignatura.competencias;
+    const term = searchTerm.toLowerCase();
+    return activeAsignatura.competencias.filter((c) => {
+      const matchText = c.texto.toLowerCase().includes(term);
+      const matchNum = `competencia ${c.numero}`.includes(term) || `ce ${c.numero}`.includes(term);
+      const matchDesc = c.descriptores.some((d) => d.toLowerCase().includes(term));
+      const matchCrit = c.criterios?.some(
+        (cr) => cr.codigo.toLowerCase().includes(term) || cr.texto.toLowerCase().includes(term)
+      );
+      return matchText || matchNum || matchDesc || matchCrit;
+    });
+  }, [activeAsignatura, searchTerm]);
 
-  // Filtrado de Criterios de Evaluación por materia
-  const filteredCriterios = useMemo(() => {
-    if (!selectedLey?.criterios_evaluacion) return [];
-    if (materiaFilter === 'todas') return selectedLey.criterios_evaluacion;
-    return selectedLey.criterios_evaluacion.filter(
-      (cr) => !cr.materia || cr.materia === materiaFilter
-    );
-  }, [selectedLey, materiaFilter]);
-
-  // Filtrado de Saberes Básicos por materia
+  // Filtrado de Saberes Básicos
   const filteredSaberes = useMemo(() => {
-    if (!selectedLey?.saberes_basicos) return [];
-    if (materiaFilter === 'todas') return selectedLey.saberes_basicos;
-    return selectedLey.saberes_basicos.filter(
-      (sb) => !sb.materia || sb.materia === materiaFilter
-    );
-  }, [selectedLey, materiaFilter]);
+    let bloques = activeAsignatura.saberes;
+    if (selectedBloqueFilter !== 'TODOS') {
+      bloques = bloques.filter((b) => b.letra === selectedBloqueFilter);
+    }
+    if (!searchTerm.trim()) return bloques;
+    const term = searchTerm.toLowerCase();
 
-  const filteredCcaa = legislacionData.ccaa.filter((c) =>
-    c.nombre.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+    return bloques
+      .map((b) => {
+        const matchingItems = b.items.filter((item) => item.texto.toLowerCase().includes(term));
+        const blockMatches = b.titulo.toLowerCase().includes(term);
+        if (blockMatches) return b;
+        if (matchingItems.length > 0) {
+          return {
+            ...b,
+            items: matchingItems,
+          };
+        }
+        return null;
+      })
+      .filter(Boolean);
+  }, [activeAsignatura, selectedBloqueFilter, searchTerm]);
+
+  // Filtrado de Criterios de Evaluación de la asignatura activa
+  const filteredCriterios = useMemo(() => {
+    const list = activeAsignatura.criteriosEvaluacion;
+    if (!searchTerm.trim()) return list;
+    const term = searchTerm.toLowerCase();
+    return list.filter(
+      (cr) =>
+        cr.codigo.toLowerCase().includes(term) ||
+        cr.texto.toLowerCase().includes(term) ||
+        `competencia ${cr.competencia}`.includes(term)
+    );
+  }, [activeAsignatura, searchTerm]);
+
+  // Filtrado de Descriptores Operativos
+  const filteredDescriptoresClave = useMemo(() => {
+    let comps = legislacionData.descriptoresOperativos.competencias;
+    if (selectedClaveFilter !== 'TODAS') {
+      comps = comps.filter((c) => c.codigo === selectedClaveFilter);
+    }
+    if (!searchTerm.trim()) return comps;
+    const term = searchTerm.toLowerCase();
+
+    return comps
+      .map((c) => {
+        const filteredDesc = c.descriptores.filter(
+          (d) =>
+            d.codigo.toLowerCase().includes(term) ||
+            d.texto.toLowerCase().includes(term) ||
+            c.nombre.toLowerCase().includes(term)
+        );
+        if (filteredDesc.length > 0) {
+          return {
+            ...c,
+            descriptores: filteredDesc,
+          };
+        }
+        return null;
+      })
+      .filter(Boolean);
+  }, [selectedClaveFilter, searchTerm]);
+
+  // Filtrado de Objetivos de Etapa
+  const activeObjetivosData = useMemo(() => {
+    const data = legislacionData.objetivosEtapa[selectedEtapa];
+    if (!searchTerm.trim()) return data;
+    const term = searchTerm.toLowerCase();
+    return {
+      ...data,
+      objetivos: data.objetivos.filter(
+        (o) =>
+          o.letra.toLowerCase().includes(term) ||
+          o.texto.toLowerCase().includes(term) ||
+          `objetivo ${o.letra}`.includes(term)
+      ),
+    };
+  }, [selectedEtapa, searchTerm]);
+
+  // Total de elementos encontrados con el buscador
+  const searchResultsCount = useMemo(() => {
+    if (!searchTerm.trim()) return 0;
+    if (mainTab === 'asignaturas') {
+      if (asignaturaSubTab === 'competencias') return filteredCompetencias.length;
+      if (asignaturaSubTab === 'saberes') {
+        return filteredSaberes.reduce((acc, b) => acc + b.items.length, 0);
+      }
+      return filteredCriterios.length;
+    }
+    if (mainTab === 'descriptores') {
+      return filteredDescriptoresClave.reduce((acc, c) => acc + c.descriptores.length, 0);
+    }
+    if (mainTab === 'objetivos') {
+      return activeObjetivosData.objetivos.length;
+    }
+    return 0;
+  }, [
+    searchTerm,
+    mainTab,
+    asignaturaSubTab,
+    filteredCompetencias,
+    filteredSaberes,
+    filteredCriterios,
+    filteredDescriptoresClave,
+    activeObjetivosData,
+  ]);
 
   return (
-    <div className="w-full h-full overflow-y-auto bg-slate-950 text-slate-100 p-4 sm:p-6 md:p-8 lg:p-10 space-y-10">
-      
-      {/* Cabecera de la Sección */}
+    <div className="w-full h-full overflow-y-auto bg-slate-950 text-slate-100 p-4 sm:p-6 md:p-8 lg:p-10 space-y-8">
+      {/* =========================================================================
+          CABECERA PRINCIPAL
+      ========================================================================= */}
       <div className="max-w-6xl mx-auto space-y-3">
         <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-400/10 text-amber-300 border border-amber-400/20 text-xs font-semibold">
-          <Scale className="w-3.5 h-3.5" />
-          <span>Oposiciones de Filosofía • Especialidad Secundaria</span>
+          <Scale className="w-3.5 h-3.5 text-amber-400" />
+          <span>Marco Curricular Oficial • LOMLOE & Comunidad de Madrid</span>
+          {searchTerm && (
+            <span className="text-amber-400 font-mono text-[11px]">
+              ({searchResultsCount} coincidencias)
+            </span>
+          )}
         </div>
-        <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white">
-          Marco Normativo y Ley Vigente
-        </h2>
+
+        <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight text-white flex items-center gap-3">
+          Legislación y Currículo de Filosofía
+        </h1>
+
         <p className="text-slate-400 text-sm sm:text-base max-w-3xl leading-relaxed">
-          Consulta la legislación educativa estatal y autonómica actualizada bajo el marco de la <strong>LOMLOE</strong>. 
-          Incluye el desglose exhaustivo de <strong>Competencias Específicas</strong>, <strong>Criterios de Evaluación</strong> y <strong>Saberes Básicos</strong> para las materias filosóficas de ESO y Bachillerato.
+          Estructura curricular completa del departamento: <strong>Objetivos de Etapa</strong> (ESO y Bachillerato),{' '}
+          <strong>Descriptores Operativos</strong> (Perfil de Salida LOMLOE) y el currículo madrileño por materias:
+          competencias específicas, criterios de evaluación y saberes básicos.
         </p>
+
+        {/* Métricas rápidas */}
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-2.5 pt-2">
+          <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex items-center gap-3">
+            <BookOpen className="w-4 h-4 text-amber-400 shrink-0" />
+            <div>
+              <div className="text-xs text-slate-400">Materias Oficiales</div>
+              <div className="text-sm font-bold text-white">4 Asignaturas</div>
+            </div>
+          </div>
+          <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex items-center gap-3">
+            <Target className="w-4 h-4 text-amber-400 shrink-0" />
+            <div>
+              <div className="text-xs text-slate-400">Competencias Esp.</div>
+              <div className="text-sm font-bold text-white">27 en total</div>
+            </div>
+          </div>
+          <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex items-center gap-3">
+            <ListChecks className="w-4 h-4 text-amber-400 shrink-0" />
+            <div>
+              <div className="text-xs text-slate-400">Criterios de Eval.</div>
+              <div className="text-sm font-bold text-white">64 criterios</div>
+            </div>
+          </div>
+          <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex items-center gap-3">
+            <Sparkles className="w-4 h-4 text-amber-400 shrink-0" />
+            <div>
+              <div className="text-xs text-slate-400">Descriptores Perfil</div>
+              <div className="text-sm font-bold text-white">34 clave</div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      {/* PANEL 1: LEY VIGENTE NACIONAL */}
-      <div className="max-w-6xl mx-auto space-y-6">
-        <div className="flex items-center justify-between pb-2 border-b border-slate-800">
-          <div className="flex items-center gap-2">
-            <Building2 className="w-5 h-5 text-amber-400" />
-            <h3 className="text-lg sm:text-xl font-bold text-white tracking-tight">
-              1. Normativa Estatal Básica (BOE)
-            </h3>
-          </div>
-          <span className="text-xs text-slate-500 font-mono hidden sm:inline">
-            Haz clic en una tarjeta para desplegar su currículo
-          </span>
+      {/* =========================================================================
+          BARRA DE HERRAMIENTAS: PESTAÑAS PRINCIPALES Y BUSCADOR
+      ========================================================================= */}
+      <div className="max-w-6xl mx-auto space-y-4">
+        {/* Navegación de Nivel Superior */}
+        <div className="flex flex-wrap items-center gap-2 p-1.5 rounded-2xl bg-slate-900/90 border border-slate-800">
+          <button
+            onClick={() => setMainTab('asignaturas')}
+            className={`flex items-center gap-2 px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm transition-all ${
+              mainTab === 'asignaturas'
+                ? 'bg-gradient-to-r from-amber-400 to-amber-500 text-slate-950 shadow-md shadow-amber-500/20'
+                : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
+            }`}
+          >
+            <BookOpen className="w-4 h-4" />
+            <span>Currículo por Asignatura</span>
+            <span
+              className={`text-[11px] px-1.5 py-0.5 rounded-md font-mono ${
+                mainTab === 'asignaturas' ? 'bg-slate-950/20 text-slate-950' : 'bg-slate-800 text-slate-400'
+              }`}
+            >
+              4 materias
+            </span>
+          </button>
+
+          <button
+            onClick={() => setMainTab('descriptores')}
+            className={`flex items-center gap-2 px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm transition-all ${
+              mainTab === 'descriptores'
+                ? 'bg-gradient-to-r from-amber-400 to-amber-500 text-slate-950 shadow-md shadow-amber-500/20'
+                : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
+            }`}
+          >
+            <Sparkles className="w-4 h-4" />
+            <span>Descriptores Operativos</span>
+            <span
+              className={`text-[11px] px-1.5 py-0.5 rounded-md font-mono ${
+                mainTab === 'descriptores' ? 'bg-slate-950/20 text-slate-950' : 'bg-slate-800 text-slate-400'
+              }`}
+            >
+              8 claves
+            </span>
+          </button>
+
+          <button
+            onClick={() => setMainTab('objetivos')}
+            className={`flex items-center gap-2 px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm transition-all ${
+              mainTab === 'objetivos'
+                ? 'bg-gradient-to-r from-amber-400 to-amber-500 text-slate-950 shadow-md shadow-amber-500/20'
+                : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
+            }`}
+          >
+            <GraduationCap className="w-4 h-4" />
+            <span>Objetivos de Etapa</span>
+            <span
+              className={`text-[11px] px-1.5 py-0.5 rounded-md font-mono ${
+                mainTab === 'objetivos' ? 'bg-slate-950/20 text-slate-950' : 'bg-slate-800 text-slate-400'
+              }`}
+            >
+              ESO & Bach.
+            </span>
+          </button>
         </div>
 
-        {/* Tarjetas Principales de Leyes Estatales */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
-          {legislacionData.nacional.map((ley) => {
-            const isSelected = selectedLeyId === ley.id;
+        {/* Buscador reactivo */}
+        <div className="relative">
+          <Search className="w-4 h-4 absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-500" />
+          <input
+            type="text"
+            placeholder={
+              mainTab === 'asignaturas'
+                ? `Buscar en ${activeAsignatura.nombreCorto} (ej. argumento, ética, 1.2, CCL2)...`
+                : mainTab === 'descriptores'
+                ? 'Buscar por código o texto de descriptor (ej. CCL1, digital, emociones)...'
+                : 'Buscar en objetivos de etapa (ej. democracia, ciencia, igualdad)...'
+            }
+            value={searchTerm}
+            onChange={(e) => setSearchTerm(e.target.value)}
+            className="w-full pl-10 pr-10 py-2.5 text-xs sm:text-sm rounded-xl bg-slate-900/80 border border-slate-800 text-slate-200 placeholder-slate-500 focus:outline-none focus:border-amber-400 transition"
+          />
+          {searchTerm && (
+            <button
+              onClick={() => setSearchTerm('')}
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 hover:text-slate-300 p-1"
+            >
+              <X className="w-4 h-4" />
+            </button>
+          )}
+        </div>
+      </div>
 
-            return (
-              <div
-                key={ley.id}
-                onClick={() => handleSelectLey(ley.id)}
-                className={`cursor-pointer rounded-2xl p-5 sm:p-6 flex flex-col justify-between transition-all duration-200 shadow-xl group border ${
-                  isSelected
-                    ? 'bg-slate-900 border-amber-400 ring-2 ring-amber-400/30 shadow-amber-500/10'
-                    : 'bg-slate-900/90 border-slate-800 hover:border-amber-500/50 hover:bg-slate-900'
-                }`}
-              >
-                <div className="space-y-3">
-                  <div className="flex items-center justify-between">
-                    <span className="px-2.5 py-1 rounded-lg bg-amber-400/15 text-amber-300 font-mono font-bold text-xs border border-amber-400/30">
-                      {ley.siglas}
-                    </span>
-                    <span className="text-[11px] text-slate-500 font-mono">
-                      {ley.boletin.split(',')[0]}
+      {/* =========================================================================
+          CONTENIDO: PESTAÑA 1 - CURRÍCULO POR ASIGNATURA
+      ========================================================================= */}
+      {mainTab === 'asignaturas' && (
+        <div className="max-w-6xl mx-auto space-y-6">
+          {/* Selector de Asignatura */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-2.5">
+            {legislacionData.asignaturas.map((asig) => {
+              const isSelected = asig.id === selectedAsignaturaId;
+              let IconComp = BookOpen;
+              if (asig.id === 'valores') IconComp = Shield;
+              if (asig.id === 'filosofia') IconComp = Brain;
+              if (asig.id === 'historia-filosofia') IconComp = ScrollText;
+              if (asig.id === 'psicologia') IconComp = Sparkles;
+
+              return (
+                <button
+                  key={asig.id}
+                  onClick={() => {
+                    setSelectedAsignaturaId(asig.id);
+                    setSelectedBloqueFilter('TODOS');
+                  }}
+                  className={`text-left p-3.5 rounded-2xl border transition-all flex flex-col justify-between gap-2 ${
+                    isSelected
+                      ? 'bg-amber-400/10 border-amber-400/50 shadow-lg shadow-amber-500/5'
+                      : 'bg-slate-900/60 border-slate-800/80 hover:border-slate-700 hover:bg-slate-900'
+                  }`}
+                >
+                  <div className="flex items-center justify-between w-full">
+                    <div
+                      className={`p-2 rounded-xl ${
+                        isSelected ? 'bg-amber-400 text-slate-950 font-bold' : 'bg-slate-800 text-amber-400'
+                      }`}
+                    >
+                      <IconComp className="w-4 h-4" />
+                    </div>
+                    <span
+                      className={`text-[10px] uppercase font-bold tracking-wider px-2 py-0.5 rounded-full ${
+                        isSelected ? 'bg-amber-400/20 text-amber-300' : 'bg-slate-800 text-slate-400'
+                      }`}
+                    >
+                      {asig.etapaCorta}
                     </span>
                   </div>
-
                   <div>
-                    <h4 className="text-base sm:text-lg font-bold text-white group-hover:text-amber-300 transition">
-                      {ley.nombre}
-                    </h4>
-                    <p className="text-xs text-slate-400 mt-1 leading-relaxed">
-                      {ley.subtitulo}
-                    </p>
-                  </div>
-
-                  <div className="pt-2 border-t border-slate-800/80 space-y-2">
-                    <p className="text-xs text-slate-300 leading-relaxed">
-                      {ley.descripcion}
-                    </p>
-                    <div className="p-2.5 rounded-xl bg-slate-950/70 border border-slate-800/80">
-                      <span className="text-[10px] font-semibold uppercase tracking-wider text-amber-400 flex items-center gap-1">
-                        <Sparkles className="w-3 h-3" /> Impacto en Filosofía:
-                      </span>
-                      <p className="text-[11px] text-slate-300 mt-1 leading-normal">
-                        {ley.relevanciaFilosofia}
-                      </p>
+                    <div
+                      className={`text-xs sm:text-sm font-bold line-clamp-1 ${
+                        isSelected ? 'text-amber-300' : 'text-slate-200'
+                      }`}
+                    >
+                      {asig.nombreCorto || asig.nombre}
+                    </div>
+                    <div className="text-[11px] text-slate-500 font-mono">
+                      {asig.competencias.length} CE • {asig.criteriosEvaluacion.length} Crit.
                     </div>
                   </div>
-                </div>
+                </button>
+              );
+            })}
+          </div>
 
-                {/* Acciones de la Tarjeta */}
-                <div className="pt-4 space-y-2">
-                  <div className={`w-full py-2 px-3 rounded-xl flex items-center justify-center gap-1.5 font-bold text-xs transition border ${
-                    isSelected
-                      ? 'bg-amber-400 text-slate-950 border-amber-400'
-                      : 'bg-slate-800/80 hover:bg-slate-800 text-amber-300 border-slate-700'
-                  }`}>
-                    <Layers className="w-3.5 h-3.5" />
-                    <span>{isSelected ? 'Ocultar desglose curricular' : 'Ver desglose curricular'}</span>
-                    {isSelected ? (
-                      <ChevronUp className="w-3.5 h-3.5 ml-1" />
-                    ) : (
-                      <ChevronDown className="w-3.5 h-3.5 ml-1" />
-                    )}
-                  </div>
-
-                  <a
-                    href={ley.boeUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    onClick={(e) => e.stopPropagation()}
-                    className="w-full py-1.5 px-3 bg-slate-950/60 hover:bg-slate-800 text-slate-400 hover:text-slate-200 text-[11px] rounded-lg border border-slate-800 flex items-center justify-center gap-1.5 transition"
-                  >
-                    <span>Consultar en BOE</span>
-                    <ExternalLink className="w-3 h-3" />
-                  </a>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-
-        {/* ÁREA EXPANDIDA: DESGLOSE CURRICULAR (Competencias, Criterios y Saberes) */}
-        {selectedLey && (
-          <div className="rounded-3xl border border-amber-400/40 bg-slate-900/95 shadow-2xl p-5 sm:p-7 md:p-8 space-y-6 animate-in fade-in zoom-in-98 duration-200 backdrop-blur-md">
-            
-            {/* Cabecera del Panel Curricular */}
-            <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-5 border-b border-slate-800">
-              <div className="space-y-1">
+          {/* Tarjeta de Información de la Asignatura Activa */}
+          <div className="p-5 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-4">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+              <div>
                 <div className="flex items-center gap-2 flex-wrap">
-                  <span className="px-2.5 py-0.5 rounded-full bg-amber-400/20 text-amber-300 text-xs font-bold font-mono border border-amber-400/30">
-                    {selectedLey.siglas} • Desglose Curricular
-                  </span>
-                  <span className="text-xs text-slate-400 font-mono">
-                    {selectedLey.boletin}
+                  <h2 className="text-xl sm:text-2xl font-bold text-white">{activeAsignatura.nombre}</h2>
+                  <span className="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-amber-400/10 text-amber-300 border border-amber-400/20">
+                    {activeAsignatura.curso}
                   </span>
                 </div>
-                <h4 className="text-xl sm:text-2xl font-extrabold text-white">
-                  {selectedLey.nombre}
-                </h4>
-                <p className="text-xs sm:text-sm text-slate-300">
-                  {selectedLey.relevanciaFilosofia}
+                <p className="text-xs sm:text-sm text-slate-400 mt-1.5 leading-relaxed max-w-4xl">
+                  {activeAsignatura.descripcion}
                 </p>
               </div>
 
-              <button
-                onClick={() => setSelectedLeyId(null)}
-                className="p-2 self-start md:self-center text-slate-400 hover:text-white rounded-xl hover:bg-slate-800 transition border border-slate-800 flex items-center gap-1 text-xs shrink-0"
-                title="Cerrar desglose"
-              >
-                <X className="w-4 h-4" />
-                <span className="hidden sm:inline">Cerrar</span>
-              </button>
+              {activeAsignatura.marcoLegalUrl && (
+                <a
+                  href={activeAsignatura.marcoLegalUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-800/80 hover:bg-slate-700/80 border border-slate-700 text-slate-300 hover:text-amber-300 text-xs font-semibold transition shrink-0"
+                >
+                  <ExternalLink className="w-3.5 h-3.5 text-amber-400" />
+                  <span>Ver en BOCAM</span>
+                </a>
+              )}
             </div>
 
-            {/* Selector de Materias (si hay más de 1 materia, como en Bachillerato) */}
-            {availableMaterias.length > 1 && (
-              <div className="flex flex-wrap items-center gap-2 p-1.5 rounded-2xl bg-slate-950/80 border border-slate-800 w-fit">
-                <span className="text-xs text-slate-400 font-semibold px-2.5 flex items-center gap-1.5">
-                  <GraduationCap className="w-3.5 h-3.5 text-amber-400" />
-                  <span>Materia:</span>
+            <div className="pt-2 text-xs text-slate-400 border-t border-slate-800/60 flex items-center gap-2 flex-wrap">
+              <span className="text-slate-500 font-medium">Marco regulador:</span>
+              <span className="text-slate-300 font-mono text-[11px]">{activeAsignatura.marcoLegal}</span>
+            </div>
+
+            {/* Sub-pestañas de la Asignatura */}
+            <div className="flex items-center gap-2 pt-2 border-t border-slate-800/60 overflow-x-auto">
+              <button
+                onClick={() => setAsignaturaSubTab('competencias')}
+                className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition shrink-0 ${
+                  asignaturaSubTab === 'competencias'
+                    ? 'bg-amber-400 text-slate-950 font-bold shadow-md shadow-amber-500/10'
+                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+                }`}
+              >
+                <Target className="w-3.5 h-3.5" />
+                <span>Competencias Específicas ({activeAsignatura.competencias.length})</span>
+              </button>
+
+              <button
+                onClick={() => setAsignaturaSubTab('saberes')}
+                className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition shrink-0 ${
+                  asignaturaSubTab === 'saberes'
+                    ? 'bg-amber-400 text-slate-950 font-bold shadow-md shadow-amber-500/10'
+                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+                }`}
+              >
+                <Layers className="w-3.5 h-3.5" />
+                <span>Saberes Básicos ({activeAsignatura.saberes.length} Bloques)</span>
+              </button>
+
+              <button
+                onClick={() => setAsignaturaSubTab('criterios')}
+                className={`flex items-center gap-2 px-3.5 py-2 rounded-xl text-xs sm:text-sm font-semibold transition shrink-0 ${
+                  asignaturaSubTab === 'criterios'
+                    ? 'bg-amber-400 text-slate-950 font-bold shadow-md shadow-amber-500/10'
+                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/50'
+                }`}
+              >
+                <ListChecks className="w-3.5 h-3.5" />
+                <span>Criterios de Evaluación ({activeAsignatura.criteriosEvaluacion.length})</span>
+              </button>
+            </div>
+          </div>
+
+          {/* 1.1 SUB-VISTA: COMPETENCIAS ESPECÍFICAS */}
+          {asignaturaSubTab === 'competencias' && (
+            <div className="space-y-4">
+              <div className="flex items-center justify-between text-xs text-slate-400 px-1">
+                <span>
+                  Mostrando {filteredCompetencias.length} de {activeAsignatura.competencias.length} competencias
                 </span>
+                <div className="flex items-center gap-2">
+                  <button
+                    onClick={expandAllCompetencias}
+                    className="hover:text-amber-400 transition"
+                  >
+                    Expandir todas
+                  </button>
+                  <span>•</span>
+                  <button
+                    onClick={collapseAllCompetencias}
+                    className="hover:text-amber-400 transition"
+                  >
+                    Contraer todas
+                  </button>
+                </div>
+              </div>
+
+              {filteredCompetencias.length === 0 ? (
+                <div className="p-8 text-center rounded-2xl bg-slate-900/40 border border-slate-800 text-slate-400">
+                  No se encontraron competencias específicas con el término{' '}
+                  <strong className="text-white">"{searchTerm}"</strong>.
+                </div>
+              ) : (
+                <div className="space-y-3">
+                  {filteredCompetencias.map((comp) => {
+                    const isOpen = Boolean(openCompetencias[comp.numero]);
+                    return (
+                      <div
+                        key={comp.numero}
+                        className="rounded-2xl border border-slate-800 bg-slate-900/60 overflow-hidden transition-all hover:border-slate-700"
+                      >
+                        {/* Cabecera de la Competencia */}
+                        <div
+                          onClick={() => toggleCompetencia(comp.numero)}
+                          className="p-4 sm:p-5 cursor-pointer flex items-start justify-between gap-4 select-none hover:bg-slate-800/30 transition"
+                        >
+                          <div className="space-y-2.5 flex-1">
+                            <div className="flex items-center gap-2 flex-wrap">
+                              <span className="px-2.5 py-1 rounded-lg bg-amber-400/10 text-amber-400 border border-amber-400/20 text-xs font-bold font-mono">
+                                CE {comp.numero}
+                              </span>
+                              <span className="text-xs text-slate-400 font-medium">
+                                Competencia Específica {comp.numero}
+                              </span>
+                            </div>
+
+                            <p className="text-sm sm:text-base font-semibold text-slate-100 leading-relaxed">
+                              {comp.texto}
+                            </p>
+
+                            {/* Tags de Descriptores Operativos */}
+                            <div className="flex items-center gap-1.5 flex-wrap pt-1">
+                              <span className="text-[11px] text-slate-500 font-semibold mr-1">
+                                Descriptores vinculados:
+                              </span>
+                              {comp.descriptores.map((dCode) => (
+                                <button
+                                  key={dCode}
+                                  onClick={(e) => {
+                                    e.stopPropagation();
+                                    handleOpenDescriptor(dCode);
+                                  }}
+                                  className="px-2 py-0.5 rounded-md bg-slate-800 hover:bg-amber-400/20 text-slate-300 hover:text-amber-300 border border-slate-700 hover:border-amber-400/30 text-[11px] font-mono font-medium transition cursor-pointer flex items-center gap-1"
+                                  title="Ver definición oficial del descriptor"
+                                >
+                                  <span>{dCode}</span>
+                                  <Info className="w-2.5 h-2.5 opacity-60" />
+                                </button>
+                              ))}
+                            </div>
+                          </div>
+
+                          <div className="p-1 rounded-lg bg-slate-800 text-slate-400 shrink-0 mt-1">
+                            {isOpen ? (
+                              <ChevronUp className="w-4 h-4 text-amber-400" />
+                            ) : (
+                              <ChevronDown className="w-4 h-4" />
+                            )}
+                          </div>
+                        </div>
+
+                        {/* Criterios vinculados (Acordeón desplegable) */}
+                        {isOpen && comp.criterios && comp.criterios.length > 0 && (
+                          <div className="px-4 pb-4 sm:px-5 sm:pb-5 pt-2 border-t border-slate-800/80 bg-slate-950/40 space-y-2.5">
+                            <div className="text-xs font-bold text-amber-400/90 flex items-center gap-2">
+                              <ListChecks className="w-3.5 h-3.5" />
+                              <span>Criterios de Evaluación vinculados ({comp.criterios.length}):</span>
+                            </div>
+
+                            <div className="grid grid-cols-1 gap-2">
+                              {comp.criterios.map((crit) => (
+                                <div
+                                  key={crit.codigo}
+                                  className="p-3 rounded-xl bg-slate-900/80 border border-slate-800/80 flex items-start gap-3"
+                                >
+                                  <span className="px-2 py-0.5 rounded bg-slate-800 border border-slate-700 font-mono text-amber-300 text-xs font-bold shrink-0 mt-0.5">
+                                    {crit.codigo}
+                                  </span>
+                                  <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                                    {crit.texto}
+                                  </p>
+                                </div>
+                              ))}
+                            </div>
+                          </div>
+                        )}
+                      </div>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* 1.2 SUB-VISTA: SABERES BÁSICOS */}
+          {asignaturaSubTab === 'saberes' && (
+            <div className="space-y-4">
+              {/* Filtro por Bloque */}
+              <div className="flex items-center gap-2 overflow-x-auto pb-1">
+                <span className="text-xs text-slate-500 font-medium shrink-0">Filtrar bloque:</span>
                 <button
-                  onClick={() => setMateriaFilter('todas')}
-                  className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition ${
-                    materiaFilter === 'todas'
-                      ? 'bg-amber-400 text-slate-950 font-bold shadow-md shadow-amber-400/20'
-                      : 'text-slate-400 hover:text-slate-200'
+                  onClick={() => setSelectedBloqueFilter('TODOS')}
+                  className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition shrink-0 ${
+                    selectedBloqueFilter === 'TODOS'
+                      ? 'bg-amber-400 text-slate-950 font-bold'
+                      : 'bg-slate-900 text-slate-400 border border-slate-800 hover:text-slate-200'
                   }`}
                 >
-                  Todas las materias
+                  Todos los bloques ({activeAsignatura.saberes.length})
                 </button>
-                {availableMaterias.map((mat) => (
+                {activeAsignatura.saberes.map((b) => (
                   <button
-                    key={mat}
-                    onClick={() => setMateriaFilter(mat)}
-                    className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition ${
-                      materiaFilter === mat
-                        ? 'bg-amber-400 text-slate-950 font-bold shadow-md shadow-amber-400/20'
-                        : 'text-slate-400 hover:text-slate-200'
+                    key={b.letra}
+                    onClick={() => setSelectedBloqueFilter(b.letra)}
+                    className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition shrink-0 ${
+                      selectedBloqueFilter === b.letra
+                        ? 'bg-amber-400 text-slate-950 font-bold'
+                        : 'bg-slate-900 text-slate-400 border border-slate-800 hover:text-slate-200'
                     }`}
                   >
-                    {mat}
+                    Bloque {b.letra}
                   </button>
                 ))}
               </div>
-            )}
 
-            {/* Pestañas Principales: Competencias Específicas / Criterios de Evaluación / Saberes Básicos */}
-            <div className="flex items-center gap-2 border-b border-slate-800 pb-2 overflow-x-auto">
+              {filteredSaberes.length === 0 ? (
+                <div className="p-8 text-center rounded-2xl bg-slate-900/40 border border-slate-800 text-slate-400">
+                  No se encontraron saberes básicos para el filtro o término actual.
+                </div>
+              ) : (
+                <div className="space-y-6">
+                  {filteredSaberes.map((bloque) => (
+                    <div
+                      key={bloque.letra}
+                      className="p-5 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-4"
+                    >
+                      <div className="flex items-center gap-3">
+                        <span className="w-8 h-8 rounded-xl bg-amber-400/10 text-amber-400 border border-amber-400/20 flex items-center justify-center font-bold font-mono text-sm shrink-0">
+                          {bloque.letra}
+                        </span>
+                        <div>
+                          <div className="text-[11px] uppercase tracking-wider text-slate-500 font-semibold">
+                            Bloque {bloque.letra}
+                          </div>
+                          <h3 className="text-base sm:text-lg font-bold text-white">{bloque.titulo}</h3>
+                        </div>
+                      </div>
+
+                      {/* Lista de contenidos jerarquizada */}
+                      <div className="space-y-2 pt-2 border-t border-slate-800/80">
+                        {bloque.items.map((item, idx) => {
+                          const isLevel1 = item.nivel === 1;
+                          const isLevel3 = item.nivel === 3;
+                          return (
+                            <div
+                              key={idx}
+                              className={`flex items-start gap-2.5 text-xs sm:text-sm leading-relaxed ${
+                                isLevel1
+                                  ? 'font-bold text-amber-300 pt-3 pb-1 border-b border-slate-800/40 first:pt-0'
+                                  : isLevel3
+                                  ? 'pl-6 text-slate-400'
+                                  : 'pl-2 text-slate-300'
+                              }`}
+                            >
+                              <span
+                                className={`shrink-0 select-none ${
+                                  isLevel1
+                                    ? 'text-amber-400'
+                                    : isLevel3
+                                    ? 'text-slate-600'
+                                    : 'text-amber-400/80 font-bold'
+                                }`}
+                              >
+                                {isLevel1 ? '§' : isLevel3 ? '•' : '–'}
+                              </span>
+                              <span>{item.texto}</span>
+                            </div>
+                          );
+                        })}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* 1.3 SUB-VISTA: CRITERIOS DE EVALUACIÓN */}
+          {asignaturaSubTab === 'criterios' && (
+            <div className="space-y-4">
+              <div className="flex items-center justify-between text-xs text-slate-400 px-1">
+                <span>
+                  Mostrando {filteredCriterios.length} de {activeAsignatura.criteriosEvaluacion.length} criterios
+                </span>
+                <span className="font-mono text-[11px] text-amber-400">
+                  {activeAsignatura.nombreCorto || activeAsignatura.nombre}
+                </span>
+              </div>
+
+              {filteredCriterios.length === 0 ? (
+                <div className="p-8 text-center rounded-2xl bg-slate-900/40 border border-slate-800 text-slate-400">
+                  No se encontraron criterios de evaluación con el término "{searchTerm}".
+                </div>
+              ) : (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                  {filteredCriterios.map((crit) => (
+                    <div
+                      key={crit.codigo}
+                      className="p-4 rounded-2xl bg-slate-900/60 border border-slate-800 hover:border-slate-700 transition space-y-2.5 flex flex-col justify-between"
+                    >
+                      <div className="space-y-2">
+                        <div className="flex items-center justify-between">
+                          <span className="px-2.5 py-1 rounded-lg bg-amber-400/10 text-amber-300 border border-amber-400/20 font-mono text-xs font-bold">
+                            Criterio {crit.codigo}
+                          </span>
+                          <span className="text-[11px] font-semibold text-slate-400">
+                            CE {crit.competencia}
+                          </span>
+                        </div>
+                        <p className="text-xs sm:text-sm text-slate-200 leading-relaxed">{crit.texto}</p>
+                      </div>
+
+                      <div className="pt-2 border-t border-slate-800/60 flex items-center gap-1.5 text-[11px] text-slate-400">
+                        <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400 shrink-0" />
+                        <span>Evalúa la Competencia Específica {crit.competencia}</span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* =========================================================================
+          CONTENIDO: PESTAÑA 2 - DESCRIPTORES OPERATIVOS (PERFIL DE SALIDA)
+      ========================================================================= */}
+      {mainTab === 'descriptores' && (
+        <div className="max-w-6xl mx-auto space-y-6">
+          {/* Explicación oficial Educagob */}
+          <div className="p-5 rounded-2xl bg-slate-900/80 border border-slate-800 space-y-3">
+            <div className="flex items-center gap-2 text-amber-400 text-xs font-bold uppercase tracking-wider">
+              <Sparkles className="w-4 h-4" />
+              <span>Perfil de Salida del Alumnado • Marco Estatal LOMLOE</span>
+            </div>
+            <p className="text-xs sm:text-sm text-slate-300 leading-relaxed italic">
+              «{legislacionData.descriptoresOperativos.definicion}»
+            </p>
+            <div className="pt-2 flex items-center justify-between text-[11px] text-slate-400 border-t border-slate-800">
+              <span>Fuente: {legislacionData.descriptoresOperativos.fuente}</span>
+              <a
+                href={legislacionData.descriptoresOperativos.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-amber-400 hover:underline font-medium"
+              >
+                <span>educagob.educacion.gob.es</span>
+                <ExternalLink className="w-3 h-3" />
+              </a>
+            </div>
+          </div>
+
+          {/* Filtro por Competencia Clave */}
+          <div className="flex items-center gap-2 overflow-x-auto pb-1">
+            <span className="text-xs text-slate-500 font-medium shrink-0">Competencia clave:</span>
+            <button
+              onClick={() => setSelectedClaveFilter('TODAS')}
+              className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition shrink-0 ${
+                selectedClaveFilter === 'TODAS'
+                  ? 'bg-amber-400 text-slate-950 font-bold'
+                  : 'bg-slate-900 text-slate-400 border border-slate-800 hover:text-slate-200'
+              }`}
+            >
+              Todas (34)
+            </button>
+            {legislacionData.descriptoresOperativos.competencias.map((comp) => (
               <button
-                onClick={() => setActiveTab('competencias')}
-                className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition whitespace-nowrap ${
-                  activeTab === 'competencias'
-                    ? 'bg-amber-400 text-slate-950 shadow-md shadow-amber-400/20'
-                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
+                key={comp.codigo}
+                onClick={() => setSelectedClaveFilter(comp.codigo)}
+                className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition shrink-0 ${
+                  selectedClaveFilter === comp.codigo
+                    ? 'bg-amber-400 text-slate-950 font-bold'
+                    : 'bg-slate-900 text-slate-400 border border-slate-800 hover:text-slate-200'
                 }`}
               >
-                <Target className="w-4 h-4" />
-                <span>Competencias Específicas ({filteredCompetencias.length})</span>
+                {comp.codigo} ({comp.descriptores.length})
               </button>
+            ))}
+          </div>
 
-              <button
-                onClick={() => setActiveTab('criterios')}
-                className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition whitespace-nowrap ${
-                  activeTab === 'criterios'
-                    ? 'bg-amber-400 text-slate-950 shadow-md shadow-amber-400/20'
-                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
-                }`}
-              >
-                <ListChecks className="w-4 h-4" />
-                <span>Criterios de Evaluación ({filteredCriterios.length})</span>
-              </button>
+          {/* Listado de Competencias Clave y sus descriptores */}
+          {filteredDescriptoresClave.length === 0 ? (
+            <div className="p-8 text-center rounded-2xl bg-slate-900/40 border border-slate-800 text-slate-400">
+              No se encontraron descriptores operativos para el filtro actual.
+            </div>
+          ) : (
+            <div className="space-y-6">
+              {filteredDescriptoresClave.map((comp) => (
+                <div
+                  key={comp.codigo}
+                  className="p-5 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-4"
+                >
+                  <div className="flex items-center justify-between flex-wrap gap-2">
+                    <div className="flex items-center gap-3">
+                      <span className="px-3 py-1 rounded-xl bg-amber-400 text-slate-950 font-black font-mono text-sm">
+                        {comp.codigo}
+                      </span>
+                      <h3 className="text-base sm:text-lg font-bold text-white">{comp.nombre}</h3>
+                    </div>
+                    <span className="text-xs text-slate-400 font-mono">
+                      {comp.descriptores.length} descriptores operativos
+                    </span>
+                  </div>
 
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-2">
+                    {comp.descriptores.map((desc) => {
+                      const usos = descriptorUsos[desc.codigo] || [];
+                      return (
+                        <div
+                          key={desc.codigo}
+                          className="p-4 rounded-xl bg-slate-950/60 border border-slate-800/80 hover:border-amber-400/40 transition space-y-3 flex flex-col justify-between"
+                        >
+                          <div className="space-y-2">
+                            <div className="flex items-center justify-between">
+                              <span className="font-mono text-xs font-bold text-amber-400 bg-amber-400/10 px-2 py-0.5 rounded border border-amber-400/20">
+                                {desc.codigo}
+                              </span>
+                              <span className="text-[10px] text-slate-500 font-mono">LOMLOE</span>
+                            </div>
+                            <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">{desc.texto}</p>
+                          </div>
+
+                          {/* Vinculación con asignaturas de Filosofía */}
+                          <div className="pt-2 border-t border-slate-800/60 space-y-1.5">
+                            <div className="text-[10px] uppercase font-bold tracking-wider text-slate-500">
+                              Vinculado en el departamento:
+                            </div>
+                            {usos.length > 0 ? (
+                              <div className="flex items-center gap-1.5 flex-wrap">
+                                {usos.map((uso, uIdx) => (
+                                  <span
+                                    key={uIdx}
+                                    className="px-2 py-0.5 rounded bg-slate-900 text-slate-300 border border-slate-800 text-[10px] font-mono"
+                                  >
+                                    {uso.asignaturaNombre}: CE{uso.competenciaNumero}
+                                  </span>
+                                ))}
+                              </div>
+                            ) : (
+                              <span className="text-[11px] text-slate-600 italic">
+                                Descriptor transversal
+                              </span>
+                            )}
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* =========================================================================
+          CONTENIDO: PESTAÑA 3 - OBJETIVOS DE ETAPA
+      ========================================================================= */}
+      {mainTab === 'objetivos' && (
+        <div className="max-w-6xl mx-auto space-y-6">
+          {/* Selector de Etapa: ESO vs Bachillerato */}
+          <div className="flex items-center gap-3 p-1.5 rounded-2xl bg-slate-900/90 border border-slate-800">
+            <button
+              onClick={() => setSelectedEtapa('eso')}
+              className={`flex-1 py-3 px-4 rounded-xl font-bold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 ${
+                selectedEtapa === 'eso'
+                  ? 'bg-amber-400 text-slate-950 shadow-md shadow-amber-500/20'
+                  : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
+              }`}
+            >
+              <GraduationCap className="w-4 h-4" />
+              <span>ESO • Real Decreto 217/2022</span>
+              <span className="font-mono text-xs">(12 objetivos a-l)</span>
+            </button>
+
+            <button
+              onClick={() => setSelectedEtapa('bachillerato')}
+              className={`flex-1 py-3 px-4 rounded-xl font-bold text-xs sm:text-sm transition-all flex items-center justify-center gap-2 ${
+                selectedEtapa === 'bachillerato'
+                  ? 'bg-amber-400 text-slate-950 shadow-md shadow-amber-500/20'
+                  : 'text-slate-400 hover:text-white hover:bg-slate-800/60'
+              }`}
+            >
+              <GraduationCap className="w-4 h-4" />
+              <span>Bachillerato • Real Decreto 243/2022</span>
+              <span className="font-mono text-xs">(15 objetivos a-o)</span>
+            </button>
+          </div>
+
+          {/* Banner de Referencia Legal */}
+          <div className="p-5 rounded-2xl bg-slate-900/80 border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+            <div>
+              <div className="text-xs uppercase font-bold tracking-wider text-amber-400 mb-1">
+                {activeObjetivosData.articulos}
+              </div>
+              <h2 className="text-lg sm:text-xl font-bold text-white">{activeObjetivosData.titulo}</h2>
+              <p className="text-xs text-slate-400 mt-1">{activeObjetivosData.normativa}</p>
+            </div>
+
+            <a
+              href={activeObjetivosData.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 hover:text-amber-300 text-xs font-semibold border border-slate-700 transition shrink-0"
+            >
+              <ExternalLink className="w-4 h-4 text-amber-400" />
+              <span>Consultar en el BOE</span>
+            </a>
+          </div>
+
+          {/* Grid de Objetivos a-l / a-o */}
+          {activeObjetivosData.objetivos.length === 0 ? (
+            <div className="p-8 text-center rounded-2xl bg-slate-900/40 border border-slate-800 text-slate-400">
+              No se encontraron objetivos de etapa para la búsqueda "{searchTerm}".
+            </div>
+          ) : (
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-3.5">
+              {activeObjetivosData.objetivos.map((obj) => (
+                <div
+                  key={obj.letra}
+                  className="p-4 sm:p-5 rounded-2xl bg-slate-900/60 border border-slate-800 hover:border-slate-700 transition flex items-start gap-4"
+                >
+                  <span className="w-8 h-8 rounded-full bg-amber-400/10 text-amber-400 border border-amber-400/20 flex items-center justify-center font-black font-mono text-sm shrink-0 mt-0.5">
+                    {obj.letra}
+                  </span>
+                  <div className="space-y-1">
+                    <div className="text-xs font-semibold text-slate-400">
+                      Objetivo {obj.letra})
+                    </div>
+                    <p className="text-xs sm:text-sm text-slate-200 leading-relaxed">{obj.texto}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* =========================================================================
+          MODAL DE INFORMACIÓN RÁPIDA DE DESCRIPTOR OPERATIVO
+      ========================================================================= */}
+      {activeDescriptorModal && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-sm animate-in fade-in duration-200">
+          <div className="w-full max-w-xl rounded-2xl bg-slate-900 border border-slate-700 shadow-2xl p-6 space-y-4">
+            <div className="flex items-start justify-between gap-3">
+              <div>
+                <div className="flex items-center gap-2">
+                  <span className="px-2.5 py-1 rounded-md bg-amber-400 text-slate-950 font-black font-mono text-xs">
+                    {activeDescriptorModal.codigo}
+                  </span>
+                  <span className="text-xs font-semibold text-slate-400 uppercase tracking-wider">
+                    {activeDescriptorModal.claveCodigo}
+                  </span>
+                </div>
+                <h3 className="text-lg font-bold text-white mt-1">
+                  {activeDescriptorModal.claveNombre}
+                </h3>
+              </div>
               <button
-                onClick={() => setActiveTab('saberes')}
-                className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold transition whitespace-nowrap ${
-                  activeTab === 'saberes'
-                    ? 'bg-amber-400 text-slate-950 shadow-md shadow-amber-400/20'
-                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
-                }`}
+                onClick={() => setActiveDescriptorModal(null)}
+                className="p-1.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 transition"
               >
-                <BookOpen className="w-4 h-4" />
-                <span>Saberes Básicos ({filteredSaberes.length} bloques)</span>
+                <X className="w-5 h-5" />
               </button>
             </div>
 
-            {/* CONTENIDO DE LA PESTAÑA: COMPETENCIAS ESPECÍFICAS */}
-            {activeTab === 'competencias' && (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {filteredCompetencias.map((ce, idx) => (
-                  <div
-                    key={idx}
-                    className="p-5 rounded-2xl bg-slate-950/80 border border-slate-800 hover:border-amber-400/40 transition-all flex flex-col justify-between space-y-3 group"
-                  >
-                    <div className="space-y-2">
-                      <div className="flex items-center justify-between gap-2 flex-wrap">
-                        <span className="px-2.5 py-1 rounded-lg bg-amber-400/15 text-amber-300 font-mono font-bold text-xs border border-amber-400/30">
-                          {ce.codigo}
-                        </span>
-                        {ce.materia && (
-                          <span className="text-[11px] font-semibold text-slate-400 px-2 py-0.5 rounded bg-slate-900 border border-slate-800">
-                            {ce.materia}
-                          </span>
-                        )}
-                      </div>
-                      <h5 className="font-bold text-sm sm:text-base text-white group-hover:text-amber-200 transition">
-                        {ce.nombre}
-                      </h5>
-                      <p className="text-xs text-slate-300 leading-relaxed">
-                        {ce.descripcion}
-                      </p>
-                    </div>
+            <div className="p-4 rounded-xl bg-slate-950/80 border border-slate-800 text-sm text-slate-200 leading-relaxed">
+              {activeDescriptorModal.texto}
+            </div>
 
-                    {ce.descriptores && (
-                      <div className="pt-2 border-t border-slate-900/80 flex items-center gap-1.5 flex-wrap">
-                        <span className="text-[10px] text-slate-500 font-mono uppercase">Perfil salida:</span>
-                        {ce.descriptores.map((desc, dIdx) => (
-                          <span
-                            key={dIdx}
-                            className="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-900 text-amber-300 border border-slate-800"
-                          >
-                            {desc}
-                          </span>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                ))}
+            {/* Materias y Competencias que activan este descriptor */}
+            <div className="space-y-2 pt-2 border-t border-slate-800">
+              <div className="text-xs font-bold text-amber-400 uppercase tracking-wider">
+                Presencia curricular en el Departamento de Filosofía:
               </div>
-            )}
-
-            {/* CONTENIDO DE LA PESTAÑA: CRITERIOS DE EVALUACIÓN */}
-            {activeTab === 'criterios' && (
-              <div className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-950/80">
-                <div className="overflow-x-auto">
-                  <table className="w-full text-left text-xs sm:text-sm">
-                    <thead className="bg-slate-900/90 border-b border-slate-800 text-amber-300 font-bold uppercase text-[11px] tracking-wider">
-                      <tr>
-                        <th className="px-4 py-3.5 w-20">Código</th>
-                        {filteredCriterios.some(c => c.materia) && (
-                          <th className="px-4 py-3.5 w-44">Materia</th>
-                        )}
-                        <th className="px-4 py-3.5 w-28">Competencia</th>
-                        <th className="px-4 py-3.5">Criterio de Evaluación Oficial</th>
-                      </tr>
-                    </thead>
-                    <tbody className="divide-y divide-slate-800/80 text-slate-300">
-                      {filteredCriterios.map((cr, idx) => (
-                        <tr key={idx} className="hover:bg-slate-900/60 transition">
-                          <td className="px-4 py-3 font-mono font-bold text-amber-400 whitespace-nowrap">
-                            {cr.codigo}
-                          </td>
-                          {filteredCriterios.some(c => c.materia) && (
-                            <td className="px-4 py-3 text-slate-400 font-medium">
-                              {cr.materia || cr.dimension || '—'}
-                            </td>
-                          )}
-                          <td className="px-4 py-3 font-mono text-slate-400">
-                            {cr.competencia ? (
-                              <span className="px-2 py-0.5 rounded bg-slate-900 text-amber-300 border border-slate-800 font-semibold">
-                                {cr.competencia}
-                              </span>
-                            ) : (
-                              cr.dimension || 'General'
-                            )}
-                          </td>
-                          <td className="px-4 py-3 leading-relaxed text-slate-200">
-                            {cr.descripcion}
-                          </td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
-            )}
-
-            {/* CONTENIDO DE LA PESTAÑA: SABERES BÁSICOS */}
-            {activeTab === 'saberes' && (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {filteredSaberes.map((sb, idx) => (
-                  <div
-                    key={idx}
-                    className="p-5 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-3 shadow-sm hover:border-amber-400/40 transition"
-                  >
-                    <div className="flex items-center justify-between gap-2 flex-wrap pb-2 border-b border-slate-800/80">
-                      <h5 className="font-bold text-sm sm:text-base text-amber-300 flex items-center gap-2">
-                        <BookOpen className="w-4 h-4 text-amber-400 shrink-0" />
-                        <span>{sb.bloque}</span>
-                      </h5>
-                      {sb.materia && (
-                        <span className="text-[11px] font-semibold text-slate-400 px-2 py-0.5 rounded bg-slate-900 border border-slate-800">
-                          {sb.materia}
-                        </span>
-                      )}
-                    </div>
-
-                    <ul className="space-y-2 pt-1 text-xs text-slate-300 leading-relaxed">
-                      {sb.contenidos.map((cont, cIdx) => (
-                        <li key={cIdx} className="flex items-start gap-2">
-                          <span className="w-1.5 h-1.5 rounded-full bg-amber-400 mt-1.5 shrink-0" />
-                          <span>{cont}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                ))}
-              </div>
-            )}
-
-          </div>
-        )}
-
-      </div>
-
-      {/* PANEL 2: COMUNIDADES AUTÓNOMAS */}
-      <div className="max-w-6xl mx-auto space-y-4 pt-4">
-        <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-2 border-b border-slate-800">
-          <div className="flex items-center gap-2">
-            <BookOpen className="w-5 h-5 text-amber-400" />
-            <h3 className="text-lg sm:text-xl font-bold text-white tracking-tight">
-              2. Currículos Autonómicos (17 Comunidades Autónomas)
-            </h3>
-          </div>
-
-          {/* Buscador de Comunidad Autónoma */}
-          <div className="relative w-full sm:w-64">
-            <Search className="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-slate-500" />
-            <input
-              type="text"
-              placeholder="Buscar comunidad..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="w-full pl-8 pr-3 py-1.5 text-xs rounded-xl bg-slate-900 border border-slate-700 text-slate-200 placeholder-slate-500 focus:outline-none focus:border-amber-400 transition"
-            />
-          </div>
-        </div>
-
-        {/* Lista de Acordeón */}
-        <div className="space-y-3">
-          {filteredCcaa.map((ca) => {
-            const isOpen = !!openCcaa[ca.id];
-            const isMadrid = ca.id === 'comunidad-de-madrid';
-
-            return (
-              <div
-                key={ca.id}
-                className={`rounded-2xl border transition-all duration-200 overflow-hidden ${
-                  isMadrid
-                    ? 'border-amber-500/50 bg-slate-900/90 shadow-lg shadow-amber-500/5'
-                    : 'border-slate-800 bg-slate-900/60 hover:border-slate-700'
-                }`}
-              >
-                {/* Cabecera del Acordeón */}
-                <button
-                  onClick={() => toggleCcaa(ca.id)}
-                  className="w-full px-5 py-4 flex items-center justify-between text-left transition hover:bg-slate-800/40"
-                >
-                  <div className="flex items-center gap-3">
-                    <span
-                      className={`w-7 h-7 rounded-lg flex items-center justify-center font-bold text-xs ${
-                        isMadrid
-                          ? 'bg-amber-400 text-slate-950 shadow-md shadow-amber-400/20'
-                          : 'bg-slate-800 text-slate-300'
-                      }`}
+              {activeDescriptorModal.usos && activeDescriptorModal.usos.length > 0 ? (
+                <div className="space-y-2 max-h-48 overflow-y-auto pr-1">
+                  {activeDescriptorModal.usos.map((uso, idx) => (
+                    <div
+                      key={idx}
+                      className="p-2.5 rounded-lg bg-slate-950 border border-slate-800/80 text-xs space-y-1"
                     >
-                      {ca.nombre.charAt(0)}
-                    </span>
-                    <div>
-                      <h4 className="text-sm sm:text-base font-bold text-white flex items-center gap-2">
-                        {ca.nombre}
-                        {isMadrid && (
-                          <span className="text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-full bg-amber-400/20 text-amber-300 border border-amber-400/30">
-                            BOCM Oficial Configurado
-                          </span>
-                        )}
-                      </h4>
-                      <p className="text-xs text-slate-400">
-                        Diario Oficial: <span className="font-mono text-slate-300">{ca.bocm_diario}</span>
+                      <div className="flex items-center justify-between text-amber-300 font-semibold font-mono">
+                        <span>{uso.asignaturaNombre}</span>
+                        <span>CE {uso.competenciaNumero}</span>
+                      </div>
+                      <p className="text-slate-400 text-[11px] line-clamp-2">
+                        {uso.competenciaTexto}
                       </p>
                     </div>
-                  </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-xs text-slate-500 italic">
+                  Este descriptor opera como competencia clave transversal de salida.
+                </p>
+              )}
+            </div>
 
-                  <div className="flex items-center gap-2 text-slate-400">
-                    <span className="text-xs hidden sm:inline">
-                      {isOpen ? 'Ocultar decretos' : 'Ver decretos'}
-                    </span>
-                    {isOpen ? (
-                      <ChevronDown className="w-4 h-4 text-amber-400" />
-                    ) : (
-                      <ChevronRight className="w-4 h-4" />
-                    )}
-                  </div>
-                </button>
-
-                {/* Contenido desplegable con los Decretos */}
-                {isOpen && (
-                  <div className="px-5 pb-5 pt-2 border-t border-slate-800/80 bg-slate-950/40 grid grid-cols-1 md:grid-cols-2 gap-4">
-                    
-                    {/* Decreto de ESO */}
-                    <div className="p-4 rounded-xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
-                      <div className="space-y-2">
-                        <div className="flex items-center justify-between">
-                          <span className="text-[10px] uppercase font-bold px-2 py-0.5 rounded bg-emerald-400/10 text-emerald-300 border border-emerald-400/20">
-                            ESO (Secundaria)
-                          </span>
-                          {ca.eso.boletinDetalle && (
-                            <span className="text-[10px] font-mono text-slate-400">
-                              {ca.eso.boletinDetalle}
-                            </span>
-                          )}
-                        </div>
-                        <h5 className="font-bold text-sm text-white">
-                          {ca.eso.norma}
-                        </h5>
-                        <p className="text-xs text-slate-400 leading-relaxed">
-                          {ca.eso.descripcion}
-                        </p>
-                      </div>
-
-                      <a
-                        href={ca.eso.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="mt-4 py-2 px-3 bg-slate-800 hover:bg-amber-500 text-slate-300 hover:text-slate-950 font-semibold text-xs rounded-lg border border-slate-700/80 flex items-center justify-center gap-1.5 transition-all group/link"
-                      >
-                        <span>Consultar Decreto ESO ({ca.bocm_diario})</span>
-                        <ExternalLink className="w-3 h-3 group-hover/link:translate-x-0.5 transition-transform" />
-                      </a>
-                    </div>
-
-                    {/* Decreto de Bachillerato */}
-                    <div className="p-4 rounded-xl bg-slate-900/90 border border-slate-800 flex flex-col justify-between">
-                      <div className="space-y-2">
-                        <div className="flex items-center justify-between">
-                          <span className="text-[10px] uppercase font-bold px-2 py-0.5 rounded bg-sky-400/10 text-sky-300 border border-sky-400/20">
-                            Bachillerato
-                          </span>
-                          {ca.bachillerato.boletinDetalle && (
-                            <span className="text-[10px] font-mono text-slate-400">
-                              {ca.bachillerato.boletinDetalle}
-                            </span>
-                          )}
-                        </div>
-                        <h5 className="font-bold text-sm text-white">
-                          {ca.bachillerato.norma}
-                        </h5>
-                        <p className="text-xs text-slate-400 leading-relaxed">
-                          {ca.bachillerato.descripcion}
-                        </p>
-                      </div>
-
-                      <a
-                        href={ca.bachillerato.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="mt-4 py-2 px-3 bg-slate-800 hover:bg-amber-500 text-slate-300 hover:text-slate-950 font-semibold text-xs rounded-lg border border-slate-700/80 flex items-center justify-center gap-1.5 transition-all group/link"
-                      >
-                        <span>Consultar Decreto Bachillerato ({ca.bocm_diario})</span>
-                        <ExternalLink className="w-3 h-3 group-hover/link:translate-x-0.5 transition-transform" />
-                      </a>
-                    </div>
-
-                  </div>
-                )}
-              </div>
-            );
-          })}
+            <div className="pt-2 flex justify-end">
+              <button
+                onClick={() => setActiveDescriptorModal(null)}
+                className="px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-semibold text-xs transition"
+              >
+                Cerrar
+              </button>
+            </div>
+          </div>
         </div>
-      </div>
-
+      )}
     </div>
   );
 }

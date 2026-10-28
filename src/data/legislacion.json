@@ -1,179 +1,368 @@
 {
-  "nacional": [
-    {
-      "id": "lomloe",
-      "siglas": "LOMLOE",
-      "nombre": "Ley Orgánica 3/2020, de 29 de diciembre",
-      "subtitulo": "Por la que se modifica la Ley Orgánica 2/2006, de 3 de mayo, de Educación (LOE)",
-      "boletin": "BOE nº 340, de 30 de diciembre de 2020",
-      "boeUrl": "https://www.boe.es/eli/es/lo/2020/12/29/3",
-      "descripcion": "Establece los principios rectores del sistema educativo, los fines de la educación, el perfil competencial de salida y el régimen de competencias clave.",
-      "relevanciaFilosofia": "Garantiza la materia de Filosofía en 1º de Bachillerato y de Historia de la Filosofía en 2º de Bachillerato para todas las modalidades, así como la Educación en Valores Cívicos y Éticos en la ESO.",
-      "competencias_especificas": [
+  "titulo": "Currículo Oficial de las Materias del Departamento de Filosofía",
+  "ambito": "Comunidad de Madrid y Marco Estatal LOMLOE",
+  "fechaActualizacion": "2026",
+  "objetivosEtapa": {
+    "eso": {
+      "titulo": "Objetivos de Educación Secundaria Obligatoria (ESO)",
+      "normativa": "Real Decreto 217/2022, de 29 de marzo (ESO)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-4975",
+      "articulos": "Artículo 7",
+      "objetivos": [
         {
-          "codigo": "CCL",
-          "nombre": "Competencia en Comunicación Lingüística",
-          "descripcion": "Comprender, interpretar y valorar críticamente textos orales, escritos y multimodales de contenido filosófico, ético y cívico, expresando razonamientos propios con claridad, coherencia y rigor argumentativo.",
-          "descriptores": [
-            "CCL1",
-            "CCL2",
-            "CCL3",
-            "CCL4",
-            "CCL5"
-          ]
+          "letra": "a",
+          "texto": "Asumir responsablemente sus deberes, conocer y ejercer sus derechos en el respeto a las demás personas, practicar la tolerancia, la cooperación y la solidaridad entre las personas y grupos, ejercitarse en el diálogo afianzando los derechos humanos como valores comunes de una sociedad plural y prepararse para el ejercicio de la ciudadanía democrática."
         },
         {
-          "codigo": "CPSAA",
-          "nombre": "Competencia Personal, Social y de Aprender a Aprender",
-          "descripcion": "Reflexionar sobre uno mismo, gestionar el aprendizaje autónomo, la incertidumbre y las emociones, y promover relaciones interpersonales empáticas y solidarias fundamentadas en la deliberación ética.",
-          "descriptores": [
-            "CPSAA1",
-            "CPSAA2",
-            "CPSAA3",
-            "CPSAA4",
-            "CPSAA5"
-          ]
+          "letra": "b",
+          "texto": "Desarrollar y consolidar hábitos de disciplina, estudio y trabajo individual y en equipo como condición necesaria para una realización eficaz de las tareas del aprendizaje y como medio de desarrollo personal."
         },
         {
-          "codigo": "CC",
-          "nombre": "Competencia Ciudadana",
-          "descripcion": "Ejercer una ciudadanía activa, comprometida y democrática basada en el conocimiento de los derechos humanos, los valores constitucionales, la memoria democrática y la justicia social ecosostenible.",
-          "descriptores": [
-            "CC1",
-            "CC2",
-            "CC3",
-            "CC4"
-          ]
+          "letra": "c",
+          "texto": "Valorar y respetar la diferencia de sexos y la igualdad de derechos y oportunidades entre ellos. Rechazar los estereotipos que supongan discriminación entre hombres y mujeres."
         },
         {
-          "codigo": "CCEC",
-          "nombre": "Competencia en Conciencia y Expresión Culturales",
-          "descripcion": "Conocer, valorar críticamente y respetar el patrimonio cultural, intelectual y artístico de la humanidad, apreciando las diversas concepciones de la belleza y la creatividad humana.",
-          "descriptores": [
-            "CCEC1",
-            "CCEC2",
-            "CCEC3"
-          ]
+          "letra": "d",
+          "texto": "Fortalecer sus capacidades afectivas en todos los ámbitos de la personalidad y en sus relaciones con las demás personas, así como rechazar la violencia, los prejuicios de cualquier tipo, los comportamientos sexistas y resolver pacíficamente los conflictos."
         },
         {
-          "codigo": "STEM",
-          "nombre": "Competencia Matemática y en Ciencia, Tecnología e Ingeniería",
-          "descripcion": "Comprender y aplicar los métodos científicos y lógicos de indagación, valorando el impacto ético y epistemológico de los avances tecno-científicos sobre la sociedad y la biosfera.",
-          "descriptores": [
-            "STEM1",
-            "STEM2",
-            "STEM5"
-          ]
+          "letra": "e",
+          "texto": "Desarrollar destrezas básicas en la utilización de las fuentes de información para, con sentido crítico, adquirir nuevos conocimientos. Desarrollar las competencias tecnológicas básicas y avanzar en una reflexión ética sobre su funcionamiento y utilización."
         },
         {
-          "codigo": "CD",
-          "nombre": "Competencia Digital",
-          "descripcion": "Hacer un uso seguro, crítico, ético y reflexivo de las tecnologías digitales y los medios de información, previniendo sesgos algorítmicos, desinformación y vulneraciones de la intimidad.",
-          "descriptores": [
-            "CD1",
-            "CD2",
-            "CD3",
-            "CD4"
-          ]
+          "letra": "f",
+          "texto": "Concebir el conocimiento científico como un saber integrado, que se estructura en distintas disciplinas, así como conocer y aplicar los métodos para identificar los problemas en los diversos campos del conocimiento y de la experiencia."
         },
         {
-          "codigo": "CE",
-          "nombre": "Competencia Emprendedora",
-          "descripcion": "Desarrollar iniciativas individuales y colectivas que transformen ideas en acciones éticas de impacto cívico positivo, guiadas por criterios de responsabilidad y justicia social.",
-          "descriptores": [
-            "CE1",
-            "CE2",
-            "CE3"
-          ]
+          "letra": "g",
+          "texto": "Desarrollar el espíritu emprendedor y la confianza en sí mismo, la participación, el sentido crítico, la iniciativa personal y la capacidad para aprender a aprender, planificar, tomar decisiones y asumir responsabilidades."
         },
         {
-          "codigo": "CP",
-          "nombre": "Competencia Plurilingüe",
-          "descripcion": "Utilizar distintas lenguas para el acceso a fuentes diversas del pensamiento y la cultura universal, enriqueciendo el diálogo intercultural y el respeto a la diversidad lingüística.",
-          "descriptores": [
-            "CP1",
-            "CP2",
-            "CP3"
-          ]
-        }
-      ],
-      "criterios_evaluacion": [
-        {
-          "codigo": "CR-LOM-1",
-          "dimension": "Evaluación Formativa y Continua",
-          "descripcion": "La evaluación del alumnado es continua, formativa e integradora, orientada a identificar dificultades y aplicar medidas de refuerzo y enriquecimiento competencial en cualquier momento del curso."
+          "letra": "h",
+          "texto": "Comprender y expresar con corrección, oralmente y por escrito, en la lengua castellana y, si la hubiere, en la lengua cooficial de la comunidad autónoma, textos y mensajes complejos, e iniciarse en el conocimiento, la lectura y el estudio de la literatura."
         },
         {
-          "codigo": "CR-LOM-2",
-          "dimension": "Diseño Universal para el Aprendizaje (DUA)",
-          "descripcion": "Garantía de procesos evaluativos accesibles, equitativos y no segregadores, ofreciendo múltiples formas de representación de la información, de expresión del aprendizaje y de implicación del estudiante."
+          "letra": "i",
+          "texto": "Comprender y expresarse en una o más lenguas extranjeras de manera apropiada."
         },
         {
-          "codigo": "CR-LOM-3",
-          "dimension": "Evaluación Basada en Desempeños y Situaciones de Aprendizaje",
-          "descripcion": "Los criterios evalúan el grado de desarrollo de las competencias específicas y la aplicación práctica de los saberes ante retos, dilemas morales y problemas del mundo real."
+          "letra": "j",
+          "texto": "Conocer, valorar y respetar los aspectos básicos de la cultura y la historia propias y de las demás personas, así como el patrimonio artístico y cultural."
         },
         {
-          "codigo": "CR-LOM-4",
-          "dimension": "Promoción y Titulación Colegiada",
-          "descripcion": "Las decisiones sobre la promoción y la titulación recaen en el equipo docente de forma colegiada, valorando la consecución global de los objetivos de la etapa y el perfil de salida."
-        }
-      ],
-      "saberes_basicos": [
-        {
-          "bloque": "Eje 1: Blindaje Curricular de la Filosofía",
-          "contenidos": [
-            "Restitución de la materia de Filosofía como obligatoria y común en 1º de Bachillerato para todas las modalidades.",
-            "Restitución de la materia de Historia de la Filosofía como común obligatoria en 2º de Bachillerato para todas las modalidades (Ciencias y Tecnología, Humanidades y Ciencias Sociales, Artes y General).",
-            "Incorporación preceptiva de la materia Educación en Valores Cívicos y Éticos en uno de los cursos de la ESO."
-          ]
+          "letra": "k",
+          "texto": "Conocer y aceptar el funcionamiento del propio cuerpo y el de los otros, respetar las diferencias, afianzar los hábitos de cuidado y salud corporales e incorporar la educación física y la práctica del deporte para favorecer el desarrollo personal y social. Conocer y valorar la dimensión humana de la sexualidad en toda su diversidad. Valorar críticamente los hábitos sociales relacionados con la salud, el consumo, el cuidado, la empatía y el respeto hacia los seres vivos, especialmente los animales, y el medio ambiente, contribuyendo a su conservación y mejora."
         },
         {
-          "bloque": "Eje 2: Principios Rectores y Fines de la Educación",
-          "contenidos": [
-            "El pleno desarrollo de la personalidad y de las capacidades del alumnado mediante el pensamiento crítico y la autonomía moral.",
-            "La educación para la convivencia democrática, la no violencia, la igualdad efectiva de mujeres y hombres y el respeto a la diversidad.",
-            "La formación en el respeto a los derechos humanos, la memoria democrática y las libertades fundamentales.",
-            "El desarrollo de hábitos éticos de sostenibilidad ecosocial y justicia climática."
-          ]
-        },
-        {
-          "bloque": "Eje 3: El Perfil de Salida del Alumnado",
-          "contenidos": [
-            "Definición de los descriptores operativos que concretan las 8 competencias clave al término de la enseñanza básica y del Bachillerato.",
-            "Piedra angular que conecta las competencias específicas de las materias con los criterios de evaluación."
-          ]
+          "letra": "l",
+          "texto": "Apreciar la creación artística y comprender el lenguaje de las distintas manifestaciones artísticas, utilizando diversos medios de expresión y representación."
         }
       ]
     },
-    {
-      "id": "rd-eso",
-      "siglas": "RD ESO",
-      "nombre": "Real Decreto 217/2022, de 29 de marzo",
-      "subtitulo": "Por el que se establece la ordenación y las enseñanzas mínimas de la Educación Secundaria Obligatoria",
-      "boletin": "BOE nº 76, de 30 de marzo de 2022",
-      "boeUrl": "https://www.boe.es/eli/es/rd/2022/03/29/217",
-      "descripcion": "Define los objetivos, competencias clave, competencias específicas, criterios de evaluación y saberes básicos de la Educación Secundaria Obligatoria a nivel estatal.",
-      "relevanciaFilosofia": "Establece el currículo básico estatal de la materia 'Educación en Valores Cívicos y Éticos' (obligatoria en uno de los cursos de la etapa).",
-      "competencias_especificas": [
+    "bachillerato": {
+      "titulo": "Objetivos del Bachillerato",
+      "normativa": "Real Decreto 243/2022, de 5 de abril (Bachillerato)",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-5521",
+      "articulos": "Artículo 7",
+      "objetivos": [
         {
-          "codigo": "CE1",
-          "materia": "Educación en Valores Cívicos y Éticos",
-          "nombre": "Autoconocimiento, identidad y juicio moral autónomo",
-          "descripcion": "Inquirir e investigar cuanto se refiere a la identidad humana y a cuestiones éticas relativas al propio proyecto vital, analizando críticamente información fiable y generando una actitud reflexiva al respecto, para promover el autonocimiento y la elaboración de planteamientos y juicios morales de manera autónoma y razonada.",
+          "letra": "a",
+          "texto": "Ejercer la ciudadanía democrática, desde una perspectiva global, y adquirir una conciencia cívica responsable, inspirada por los valores de la Constitución Española, así como por los derechos humanos, que fomente la corresponsabilidad en la construcción de una sociedad justa y equitativa."
+        },
+        {
+          "letra": "b",
+          "texto": "Consolidar una madurez personal, afectivo-sexual y social que les permita actuar de forma respetuosa, responsable y autónoma y desarrollar su espíritu crítico. Prever, detectar y resolver pacíficamente los conflictos personales, familiares y sociales, así como las posibles situaciones de violencia."
+        },
+        {
+          "letra": "c",
+          "texto": "Fomentar la igualdad efectiva de derechos y oportunidades de mujeres y hombres, analizar y valorar críticamente las desigualdades existentes, así como el reconocimiento y enseñanza del papel de las mujeres en la historia e impulsar la igualdad real y la no discriminación por razón de nacimiento, sexo, origen racial o étnico, discapacidad, edad, enfermedad, religión o creencias, orientación sexual o identidad de género o cualquier otra condición o circunstancia personal o social."
+        },
+        {
+          "letra": "d",
+          "texto": "Afianzar los hábitos de lectura, estudio y disciplina, como condiciones necesarias para el eficaz aprovechamiento del aprendizaje, y como medio de desarrollo personal."
+        },
+        {
+          "letra": "e",
+          "texto": "Dominar, tanto en su expresión oral como escrita, la lengua castellana y, en su caso, la lengua cooficial de su comunidad autónoma."
+        },
+        {
+          "letra": "f",
+          "texto": "Expresarse con fluidez y corrección en una o más lenguas extranjeras."
+        },
+        {
+          "letra": "g",
+          "texto": "Utilizar con solvencia y responsabilidad las tecnologías de la información y la comunicación."
+        },
+        {
+          "letra": "h",
+          "texto": "Conocer y valorar críticamente las realidades del mundo contemporáneo, sus antecedentes históricos y los principales factores de su evolución. Participar de forma solidaria en el desarrollo y mejora de su entorno social."
+        },
+        {
+          "letra": "i",
+          "texto": "Acceder a los conocimientos científicos y tecnológicos fundamentales y dominar las habilidades básicas propias de la modalidad elegida."
+        },
+        {
+          "letra": "j",
+          "texto": "Comprender los elementos y procedimientos fundamentales de la investigación y de los métodos científicos. Conocer y valorar de forma crítica la contribución de la ciencia y la tecnología en el cambio de las condiciones de vida, así como afianzar la sensibilidad y el respeto hacia el medio ambiente."
+        },
+        {
+          "letra": "k",
+          "texto": "Afianzar el espíritu emprendedor con actitudes de creatividad, flexibilidad, iniciativa, trabajo en equipo, confianza en uno mismo y sentido crítico."
+        },
+        {
+          "letra": "l",
+          "texto": "Desarrollar la sensibilidad artística y literaria, así como el criterio estético, como fuentes de formación y enriquecimiento cultural."
+        },
+        {
+          "letra": "m",
+          "texto": "Utilizar la educación física y el deporte para favorecer el desarrollo personal y social. Afianzar los hábitos de actividades físico-deportivas para favorecer el bienestar físico y mental, así como medio de desarrollo personal y social."
+        },
+        {
+          "letra": "n",
+          "texto": "Afianzar actitudes de respeto y prevención en el ámbito de la movilidad segura y saludable."
+        },
+        {
+          "letra": "o",
+          "texto": "Fomentar una actitud responsable y comprometida en la lucha contra el cambio climático y en la defensa del desarrollo sostenible."
+        }
+      ]
+    }
+  },
+  "descriptoresOperativos": {
+    "fuente": "Web de educación del Gobierno de España (educagob.educacion.gob.es)",
+    "url": "https://educagob.educacion.gob.es",
+    "definicion": "En cuanto a la dimensión aplicada de las competencias clave, se ha definido para cada una de ellas un conjunto de descriptores operativos de las competencias clave. Los descriptores operativos constituyen, junto con los objetivos de la etapa, el marco referencial a partir del cual se concretan las competencias específicas de cada materia o ámbito.",
+    "competencias": [
+      {
+        "codigo": "CCL",
+        "nombre": "Competencia en comunicación lingüística",
+        "descriptores": [
+          {
+            "codigo": "CCL1",
+            "texto": "Se expresa de forma oral, escrita, signada o multimodal con coherencia, corrección y adecuación a los diferentes contextos sociales, y participa en interacciones comunicativas con actitud cooperativa y respetuosa tanto para intercambiar información, crear conocimiento y transmitir opiniones, como para construir vínculos personales."
+          },
+          {
+            "codigo": "CCL2",
+            "texto": "Comprende, interpreta y valora con actitud crítica textos orales, escritos, signados o multimodales de los ámbitos personal, social, educativo y profesional para participar en diferentes contextos de manera activa e informada y para construir conocimiento."
+          },
+          {
+            "codigo": "CCL3",
+            "texto": "Localiza, selecciona y contrasta de manera progresivamente autónoma información procedente de diferentes fuentes, evaluando su fiabilidad y pertinencia en función de los objetivos de lectura y evitando los riesgos de manipulación y desinformación, y la integra y transforma en conocimiento para comunicarla adoptando un punto de vista creativo, crítico y personal a la par que respetuoso con la propiedad intelectual."
+          },
+          {
+            "codigo": "CCL4",
+            "texto": "Lee con autonomía obras diversas adecuadas a su edad, seleccionando las que mejor se ajustan a sus gustos e intereses; aprecia el patrimonio literario como cauce privilegiado de la experiencia individual y colectiva; y moviliza su propia experiencia biográfica y sus conocimientos literarios y culturales para construir y compartir su interpretación de las obras y para crear textos de intención literaria de progresiva complejidad."
+          },
+          {
+            "codigo": "CCL5",
+            "texto": "Pone sus prácticas comunicativas al servicio de la convivencia democrática, la resolución dialogada de los conflictos y la igualdad de derechos de todas las personas, evitando los usos discriminatorios, así como los abusos de poder, para favorecer la utilización no solo eficaz sino también ética de los diferentes sistemas de comunicación."
+          }
+        ]
+      },
+      {
+        "codigo": "CP",
+        "nombre": "Competencia plurilingüe",
+        "descriptores": [
+          {
+            "codigo": "CP1",
+            "texto": "Usa eficazmente una o más lenguas, además de la lengua o lenguas familiares, para responder a sus necesidades comunicativas, de manera apropiada y adecuada tanto a su desarrollo e intereses como a diferentes situaciones y contextos de los ámbitos personal, social, educativo y profesional."
+          },
+          {
+            "codigo": "CP2",
+            "texto": "A partir de sus experiencias, realiza transferencias entre distintas lenguas como estrategia para comunicarse y ampliar su repertorio lingüístico individual."
+          },
+          {
+            "codigo": "CP3",
+            "texto": "Conoce, valora y respeta la diversidad lingüística y cultural presente en la sociedad, integrándola en su desarrollo personal como factor de diálogo, para fomentar la cohesión social."
+          }
+        ]
+      },
+      {
+        "codigo": "STEM",
+        "nombre": "Competencia matemática y en ciencia, tecnología e ingeniería",
+        "descriptores": [
+          {
+            "codigo": "STEM1",
+            "texto": "Utiliza métodos inductivos y deductivos propios del razonamiento matemático en situaciones conocidas, y selecciona y emplea diferentes estrategias para resolver problemas analizando críticamente las soluciones y reformulando el procedimiento, si fuera necesario."
+          },
+          {
+            "codigo": "STEM2",
+            "texto": "Utiliza el pensamiento científico para entender y explicar los fenómenos que ocurren a su alrededor, confiando en el conocimiento como motor de desarrollo, planteándose preguntas y comprobando hipótesis mediante la experimentación y la indagación, utilizando herramientas e instrumentos adecuados, apreciando la importancia de la precisión y la veracidad y mostrando una actitud crítica acerca del alcance y las limitaciones de la ciencia."
+          },
+          {
+            "codigo": "STEM3",
+            "texto": "Plantea y desarrolla proyectos diseñando, fabricando y evaluando diferentes prototipos o modelos para generar o utilizar productos que den solución a una necesidad o problema de forma creativa y en equipo, procurando la participación de todo el grupo, resolviendo pacíficamente los conflictos que puedan surgir, adaptándose ante la incertidumbre y valorando la importancia de la sostenibilidad."
+          },
+          {
+            "codigo": "STEM4",
+            "texto": "Interpreta y transmite los elementos más relevantes de procesos, razonamientos, demostraciones, métodos y resultados científicos, matemáticos y tecnológicos de forma clara y precisa y en diferentes formatos (gráficos, tablas, diagramas, fórmulas, esquemas, símbolos...), aprovechando de forma crítica la cultura digital e incluyendo el lenguaje matemático-formal con ética y responsabilidad, para compartir y construir nuevos conocimientos."
+          },
+          {
+            "codigo": "STEM5",
+            "texto": "Emprende acciones fundamentadas científicamente para promover la salud física, mental y social, y preservar el medio ambiente y los seres vivos; y aplica principios de ética y seguridad en la realización de proyectos para transformar su entorno próximo de forma sostenible, valorando su impacto global y practicando el consumo responsable."
+          }
+        ]
+      },
+      {
+        "codigo": "CD",
+        "nombre": "Competencia digital",
+        "descriptores": [
+          {
+            "codigo": "CD1",
+            "texto": "Realiza búsquedas en internet atendiendo a criterios de validez, calidad, actualidad y fiabilidad, seleccionando los resultados de manera crítica y archivándolos, para recuperarlos, referenciarlos y reutilizarlos, respetando la propiedad intelectual."
+          },
+          {
+            "codigo": "CD2",
+            "texto": "Gestiona y utiliza su entorno personal digital de aprendizaje para construir conocimiento y crear contenidos digitales, mediante estrategias de tratamiento de la información y el uso de diferentes herramientas digitales, seleccionando y configurando la más adecuada en función de la tarea y de sus necesidades de aprendizaje permanente."
+          },
+          {
+            "codigo": "CD3",
+            "texto": "Se comunica, participa, colabora e interactúa compartiendo contenidos, datos e información mediante herramientas o plataformas virtuales, y gestiona de manera responsable sus acciones, presencia y visibilidad en la red, para ejercer una ciudadanía digital activa, cívica y reflexiva."
+          },
+          {
+            "codigo": "CD4",
+            "texto": "Identifica riesgos y adopta medidas preventivas al usar las tecnologías digitales para proteger los dispositivos, los datos personales, la salud y el medioambiente, y para tomar conciencia de la importancia y necesidad de hacer un uso crítico, legal, seguro, saludable y sostenible de dichas tecnologías."
+          },
+          {
+            "codigo": "CD5",
+            "texto": "Desarrolla aplicaciones informáticas sencillas y soluciones tecnológicas creativas y sostenibles para resolver problemas concretos o responder a retos propuestos, mostrando interés y curiosidad por la evolución de las tecnologías digitales y por su desarrollo sostenible y uso ético."
+          }
+        ]
+      },
+      {
+        "codigo": "CPSAA",
+        "nombre": "Competencia personal, social y de aprender a aprender",
+        "descriptores": [
+          {
+            "codigo": "CPSAA1",
+            "texto": "Regula y expresa sus emociones, fortaleciendo el optimismo, la resiliencia, la autoeficacia y la búsqueda de propósito y motivación hacia el aprendizaje, para gestionar los retos y cambios y armonizarlos con sus propios objetivos."
+          },
+          {
+            "codigo": "CPSAA2",
+            "texto": "Comprende los riesgos para la salud relacionados con factores sociales, consolida estilos de vida saludable a nivel físico y mental, reconoce conductas contrarias a la convivencia y aplica estrategias para abordarlas."
+          },
+          {
+            "codigo": "CPSAA3",
+            "texto": "Comprende proactivamente las perspectivas y las experiencias de las demás personas y las incorpora a su aprendizaje, para participar en el trabajo en grupo, distribuyendo y aceptando tareas y responsabilidades de manera equitativa y empleando estrategias cooperativas."
+          },
+          {
+            "codigo": "CPSAA4",
+            "texto": "Realiza autoevaluaciones sobre su proceso de aprendizaje, buscando fuentes fiables para validar, sustentar y contrastar la información y para obtener conclusiones relevantes."
+          },
+          {
+            "codigo": "CPSAA5",
+            "texto": "Planea objetivos a medio plazo y desarrolla procesos metacognitivos de retroalimentación para aprender de sus errores en el proceso de construcción del conocimiento."
+          }
+        ]
+      },
+      {
+        "codigo": "CC",
+        "nombre": "Competencia ciudadana",
+        "descriptores": [
+          {
+            "codigo": "CC1",
+            "texto": "Analiza y comprende ideas relativas a la dimensión social y ciudadana de su propia identidad, así como a los hechos culturales, históricos y normativos que la determinan, demostrando respeto por las normas, empatía, equidad y espíritu constructivo en la interacción con los demás en cualquier contexto."
+          },
+          {
+            "codigo": "CC2",
+            "texto": "Analiza y asume fundadamente los principios y valores que emanan del proceso de integración europea, la Constitución española y los derechos humanos y de la infancia, participando en actividades comunitarias, como la toma de decisiones o la resolución de conflictos, con actitud democrática, respeto por la diversidad, y compromiso con la igualdad de género, la cohesión social, el desarrollo sostenible y el logro de la ciudadanía mundial."
+          },
+          {
+            "codigo": "CC3",
+            "texto": "Comprende y analiza problemas éticos fundamentales y de actualidad, considerando críticamente los valores propios y ajenos, y desarrollando juicios propios para afrontar la controversia moral con actitud dialogante, argumentativa, respetuosa y opuesta a cualquier tipo de discriminación o violencia."
+          },
+          {
+            "codigo": "CC4",
+            "texto": "Comprende las relaciones sistémicas de interdependencia, ecodependencia e interconexión entre actuaciones locales y globales, y adopta, de forma consciente y motivada, un estilo de vida sostenible y ecosocialmente responsable."
+          }
+        ]
+      },
+      {
+        "codigo": "CE",
+        "nombre": "Competencia emprendedora",
+        "descriptores": [
+          {
+            "codigo": "CE1",
+            "texto": "Analiza necesidades y oportunidades y afronta retos con sentido crítico, haciendo balance de su sostenibilidad, valorando el impacto que puedan suponer en el entorno, para presentar ideas y soluciones innovadoras, éticas y sostenibles, dirigidas a crear valor en el ámbito personal, social, educativo y profesional."
+          },
+          {
+            "codigo": "CE2",
+            "texto": "Evalúa las fortalezas y debilidades propias, haciendo uso de estrategias de autoconocimiento y autoeficacia, y comprende los elementos fundamentales de la economía y las finanzas, aplicando conocimientos económicos y financieros a actividades y situaciones concretas, utilizando destrezas que favorezcan el trabajo colaborativo y en equipo, para reunir y optimizar los recursos necesarios que lleven a la acción una experiencia emprendedora que genere valor."
+          },
+          {
+            "codigo": "CE3",
+            "texto": "Desarrolla el proceso de creación de ideas y soluciones valiosas y toma decisiones, de manera razonada, utilizando estrategias ágiles de planificación y gestión, y reflexiona sobre el proceso realizado y el resultado obtenido, para llevar a término el proceso de creación de prototipos innovadores y de valor, considerando la experiencia como una oportunidad para aprender."
+          }
+        ]
+      },
+      {
+        "codigo": "CCEC",
+        "nombre": "Competencia en conciencia y expresión culturales",
+        "descriptores": [
+          {
+            "codigo": "CCEC1",
+            "texto": "Conoce, aprecia críticamente y respeta el patrimonio cultural y artístico, implicándose en su conservación y valorando el enriquecimiento inherente a la diversidad cultural y artística."
+          },
+          {
+            "codigo": "CCEC2",
+            "texto": "Disfruta, reconoce y analiza con autonomía las especificidades e intencionalidades de las manifestaciones artísticas y culturales más destacadas del patrimonio, distinguiendo los medios y soportes, así como los lenguajes y elementos técnicos que las caracterizan."
+          },
+          {
+            "codigo": "CCEC3",
+            "texto": "Expresa ideas, opiniones, sentimientos y emociones por medio de producciones culturales y artísticas, integrando su propio cuerpo y desarrollando la autoestima, la creatividad y el sentido del lugar que ocupa en la sociedad, con una actitud empática, abierta y colaborativa."
+          },
+          {
+            "codigo": "CCEC4",
+            "texto": "Conoce, selecciona y utiliza con creatividad diversos medios y soportes, así como técnicas plásticas, visuales, audiovisuales, sonoras o corporales, para la creación de productos artísticos y culturales, tanto de forma individual como colaborativa, identificando oportunidades de desarrollo personal, social y laboral, así como de emprendimiento."
+          }
+        ]
+      }
+    ]
+  },
+  "asignaturas": [
+    {
+      "id": "valores",
+      "nombre": "Educación en Valores Cívicos y Éticos",
+      "nombreCorto": "Valores cívicos y éticos",
+      "etapa": "Educación Secundaria Obligatoria (ESO)",
+      "etapaCorta": "ESO",
+      "curso": "3º o 4º de la ESO",
+      "departamento": "Filosofía",
+      "marcoLegal": "Decreto 65/2022, de 20 de julio (Comunidad de Madrid) y Real Decreto 217/2022, de 29 de marzo",
+      "marcoLegalUrl": "https://gestiona.comunidad.madrid/wleg_pub/secure/normativas/contenidoNormativa.jsf?opcion=VerHtml&nmnorma=12793&eli=true#no-back-button",
+      "descripcion": "Materia obligatoria en uno de los cursos de la ESO orientada al autoconocimiento, la autonomía moral, la reflexión sobre la justicia y la democracia, y la ética ambiental.",
+      "competencias": [
+        {
+          "numero": 1,
+          "texto": "Inquirir e investigar cuanto se refiere a la identidad humana y a cuestiones éticas relativas al propio proyecto vital, analizando críticamente información fiable y generando una actitud reflexiva al respecto, para promover el autonocimiento y la elaboración de planteamientos y juicios morales de manera autónoma y razonada.",
           "descriptores": [
             "CCL2",
             "CPSAA1",
             "CC1",
             "CC2",
             "CC3"
+          ],
+          "criterios": [
+            {
+              "codigo": "1.1",
+              "competencia": 1,
+              "texto": "Construir y expresar un concepto ajustado de sí mismo reconociendo las múltiples dimensiones de su naturaleza y personalidad, así como de la dimensión cívica y moral de la misma, a partir de la investigación y el diálogo en torno a diversas concepciones sobre la naturaleza humana."
+            },
+            {
+              "codigo": "1.2",
+              "competencia": 1,
+              "texto": "Identificar, gestionar y comunicar ideas, emociones, afectos y deseos con comprensión y empatía hacia las demás personas, demostrando autoestima y compartiendo un concepto adecuado de lo que deben ser las relaciones con otras personas, incluyendo el ámbito afectivo-sexual."
+            },
+            {
+              "codigo": "1.3",
+              "competencia": 1,
+              "texto": "Desarrollar y demostrar autonomía moral a través de la práctica de la deliberación racional, el uso de conceptos éticos, y el diálogo respetuoso con los demás en torno a distintos valores y modos de vida, así como a problemas relacionados con el ejercicio de los derechos individuales, el uso responsable y seguro de las redes, las conductas adictivas y el acoso escolar."
+            }
           ]
         },
         {
-          "codigo": "CE2",
-          "materia": "Educación en Valores Cívicos y Éticos",
-          "nombre": "Convivencia pacífica, normas cívicas y bien común",
-          "descripcion": "Actuar e interactuar de acuerdo con normas y valores cívicos y éticos, a partir del reconocimiento fundado de su importancia para regular la vida comunitaria y su aplicación efectiva y justificada en distintos contextos, para promover una convivencia pacífica, respetuosa, democrática y comprometida con el bien común.",
+          "numero": 2,
+          "texto": "Actuar e interactuar de acuerdo con normas y valores cívicos y éticos, a partir del reconocimiento fundado de su importancia para regular la vida comunitaria y su aplicación efectiva y justificada en distintos contextos, para promover una convivencia pacífica, respetuosa, democrática y comprometida con el bien común.",
           "descriptores": [
             "CCL5",
             "CD3",
@@ -182,13 +371,43 @@
             "CC3",
             "CC4",
             "CCEC1"
+          ],
+          "criterios": [
+            {
+              "codigo": "2.1",
+              "competencia": 2,
+              "texto": "Promover y demostrar una convivencia pacífica, respetuosa, democrática y comprometida con el bien común, a partir de la investigación sobre la naturaleza social y política del ser humano y el uso y comprensión crítica de los conceptos de ley, poder, soberanía, justicia, Estado, democracia, memoria democrática, dignidad y derechos humanos."
+            },
+            {
+              "codigo": "2.2",
+              "competencia": 2,
+              "texto": "Fomentar el ejercicio de la ciudadanía activa y democrática a través del conocimiento del movimiento asociativo y la participación respetuosa, dialogante y constructiva en actividades de grupo que impliquen tomar decisiones colectivas, planificar acciones coordinadas y resolver problemas aplicando procedimientos y principios cívicos, éticos y democráticos explícitos."
+            },
+            {
+              "codigo": "2.3",
+              "competencia": 2,
+              "texto": "Contribuir a generar un compromiso activo con el bien común a través del análisis y la toma razonada y dialogante de posición en torno a cuestiones éticas de actualidad como la lucha contra la desigualdad y la pobreza, el derecho al trabajo, la salud, la educación y la justicia, así como sobre los fines y límites éticos de la investigación científica."
+            },
+            {
+              "codigo": "2.4",
+              "competencia": 2,
+              "texto": "Tomar consciencia de la lucha por una efectiva igualdad de género, y del problema de la violencia y explotación sobre las mujeres, a través del análisis de las diversas olas y corrientes del feminismo y de las medidas de prevención de la desigualdad, la violencia y la discriminación por razón de género y orientación sexual, mostrando igualmente conocimiento de los derechos LGTBIQ+ y reconociendo la necesidad de respetarlos."
+            },
+            {
+              "codigo": "2.5",
+              "competencia": 2,
+              "texto": "Contribuir activamente al bienestar social adoptando una posición propia, explícita, informada y éticamente fundamentada sobre el valor y pertinencia de los derechos humanos, el respeto por la diversidad etnocultural, la consideración de los bienes públicos globales y la percepción del valor social de los impuestos."
+            },
+            {
+              "codigo": "2.6",
+              "competencia": 2,
+              "texto": "Contribuir a la consecución de un mundo más justo y pacífico a través del análisis y reconocimiento de la historia democrática de nuestro país y de las funciones del Estado de derecho y sus instituciones, los organismos internacionales, las asociaciones civiles y los cuerpos y fuerzas de seguridad del Estado, en su empeño por lograr la paz y la seguridad integral, atender a las víctimas de la violencia y promover la solidaridad y cooperación entre las personas y los pueblos."
+            }
           ]
         },
         {
-          "codigo": "CE3",
-          "materia": "Educación en Valores Cívicos y Éticos",
-          "nombre": "Ecodependencia, problemas ecosociales y sostenibilidad",
-          "descripcion": "Entender la naturaleza interconectada e inter y ecodependiente de las actividades humanas, mediante la identificación y análisis de problemas ecosociales de relevancia, para promover hábitos y actitudes éticamente comprometidos con el logro de formas de vida sostenibles.",
+          "numero": 3,
+          "texto": "Entender la naturaleza interconectada e inter y ecodependiente de las actividades humanas, mediante la identificación y análisis de problemas ecosociales de relevancia, para promover hábitos y actitudes éticamente comprometidos con el logro de formas de vida sostenibles.",
           "descriptores": [
             "STEM5",
             "CPSAA2",
@@ -197,13 +416,28 @@
             "CC3",
             "CC4",
             "CE1"
+          ],
+          "criterios": [
+            {
+              "codigo": "3.1",
+              "competencia": 3,
+              "texto": "Describir las relaciones históricas de interconexión, interdependencia y ecodependencia entre nuestras vidas y el entorno a partir del análisis de las causas y consecuencias de los más graves problemas ecosociales que nos afectan."
+            },
+            {
+              "codigo": "3.2",
+              "competencia": 3,
+              "texto": "Valorar distintos planteamientos científicos, políticos y éticos con los que afrontar la emergencia climática y la crisis medioambiental a través de la exposición y el debate argumental en torno a los mismos."
+            },
+            {
+              "codigo": "3.3",
+              "competencia": 3,
+              "texto": "Promover estilos de vida éticamente comprometidos con el logro de un desarrollo sostenible, contribuyendo por sí mismo y en su entorno a la prevención de los residuos, la gestión sostenible de los recursos, la movilidad segura, sostenible y saludable, el comercio justo, el consumo responsable, el cuidado del patrimonio natural, el respeto por la diversidad etnocultural, y el cuidado y protección de los animales."
+            }
           ]
         },
         {
-          "codigo": "CE4",
-          "materia": "Educación en Valores Cívicos y Éticos",
-          "nombre": "Estima de sí mismo, gestión emocional y actitud de cuidado",
-          "descripcion": "Mostrar una adecuada estima de sí mismo y del entorno, reconociendo y valorando las emociones y los sentimientos propios y ajenos, para el logro de una actitud empática y cuidadosa con respecto a los demás y a la naturaleza.",
+          "numero": 4,
+          "texto": "Mostrar una adecuada estima de sí mismo y del entorno, reconociendo y valorando las emociones y los sentimientos propios y ajenos, para el logro de una actitud empática y cuidadosa con respecto a los demás y a la naturaleza.",
           "descriptores": [
             "CCL1",
             "CPSAA1",
@@ -212,161 +446,229 @@
             "CC1",
             "CC3",
             "CCEC3"
+          ],
+          "criterios": [
+            {
+              "codigo": "4.1",
+              "competencia": 4,
+              "texto": "Desarrollar una actitud de gestión equilibrada de las emociones, de estima y cuidado de sí mismo y de los otros, identificando, analizando y expresando de manera asertiva las propias emociones y sentimientos, y reconociendo y valorando los de los demás en distintos contextos y en torno a actividades creativas y de reflexión individual o dialogada sobre cuestiones éticas y cívicas."
+            }
           ]
         }
       ],
-      "criterios_evaluacion": [
+      "criteriosEvaluacion": [
         {
           "codigo": "1.1",
-          "materia": "Educación en Valores Cívicos y Éticos",
-          "competencia": "CE1",
-          "descripcion": "Construir y expresar un concepto ajustado de sí mismo reconociendo las múltiples dimensiones de su naturaleza y personalidad, así como de la dimensión cívica y moral de la misma, a partir de la investigación y el diálogo en torno a diversas concepciones sobre la naturaleza humana."
+          "competencia": 1,
+          "texto": "Construir y expresar un concepto ajustado de sí mismo reconociendo las múltiples dimensiones de su naturaleza y personalidad, así como de la dimensión cívica y moral de la misma, a partir de la investigación y el diálogo en torno a diversas concepciones sobre la naturaleza humana."
         },
         {
           "codigo": "1.2",
-          "materia": "Educación en Valores Cívicos y Éticos",
-          "competencia": "CE1",
-          "descripcion": "Identificar, gestionar y comunicar ideas, emociones, afectos y deseos con comprensión y empatía hacia las demás personas, demostrando autoestima y compartiendo un concepto adecuado de lo que deben ser las relaciones con otras personas, incluyendo el ámbito afectivo-sexual."
+          "competencia": 1,
+          "texto": "Identificar, gestionar y comunicar ideas, emociones, afectos y deseos con comprensión y empatía hacia las demás personas, demostrando autoestima y compartiendo un concepto adecuado de lo que deben ser las relaciones con otras personas, incluyendo el ámbito afectivo-sexual."
         },
         {
           "codigo": "1.3",
-          "materia": "Educación en Valores Cívicos y Éticos",
-          "competencia": "CE1",
-          "descripcion": "Desarrollar y demostrar autonomía moral a través de la práctica de la deliberación racional, el uso de conceptos éticos, y el diálogo respetuoso con los demás en torno a distintos valores y modos de vida, así como a problemas relacionados con el ejercicio de los derechos individuales, el uso responsable y seguro de las redes, las conductas adictivas y el acoso escolar."
+          "competencia": 1,
+          "texto": "Desarrollar y demostrar autonomía moral a través de la práctica de la deliberación racional, el uso de conceptos éticos, y el diálogo respetuoso con los demás en torno a distintos valores y modos de vida, así como a problemas relacionados con el ejercicio de los derechos individuales, el uso responsable y seguro de las redes, las conductas adictivas y el acoso escolar."
         },
         {
           "codigo": "2.1",
-          "materia": "Educación en Valores Cívicos y Éticos",
-          "competencia": "CE2",
-          "descripcion": "Promover y demostrar una convivencia pacífica, respetuosa, democrática y comprometida con el bien común, a partir de la investigación sobre la naturaleza social y política del ser humano y el uso y comprensión crítica de los conceptos de ley, poder, soberanía, justicia, Estado, democracia, memoria democrática, dignidad y derechos humanos."
+          "competencia": 2,
+          "texto": "Promover y demostrar una convivencia pacífica, respetuosa, democrática y comprometida con el bien común, a partir de la investigación sobre la naturaleza social y política del ser humano y el uso y comprensión crítica de los conceptos de ley, poder, soberanía, justicia, Estado, democracia, memoria democrática, dignidad y derechos humanos."
         },
         {
           "codigo": "2.2",
-          "materia": "Educación en Valores Cívicos y Éticos",
-          "competencia": "CE2",
-          "descripcion": "Fomentar el ejercicio de la ciudadanía activa y democrática a través del conocimiento del movimiento asociativo y la participación respetuosa, dialogante y constructiva en actividades de grupo que impliquen tomar decisiones colectivas, planificar acciones coordinadas y resolver problemas aplicando procedimientos y principios cívicos, éticos y democráticos explícitos."
+          "competencia": 2,
+          "texto": "Fomentar el ejercicio de la ciudadanía activa y democrática a través del conocimiento del movimiento asociativo y la participación respetuosa, dialogante y constructiva en actividades de grupo que impliquen tomar decisiones colectivas, planificar acciones coordinadas y resolver problemas aplicando procedimientos y principios cívicos, éticos y democráticos explícitos."
         },
         {
           "codigo": "2.3",
-          "materia": "Educación en Valores Cívicos y Éticos",
-          "competencia": "CE2",
-          "descripcion": "Contribuir a generar un compromiso activo con el bien común a través del análisis y la toma razonada y dialogante de posición en torno a cuestiones éticas de actualidad como la lucha contra la desigualdad y la pobreza, el derecho al trabajo, la salud, la educación y la justicia, así como sobre los fines y límites éticos de la investigación científica."
+          "competencia": 2,
+          "texto": "Contribuir a generar un compromiso activo con el bien común a través del análisis y la toma razonada y dialogante de posición en torno a cuestiones éticas de actualidad como la lucha contra la desigualdad y la pobreza, el derecho al trabajo, la salud, la educación y la justicia, así como sobre los fines y límites éticos de la investigación científica."
         },
         {
           "codigo": "2.4",
-          "materia": "Educación en Valores Cívicos y Éticos",
-          "competencia": "CE2",
-          "descripcion": "Tomar consciencia de la lucha por una efectiva igualdad de género, y del problema de la violencia y explotación sobre las mujeres, a través del análisis de las diversas olas y corrientes del feminismo y de las medidas de prevención de la desigualdad, la violencia y la discriminación por razón de género y orientación sexual, mostrando igualmente conocimiento de los derechos LGTBIQ+ y reconociendo la necesidad de respetarlos."
+          "competencia": 2,
+          "texto": "Tomar consciencia de la lucha por una efectiva igualdad de género, y del problema de la violencia y explotación sobre las mujeres, a través del análisis de las diversas olas y corrientes del feminismo y de las medidas de prevención de la desigualdad, la violencia y la discriminación por razón de género y orientación sexual, mostrando igualmente conocimiento de los derechos LGTBIQ+ y reconociendo la necesidad de respetarlos."
         },
         {
           "codigo": "2.5",
-          "materia": "Educación en Valores Cívicos y Éticos",
-          "competencia": "CE2",
-          "descripcion": "Contribuir activamente al bienestar social adoptando una posición propia, explícita, informada y éticamente fundamentada sobre el valor y pertinencia de los derechos humanos, el respeto por la diversidad etnocultural, la consideración de los bienes públicos globales y la percepción del valor social de los impuestos."
+          "competencia": 2,
+          "texto": "Contribuir activamente al bienestar social adoptando una posición propia, explícita, informada y éticamente fundamentada sobre el valor y pertinencia de los derechos humanos, el respeto por la diversidad etnocultural, la consideración de los bienes públicos globales y la percepción del valor social de los impuestos."
         },
         {
           "codigo": "2.6",
-          "materia": "Educación en Valores Cívicos y Éticos",
-          "competencia": "CE2",
-          "descripcion": "Contribuir a la consecución de un mundo más justo y pacífico a través del análisis y reconocimiento de la historia democrática de nuestro país y de las funciones del Estado de derecho y sus instituciones, los organismos internacionales, las asociaciones civiles y los cuerpos y fuerzas de seguridad del Estado, en su empeño por lograr la paz y la seguridad integral, atender a las víctimas de la violencia y promover la solidaridad y cooperación entre las personas y los pueblos."
+          "competencia": 2,
+          "texto": "Contribuir a la consecución de un mundo más justo y pacífico a través del análisis y reconocimiento de la historia democrática de nuestro país y de las funciones del Estado de derecho y sus instituciones, los organismos internacionales, las asociaciones civiles y los cuerpos y fuerzas de seguridad del Estado, en su empeño por lograr la paz y la seguridad integral, atender a las víctimas de la violencia y promover la solidaridad y cooperación entre las personas y los pueblos."
         },
         {
           "codigo": "3.1",
-          "materia": "Educación en Valores Cívicos y Éticos",
-          "competencia": "CE3",
-          "descripcion": "Describir las relaciones históricas de interconexión, interdependencia y ecodependencia entre nuestras vidas y el entorno a partir del análisis de las causas y consecuencias de los más graves problemas ecosociales que nos afectan."
+          "competencia": 3,
+          "texto": "Describir las relaciones históricas de interconexión, interdependencia y ecodependencia entre nuestras vidas y el entorno a partir del análisis de las causas y consecuencias de los más graves problemas ecosociales que nos afectan."
         },
         {
           "codigo": "3.2",
-          "materia": "Educación en Valores Cívicos y Éticos",
-          "competencia": "CE3",
-          "descripcion": "Valorar distintos planteamientos científicos, políticos y éticos con los que afrontar la emergencia climática y la crisis medioambiental a través de la exposición y el debate argumental en torno a los mismos."
+          "competencia": 3,
+          "texto": "Valorar distintos planteamientos científicos, políticos y éticos con los que afrontar la emergencia climática y la crisis medioambiental a través de la exposición y el debate argumental en torno a los mismos."
         },
         {
           "codigo": "3.3",
-          "materia": "Educación en Valores Cívicos y Éticos",
-          "competencia": "CE3",
-          "descripcion": "Promover estilos de vida éticamente comprometidos con el logro de un desarrollo sostenible, contribuyendo por sí mismo y en su entorno a la prevención de los residuos, la gestión sostenible de los recursos, la movilidad segura, sostenible y saludable, el comercio justo, el consumo responsable, el cuidado del patrimonio natural, el respeto por la diversidad etnocultural, y el cuidado y protección de los animales."
+          "competencia": 3,
+          "texto": "Promover estilos de vida éticamente comprometidos con el logro de un desarrollo sostenible, contribuyendo por sí mismo y en su entorno a la prevención de los residuos, la gestión sostenible de los recursos, la movilidad segura, sostenible y saludable, el comercio justo, el consumo responsable, el cuidado del patrimonio natural, el respeto por la diversidad etnocultural, y el cuidado y protección de los animales."
         },
         {
           "codigo": "4.1",
-          "materia": "Educación en Valores Cívicos y Éticos",
-          "competencia": "CE4",
-          "descripcion": "Desarrollar una actitud de gestión equilibrada de las emociones, de estima y cuidado de sí mismo y de los otros, identificando, analizando y expresando de manera asertiva las propias emociones y sentimientos, y reconociendo y valorando los de los demás en distintos contextos y en torno a actividades creativas y de reflexión individual o dialogada sobre cuestiones éticas y cívicas."
+          "competencia": 4,
+          "texto": "Desarrollar una actitud de gestión equilibrada de las emociones, de estima y cuidado de sí mismo y de los otros, identificando, analizando y expresando de manera asertiva las propias emociones y sentimientos, y reconociendo y valorando los de los demás en distintos contextos y en torno a actividades creativas y de reflexión individual o dialogada sobre cuestiones éticas y cívicas."
         }
       ],
-      "saberes_basicos": [
+      "saberes": [
         {
-          "bloque": "BLOQUE A. Autoconocimiento y autonomía moral",
-          "materia": "Educación en Valores Cívicos y Éticos",
-          "contenidos": [
-            "La investigación ética y la resolución de problemas complejos. El pensamiento crítico y filosófico.",
-            "La naturaleza humana y la identidad personal. Dignidad, libertad y moralidad.",
-            "La educación de las emociones y los sentimientos. La autoestima personal. La igualdad y el respeto mutuo en las relaciones con otras personas.",
-            "La educación afectivo-sexual.",
-            "Deseos y razones. La voluntad y el juicio moral. Autonomía y responsabilidad.",
-            "La ética como guía de nuestras acciones. La reflexión en torno a lo valioso y los valores: universalismo y pluralismo moral. Normas, virtudes y sentimientos morales. Éticas de la felicidad, éticas del deber y éticas de la virtud.",
-            "El conflicto entre legitimidad y legalidad. La objeción de conciencia. Los derechos individuales y el debate en torno a la libertad de expresión.",
-            "El problema de la desinformación. La protección de datos y el derecho a la intimidad. El ciberacoso y las situaciones de violencia en las redes. Las conductas adictivas."
+          "letra": "A",
+          "titulo": "Autoconocimiento y autonomía moral",
+          "items": [
+            {
+              "nivel": 2,
+              "texto": "La investigación ética y la resolución de problemas complejos. El pensamiento crítico y filosófico."
+            },
+            {
+              "nivel": 2,
+              "texto": "La naturaleza humana y la identidad personal. Dignidad, libertad y moralidad."
+            },
+            {
+              "nivel": 2,
+              "texto": "La educación de las emociones y los sentimientos. La autoestima personal. La igualdad y el respeto mutuo en las relaciones con otras personas."
+            },
+            {
+              "nivel": 2,
+              "texto": "La educación afectivo-sexual."
+            },
+            {
+              "nivel": 2,
+              "texto": "Deseos y razones. La voluntad y el juicio moral. Autonomía y responsabilidad."
+            },
+            {
+              "nivel": 2,
+              "texto": "La ética como guía de nuestras acciones. La reflexión en torno a lo valioso y los valores: universalismo y pluralismo moral. Normas, virtudes y sentimientos morales. Éticas de la felicidad, éticas del deber y éticas de la virtud."
+            },
+            {
+              "nivel": 2,
+              "texto": "El conflicto entre legitimidad y legalidad. La objeción de conciencia. Los derechos individuales y el debate en torno a la libertad de expresión."
+            },
+            {
+              "nivel": 2,
+              "texto": "El problema de la desinformación. La protección de datos y el derecho a la intimidad. El ciberacoso y las situaciones de violencia en las redes. Las conductas adictivas."
+            }
           ]
         },
         {
-          "bloque": "BLOQUE B. Sociedad, justicia y democracia",
-          "materia": "Educación en Valores Cívicos y Éticos",
-          "contenidos": [
-            "Las virtudes del diálogo y las normas de argumentación. La resolución pacífica de conflictos. La empatía con los demás.",
-            "La naturaleza y origen de la sociedad: competencia y cooperación, egoísmo y altruismo. Las estructuras sociales y los grupos de pertenencia.",
-            "La política: ley, poder, soberanía y justicia. Formas de Estado y tipos de gobierno. El Estado de derecho y los valores constitucionales. La democracia: principios, procedimientos e instituciones. La memoria democrática. La guerra, el terrorismo y otras formas de violencia política.",
-            "Las distintas generaciones de derechos humanos. Su constitución histórica y relevancia ética. Los derechos de la infancia.",
-            "Asociacionismo y voluntariado. La ciudadanía y la participación democrática. Los códigos deontológicos. Las éticas aplicadas.",
-            "La desigualdad económica y la lucha contra la pobreza. Globalización económica y bienes públicos globales. El comercio justo. El derecho al trabajo, la salud, la educación y la justicia. El valor social de los impuestos.",
-            "La igualdad de género y las diversas olas y corrientes del feminismo. La prevención de la explotación y la violencia contra niñas y mujeres. La corresponsabilidad en las tareas domésticas y de cuidados.",
-            "El interculturalismo. La inclusión social y el respeto por la diversidad y las identidades etnocultural y de género. Los derechos LGTBIQ+.",
-            "Fines y límites éticos de la investigación científica. La bioética. El desafío de la inteligencia artificial. Las propuestas transhumanistas.",
-            "Acciones individuales y colectivas en favor de la paz. La contribución del Estado y los organismos internacionales a la paz, la seguridad integral y la cooperación. La atención a las víctimas de la violencia. El derecho internacional y la ciudadanía global. Las fuerzas armadas y la defensa al servicio de la paz. El papel de las ONG y de las ONGD."
+          "letra": "B",
+          "titulo": "Sociedad, justicia y democracia",
+          "items": [
+            {
+              "nivel": 2,
+              "texto": "Las virtudes del diálogo y las normas de argumentación. La resolución pacífica de conflictos. La empatía con los demás."
+            },
+            {
+              "nivel": 2,
+              "texto": "La naturaleza y origen de la sociedad: competencia y cooperación, egoísmo y altruismo. Las estructuras sociales y los grupos de pertenencia."
+            },
+            {
+              "nivel": 2,
+              "texto": "La política: ley, poder, soberanía y justicia. Formas de Estado y tipos de gobierno. El Estado de derecho y los valores constitucionales. La democracia: principios, procedimientos e instituciones. La memoria democrática. La guerra, el terrorismo y otras formas de violencia política."
+            },
+            {
+              "nivel": 2,
+              "texto": "Las distintas generaciones de derechos humanos. Su constitución histórica y relevancia ética. Los derechos de la infancia."
+            },
+            {
+              "nivel": 2,
+              "texto": "Asociacionismo y voluntariado. La ciudadanía y la participación democrática. Los códigos deontológicos. Las éticas aplicadas."
+            },
+            {
+              "nivel": 2,
+              "texto": "La desigualdad económica y la lucha contra la pobreza. Globalización económica y bienes públicos globales. El comercio justo. El derecho al trabajo, la salud, la educación y la justicia. El valor social de los impuestos."
+            },
+            {
+              "nivel": 2,
+              "texto": "La igualdad de género y las diversas olas y corrientes del feminismo. La prevención de la explotación y la violencia contra niñas y mujeres. La corresponsabilidad en las tareas domésticas y de cuidados."
+            },
+            {
+              "nivel": 2,
+              "texto": "El interculturalismo. La inclusión social y el respeto por la diversidad y las identidades etnocultural y de género. Los derechos LGTBIQ+."
+            },
+            {
+              "nivel": 2,
+              "texto": "Fines y límites éticos de la investigación científica. La bioética. El desafío de la inteligencia artificial. Las propuestas transhumanistas."
+            },
+            {
+              "nivel": 2,
+              "texto": "Acciones individuales y colectivas en favor de la paz. La contribución del Estado y los organismos internacionales a la paz, la seguridad integral y la cooperación. La atención a las víctimas de la violencia. El derecho internacional y la ciudadanía global. Las fuerzas armadas y la defensa al servicio de la paz. El papel de las ONG y de las ONGD."
+            }
           ]
         },
         {
-          "bloque": "BLOQUE C. Sostenibilidad y ética ambiental",
-          "materia": "Educación en Valores Cívicos y Éticos",
-          "contenidos": [
-            "Interdependencia, interconexión y ecodependencia entre nuestras formas de vida y el entorno. Lo local y lo global. Consideración crítica de las diversas cosmovisiones sobre la relación humana con la naturaleza.",
-            "Los límites del planeta y el agotamiento de los recursos. La huella ecológica de las acciones humanas. La emergencia climática.",
-            "Diversos planteamientos éticos, científicos y políticos en torno a los problemas ecosociales. La ética ambiental. La ética de los cuidados y el ecofeminismo. Los Objetivos de Desarrollo Sostenible. El decrecimiento. La economía circular.",
-            "El compromiso activo con la protección de los animales y el medio ambiente. Los derechos de los animales y de la naturaleza. La perspectiva biocéntrica.",
-            "Estilos de vida sostenible: la prevención de los residuos y la gestión sostenible de los recursos. La movilidad segura, saludable y sostenible. El consumo responsable. Alimentación y soberanía alimentaria. Comunidades resilientes y en transición."
+          "letra": "C",
+          "titulo": "Sostenibilidad y ética ambiental",
+          "items": [
+            {
+              "nivel": 2,
+              "texto": "Interdependencia, interconexión y ecodependencia entre nuestras formas de vida y el entorno. Lo local y lo global. Consideración crítica de las diversas cosmovisiones sobre la relación humana con la naturaleza."
+            },
+            {
+              "nivel": 2,
+              "texto": "Los límites del planeta y el agotamiento de los recursos. La huella ecológica de las acciones humanas. La emergencia climática."
+            },
+            {
+              "nivel": 2,
+              "texto": "Diversos planteamientos éticos, científicos y políticos en torno a los problemas ecosociales. La ética ambiental. La ética de los cuidados y el ecofeminismo. Los Objetivos de Desarrollo Sostenible. El decrecimiento. La economía circular."
+            },
+            {
+              "nivel": 2,
+              "texto": "El compromiso activo con la protección de los animales y el medio ambiente. Los derechos de los animales y de la naturaleza. La perspectiva biocéntrica."
+            },
+            {
+              "nivel": 2,
+              "texto": "Estilos de vida sostenible: la prevención de los residuos y la gestión sostenible de los recursos. La movilidad segura, saludable y sostenible. El consumo responsable. Alimentación y soberanía alimentaria. Comunidades resilientes y en transición. Para Bachillerato - [Decreto 64/2022](https://gestiona.comunidad.madrid/wleg_pub/secure/normativas/contenidoNormativa.jsf?opcion=VerHtml&nmnorma=12792&eli=true#no-back-button), de 20 de julio, del Consejo de Gobierno, por el que se establecen para la Comunidad de Madrid la ordenación y el currículo del Bachillerato."
+            }
           ]
         }
       ]
     },
     {
-      "id": "rd-bachillerato",
-      "siglas": "RD Bachillerato",
-      "nombre": "Real Decreto 243/2022, de 5 de abril",
-      "subtitulo": "Por el que se establecen la ordenación y las enseñanzas mínimas del Bachillerato",
-      "boletin": "BOE nº 82, de 6 de abril de 2022",
-      "boeUrl": "https://www.boe.es/eli/es/rd/2022/04/06/243",
-      "descripcion": "Determina las competencias específicas, saberes básicos y criterios de evaluación de todas las materias comunes y de modalidad de Bachillerato.",
-      "relevanciaFilosofia": "Fija los saberes mínimos de 'Filosofía' (materia común de 1º de Bachillerato) y de 'Historia de la Filosofía' (materia común obligatoria para todas las modalidades en 2º de Bachillerato).",
-      "competencias_especificas": [
+      "id": "filosofia",
+      "nombre": "Filosofía",
+      "nombreCorto": "Filosofía 1º Bach.",
+      "etapa": "Bachillerato",
+      "etapaCorta": "1º Bachillerato",
+      "curso": "1º de Bachillerato (Común a todas las modalidades)",
+      "departamento": "Filosofía",
+      "marcoLegal": "Decreto 64/2022, de 20 de julio (Comunidad de Madrid) y Real Decreto 243/2022, de 5 de abril",
+      "marcoLegalUrl": "https://gestiona.comunidad.madrid/wleg_pub/secure/normativas/contenidoNormativa.jsf?opcion=VerHtml&nmnorma=12792&eli=true#no-back-button",
+      "descripcion": "Materia común que introduce el pensamiento crítico, la epistemología, la ontología, la antropología, la ética y la estética a través de la investigación y el diálogo argumentativo.",
+      "competencias": [
         {
-          "codigo": "CE1",
-          "materia": "Filosofía (1º Bachillerato)",
-          "nombre": "Radicalidad ontológica y sentido existencial",
-          "descripcion": "Identificar problemas y formular preguntas acerca del fundamento, valor y sentido de la realidad y la existencia humana, a partir del análisis e interpretación de textos y otras formas de expresión filosófica y cultural, para reconocer la radicalidad y trascendencia de tales cuestiones, así como la necesidad de afrontarlas para desarrollar una vida reflexiva y consciente de sí.",
+          "numero": 1,
+          "texto": "Identificar problemas y formular preguntas acerca del fundamento, valor y sentido de la realidad y la existencia humana, a partir del análisis e interpretación de textos y otras formas de expresión filosófica y cultural, para reconocer la radicalidad y trascendencia de tales cuestiones, así como la necesidad de afrontarlas para desarrollar una vida reflexiva y consciente de sí.",
           "descriptores": [
             "CCL2",
             "CPSAA1.2",
             "CC1",
             "CC3",
             "CCEC1"
+          ],
+          "criterios": [
+            {
+              "codigo": "1.1",
+              "competencia": 1,
+              "texto": "Reconocer la radicalidad y trascendencia de los problemas filosóficos mediante su reconocimiento, análisis y reformulación en textos y otros medios de expresión, tanto filosóficos como literarios, históricos, científicos, artísticos o relativos a cualquier otro ámbito cultural."
+            }
           ]
         },
         {
-          "codigo": "CE2",
-          "materia": "Filosofía (1º Bachillerato)",
-          "nombre": "Investigación filosófica y gestión crítica de fuentes",
-          "descripcion": "Buscar, gestionar, interpretar, producir y transmitir correctamente información relativa a cuestiones filosóficas a partir del empleo contrastado y seguro de fuentes, el uso y análisis riguroso de las mismas, y el empleo de procedimientos elementales de investigación y comunicación, para desarrollar una actitud indagadora, autónoma, rigurosa y creativa en el ámbito de la reflexión filosófica.",
+          "numero": 2,
+          "texto": "Buscar, gestionar, interpretar, producir y transmitir correctamente información relativa a cuestiones filosóficas a partir del empleo contrastado y seguro de fuentes, el uso y análisis riguroso de las mismas, y el empleo de procedimientos elementales de investigación y comunicación, para desarrollar una actitud indagadora, autónoma, rigurosa y creativa en el ámbito de la reflexión filosófica.",
           "descriptores": [
             "CCL1",
             "CCL2",
@@ -377,25 +679,50 @@
             "CPSAA4",
             "CC3",
             "CE3"
+          ],
+          "criterios": [
+            {
+              "codigo": "2.1",
+              "competencia": 2,
+              "texto": "Demostrar un conocimiento práctico de los procedimientos elementales de la investigación filosófica a través de tareas como la identificación de fuentes fiables, la búsqueda eficiente y segura de información, y la correcta organización, análisis, interpretación, evaluación, producción y comunicación de esta, tanto digitalmente como por medios más tradicionales."
+            },
+            {
+              "codigo": "2.2",
+              "competencia": 2,
+              "texto": "Desarrollar una actitud indagadora, autónoma y activa en el ámbito de la reflexión filosófica, mediante el diseño, la elaboración y la comunicación pública de productos originales, tales como trabajos de investigación, disertaciones o comentarios de texto."
+            }
           ]
         },
         {
-          "codigo": "CE3",
-          "materia": "Filosofía (1º Bachillerato)",
-          "nombre": "Lógica, argumentación rigurosa y detección de falacias",
-          "descripcion": "Usar y valorar adecuadamente argumentos y estructuras argumentales, a partir de su análisis tanto formal como informal, para producir y apreciar distintos tipos de discurso de forma rigurosa, y evitar modos dogmáticos, falaces y sesgados de sostener opiniones e hipótesis.",
+          "numero": 3,
+          "texto": "Usar y valorar adecuadamente argumentos y estructuras argumentales, a partir de su análisis tanto formal como informal, para producir y apreciar distintos tipos de discurso de forma rigurosa, y evitar modos dogmáticos, falaces y sesgados de sostener opiniones e hipótesis",
           "descriptores": [
             "CCL1",
             "CCL5",
             "STEM1",
             "CC3"
+          ],
+          "criterios": [
+            {
+              "codigo": "3.1",
+              "competencia": 3,
+              "texto": "Producir y evaluar discursos argumentativos, orales y escritos, acerca de cuestiones y problemas filosóficos, demostrando un uso correcto de normas y pautas lógicas, retóricas y argumentativas."
+            },
+            {
+              "codigo": "3.2",
+              "competencia": 3,
+              "texto": "Detectar y evitar modos dogmáticos, falaces y sesgados de sostener opiniones e hipótesis, explicando la naturaleza o mecanismo de dichos sesgos y falacias."
+            },
+            {
+              "codigo": "3.3",
+              "competencia": 3,
+              "texto": "Reconocer la importancia de la cooperación, el compromiso con la verdad, el respeto a la pluralidad y el rechazo de toda actitud discriminatoria o arbitraria, aplicando dichos principios a la práctica argumentativa y al diálogo con los demás."
+            }
           ]
         },
         {
-          "codigo": "CE4",
-          "materia": "Filosofía (1º Bachillerato)",
-          "nombre": "Diálogo filosófico y ciudadanía democrática activa",
-          "descripcion": "Practicar el ejercicio del diálogo filosófico de manera rigurosa, crítica, tolerante y empática, interiorizando las pautas éticas y formales que este requiere, mediante la participación en actividades grupales y a través del planteamiento dialógico de las cuestiones filosóficas, para promover el contraste e intercambio de ideas y el ejercicio de una ciudadanía activa y democrática.",
+          "numero": 4,
+          "texto": "Practicar el ejercicio del diálogo filosófico de manera rigurosa, crítica, tolerante y empática, interiorizando las pautas éticas y formales que este requiere, mediante la participación en actividades grupales y a través del planteamiento dialógico de las cuestiones filosóficas, para promover el contraste e intercambio de ideas y el ejercicio de una ciudadanía responsable.",
           "descriptores": [
             "CCL1",
             "CCL5",
@@ -405,37 +732,62 @@
             "CC3",
             "CCEC1",
             "CCEC3.2"
+          ],
+          "criterios": [
+            {
+              "codigo": "4.1",
+              "competencia": 4,
+              "texto": "Promover el contraste e intercambio de ideas y la práctica de una ciudadanía activa y democrática a través de la participación en actividades grupales y el ejercicio del diálogo racional, respetuoso, abierto, constructivo y comprometido con la búsqueda de la verdad, acerca de cuestiones y problemas filosóficamente relevantes."
+            }
           ]
         },
         {
-          "codigo": "CE5",
-          "materia": "Filosofía (1º Bachillerato)",
-          "nombre": "Pluralismo filosófico y resolución pacífica de conflictos",
-          "descripcion": "Reconocer el carácter plural de las concepciones, ideas y argumentos en torno a cada uno de los problemas fundamentales de la filosofía, mediante el análisis crítico de diversas tesis relevantes con respecto a los mismos, para generar una concepción compleja y no dogmática de dichas cuestiones e ideas y una actitud abierta, tolerante, y comprometida con la resolución racional y pacífica de los conflictos.",
+          "numero": 5,
+          "texto": "Reconocer el carácter plural de las concepciones, ideas y argumentos en torno a cada uno de los problemas fundamentales de la filosofía, mediante el análisis crítico de diversas tesis relevantes con respecto a los mismos, para generar una concepción compleja y no dogmática de dichas cuestiones e ideas y una actitud abierta, tolerante, y comprometida con la resolución racional y pacífica de los conflictos.",
           "descriptores": [
             "CCL5",
             "CC1",
             "CC2",
             "CC3"
+          ],
+          "criterios": [
+            {
+              "codigo": "5.1",
+              "competencia": 5,
+              "texto": "Generar una concepción compleja y no dogmática de los problemas filosóficos mediante el análisis crítico de tesis filosóficas distintas y opuestas en torno a los mismos."
+            },
+            {
+              "codigo": "5.2",
+              "competencia": 5,
+              "texto": "Comprender y exponer distintas tesis y teorías filosóficas como momentos de un proceso dinámico y siempre abierto de reflexión y diálogo, a través del análisis comparativo de los argumentos, principios, metodologías y enfoques de dichas tesis y teorías."
+            }
           ]
         },
         {
-          "codigo": "CE6",
-          "materia": "Filosofía (1º Bachillerato)",
-          "nombre": "Comprensión dialéctica del pensamiento y patrimonio común",
-          "descripcion": "Comprender las principales ideas y teorías filosóficas de los más importantes pensadores y pensadoras, mediante el examen crítico y dialéctico de las mismas y de los problemas fundamentales a los que estas responden, para generar una concepción rigurosa y personal de lo que significa la filosofía, de su riqueza e influencia cultural e histórica y de su aportación al patrimonio común.",
+          "numero": 6,
+          "texto": "Comprender las principales ideas y teorías filosóficas de los más importantes pensadores, mediante el examen crítico y dialéctico de las mismas y de los problemas fundamentales a los que estas responden, para generar una concepción rigurosa y personal de lo que significa la filosofía, de su riqueza e influencia cultural e histórica y de su aportación al patrimonio común.",
           "descriptores": [
             "CCL2",
             "CC1",
             "CC3",
             "CCEC2"
+          ],
+          "criterios": [
+            {
+              "codigo": "6.1",
+              "competencia": 6,
+              "texto": "Tomar consciencia de la riqueza e influencia del pensamiento filosófico identificando y analizando las principales ideas y teorías filosóficas en textos o documentos pertenecientes a ámbitos culturales diversos, así como poniéndolas en relación con experiencias, acciones o acontecimientos comunes y de actualidad."
+            },
+            {
+              "codigo": "6.2",
+              "competencia": 6,
+              "texto": "Adquirir y demostrar un conocimiento significativo de las ideas y teorías filosóficas de algunos de los más importantes pensadores de la historia, mediante su aplicación y el análisis crítico en el contexto de la práctica individual o colectiva de la indagación filosófica."
+            }
           ]
         },
         {
-          "codigo": "CE7",
-          "materia": "Filosofía (1º Bachillerato)",
-          "nombre": "Perspectiva global, sistémica y transdisciplinar",
-          "descripcion": "Adquirir una perspectiva global, sistémica y transdisciplinar en el planteamiento de cuestiones fundamentales y de actualidad, analizando y categorizando sus múltiples aspectos, distinguiendo lo más substancial de lo accesorio e integrando información e ideas de distintos ámbitos disciplinares desde la perspectiva fundamental de la filosofía, para tratar problemas complejos de modo crítico, creativo y transformador.",
+          "numero": 7,
+          "texto": "Adquirir una perspectiva global, sistémica y transdisciplinar en el planteamiento de cuestiones fundamentales y de actualidad, analizando y categorizando sus múltiples aspectos, distinguiendo lo más substancial de lo accesorio e integrando información e ideas de distintos ámbitos disciplinares desde la perspectiva fundamental de la filosofía, para tratar problemas complejos de modo crítico, creativo y transformador.",
           "descriptores": [
             "CCL2",
             "CCL3",
@@ -444,13 +796,18 @@
             "CC3",
             "CC4",
             "CCEC1"
+          ],
+          "criterios": [
+            {
+              "codigo": "7.1",
+              "competencia": 7,
+              "texto": "Afrontar cuestiones y problemas complejos, de carácter fundamental y de actualidad de modo interdisciplinar, sistemático y creativo, utilizando conceptos, ideas y procedimientos provenientes de distintos campos del saber y orientándolos y articulándolos críticamente desde una perspectiva filosófica."
+            }
           ]
         },
         {
-          "codigo": "CE8",
-          "materia": "Filosofía (1º Bachillerato)",
-          "nombre": "Análisis ético-político y autonomía moral",
-          "descripcion": "Analizar problemas éticos y políticos fundamentales y de actualidad, mediante la exposición crítica y dialéctica de distintas posiciones filosóficamente pertinentes en la interpretación y resolución de los mismos, para desarrollar el juicio propio y la autonomía moral.",
+          "numero": 8,
+          "texto": "Analizar problemas éticos y políticos fundamentales y de actualidad, mediante la exposición crítica y dialéctica de distintas posiciones filosóficamente pertinentes en la interpretación y resolución de los mismos, para desarrollar el juicio propio y la autonomía moral.",
           "descriptores": [
             "CCL5",
             "CPSAA1.2",
@@ -459,13 +816,18 @@
             "CC3",
             "CC4",
             "CE1"
+          ],
+          "criterios": [
+            {
+              "codigo": "8.1",
+              "competencia": 8,
+              "texto": "Desarrollar el propio juicio y la autonomía moral mediante el análisis filosófico de problemas éticos y políticos fundamentales y de actualidad, considerando las distintas posiciones en disputa y elaborando, argumentando, exponiendo y sometiendo al diálogo con los demás las propias tesis al respecto."
+            }
           ]
         },
         {
-          "codigo": "CE9",
-          "materia": "Filosofía (1º Bachillerato)",
-          "nombre": "Comprensión estética del arte y lenguaje de las imágenes",
-          "descripcion": "Desarrollar la sensibilidad y la comprensión crítica del arte y otras manifestaciones y actividades con valor estético mediante el ejercicio del pensamiento filosófico acerca de la belleza y la creación artística, para contribuir a la educación de los sentimientos y al desarrollo de una actitud reflexiva con respecto al lenguaje y sentido de las imágenes.",
+          "numero": 9,
+          "texto": "Desarrollar la sensibilidad y la comprensión crítica del arte y otras manifestaciones y actividades con valor estético mediante el ejercicio del pensamiento filosófico acerca de la belleza y la creación artística, para contribuir a la educación de los sentimientos y al desarrollo de una actitud reflexiva con respecto al lenguaje y sentido de las imágenes.",
           "descriptores": [
             "CPSAA3.1",
             "CC2",
@@ -473,13 +835,380 @@
             "CCEC2",
             "CCEC3.1",
             "CCEC3.2"
+          ],
+          "criterios": [
+            {
+              "codigo": "9.1",
+              "competencia": 9,
+              "texto": "Generar un adecuado equilibrio entre el aspecto racional y el emotivo en la consideración de los problemas filosóficos, especialmente los referidos al ámbito de la estética, a través de la reflexión expresa en torno al arte y a otras actividades o experiencias con valor estético y el análisis del papel de las imágenes y el lenguaje audiovisual en la cultura contemporánea."
+            }
+          ]
+        }
+      ],
+      "criteriosEvaluacion": [
+        {
+          "codigo": "1.1",
+          "competencia": 1,
+          "texto": "Reconocer la radicalidad y trascendencia de los problemas filosóficos mediante su reconocimiento, análisis y reformulación en textos y otros medios de expresión, tanto filosóficos como literarios, históricos, científicos, artísticos o relativos a cualquier otro ámbito cultural."
+        },
+        {
+          "codigo": "2.1",
+          "competencia": 2,
+          "texto": "Demostrar un conocimiento práctico de los procedimientos elementales de la investigación filosófica a través de tareas como la identificación de fuentes fiables, la búsqueda eficiente y segura de información, y la correcta organización, análisis, interpretación, evaluación, producción y comunicación de esta, tanto digitalmente como por medios más tradicionales."
+        },
+        {
+          "codigo": "2.2",
+          "competencia": 2,
+          "texto": "Desarrollar una actitud indagadora, autónoma y activa en el ámbito de la reflexión filosófica, mediante el diseño, la elaboración y la comunicación pública de productos originales, tales como trabajos de investigación, disertaciones o comentarios de texto."
+        },
+        {
+          "codigo": "3.1",
+          "competencia": 3,
+          "texto": "Producir y evaluar discursos argumentativos, orales y escritos, acerca de cuestiones y problemas filosóficos, demostrando un uso correcto de normas y pautas lógicas, retóricas y argumentativas."
+        },
+        {
+          "codigo": "3.2",
+          "competencia": 3,
+          "texto": "Detectar y evitar modos dogmáticos, falaces y sesgados de sostener opiniones e hipótesis, explicando la naturaleza o mecanismo de dichos sesgos y falacias."
+        },
+        {
+          "codigo": "3.3",
+          "competencia": 3,
+          "texto": "Reconocer la importancia de la cooperación, el compromiso con la verdad, el respeto a la pluralidad y el rechazo de toda actitud discriminatoria o arbitraria, aplicando dichos principios a la práctica argumentativa y al diálogo con los demás."
+        },
+        {
+          "codigo": "4.1",
+          "competencia": 4,
+          "texto": "Promover el contraste e intercambio de ideas y la práctica de una ciudadanía activa y democrática a través de la participación en actividades grupales y el ejercicio del diálogo racional, respetuoso, abierto, constructivo y comprometido con la búsqueda de la verdad, acerca de cuestiones y problemas filosóficamente relevantes."
+        },
+        {
+          "codigo": "5.1",
+          "competencia": 5,
+          "texto": "Generar una concepción compleja y no dogmática de los problemas filosóficos mediante el análisis crítico de tesis filosóficas distintas y opuestas en torno a los mismos."
+        },
+        {
+          "codigo": "5.2",
+          "competencia": 5,
+          "texto": "Comprender y exponer distintas tesis y teorías filosóficas como momentos de un proceso dinámico y siempre abierto de reflexión y diálogo, a través del análisis comparativo de los argumentos, principios, metodologías y enfoques de dichas tesis y teorías."
+        },
+        {
+          "codigo": "6.1",
+          "competencia": 6,
+          "texto": "Tomar consciencia de la riqueza e influencia del pensamiento filosófico identificando y analizando las principales ideas y teorías filosóficas en textos o documentos pertenecientes a ámbitos culturales diversos, así como poniéndolas en relación con experiencias, acciones o acontecimientos comunes y de actualidad."
+        },
+        {
+          "codigo": "6.2",
+          "competencia": 6,
+          "texto": "Adquirir y demostrar un conocimiento significativo de las ideas y teorías filosóficas de algunos de los más importantes pensadores de la historia, mediante su aplicación y el análisis crítico en el contexto de la práctica individual o colectiva de la indagación filosófica."
+        },
+        {
+          "codigo": "7.1",
+          "competencia": 7,
+          "texto": "Afrontar cuestiones y problemas complejos, de carácter fundamental y de actualidad de modo interdisciplinar, sistemático y creativo, utilizando conceptos, ideas y procedimientos provenientes de distintos campos del saber y orientándolos y articulándolos críticamente desde una perspectiva filosófica."
+        },
+        {
+          "codigo": "8.1",
+          "competencia": 8,
+          "texto": "Desarrollar el propio juicio y la autonomía moral mediante el análisis filosófico de problemas éticos y políticos fundamentales y de actualidad, considerando las distintas posiciones en disputa y elaborando, argumentando, exponiendo y sometiendo al diálogo con los demás las propias tesis al respecto."
+        },
+        {
+          "codigo": "9.1",
+          "competencia": 9,
+          "texto": "Generar un adecuado equilibrio entre el aspecto racional y el emotivo en la consideración de los problemas filosóficos, especialmente los referidos al ámbito de la estética, a través de la reflexión expresa en torno al arte y a otras actividades o experiencias con valor estético y el análisis del papel de las imágenes y el lenguaje audiovisual en la cultura contemporánea."
+        }
+      ],
+      "saberes": [
+        {
+          "letra": "A",
+          "titulo": "La filosofía y el ser humano",
+          "items": [
+            {
+              "nivel": 1,
+              "texto": "1. La reflexión filosófica en torno a la propia filosofía."
+            },
+            {
+              "nivel": 2,
+              "texto": "¿Qué es filosofía? Características y concepciones del saber filosófico."
+            },
+            {
+              "nivel": 3,
+              "texto": "Las circunstancias de aparición de la filosofía: el paso del mito al logos. Breve recensión histórica de la filosofía."
+            },
+            {
+              "nivel": 3,
+              "texto": "Las divisiones tradicionales de la filosofía y las áreas actuales de investigación."
+            },
+            {
+              "nivel": 3,
+              "texto": "Vigencia y utilidad de la filosofía: la importancia de filosofar en torno a los retos del siglo XXI."
+            },
+            {
+              "nivel": 2,
+              "texto": "La filosofía en relación con otros campos del saber y la actividad humana:"
+            },
+            {
+              "nivel": 3,
+              "texto": "El carácter interdisciplinar de la filosofía."
+            },
+            {
+              "nivel": 3,
+              "texto": "Ciencia y filosofía."
+            },
+            {
+              "nivel": 3,
+              "texto": "Los códigos deontológicos."
+            },
+            {
+              "nivel": 2,
+              "texto": "Métodos y herramientas básicos del filósofo:"
+            },
+            {
+              "nivel": 3,
+              "texto": "El uso y análisis crítico de fuentes."
+            },
+            {
+              "nivel": 3,
+              "texto": "La comprensión e interpretación de documentos filosóficos."
+            },
+            {
+              "nivel": 3,
+              "texto": "La identificación de problemas filosóficos en otros ámbitos de la cultura"
+            },
+            {
+              "nivel": 3,
+              "texto": "El pensamiento y el diálogo argumentativos."
+            },
+            {
+              "nivel": 3,
+              "texto": "La investigación y la disertación filosófica."
+            },
+            {
+              "nivel": 2,
+              "texto": "La filosofía como revisión crítica de su propia tradición: la discriminación en la tradición filosófica."
+            },
+            {
+              "nivel": 2,
+              "texto": "La filosofía y la infancia: el juego, el asombro y la filosofía. La importancia de aprender a pensar."
+            },
+            {
+              "nivel": 1,
+              "texto": "2. El ser humano como sujeto y objeto de la experiencia filosófica."
+            },
+            {
+              "nivel": 2,
+              "texto": "La filosofía y la existencia humana."
+            },
+            {
+              "nivel": 2,
+              "texto": "El debate sobre la génesis y definición de la naturaleza humana. Naturaleza y cultura: especificidad natural y condicionantes histórico-culturales. Hominización y humanización."
+            },
+            {
+              "nivel": 2,
+              "texto": "Concepciones filosóficas del ser humano."
+            },
+            {
+              "nivel": 2,
+              "texto": "La estructura psicosomática de la personalidad: sensibilidad, emotividad, deseos y volición, las facultades cognitivas. Conciencia y lenguaje."
+            },
+            {
+              "nivel": 2,
+              "texto": "Concepciones psicológicas del ser humano: conductismo, psicoanálisis y psicología humanista."
+            },
+            {
+              "nivel": 2,
+              "texto": "El problema del yo y de la identidad personal. Tipos y modos de identidad. La especulación en torno al transhumanismo. Los límites de lo humano."
+            }
           ]
         },
         {
-          "codigo": "CE1",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "nombre": "Investigación histórica y gestión de fuentes",
-          "descripcion": "Buscar, analizar, interpretar, producir y transmitir información relativa a hechos histórico-filosóficos a partir del uso crítico y seguro de fuentes y el dominio de técnicas básicas de investigación, para generar conocimientos y producciones propias acerca de la historia de los problemas e ideas filosóficos.",
+          "letra": "B",
+          "titulo": "Conocimiento y realidad",
+          "items": [
+            {
+              "nivel": 1,
+              "texto": "El problema filosófico del conocimiento y la verdad."
+            },
+            {
+              "nivel": 2,
+              "texto": "El problema del conocimiento:"
+            },
+            {
+              "nivel": 3,
+              "texto": "Definición y posibilidad."
+            },
+            {
+              "nivel": 3,
+              "texto": "El origen del conocimiento y sus límites."
+            },
+            {
+              "nivel": 3,
+              "texto": "Teorías de la verdad."
+            },
+            {
+              "nivel": 3,
+              "texto": "La crisis del ideal ilustrado y el relativismo posmoderno."
+            },
+            {
+              "nivel": 3,
+              "texto": "La desinformación y el fenómeno de la «posverdad»."
+            },
+            {
+              "nivel": 2,
+              "texto": "Las teorías del conocimiento: formas de racionalismo, empirismo y otras teorías. La alternativa del irracionalismo."
+            },
+            {
+              "nivel": 2,
+              "texto": "El razonamiento y la argumentación:"
+            },
+            {
+              "nivel": 3,
+              "texto": "Tipos de razonamiento; inducción y deducción."
+            },
+            {
+              "nivel": 3,
+              "texto": "La argumentación informal."
+            },
+            {
+              "nivel": 3,
+              "texto": "Nociones de lógica formal."
+            },
+            {
+              "nivel": 3,
+              "texto": "La detección de falacias y sesgos cognitivos."
+            },
+            {
+              "nivel": 3,
+              "texto": "La deducción natural: reglas básicas."
+            },
+            {
+              "nivel": 2,
+              "texto": "El saber científico: definición y características. Criterios de demarcación. Clasificación de la ciencia y metodologías científicas."
+            },
+            {
+              "nivel": 2,
+              "texto": "La filosofía de la ciencia: naturaleza, problemas y límites del conocimiento científico."
+            },
+            {
+              "nivel": 2,
+              "texto": "Otros modos de saber: el saber común; la razón poética y las creencias religiosas. El problema del saber metafísico."
+            },
+            {
+              "nivel": 2,
+              "texto": "La dimensión social y política del conocimiento. Conocimiento, poder e interés. La tecnociencia contemporánea. El papel de la mujer en la ciencia y en los otros conocimientos. La cuestión de la naturaleza última de la realidad."
+            },
+            {
+              "nivel": 2,
+              "texto": "El problema de lo real:"
+            },
+            {
+              "nivel": 3,
+              "texto": "Apariencia y realidad."
+            },
+            {
+              "nivel": 3,
+              "texto": "Lo real y lo virtual: la cuestión de las realidades virtuales."
+            },
+            {
+              "nivel": 2,
+              "texto": "Unidad y pluralidad. Categorías y modos de ser. Entidades físicas y objetos ideales. El problema de los universales: realismo y nominalismo. - El problema mente-cuerpo. La filosofía de la mente y el debate en torno a la inteligencia artificial."
+            },
+            {
+              "nivel": 2,
+              "texto": "El problema filosófico del tiempo y el cambio."
+            },
+            {
+              "nivel": 2,
+              "texto": "El problema del determinismo. Necesidad, azar y libertad."
+            },
+            {
+              "nivel": 2,
+              "texto": "El problema filosófico de la existencia de Dios. Teísmo, ateísmo y agnosticismo."
+            }
+          ]
+        },
+        {
+          "letra": "C",
+          "titulo": "Acción y creación",
+          "items": [
+            {
+              "nivel": 1,
+              "texto": "1. La acción humana: filosofía, ética y política."
+            },
+            {
+              "nivel": 2,
+              "texto": "La condición moral del ser humano: libertad y responsabilidad."
+            },
+            {
+              "nivel": 2,
+              "texto": "El problema ético: cómo hemos de actuar. Ser y deber ser."
+            },
+            {
+              "nivel": 2,
+              "texto": "La deliberación moral. Las condiciones del juicio y el diálogo ético."
+            },
+            {
+              "nivel": 2,
+              "texto": "La fundamentación del bien moral. La posibilidad de una ética racional. Cognitivismo y emotivismo. El debate en torno al relativismo moral. El reto de una ética universal de mínimos."
+            },
+            {
+              "nivel": 2,
+              "texto": "Las principales respuestas al problema ético: éticas consecuencialistas, éticas del deber y éticas de la virtud. La moral amoral de Nietzsche. Éticas del cuidado. Ética medioambiental. Éticas aplicadas."
+            },
+            {
+              "nivel": 2,
+              "texto": "Los derechos humanos: su génesis, legitimidad y vigencia actual. Las distintas generaciones de derechos humanos."
+            },
+            {
+              "nivel": 2,
+              "texto": "Grandes cuestiones éticas de nuestro tiempo: la desigualdad y la pobreza; la igualdad efectiva de derechos; la guerra, el terrorismo y otras formas de violencia; los derechos de la infancia; la discriminación y el respeto a las minorías; Big Data y la manipulación de la información."
+            },
+            {
+              "nivel": 2,
+              "texto": "El hombre como ser social. Definición de lo político. Legalidad y legitimidad. La cuestión filosófica de la justicia."
+            },
+            {
+              "nivel": 2,
+              "texto": "El fundamento de la organización social y del poder político. Teorías del origen sobrenatural vs. teorías contractualistas. La reflexión filosófica en torno a la democracia."
+            },
+            {
+              "nivel": 2,
+              "texto": "El diálogo en torno a los principios políticos fundamentales: igualdad y libertad. El conflicto entre el individuo y el Estado. El derecho al trabajo y a la propiedad: el problema de la distribución de la riqueza. El debate político contemporáneo: liberalismo, utilitarismo y comunitarismo."
+            },
+            {
+              "nivel": 2,
+              "texto": "Ideales, utopías y distopías. Los movimientos sociales y políticos."
+            },
+            {
+              "nivel": 1,
+              "texto": "2. La reflexión filosófica en torno a la creación artística."
+            },
+            {
+              "nivel": 2,
+              "texto": "Definición, ámbitos y problemas de la estética: arte, belleza y gusto. Lo bello y lo sublime. La relación de lo estético con otros ámbitos de la cultura. Ética y estética. El bien, la verdad y la belleza. El papel político del arte."
+            },
+            {
+              "nivel": 2,
+              "texto": "Teorías clásicas y modernas acerca de la belleza y el arte. Teorías y problemas estéticos contemporáneos. La reflexión en torno a la imagen y la cultura audiovisual."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "historia-filosofia",
+      "nombre": "Historia de la Filosofía",
+      "nombreCorto": "Historia de la Filosofía 2º Bach.",
+      "etapa": "Bachillerato",
+      "etapaCorta": "2º Bachillerato",
+      "curso": "2º de Bachillerato (Común a todas las modalidades)",
+      "departamento": "Filosofía",
+      "marcoLegal": "Decreto 64/2022, de 20 de julio (Comunidad de Madrid) y Real Decreto 243/2022, de 5 de abril",
+      "marcoLegalUrl": "https://gestiona.comunidad.madrid/wleg_pub/secure/normativas/contenidoNormativa.jsf?opcion=VerHtml&nmnorma=12792&eli=true#no-back-button",
+      "descripcion": "Materia común de 2º de Bachillerato que recorre diacrónicamente el pensamiento occidental desde Grecia hasta la contemporaneidad y posmodernidad, conectando problemas perennes con debates actuales.",
+      "competencias": [
+        {
+          "numero": 1,
+          "texto": "Buscar, analizar, interpretar, producir y transmitir información relativa a hechos histórico-filosóficos a partir del uso crítico y seguro de fuentes y el dominio de técnicas básicas de investigación, para generar conocimientos y producciones propias acerca de la historia de los problemas e ideas filosóficos.",
           "descriptores": [
             "CCL1",
             "CCL2",
@@ -489,13 +1218,28 @@
             "CPSAA4",
             "CC3",
             "CE3"
+          ],
+          "criterios": [
+            {
+              "codigo": "1.1",
+              "competencia": 1,
+              "texto": "Generar un conocimiento riguroso de fuentes y documentos filosóficamente relevantes, aplicando técnicas de búsqueda, organización, análisis, comparación e interpretación de los mismos, y relacionándolos correctamente con contextos históricos, problemas, tesis, autores, así como con elementos pertenecientes a otros ámbitos culturales."
+            },
+            {
+              "codigo": "1.2",
+              "competencia": 1,
+              "texto": "Construir juicios propios acerca de problemas histórico-filosóficos, a través de la elaboración y presentación de documentos y trabajos de investigación sobre los mismos con precisión y aplicando los protocolos al uso, tanto de forma individual como grupal y cooperativa."
+            },
+            {
+              "codigo": "1.3",
+              "competencia": 1,
+              "texto": "Leer y analizar determinados fragmentos de los principales filósofos y escuelas, tras haber estudiado el temario y repasado la Historia del momento. Comentar textos con criterio científico, rigor metodológico y cuidada expresión."
+            }
           ]
         },
         {
-          "codigo": "CE2",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "nombre": "Pautas del debate, argumentación y diálogo",
-          "descripcion": "Reconocer las normas y pautas de la argumentación y el diálogo filosóficos mediante la identificación y análisis de las mismas en distintos soportes y a través de diversas actividades, para aplicarlas con rigor en la construcción y exposición de argumentos y en el ejercicio del diálogo con los demás.",
+          "numero": 2,
+          "texto": "Reconocer las normas y pautas de la argumentación y el diálogo filosóficos, mediante la identificación y análisis de las mismas en distintos soportes y a través de diversas actividades, para aplicarlas con rigor en la construcción y exposición de argumentos y en el ejercicio del diálogo con los demás.",
           "descriptores": [
             "CCL1",
             "CCL5",
@@ -505,63 +1249,113 @@
             "CC3",
             "CCEC1",
             "CCEC3.2"
+          ],
+          "criterios": [
+            {
+              "codigo": "2.1",
+              "competencia": 2,
+              "texto": "Emplear argumentos de modo riguroso, reconociendo y aplicando normas, técnicas y pautas lógicas, retóricas y argumentativas, y evitando modos dogmáticos, falaces y sesgados de sostener opiniones e hipótesis."
+            },
+            {
+              "codigo": "2.2",
+              "competencia": 2,
+              "texto": "Sostener el hábito del diálogo argumentativo, empático, abierto y constructivamente comprometido con la búsqueda del conocimiento, a través de la participación activa, respetuosa y colaborativa en cuantas actividades se propongan."
+            },
+            {
+              "codigo": "2.3",
+              "competencia": 2,
+              "texto": "Estudiar la biografía personal de los filósofos y de su tiempo, con todos los medios rigurosos a su alcance: cine, teatro, novela, mapas, retratos… Familiarizarse con las figuras más importantes de la Historia de la Filosofía hasta llegar a la amistad o la polémica con ellos, y con las personas de su entorno: maestros, discípulos, familia… Así: no se entiende a Sócrates sin los sofistas y los bellos y Atenas, ni a Platón sin Sócrates, ni a Platón sin Aristóteles y viceversa, ni a Aristóteles sin Alejandro y el Helenismo; ni este sin sus consecuencias en el Imperio romano (Cleopatra misma es griega), y no se entienden el giro copernicano de Kant y la perspectiva de Ortega sin las categorías de Aristóteles. Estas líneas son las que ha de descubrir y ser capaz de explicar el alumno."
+            }
           ]
         },
         {
-          "codigo": "CE3",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "nombre": "Comprensión de concepciones y fuentes del patrimonio común",
-          "descripcion": "Comprender y expresar diferentes concepciones filosóficas históricamente dadas, mediante el acercamiento a sus fuentes y el trabajo crítico sobre las mismas, para desarrollar el conocimiento de un acervo que constituye parte esencial del patrimonio cultural común.",
+          "numero": 3,
+          "texto": "Comprender y expresar diferentes concepciones filosóficas históricamente dadas,mediante el acercamiento a sus fuentes y el trabajo crítico sobre las mismas, para desarrollar el conocimiento de un acervo que constituye parte esencial del patrimonio cultural común.",
           "descriptores": [
             "CC1",
             "CC2",
             "CC3",
             "CCEC1"
+          ],
+          "criterios": [
+            {
+              "codigo": "3.1",
+              "competencia": 3,
+              "texto": "Adquirir y expresar un conocimiento significativo de las más importantes propuestas filosóficas que se han sucedido a lo largo de la historia, a través de la indagación sobre ellas y la identificación de las cuestiones a las que responden."
+            },
+            {
+              "codigo": "3.2",
+              "competencia": 3,
+              "texto": "Identificar, comprender y debatir sobre los principales problemas, ideas, tesis y controversias filosóficas de la historia del pensamiento, a través del análisis y comentario crítico de textos y documentos filosóficos o relevantes para la filosofía."
+            },
+            {
+              "codigo": "3.3",
+              "competencia": 3,
+              "texto": "Adquirir claridad en el uso de conceptos filosóficos, comprendiéndolos, memorizando sus definiciones, preferiblemente sabiendo también los nombres en las lenguas originales. Entender cómo el mismo concepto (por ejemplo, el de ʺideaʺ) va significando algo completamente distinto según la época y el autor. Analizar también los distintos estilos de la filosofía, que son esenciales y consustanciales a su historia (por ejemplo, entender que Sócrates hace diálogo, ʺmayeúticaʺ, frente a los sofistas, que hacen un discurso.)"
+            }
           ]
         },
         {
-          "codigo": "CE4",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "nombre": "Naturaleza plural, dialéctica y compleja del pensamiento",
-          "descripcion": "Reconocer la naturaleza esencialmente plural y diversa de las concepciones filosóficas históricamente dadas, mediante su puesta en relación dialéctica de confrontación y complementariedad, para generar una concepción compleja y dinámica de la historia del pensamiento y promover una actitud tolerante y comprometida con la resolución racional y dialogada de los conflictos.",
+          "numero": 4,
+          "texto": "Reconocer la naturaleza esencialmente plural y diversa de las concepciones filosóficas históricamente dadas, mediante su puesta en relación dialéctica, de confrontación y complementariedad, para generar una concepción compleja y dinámica de la historia del pensamiento y promover una actitud tolerante y comprometida con la resolución racional y dialogada de los conflictos.",
           "descriptores": [
             "CCL2",
             "CC1",
             "CC2",
             "CC3"
+          ],
+          "criterios": [
+            {
+              "codigo": "4.1",
+              "competencia": 4,
+              "texto": "Generar una concepción plural, dialéctica, abierta y crítica de la historia del pensamiento, a través de la comprensión, la realización de síntesis comparativas y la exposición de las relaciones de oposición y complementariedad entre tesis, escuelas, filósofos de una misma época o tradición o de distintas épocas y tradiciones."
+            }
           ]
         },
         {
-          "codigo": "CE5",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "nombre": "Planteamiento recurrente de los problemas en la tradición",
-          "descripcion": "Reconocer el modo en que se han planteado sucesivamente, a través de distintas épocas y concepciones, los mismos problemas filosóficos, mediante el análisis e interpretación de textos y otros modos de expresión tanto filosófica como más ampliamente cultural, históricamente dados, para afrontar tales problemas a partir de la reflexión crítica sobre el conocimiento de lo aportado por la tradición.",
+          "numero": 5,
+          "texto": "Reconocer el modo en que se han planteado sucesivamente, a través de distintas épocas y concepciones, los mismos problemas filosóficos, mediante el análisis e interpretación de textos y otros modos de expresión tanto filosófica como más ampliamente cultural, históricamente dados, para afrontar tales problemas a partir de la reflexión crítica sobre el conocimiento de lo aportado por la tradición.",
           "descriptores": [
             "CCL2",
             "CC1",
             "CC2",
             "CC3",
             "CCEC1"
+          ],
+          "criterios": [
+            {
+              "codigo": "5.1",
+              "competencia": 5,
+              "texto": "Afrontar los grandes problemas filosóficos en su doble aspecto histórico y universal, a través del análisis y exposición crítica de las condiciones culturales que han permitido en cada caso la aparición y evolución de dichos problemas en distintos momentos de la historia."
+            },
+            {
+              "codigo": "5.2",
+              "competencia": 5,
+              "texto": "Comprender la dimensión temporal y universal de los problemas filosóficos más importantes, comparando mediante esquemas u otros productos o actividades el tratamiento filosófico que se hace de ellos en distintas épocas, escuelas, tradiciones y autores."
+            }
           ]
         },
         {
-          "codigo": "CE6",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "nombre": "Presencia de las ideas filosóficas en la cultura occidental",
-          "descripcion": "Reconocer las formas diversas en que los interrogantes filosóficos y sus intentos de respuesta se han presentado históricamente en otros ámbitos de la cultura, mediante el análisis interpretativo de textos y otras manifestaciones pertenecientes a esos ámbitos, para promover una concepción sistemática, relacional y compleja de la historia de la cultura occidental y del papel de las ideas filosóficas en ella.",
+          "numero": 6,
+          "texto": "Reconocer las formas diversas en que los interrogantes filosóficos y sus intentos de respuesta se han presentado históricamente en otros ámbitos de la cultura, mediante el análisis interpretativo de textos y otras manifestaciones pertenecientes a esos ámbitos, para promover una concepción sistemática, relacional y compleja de la historia de la cultura occidental y del papel de las ideas filosóficas en ella.",
           "descriptores": [
             "CCL2",
             "CC1",
             "CC2",
             "CC3",
             "CCEC1"
+          ],
+          "criterios": [
+            {
+              "codigo": "6.1",
+              "competencia": 6,
+              "texto": "Adquirir una concepción sistémica y relacional de la historia de la cultura occidental y del papel de las ideas filosóficas en ella, mediante el análisis, comentario y comparación de textos o documentos literarios, historiográficos, periodísticos, científicos o religiosos, así como de cualquier otra manifestación cultural, en los que se expresen problemas y concepciones filosóficamente relevantes."
+            }
           ]
         },
         {
-          "codigo": "CE7",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "nombre": "Problemas fundamentales, actualidad y juicio ético consecuente",
-          "descripcion": "Analizar problemas fundamentales y de actualidad mediante la exposición crítica de distintas posiciones histórico-filosóficas relevantes para la comprensión y discusión de aquellos, para desarrollar la autonomía de juicio y promover actitudes y acciones cívica y éticamente consecuentes.",
+          "numero": 7,
+          "texto": "Analizar problemas fundamentales y de actualidad, mediante la exposición crítica de distintas posiciones histórico-filosóficas relevantes para la comprensión y discusión de aquellos, para desarrollar la autonomía de juicio y promover actitudes y acciones cívica y éticamente consecuentes.",
           "descriptores": [
             "CPSAA4",
             "CC1",
@@ -569,530 +1363,911 @@
             "CC3",
             "CC4",
             "CE1"
+          ],
+          "criterios": [
+            {
+              "codigo": "7.1",
+              "competencia": 7,
+              "texto": "Desarrollar la autonomía de juicio, y promover planteamientos, actitudes y acciones consecuentes, con respecto a problemas fundamentales de la actualidad, a partir de la comprensión de ideas, teorías y controversias histórico-filosóficas que puedan contribuir a clarificar tales problemas y de la elaboración de propuestas de carácter crítico y personal con respecto a los mismos."
+            }
           ]
         }
       ],
-      "criterios_evaluacion": [
+      "criteriosEvaluacion": [
         {
           "codigo": "1.1",
-          "materia": "Filosofía (1º Bachillerato)",
-          "competencia": "CE1",
-          "descripcion": "Reconocer la radicalidad y trascendencia de los problemas filosóficos mediante su reconocimiento, análisis y reformulación en textos y otros medios de expresión tanto filosóficos como literarios, históricos, científicos, artísticos o relativos a cualquier otro ámbito cultural."
-        },
-        {
-          "codigo": "2.1",
-          "materia": "Filosofía (1º Bachillerato)",
-          "competencia": "CE2",
-          "descripcion": "Demostrar un conocimiento práctico de los procedimientos elementales de la investigación filosófica a través de tareas como la identificación de fuentes fiables, la búsqueda eficiente y segura de información y la correcta organización, análisis, interpretación, evaluación, producción y comunicación de esta, tanto digitalmente como por medios más tradicionales."
-        },
-        {
-          "codigo": "2.2",
-          "materia": "Filosofía (1º Bachillerato)",
-          "competencia": "CE2",
-          "descripcion": "Desarrollar una actitud indagadora, autónoma y activa en el ámbito de la reflexión filosófica mediante el diseño, la elaboración y la comunicación pública de productos originales tales como trabajos de investigación, disertaciones o comentarios de texto."
-        },
-        {
-          "codigo": "3.1",
-          "materia": "Filosofía (1º Bachillerato)",
-          "competencia": "CE3",
-          "descripcion": "Producir y evaluar discursos argumentativos, orales y escritos, acerca de cuestiones y problemas filosóficos, demostrando un uso correcto de normas y pautas lógicas, retóricas y argumentativas."
-        },
-        {
-          "codigo": "3.2",
-          "materia": "Filosofía (1º Bachillerato)",
-          "competencia": "CE3",
-          "descripcion": "Detectar y evitar modos dogmáticos, falaces y sesgados de sostener opiniones e hipótesis, explicando la naturaleza o mecanismo de dichos sesgos y falacias."
-        },
-        {
-          "codigo": "3.3",
-          "materia": "Filosofía (1º Bachillerato)",
-          "competencia": "CE3",
-          "descripcion": "Reconocer la importancia de la cooperación, el compromiso con la verdad, el respeto a la pluralidad y el rechazo de toda actitud discriminatoria o arbitraria, aplicando dichos principios a la práctica argumentativa y al diálogo con los demás."
-        },
-        {
-          "codigo": "4.1",
-          "materia": "Filosofía (1º Bachillerato)",
-          "competencia": "CE4",
-          "descripcion": "Promover el contraste e intercambio de ideas y la práctica de una ciudadanía activa y democrática a través de la participación en actividades grupales y el ejercicio del diálogo racional, respetuoso, abierto, constructivo y comprometido con la búsqueda de la verdad, acerca de cuestiones y problemas filosóficamente relevantes."
-        },
-        {
-          "codigo": "5.1",
-          "materia": "Filosofía (1º Bachillerato)",
-          "competencia": "CE5",
-          "descripcion": "Generar una concepción compleja y no dogmática de los problemas filosóficos mediante el análisis crítico de tesis filosóficas distintas y opuestas en torno a los mismos."
-        },
-        {
-          "codigo": "5.2",
-          "materia": "Filosofía (1º Bachillerato)",
-          "competencia": "CE5",
-          "descripcion": "Comprender y exponer distintas tesis y teorías filosóficas como momentos de un proceso dinámico y siempre abierto de reflexión y diálogo, a través del análisis comparativo de los argumentos, principios, metodologías y enfoques de dichas tesis y teorías."
-        },
-        {
-          "codigo": "6.1",
-          "materia": "Filosofía (1º Bachillerato)",
-          "competencia": "CE6",
-          "descripcion": "Tomar consciencia de la riqueza e influencia del pensamiento filosófico identificando y analizando las principales ideas y teorías filosóficas en textos o documentos pertenecientes a ámbitos culturales diversos, así como poniéndolas en relación con experiencias, acciones o acontecimientos comunes y de actualidad."
-        },
-        {
-          "codigo": "6.2",
-          "materia": "Filosofía (1º Bachillerato)",
-          "competencia": "CE6",
-          "descripcion": "Adquirir y demostrar un conocimiento significativo de las ideas y teorías filosóficas de algunos de los más importantes pensadores y pensadoras de la historia, mediante su aplicación y el análisis crítico en el contexto de la práctica individual o colectiva de la indagación filosófica."
-        },
-        {
-          "codigo": "7.1",
-          "materia": "Filosofía (1º Bachillerato)",
-          "competencia": "CE7",
-          "descripcion": "Afrontar cuestiones y problemas complejos de carácter fundamental y de actualidad de modo interdisciplinar, sistemático y creativo, utilizando conceptos, ideas y procedimientos provenientes de distintos campos del saber y orientándolos y articulándolos críticamente desde una perspectiva filosófica."
-        },
-        {
-          "codigo": "8.1",
-          "materia": "Filosofía (1º Bachillerato)",
-          "competencia": "CE8",
-          "descripcion": "Desarrollar el propio juicio y la autonomía moral mediante el análisis filosófico de problemas éticos y políticos fundamentales y de actualidad, considerando las distintas posiciones en disputa y elaborando, argumentando, exponiendo y sometiendo al diálogo con los demás las propias tesis al respecto."
-        },
-        {
-          "codigo": "9.1",
-          "materia": "Filosofía (1º Bachillerato)",
-          "competencia": "CE9",
-          "descripcion": "Generar un adecuado equilibrio entre el aspecto racional y el emotivo en la consideración de los problemas filosóficos, especialmente los referidos al ámbito de la estética, a través de la reflexión expresa en torno al arte y a otras actividades o experiencias con valor estético y el análisis del papel de las imágenes y el lenguaje audiovisual en la cultura contemporánea."
-        },
-        {
-          "codigo": "1.1",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "competencia": "CE1",
-          "descripcion": "Generar un conocimiento riguroso de fuentes y documentos filosóficamente relevantes, aplicando técnicas de búsqueda, organización, análisis, comparación e interpretación de los mismos, y relacionándolos correctamente con contextos históricos, problemas, tesis, autores y autoras, así como con elementos pertenecientes a otros ámbitos culturales."
+          "competencia": 1,
+          "texto": "Generar un conocimiento riguroso de fuentes y documentos filosóficamente relevantes, aplicando técnicas de búsqueda, organización, análisis, comparación e interpretación de los mismos, y relacionándolos correctamente con contextos históricos, problemas, tesis, autores, así como con elementos pertenecientes a otros ámbitos culturales."
         },
         {
           "codigo": "1.2",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "competencia": "CE1",
-          "descripcion": "Construir juicios propios acerca de problemas histórico-filosóficos, a través de la elaboración y presentación de documentos y trabajos de investigación sobre los mismos con precisión y aplicando los protocolos al uso, tanto de forma individual como grupal y cooperativa."
+          "competencia": 1,
+          "texto": "Construir juicios propios acerca de problemas histórico-filosóficos, a través de la elaboración y presentación de documentos y trabajos de investigación sobre los mismos con precisión y aplicando los protocolos al uso, tanto de forma individual como grupal y cooperativa."
+        },
+        {
+          "codigo": "1.3",
+          "competencia": 1,
+          "texto": "Leer y analizar determinados fragmentos de los principales filósofos y escuelas, tras haber estudiado el temario y repasado la Historia del momento. Comentar textos con criterio científico, rigor metodológico y cuidada expresión."
         },
         {
           "codigo": "2.1",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "competencia": "CE2",
-          "descripcion": "Emplear argumentos de modo riguroso, reconociendo y aplicando normas, técnicas y pautas lógicas, retóricas y argumentativas, y evitando modos dogmáticos, falaces y sesgados de sostener opiniones e hipótesis."
+          "competencia": 2,
+          "texto": "Emplear argumentos de modo riguroso, reconociendo y aplicando normas, técnicas y pautas lógicas, retóricas y argumentativas, y evitando modos dogmáticos, falaces y sesgados de sostener opiniones e hipótesis."
         },
         {
           "codigo": "2.2",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "competencia": "CE2",
-          "descripcion": "Sostener el hábito del diálogo argumentativo, empático, abierto y constructivamente comprometido con la búsqueda del conocimiento, a través de la participación activa, respetuosa y colaborativa en cuantas actividades se propongan."
+          "competencia": 2,
+          "texto": "Sostener el hábito del diálogo argumentativo, empático, abierto y constructivamente comprometido con la búsqueda del conocimiento, a través de la participación activa, respetuosa y colaborativa en cuantas actividades se propongan."
+        },
+        {
+          "codigo": "2.3",
+          "competencia": 2,
+          "texto": "Estudiar la biografía personal de los filósofos y de su tiempo, con todos los medios rigurosos a su alcance: cine, teatro, novela, mapas, retratos… Familiarizarse con las figuras más importantes de la Historia de la Filosofía hasta llegar a la amistad o la polémica con ellos, y con las personas de su entorno: maestros, discípulos, familia… Así: no se entiende a Sócrates sin los sofistas y los bellos y Atenas, ni a Platón sin Sócrates, ni a Platón sin Aristóteles y viceversa, ni a Aristóteles sin Alejandro y el Helenismo; ni este sin sus consecuencias en el Imperio romano (Cleopatra misma es griega), y no se entienden el giro copernicano de Kant y la perspectiva de Ortega sin las categorías de Aristóteles. Estas líneas son las que ha de descubrir y ser capaz de explicar el alumno."
         },
         {
           "codigo": "3.1",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "competencia": "CE3",
-          "descripcion": "Adquirir y expresar un conocimiento significativo de las más importantes propuestas filosóficas que se han sucedido a lo largo de la historia, a través de la indagación sobre ellas y la identificación de las cuestiones a las que responden."
+          "competencia": 3,
+          "texto": "Adquirir y expresar un conocimiento significativo de las más importantes propuestas filosóficas que se han sucedido a lo largo de la historia, a través de la indagación sobre ellas y la identificación de las cuestiones a las que responden."
         },
         {
           "codigo": "3.2",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "competencia": "CE3",
-          "descripcion": "Identificar, comprender y debatir sobre los principales problemas, ideas, tesis y controversias filosóficas de la historia del pensamiento, a través del análisis y comentario crítico de textos y documentos filosóficos o relevantes para la filosofía."
+          "competencia": 3,
+          "texto": "Identificar, comprender y debatir sobre los principales problemas, ideas, tesis y controversias filosóficas de la historia del pensamiento, a través del análisis y comentario crítico de textos y documentos filosóficos o relevantes para la filosofía."
+        },
+        {
+          "codigo": "3.3",
+          "competencia": 3,
+          "texto": "Adquirir claridad en el uso de conceptos filosóficos, comprendiéndolos, memorizando sus definiciones, preferiblemente sabiendo también los nombres en las lenguas originales. Entender cómo el mismo concepto (por ejemplo, el de ʺideaʺ) va significando algo completamente distinto según la época y el autor. Analizar también los distintos estilos de la filosofía, que son esenciales y consustanciales a su historia (por ejemplo, entender que Sócrates hace diálogo, ʺmayeúticaʺ, frente a los sofistas, que hacen un discurso.)"
         },
         {
           "codigo": "4.1",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "competencia": "CE4",
-          "descripcion": "Generar una concepción plural, dialéctica, abierta y crítica de la historia del pensamiento, a través de la comprensión, la realización de síntesis comparativas y la exposición de las relaciones de oposición y complementariedad entre tesis, escuelas, filósofos y filósofas de una misma época o tradición o de distintas épocas y tradiciones."
+          "competencia": 4,
+          "texto": "Generar una concepción plural, dialéctica, abierta y crítica de la historia del pensamiento, a través de la comprensión, la realización de síntesis comparativas y la exposición de las relaciones de oposición y complementariedad entre tesis, escuelas, filósofos de una misma época o tradición o de distintas épocas y tradiciones."
         },
         {
           "codigo": "5.1",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "competencia": "CE5",
-          "descripcion": "Afrontar los grandes problemas filosóficos en su doble aspecto histórico y universal a través del análisis y exposición crítica de las condiciones culturales que han permitido en cada caso la aparición y evolución de dichos problemas en distintos momentos de la historia."
+          "competencia": 5,
+          "texto": "Afrontar los grandes problemas filosóficos en su doble aspecto histórico y universal, a través del análisis y exposición crítica de las condiciones culturales que han permitido en cada caso la aparición y evolución de dichos problemas en distintos momentos de la historia."
         },
         {
           "codigo": "5.2",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "competencia": "CE5",
-          "descripcion": "Comprender la dimensión temporal y universal de los problemas filosóficos más importantes, comparando mediante esquemas u otros productos o actividades el tratamiento filosófico que se hace de ellos en distintas épocas, escuelas, tradiciones, autores y autoras."
+          "competencia": 5,
+          "texto": "Comprender la dimensión temporal y universal de los problemas filosóficos más importantes, comparando mediante esquemas u otros productos o actividades el tratamiento filosófico que se hace de ellos en distintas épocas, escuelas, tradiciones y autores."
         },
         {
           "codigo": "6.1",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "competencia": "CE6",
-          "descripcion": "Adquirir una concepción sistémica y relacional de la historia de la cultura occidental y del papel de las ideas filosóficas en ella, mediante el análisis comentario y comparación de textos o documentos literarios, historiográficos, periodísticos, científicos o religiosos, así como de cualquier otra manifestación cultural, en los que se expresen problemas y concepciones filosóficamente relevantes."
+          "competencia": 6,
+          "texto": "Adquirir una concepción sistémica y relacional de la historia de la cultura occidental y del papel de las ideas filosóficas en ella, mediante el análisis, comentario y comparación de textos o documentos literarios, historiográficos, periodísticos, científicos o religiosos, así como de cualquier otra manifestación cultural, en los que se expresen problemas y concepciones filosóficamente relevantes."
         },
         {
           "codigo": "7.1",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "competencia": "CE7",
-          "descripcion": "Desarrollar la autonomía de juicio, y promover planteamientos, actitudes y acciones ética y cívicamente consecuentes, con respecto a problemas fundamentales de la actualidad, a partir de la comprensión de ideas, teorías y controversias histórico filosóficas que puedan contribuir a clarificar tales problemas y de la elaboración de propuestas de carácter crítico y personal con respecto a los mismos."
+          "competencia": 7,
+          "texto": "Desarrollar la autonomía de juicio, y promover planteamientos, actitudes y acciones consecuentes, con respecto a problemas fundamentales de la actualidad, a partir de la comprensión de ideas, teorías y controversias histórico-filosóficas que puedan contribuir a clarificar tales problemas y de la elaboración de propuestas de carácter crítico y personal con respecto a los mismos."
         }
       ],
-      "saberes_basicos": [
+      "saberes": [
         {
-          "bloque": "A. La filosofía y el ser humano • 1. La reflexión filosófica en torno a la propia filosofía",
-          "materia": "Filosofía (1º Bachillerato)",
-          "contenidos": [
-            "Características y concepciones del saber filosófico. Breve recensión histórica de la filosofía. Las divisiones tradicionales de la filosofía y las áreas actuales de investigación. Vigencia y utilidad de la filosofía: la importancia de filosofar en torno a los retos del siglo XXI.",
-            "La filosofía en relación con otros campos del saber y la actividad humana.",
-            "Métodos y herramientas básicos del filósofo: el uso y análisis crítico de fuentes; la comprensión e interpretación de documentos filosóficos; la identificación de problemas filosóficos en otros ámbitos de la cultura; el pensamiento y el diálogo argumentativos; la investigación y la disertación filosófica.",
-            "La discriminación social, de género, etnia y edad en la tradición filosófica."
+          "letra": "A",
+          "titulo": "Del origen de la filosofía occidental en Grecia hasta el fin de la Antigüedad",
+          "items": [
+            {
+              "nivel": 2,
+              "texto": "La naturaleza filosófica del ser humano: universalidad de los problemas e historicidad de las concepciones filosóficas. Métodos de trabajo en Historia de la Filosofía: el análisis del contexto histórico; la lectura, la comprensión y el comentario de textos."
+            },
+            {
+              "nivel": 2,
+              "texto": "El surgimiento de la filosofía occidental en Grecia. Cosmovisión mítica y teorización filosófica. La sabiduría en otras culturas. El problema de la realidad en los presocráticos. La búsqueda del arjé: monismo, dualismo y pluralismo. Los entes no sensibles, los pitagóricos. Parménides y Heráclito."
+            },
+            {
+              "nivel": 2,
+              "texto": "El giro antropológico. Filosofía y ciudadanía en la Ilustración griega: Sócrates y la sofística. Aspasia de Mileto y el papel de la mujer en la cultura y la filosofía griega."
+            },
+            {
+              "nivel": 2,
+              "texto": "Idea y naturaleza: conocimiento y realidad en Platón y Aristóteles."
+            },
+            {
+              "nivel": 2,
+              "texto": "La antropología en la filosofía clásica: Sócrates y el conocimiento de sí; la psique en Platón y Aristóteles."
+            },
+            {
+              "nivel": 2,
+              "texto": "La discusión ética: el intelectualismo socrático-platónico; la teoría de las virtudes en Platón y Aristóteles; el concepto de eudaimonía. La interrelación de la ética y la política en la filosofía clásica."
+            },
+            {
+              "nivel": 2,
+              "texto": "El debate político. Las propuestas platónica y aristotélica en torno al mejor orden social."
+            },
+            {
+              "nivel": 2,
+              "texto": "La crisis de las polis. De las polis al imperio. Filosofía, ciencia y cultura en el helenismo. Cinismo, estoicismo, epicureísmo y escepticismo. El giro religioso de la filosofía: el neoplatonismo. La figura de Hipatia de Alejandría."
+            }
           ]
         },
         {
-          "bloque": "A. La filosofía y el ser humano • 2. El ser humano como sujeto y objeto de la experiencia filosófica",
-          "materia": "Filosofía (1º Bachillerato)",
-          "contenidos": [
-            "La filosofía y la existencia humana.",
-            "El debate sobre la génesis y definición de la naturaleza humana: especificidad natural y condicionantes histórico-culturales. Concepciones filosóficas del ser humano.",
-            "La estructura psicosomática de la personalidad: sensibilidad, emotividad, deseos y volición, las facultades cognitivas. Conciencia y lenguaje.",
-            "El problema de la identidad personal. Tipos y modos de identidad. La especulación en torno al transhumanismo."
+          "letra": "B",
+          "titulo": "De la Edad Media a la modernidad europea",
+          "items": [
+            {
+              "nivel": 2,
+              "texto": "Etapas, métodos y cuestiones fundamentales en la filosofía medieval. La asimilación de la filosofía griega por la teología medieval. El problema de la relación entre fe y razón."
+            },
+            {
+              "nivel": 2,
+              "texto": "Agustín de Hipona, Tomas de Aquino y Guillermo de Ockham. La personalidad polifacética de Hildegard von Bingen. La filosofía árabe y judía: Averroes y Maimonides."
+            },
+            {
+              "nivel": 2,
+              "texto": "El nacimiento de la modernidad europea. El Renacimiento y la defensa de la dignidad humana. La escuela de Salamanca. Francisco de Vitoria. El protestantismo. La revolución científica."
+            },
+            {
+              "nivel": 2,
+              "texto": "Racionalismo y empirismo: René Descartes y David Hume."
+            },
+            {
+              "nivel": 2,
+              "texto": "El debate metafísico moderno. La teoría cartesiana de las sustancias. El materialismo desde Thomas Hobbes a la Ilustración. Newton y el problema de la naturaleza."
+            },
+            {
+              "nivel": 2,
+              "texto": "La cuestión del origen y fundamento de la sociedad y el poder. Del pensamiento político medieval a la teoría del contrato social según Thomas Hobbes, John Locke y Jean-Jacques Rousseau."
+            }
           ]
         },
         {
-          "bloque": "B. Conocimiento y realidad • 1. El problema filosófico del conocimiento y la verdad",
-          "materia": "Filosofía (1º Bachillerato)",
-          "contenidos": [
-            "El conocimiento: definición, posibilidad y límites. Teorías de la verdad. La desinformación y el fenómeno de la «posverdad».",
-            "Las teorías del conocimiento: formas de racionalismo, empirismo y otras teorías.",
-            "El razonamiento y la argumentación. La argumentación informal. Nociones de lógica formal. La detección de falacias y sesgos cognitivos.",
-            "El saber científico: definición, demarcación y metodologías científicas. La filosofía de la ciencia: naturaleza, problemas y límites del conocimiento científico.",
-            "Otros modos de saber: el problema del saber metafísico; las creencias religiosas; la razón poética; el saber común.",
-            "La dimensión social y política del conocimiento. Conocimiento, poder e interés. La tecnociencia contemporánea. El papel de la mujer en la ciencia y en los otros saberes."
-          ]
-        },
-        {
-          "bloque": "B. Conocimiento y realidad • 2. La cuestión de la naturaleza última de la realidad",
-          "materia": "Filosofía (1º Bachillerato)",
-          "contenidos": [
-            "El problema de lo real. Apariencia y realidad. La cuestión de las realidades virtuales.",
-            "Unidad y pluralidad. Categorías y modos de ser. Entidades físicas y objetos ideales: el problema de los universales.",
-            "El problema mente-cuerpo. La filosofía de la mente y el debate en torno a la inteligencia artificial.",
-            "El problema filosófico del tiempo y el cambio. El problema del determinismo. Necesidad, azar y libertad.",
-            "El problema filosófico de la existencia de Dios. Teísmo, ateísmo y agnosticismo."
-          ]
-        },
-        {
-          "bloque": "C. Acción y creación • 1. La acción humana: filosofía ética y política",
-          "materia": "Filosofía (1º Bachillerato)",
-          "contenidos": [
-            "El problema ético: cómo hemos de actuar. Ser y deber ser. La deliberación moral. Las condiciones del juicio y el diálogo ético.",
-            "La posibilidad de una ética racional. Cognitivismo y emotivismo. El debate en torno al relativismo moral. El reto de una ética universal de mínimos.",
-            "Las principales respuestas al problema ético: éticas consecuencialistas, éticas del deber y éticas de la virtud. La moral amoral de Nietzsche. Éticas del cuidado. Ética medioambiental. Éticas aplicadas.",
-            "Los derechos humanos: su génesis, legitimidad y vigencia actual. Las distintas generaciones de derechos humanos.",
-            "Grandes cuestiones éticas de nuestro tiempo: la desigualdad y la pobreza; la igualdad efectiva de derechos entre hombres y mujeres; la guerra, el terrorismo y otras formas de violencia; los derechos de la infancia; la discriminación y el respeto a las minorías; los problemas ecosociales y medioambientales; los derechos de los animales.",
-            "El hombre como ser social. Definición de lo político. Legalidad y legitimidad. La cuestión filosófica de la justicia.",
-            "El fundamento de la organización social y del poder político. Teorías del origen sobrenatural vs. teorías contractualistas. La reflexión filosófica en torno a la democracia.",
-            "El diálogo en torno a los principios políticos fundamentales: igualdad y libertad; individuo y Estado; trabajo, propiedad y distribución de la riqueza. El debate político contemporáneo: liberalismo, utilitarismo y comunitarismo.",
-            "Ideales, utopías y distopías. Los movimientos sociales y políticos. El feminismo y la perspectiva de género en la filosofía."
-          ]
-        },
-        {
-          "bloque": "C. Acción y creación • 2. La reflexión filosófica en torno a la creación artística",
-          "materia": "Filosofía (1º Bachillerato)",
-          "contenidos": [
-            "Definición, ámbitos y problemas de la estética: arte, belleza y gusto. La relación de lo estético con otros ámbitos de la cultura. Ética y estética. El papel político del arte.",
-            "Teorías clásicas y modernas acerca de la belleza y el arte. Teorías y problemas estéticos contemporáneos. La reflexión en torno a la imagen y la cultura audiovisual."
-          ]
-        },
-        {
-          "bloque": "A. Del origen de la filosofía occidental en Grecia hasta el fin de la Antigüedad",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "contenidos": [
-            "Historicidad y universalidad de los problemas y concepciones filosóficas. Métodos de trabajo en Historia de la Filosofía.",
-            "El surgimiento de la filosofía occidental en Grecia. Cosmovisión mítica y teorización filosófica. La filosofía en otras tradiciones culturales.",
-            "El problema de la realidad en los presocráticos.",
-            "Filosofía y ciudadanía en la Ilustración griega: los sofistas y Sócrates. Aspasia de Mileto y el papel de la mujer en la cultura y la filosofía griega.",
-            "Idea y naturaleza: conocimiento y realidad en Platón y Aristóteles.",
-            "La antropología en la filosofía clásica: Sócrates y el conocimiento de sí; la psique en Platón y Aristóteles.",
-            "La discusión ética: el intelectualismo socrático-platónico; la teoría de las virtudes en Platón y Aristóteles; el concepto de eudemonía.",
-            "El debate político: Las propuestas platónica y aristotélica en torno al mejor orden social.",
-            "De las polis al imperio. Filosofía, ciencia y cultura en el helenismo. Estoicismo y epicureísmo. La figura de Hipatia de Alejandría."
-          ]
-        },
-        {
-          "bloque": "B. De la Edad Media a la modernidad europea",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "contenidos": [
-            "Etapas, métodos y cuestiones fundamentales en la filosofía medieval. Agustín de Hipona, Tomas de Aquino y Guillermo de Ockham. La personalidad polifacética de Hildegard von Bingen. La filosofía árabe y judía.",
-            "La asimilación de la filosofía griega por la teología medieval. El problema de la relación entre fe y razón.",
-            "El nacimiento de la modernidad europea. El Renacimiento. El protestantismo. La revolución científica.",
-            "Racionalismo y empirismo: René Descartes y David Hume.",
-            "El debate metafísico moderno. La teoría cartesiana de las sustancias. El materialismo desde Thomas Hobbes a la Ilustración.",
-            "La cuestión del origen y fundamento de la sociedad y el poder. Del pensamiento político medieval a la teoría del contrato social según Thomas Hobbes, John Locke y Jean-Jacques Rousseau."
-          ]
-        },
-        {
-          "bloque": "C. De la modernidad a la postmodernidad",
-          "materia": "Historia de la Filosofía (2º Bachillerato)",
-          "contenidos": [
-            "El proyecto ilustrado: potencia y límites de la razón. Los Derechos del Hombre. La primera ola feminista: Mary Wollstonecraft y Olympe de Gouges.",
-            "La filosofía crítica de Immanuel Kant y el problema de la metafísica como saber.",
-            "Éticas de la felicidad y éticas del deber. La ética kantiana frente al utilitarismo.",
-            "La crítica del capitalismo: el pensamiento revolucionario de Karl Marx y la dialéctica de la Ilustración en la Escuela de Fráncfort. El análisis del totalitarismo de Hannah Arendt.",
-            "La deconstrucción de la tradición occidental en Friedrich Nietzsche y la herencia posmoderna.",
-            "Los problemas filosóficos a la luz del análisis del lenguaje: Ludwig Wittgenstein y la filosofía analítica.",
-            "El existencialismo: Martin Heidegger y Jean Paul Sartre. La razón vital y la razón poética: José Ortega y Gasset y María Zambrano.",
-            "El desarrollo contemporáneo del feminismo: Simone de Beauvoir."
+          "letra": "C",
+          "titulo": "De la modernidad a la postmodernidad",
+          "items": [
+            {
+              "nivel": 2,
+              "texto": "El proyecto ilustrado: la libertad como meta de la razón. Potencia y límites de la razón. Los Derechos del Hombre. Mary Wollstonecraft y Olympe de Gouges."
+            },
+            {
+              "nivel": 2,
+              "texto": "La filosofía crítica de Immanuel Kant y el problema de la metafísica como saber."
+            },
+            {
+              "nivel": 2,
+              "texto": "Éticas de la felicidad y éticas del deber. La ética kantiana frente al utilitarismo."
+            },
+            {
+              "nivel": 2,
+              "texto": "La dialéctica hegeliana. La crítica del capitalismo: el pensamiento revolucionario de Karl Marx y la dialéctica de la Ilustración en la Escuela de Fráncfort. El análisis del totalitarismo de Hannah Arendt."
+            },
+            {
+              "nivel": 2,
+              "texto": "La deconstrucción de la tradición occidental en Friedrich Nietzsche y la herencia posmoderna."
+            },
+            {
+              "nivel": 2,
+              "texto": "Los problemas filosóficos a la luz del análisis del lenguaje: Ludwig Wittgenstein y la filosofía analítica."
+            },
+            {
+              "nivel": 2,
+              "texto": "El existencialismo: Martin Heidegger, Jean Paul Sartre y Simone de Beauvoir. La razón vital y la razón poética: José Ortega y Gasset, María Zambrano y la Escuela de Madrid."
+            },
+            {
+              "nivel": 2,
+              "texto": "Michel Foucault y la genealogía del poder."
+            }
           ]
         }
       ]
-    }
-  ],
-  "ccaa": [
-    {
-      "id": "andalucia",
-      "nombre": "Andalucía",
-      "bocm_diario": "BOJA",
-      "eso": {
-        "norma": "Decreto 102/2023, de 9 de mayo",
-        "descripcion": "Ordenación y currículo de la Educación Secundaria Obligatoria en Andalucía.",
-        "url": "https://www.juntadeandalucia.es/boja"
-      },
-      "bachillerato": {
-        "norma": "Decreto 103/2023, de 9 de mayo",
-        "descripcion": "Ordenación y currículo del Bachillerato en Andalucía.",
-        "url": "https://www.juntadeandalucia.es/boja"
-      }
     },
     {
-      "id": "aragon",
-      "nombre": "Aragón",
-      "bocm_diario": "BOA",
-      "eso": {
-        "norma": "Orden ECD/1172/2022 / Decreto 73/2022",
-        "descripcion": "Currículo y ordenación de la ESO en Aragón.",
-        "url": "http://www.boa.aragon.es"
-      },
-      "bachillerato": {
-        "norma": "Orden ECD/1173/2022 / Decreto 74/2022",
-        "descripcion": "Currículo y ordenación del Bachillerato en Aragón.",
-        "url": "http://www.boa.aragon.es"
-      }
-    },
-    {
-      "id": "asturias",
-      "nombre": "Asturias (Principado de)",
-      "bocm_diario": "BOPA",
-      "eso": {
-        "norma": "Decreto 59/2022, de 30 de agosto",
-        "descripcion": "Ordenación y currículo de la ESO en el Principado de Asturias.",
-        "url": "https://sede.asturias.es/bopa"
-      },
-      "bachillerato": {
-        "norma": "Decreto 60/2022, de 30 de agosto",
-        "descripcion": "Ordenación y currículo del Bachillerato en el Principado de Asturias.",
-        "url": "https://sede.asturias.es/bopa"
-      }
-    },
-    {
-      "id": "baleares",
-      "nombre": "Balears (Illes)",
-      "bocm_diario": "BOIB",
-      "eso": {
-        "norma": "Decret 32/2022, de 1 d'agost",
-        "descripcion": "Estableix l'ordenació i el currículum de l'ESO a les Illes Balears.",
-        "url": "https://www.caib.es/eboibfront"
-      },
-      "bachillerato": {
-        "norma": "Decret 33/2022, de 1 d'agost",
-        "descripcion": "Estableix l'ordenació i el currículum del Batxillerat a les Illes Balears.",
-        "url": "https://www.caib.es/eboibfront"
-      }
-    },
-    {
-      "id": "canarias",
-      "nombre": "Canarias",
-      "bocm_diario": "BOC",
-      "eso": {
-        "norma": "Decreto 30/2023, de 16 de marzo",
-        "descripcion": "Currículo de la Educación Secundaria Obligatoria en la Comunidad Autónoma de Canarias.",
-        "url": "http://www.gobiernodecanarias.org/boc"
-      },
-      "bachillerato": {
-        "norma": "Decreto 31/2023, de 16 de marzo",
-        "descripcion": "Currículo del Bachillerato en la Comunidad Autónoma de Canarias.",
-        "url": "http://www.gobiernodecanarias.org/boc"
-      }
-    },
-    {
-      "id": "cantabria",
-      "nombre": "Cantabria",
-      "bocm_diario": "BOC",
-      "eso": {
-        "norma": "Decreto 75/2022, de 7 de julio",
-        "descripcion": "Currículo de la Educación Secundaria Obligatoria en Cantabria.",
-        "url": "https://boc.cantabria.es"
-      },
-      "bachillerato": {
-        "norma": "Decreto 76/2022, de 7 de julio",
-        "descripcion": "Currículo del Bachillerato en Cantabria.",
-        "url": "https://boc.cantabria.es"
-      }
-    },
-    {
-      "id": "castilla-la-mancha",
-      "nombre": "Castilla-La Mancha",
-      "bocm_diario": "DOCM",
-      "eso": {
-        "norma": "Decreto 82/2022, de 12 de julio",
-        "descripcion": "Currículo de la Educación Secundaria Obligatoria en Castilla-La Mancha.",
-        "url": "https://docm.castillalamancha.es"
-      },
-      "bachillerato": {
-        "norma": "Decreto 83/2022, de 12 de julio",
-        "descripcion": "Currículo del Bachillerato en Castilla-La Mancha.",
-        "url": "https://docm.castillalamancha.es"
-      }
-    },
-    {
-      "id": "castilla-y-leon",
-      "nombre": "Castilla y León",
-      "bocm_diario": "BOCYL",
-      "eso": {
-        "norma": "Decreto 39/2022, de 29 de septiembre",
-        "descripcion": "Currículo de la Educación Secundaria Obligatoria en Castilla y León.",
-        "url": "https://bocyl.jcyl.es"
-      },
-      "bachillerato": {
-        "norma": "Decreto 40/2022, de 29 de septiembre",
-        "descripcion": "Currículo del Bachillerato en Castilla y León.",
-        "url": "https://bocyl.jcyl.es"
-      }
-    },
-    {
-      "id": "cataluna",
-      "nombre": "Cataluña",
-      "bocm_diario": "DOGC",
-      "eso": {
-        "norma": "Decret 175/2022, de 27 de setembre",
-        "descripcion": "Ordenació dels ensenyaments de l'educació secundària obligatòria a Catalunya.",
-        "url": "https://dogc.gencat.cat"
-      },
-      "bachillerato": {
-        "norma": "Decret 171/2022, de 20 de setembre",
-        "descripcion": "Ordenació dels ensenyaments del batxillerat a Catalunya.",
-        "url": "https://dogc.gencat.cat"
-      }
-    },
-    {
-      "id": "comunidad-de-madrid",
-      "nombre": "Comunidad de Madrid",
-      "bocm_diario": "BOCM",
-      "destacado": true,
-      "eso": {
-        "norma": "Decreto 65/2022, de 20 de julio",
-        "descripcion": "Del Consejo de Gobierno, por el que se establecen para la Comunidad de Madrid la ordenación y el currículo de la Educación Secundaria Obligatoria.",
-        "boletinDetalle": "BOCM nº 176, de 26 de julio de 2022",
-        "url": "https://www.bocm.es/bocm-20220726-1"
-      },
-      "bachillerato": {
-        "norma": "Decreto 64/2022, de 20 de julio",
-        "descripcion": "Del Consejo de Gobierno, por el que se establecen para la Comunidad de Madrid la ordenación y el currículo del Bachillerato.",
-        "boletinDetalle": "BOCM nº 176, de 26 de julio de 2022",
-        "url": "https://www.bocm.es/bocm-20220726-2"
-      }
-    },
-    {
-      "id": "comunitat-valenciana",
-      "nombre": "Comunitat Valenciana",
-      "bocm_diario": "DOGV",
-      "eso": {
-        "norma": "Decret 107/2022, de 5 d'agost",
-        "descripcion": "Ordenació i currículum de l'Educació Secundària Obligatòria a la Comunitat Valenciana.",
-        "url": "https://dogv.gva.es"
-      },
-      "bachillerato": {
-        "norma": "Decret 108/2022, de 5 d'agost",
-        "descripcion": "Ordenació i currículum del Batxillerat a la Comunitat Valenciana.",
-        "url": "https://dogv.gva.es"
-      }
-    },
-    {
-      "id": "extremadura",
-      "nombre": "Extremadura",
-      "bocm_diario": "DOE",
-      "eso": {
-        "norma": "Decreto 110/2022, de 25 de agosto",
-        "descripcion": "Currículo de la Educación Secundaria Obligatoria para la Comunidad Autónoma de Extremadura.",
-        "url": "http://doe.juntaex.es"
-      },
-      "bachillerato": {
-        "norma": "Decreto 111/2022, de 25 de agosto",
-        "descripcion": "Currículo del Bachillerato para la Comunidad Autónoma de Extremadura.",
-        "url": "http://doe.juntaex.es"
-      }
-    },
-    {
-      "id": "galicia",
-      "nombre": "Galicia",
-      "bocm_diario": "DOG",
-      "eso": {
-        "norma": "Decreto 156/2022, do 15 de setembro",
-        "descripcion": "Ordenación e o currículo da educación secundaria obrigatoria na Comunidade Autónoma de Galicia.",
-        "url": "https://www.xunta.gal/diario-oficial-galicia"
-      },
-      "bachillerato": {
-        "norma": "Decreto 157/2022, do 15 de setembro",
-        "descripcion": "Ordenación e o currículo do bacharelato na Comunidade Autónoma de Galicia.",
-        "url": "https://www.xunta.gal/diario-oficial-galicia"
-      }
-    },
-    {
-      "id": "la-rioja",
-      "nombre": "La Rioja",
-      "bocm_diario": "BOR",
-      "eso": {
-        "norma": "Decreto 42/2022, de 13 de julio",
-        "descripcion": "Currículo de la Educación Secundaria Obligatoria en la Comunidad Autónoma de La Rioja.",
-        "url": "https://web.larioja.org/bor-forma"
-      },
-      "bachillerato": {
-        "norma": "Decreto 43/2022, de 13 de julio",
-        "descripcion": "Currículo del Bachillerato en la Comunidad Autónoma de La Rioja.",
-        "url": "https://web.larioja.org/bor-forma"
-      }
-    },
-    {
-      "id": "navarra",
-      "nombre": "Navarra (Comunidad Foral de)",
-      "bocm_diario": "BON",
-      "eso": {
-        "norma": "Decreto Foral 71/2022, de 29 de junio",
-        "descripcion": "Currículo de las enseñanzas de la ESO en la Comunidad Foral de Navarra.",
-        "url": "https://bon.navarra.es"
-      },
-      "bachillerato": {
-        "norma": "Decreto Foral 72/2022, de 29 de junio",
-        "descripcion": "Currículo de las enseñanzas del Bachillerato en la Comunidad Foral de Navarra.",
-        "url": "https://bon.navarra.es"
-      }
-    },
-    {
-      "id": "pais-vasco",
-      "nombre": "País Vasco",
-      "bocm_diario": "BOPV",
-      "eso": {
-        "norma": "Decreto 77/2023, de 30 de mayo",
-        "descripcion": "Currículo de la Educación Básica en la Comunidad Autónoma del País Vasco.",
-        "url": "https://www.euskadi.eus/bopv"
-      },
-      "bachillerato": {
-        "norma": "Decreto 76/2023, de 30 de mayo",
-        "descripcion": "Currículo del Bachillerato en la Comunidad Autónoma del País Vasco.",
-        "url": "https://www.euskadi.eus/bopv"
-      }
-    },
-    {
-      "id": "region-de-murcia",
-      "nombre": "Región de Murcia",
-      "bocm_diario": "BORM",
-      "eso": {
-        "norma": "Decreto 235/2022, de 7 de diciembre",
-        "descripcion": "Ordenación y currículo de la Educación Secundaria Obligatoria en la Región de Murcia.",
-        "url": "https://www.borm.es"
-      },
-      "bachillerato": {
-        "norma": "Decreto 236/2022, de 7 de diciembre",
-        "descripcion": "Ordenación y currículo del Bachillerato en la Región de Murcia.",
-        "url": "https://www.borm.es"
-      }
+      "id": "psicologia",
+      "nombre": "Psicología",
+      "nombreCorto": "Psicología",
+      "etapa": "Bachillerato",
+      "etapaCorta": "Optativa Bachillerato",
+      "curso": "Materia optativa autonómica de Bachillerato",
+      "departamento": "Filosofía",
+      "marcoLegal": "Decreto 64/2022, de 20 de julio (Comunidad de Madrid)",
+      "marcoLegalUrl": "https://gestiona.comunidad.madrid/wleg_pub/secure/normativas/contenidoNormativa.jsf?opcion=VerHtml&nmnorma=12792&eli=true#no-back-button",
+      "descripcion": "Materia optativa de Bachillerato impartida por el departamento de Filosofía que aborda las bases biológicas, cognitivas, emocionales, de personalidad y sociales de la conducta humana.",
+      "competencias": [
+        {
+          "numero": 1,
+          "texto": "Construir un marco de referencia global de la psicología a partir del análisis de su evolución y las aportaciones de las diversas teorías y corrientes psicológicas, desde los inicios a la actualidad, como ciencia que estudia la conducta y los procesos mentales subyacentes, reconociendo su carácter teórico y aplicado, identificando sus ramas y especialidades, relacionándola con otras ciencias y valorando su carácter de investigación e innovación, para desarrollar una actitud crítica y valorar la aportación de la psicología a la comprensión de los fenómenos humanos.",
+          "descriptores": [
+            "CCL2",
+            "CCL3",
+            "CPSAA4",
+            "CPSAA5",
+            "CC1",
+            "CC3"
+          ],
+          "criterios": [
+            {
+              "codigo": "1.1",
+              "competencia": 1,
+              "texto": "Entender y apreciar la especificidad e importancia del conocimiento psicológico, como ciencia que trata de la conducta y los procesos mentales del individuo, valorando que se trata de un saber y una actitud que estimula la crítica, la autonomía, la investigación y la innovación."
+            },
+            {
+              "codigo": "1.2",
+              "competencia": 1,
+              "texto": "Identificar la dimensión teórica y práctica de la Psicología, sus objetivos, características, ramas y técnicas de investigación, relacionándolas, como ciencia multidisciplinar, con otras ciencias cuyo fin es la comprensión de los fenómenos humanos, como la Filosofía, Biología, Antropología, Economía, etc."
+            },
+            {
+              "codigo": "1.3",
+              "competencia": 1,
+              "texto": "Reconocer y expresar las aportaciones más importantes de la Psicología, desde sus inicios hasta la actualidad, identificando los principales problemas planteados y las soluciones aportadas por las diferentes corrientes psicológicas contemporáneas y realizando un análisis crítico de textos significativos y breves de contenido psicológico, identificando las problemáticas planteadas y relacionándolas con lo estudiado."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "texto": "Explicar la evolución del cerebro humano desde un enfoque antropológico y la influencia de los factores genéticos y endocrinos sobre el comportamiento humano, analizando el funcionamiento y la organización del sistema nervioso central, para valorar la importancia de la influencia del desarrollo neurológico en la complejidad de la conducta de los individuos y la identificación de las características de determinadas patologías que afectan al comportamiento humano.",
+          "descriptores": [
+            "CCL3",
+            "STEM2",
+            "STEM4",
+            "CD2",
+            "CPSAA4",
+            "CPSAA5"
+          ],
+          "criterios": [
+            {
+              "codigo": "2.1",
+              "competencia": 2,
+              "texto": "Explicar, desde un enfoque antropológico, la evolución del cerebro humano distinguiendo sus características específicas de las de otros animales, con el fin de apreciar la importancia del desarrollo neurológico y las consecuencias que de ellas se derivan."
+            },
+            {
+              "codigo": "2.2",
+              "competencia": 2,
+              "texto": "Analizar y apreciar la importancia de la organización del sistema nervioso central, fundamentalmente del encéfalo humano, distinguiendo las diferentes localizaciones y funciones que determinan la conducta de los individuos."
+            },
+            {
+              "codigo": "2.3",
+              "competencia": 2,
+              "texto": "Entender y valorar las diferentes técnicas actuales de investigación del cerebro y su impacto en el avance científico acerca de la explicación de la conducta y en la superación de algunos trastornos y enfermedades mentales."
+            },
+            {
+              "codigo": "2.4",
+              "competencia": 2,
+              "texto": "Comprender y reconocer algunas de las bases genéticas que determinan la conducta humana, apreciando la relación de causa y efecto que puede existir entre ambas y destacando el origen de algunas enfermedades producidas por alteraciones genéticas."
+            },
+            {
+              "codigo": "2.5",
+              "competencia": 2,
+              "texto": "Investigar y resumir la influencia del sistema endocrino sobre el cerebro y los comportamientos derivados de ello, con el fin de valorar la importancia de la relación entre ambos."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "texto": "Elaborar una visión general del procesamiento de la información humana a partir del análisis de las características y funcionamiento de los procesos cognitivos de la percepción, la atención y la memoria, comparando las distintas aportaciones de las principales teorías acerca de las variables culturales, motivacionales o individuales que influyen sobre estos procesos, las alteraciones o trastornos que se pueden sufrir y las técnicas o estrategias que pueden contribuir a desarrollarlos o mejorarlos, para valorar la importancia de estos fenómenos en la construcción e interpretación de la realidad y utilizar estos conocimientos en la mejora de sus propio aprendizaje desarrollando su iniciativa personal y su capacidad emprendedora.",
+          "descriptores": [
+            "CCL1",
+            "CCL2",
+            "STEM4",
+            "CPSAA1.1",
+            "CPSAA5",
+            "CC1"
+          ],
+          "criterios": [
+            {
+              "codigo": "3.1",
+              "competencia": 3,
+              "texto": "Comprender la percepción humana como un proceso constructivo eminentemente subjetivo y limitado, en el cual tiene su origen el conocimiento sobre la realidad, valorando al ser humano como un procesador de información."
+            },
+            {
+              "codigo": "3.2",
+              "competencia": 3,
+              "texto": "Explicar y apreciar la relevancia que tienen las influencias individuales y sociales en el fenómeno de la percepción, valorando críticamente tanto sus aspectos positivos como negativos."
+            },
+            {
+              "codigo": "3.3",
+              "competencia": 3,
+              "texto": "Conocer y analizar la estructura, tipos y funcionamiento de la memoria humana, investigando las aportaciones de algunas teorías actuales con el fin de entender el origen, los factores que influyen en el desarrollo de esta capacidad en el ser humano y utilizar sus aportaciones en su propio aprendizaje."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "texto": "Analizar y explicar las principales teorías del aprendizaje y los procesos cognitivos superiores de la inteligencia y el pensamiento, identificando los factores que cada una de las teorías considera determinantes en este proceso y sus aplicaciones al campo social y personal, para reconocer la utilización de estas teorías en el ámbito de la comunicación y la publicidad y aplicar sus conocimientos a la mejora de su propio aprendizaje y a la reflexión sobre algunos de los condicionantes psicológicos de la conducta.",
+          "descriptores": [
+            "CCL2",
+            "CCL3",
+            "STEM4",
+            "CD2",
+            "CPSAA3.1",
+            "CPSAA3.2",
+            "CE2"
+          ],
+          "criterios": [
+            {
+              "codigo": "4.1",
+              "competencia": 4,
+              "texto": "Explicar las principales teorías sobre el aprendizaje, identificando los factores que cada una de ellas considera determinantes en este proceso, con el objeto de iniciarse en la comprensión de este fenómeno, sus aplicaciones en el campo social y utilizar sus conocimientos para mejorar su propio aprendizaje."
+            },
+            {
+              "codigo": "4.2",
+              "competencia": 4,
+              "texto": "Comprender los procesos cognitivos superiores del ser humano, como la inteligencia y el pensamiento, mediante el conocimiento de algunas teorías explicativas de su naturaleza y desarrollo, distinguiendo los factores que influyen en él e investigando la eficacia de las técnicas de medición utilizadas y el concepto de CI, con el fin de entender esta capacidad humana."
+            },
+            {
+              "codigo": "4.3",
+              "competencia": 4,
+              "texto": "Reconocer y valorar la importancia de la inteligencia emocional en el desarrollo psíquico del individuo."
+            },
+            {
+              "codigo": "4.4",
+              "competencia": 4,
+              "texto": "Reflexionar y juzgar críticamente sobre las posibilidades de la inteligencia artificial, sus alcances y sus límites, con el fin de evitar la equivocada humanización de las máquinas pensantes y la deshumanización de las personas."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "texto": "Comparar las semejanzas y diferencias existentes entre las distintas teorías de la personalidad, analizando las influencias genéticas, culturales y medioambientales y los factores motivacionales, afectivos y cognitivos que influyen en su desarrollo y adecuada evolución, valorando críticamente los métodos y estrategias de evaluación y reflexionando acerca de las diferentes perspectivas psicopatológicas y sobre la naturaleza y etiología de los trastornos mentales, para apreciar la importancia de desarrollar una actitud de respeto y comprensión ante las diferencias individuales y los trastornos mentales existentes, así como valorar estos conocimientos para el cuidado de su propia salud mental.",
+          "descriptores": [
+            "CCL3",
+            "STEM2",
+            "CD1",
+            "CPSAA1.1",
+            "CPSAA1.2",
+            "CPSAA3.1",
+            "CPSAA3.2",
+            "CC1",
+            "CC3",
+            "CE1"
+          ],
+          "criterios": [
+            {
+              "codigo": "5.1",
+              "competencia": 5,
+              "texto": "Comprender qué es la personalidad, analizando las influencias genéticas, medioambientales y culturales sobre las que se edifica, las diversas teorías que la estudian y los factores motivacionales, afectivos y cognitivos necesarios para su adecuada evolución, en cada una de sus fases de desarrollo."
+            },
+            {
+              "codigo": "5.2",
+              "competencia": 5,
+              "texto": "Entender y reflexionar sobre la complejidad que implica definir qué es un trastorno mental, describiendo algunos de los factores genéticos, ambientales y evolutivos implicados, con el fin de comprender las perspectivas psicopatológicas y sus métodos de estudio."
+            }
+          ]
+        },
+        {
+          "numero": 6,
+          "texto": "Reconocer y comparar las distintas teorías existentes para explicar el concepto de motivación, los distintos tipos de afectos y de emociones, su clasificación y relación con otros procesos cognitivos, analizando las deficiencias y conflictos que conducen a la frustración y las respuestas posibles ante ella, las diferentes teorías sobre la afectividad y los principales trastornos emocionales, para valorar la importancia de estos factores en el desarrollo personal.",
+          "descriptores": [
+            "CCL2",
+            "STEM2",
+            "CD1",
+            "CD2",
+            "CPSAA1.1",
+            "CPSAA1.2",
+            "CPSAA3.1",
+            "CPSAA3.2",
+            "CC3",
+            "CE2",
+            "CE3"
+          ],
+          "criterios": [
+            {
+              "codigo": "6.1",
+              "competencia": 6,
+              "texto": "Explicar y valorar la importancia de la motivación, su clasificación y su relación con otros procesos cognitivos, desarrollando los diferentes supuestos teóricos que la explican y analizando las deficiencias y conflictos que en su desarrollo conducen a la frustración."
+            },
+            {
+              "codigo": "6.2",
+              "competencia": 6,
+              "texto": "Reconocer y valorar los distintos tipos de afectos, así como el origen de algunos trastornos emocionales, con el objeto de despertar su interés por el desarrollo personal de esta capacidad."
+            },
+            {
+              "codigo": "6.3",
+              "competencia": 6,
+              "texto": "Conocer la importancia que en la maduración del individuo tienen las relaciones afectivas y sexuales, analizando críticamente sus aspectos fundamentales."
+            }
+          ]
+        },
+        {
+          "numero": 7,
+          "texto": "Buscar información acerca de la influencia de la cultura y los grupos sobre el proceso de socialización humano, los factores relacionados con la capacidad de liderazgo y los factores psicológicos implicados en el mundo laboral, contrastando las diferencias entre el comportamiento individual y grupal, analizando programas de desarrollo de la motivación en las empresas, tratamiento del estrés laboral y consecuencias del acoso en el trabajo, etc., para identificar los efectos de la presión de grupo, así como las variables individuales, grupales y organizativas que contribuyen a la creación de ambientes de trabajo psicológicamente saludables.",
+          "descriptores": [
+            "CCL5",
+            "STEM4",
+            "CD1",
+            "CD2",
+            "CPSAA4",
+            "CC1",
+            "CC3",
+            "CE2",
+            "CCEC1"
+          ],
+          "criterios": [
+            {
+              "codigo": "7.1",
+              "competencia": 7,
+              "texto": "Comprender y apreciar la dimensión social del ser humano y entender el proceso de socialización como la interiorización de las normas y valores sociales apreciando su influencia en la personalidad y conducta de las personas."
+            },
+            {
+              "codigo": "7.2",
+              "competencia": 7,
+              "texto": "Conocer y valorar los procesos psicológicos de las masas, su naturaleza, características y pautas de comportamiento, con el fin de evitar las situaciones de vulnerabilidad en las que el individuo pueda perder el control sobre sus propios actos."
+            },
+            {
+              "codigo": "7.3",
+              "competencia": 7,
+              "texto": "Entender y describir la importancia que actualmente tiene la Psicología en el campo laboral y el desarrollo organizacional, reflexionando sobre la importancia del liderazgo como condición necesaria para la gestión de las empresas, reflexionando sobre los errores psicológicos que se producen en su gestión y buscando los recursos adecuados para afrontar los problemas."
+            }
+          ]
+        }
+      ],
+      "criteriosEvaluacion": [
+        {
+          "codigo": "1.1",
+          "competencia": 1,
+          "texto": "Entender y apreciar la especificidad e importancia del conocimiento psicológico, como ciencia que trata de la conducta y los procesos mentales del individuo, valorando que se trata de un saber y una actitud que estimula la crítica, la autonomía, la investigación y la innovación."
+        },
+        {
+          "codigo": "1.2",
+          "competencia": 1,
+          "texto": "Identificar la dimensión teórica y práctica de la Psicología, sus objetivos, características, ramas y técnicas de investigación, relacionándolas, como ciencia multidisciplinar, con otras ciencias cuyo fin es la comprensión de los fenómenos humanos, como la Filosofía, Biología, Antropología, Economía, etc."
+        },
+        {
+          "codigo": "1.3",
+          "competencia": 1,
+          "texto": "Reconocer y expresar las aportaciones más importantes de la Psicología, desde sus inicios hasta la actualidad, identificando los principales problemas planteados y las soluciones aportadas por las diferentes corrientes psicológicas contemporáneas y realizando un análisis crítico de textos significativos y breves de contenido psicológico, identificando las problemáticas planteadas y relacionándolas con lo estudiado."
+        },
+        {
+          "codigo": "2.1",
+          "competencia": 2,
+          "texto": "Explicar, desde un enfoque antropológico, la evolución del cerebro humano distinguiendo sus características específicas de las de otros animales, con el fin de apreciar la importancia del desarrollo neurológico y las consecuencias que de ellas se derivan."
+        },
+        {
+          "codigo": "2.2",
+          "competencia": 2,
+          "texto": "Analizar y apreciar la importancia de la organización del sistema nervioso central, fundamentalmente del encéfalo humano, distinguiendo las diferentes localizaciones y funciones que determinan la conducta de los individuos."
+        },
+        {
+          "codigo": "2.3",
+          "competencia": 2,
+          "texto": "Entender y valorar las diferentes técnicas actuales de investigación del cerebro y su impacto en el avance científico acerca de la explicación de la conducta y en la superación de algunos trastornos y enfermedades mentales."
+        },
+        {
+          "codigo": "2.4",
+          "competencia": 2,
+          "texto": "Comprender y reconocer algunas de las bases genéticas que determinan la conducta humana, apreciando la relación de causa y efecto que puede existir entre ambas y destacando el origen de algunas enfermedades producidas por alteraciones genéticas."
+        },
+        {
+          "codigo": "2.5",
+          "competencia": 2,
+          "texto": "Investigar y resumir la influencia del sistema endocrino sobre el cerebro y los comportamientos derivados de ello, con el fin de valorar la importancia de la relación entre ambos."
+        },
+        {
+          "codigo": "3.1",
+          "competencia": 3,
+          "texto": "Comprender la percepción humana como un proceso constructivo eminentemente subjetivo y limitado, en el cual tiene su origen el conocimiento sobre la realidad, valorando al ser humano como un procesador de información."
+        },
+        {
+          "codigo": "3.2",
+          "competencia": 3,
+          "texto": "Explicar y apreciar la relevancia que tienen las influencias individuales y sociales en el fenómeno de la percepción, valorando críticamente tanto sus aspectos positivos como negativos."
+        },
+        {
+          "codigo": "3.3",
+          "competencia": 3,
+          "texto": "Conocer y analizar la estructura, tipos y funcionamiento de la memoria humana, investigando las aportaciones de algunas teorías actuales con el fin de entender el origen, los factores que influyen en el desarrollo de esta capacidad en el ser humano y utilizar sus aportaciones en su propio aprendizaje."
+        },
+        {
+          "codigo": "4.1",
+          "competencia": 4,
+          "texto": "Explicar las principales teorías sobre el aprendizaje, identificando los factores que cada una de ellas considera determinantes en este proceso, con el objeto de iniciarse en la comprensión de este fenómeno, sus aplicaciones en el campo social y utilizar sus conocimientos para mejorar su propio aprendizaje."
+        },
+        {
+          "codigo": "4.2",
+          "competencia": 4,
+          "texto": "Comprender los procesos cognitivos superiores del ser humano, como la inteligencia y el pensamiento, mediante el conocimiento de algunas teorías explicativas de su naturaleza y desarrollo, distinguiendo los factores que influyen en él e investigando la eficacia de las técnicas de medición utilizadas y el concepto de CI, con el fin de entender esta capacidad humana."
+        },
+        {
+          "codigo": "4.3",
+          "competencia": 4,
+          "texto": "Reconocer y valorar la importancia de la inteligencia emocional en el desarrollo psíquico del individuo."
+        },
+        {
+          "codigo": "4.4",
+          "competencia": 4,
+          "texto": "Reflexionar y juzgar críticamente sobre las posibilidades de la inteligencia artificial, sus alcances y sus límites, con el fin de evitar la equivocada humanización de las máquinas pensantes y la deshumanización de las personas."
+        },
+        {
+          "codigo": "5.1",
+          "competencia": 5,
+          "texto": "Comprender qué es la personalidad, analizando las influencias genéticas, medioambientales y culturales sobre las que se edifica, las diversas teorías que la estudian y los factores motivacionales, afectivos y cognitivos necesarios para su adecuada evolución, en cada una de sus fases de desarrollo."
+        },
+        {
+          "codigo": "5.2",
+          "competencia": 5,
+          "texto": "Entender y reflexionar sobre la complejidad que implica definir qué es un trastorno mental, describiendo algunos de los factores genéticos, ambientales y evolutivos implicados, con el fin de comprender las perspectivas psicopatológicas y sus métodos de estudio."
+        },
+        {
+          "codigo": "6.1",
+          "competencia": 6,
+          "texto": "Explicar y valorar la importancia de la motivación, su clasificación y su relación con otros procesos cognitivos, desarrollando los diferentes supuestos teóricos que la explican y analizando las deficiencias y conflictos que en su desarrollo conducen a la frustración."
+        },
+        {
+          "codigo": "6.2",
+          "competencia": 6,
+          "texto": "Reconocer y valorar los distintos tipos de afectos, así como el origen de algunos trastornos emocionales, con el objeto de despertar su interés por el desarrollo personal de esta capacidad."
+        },
+        {
+          "codigo": "6.3",
+          "competencia": 6,
+          "texto": "Conocer la importancia que en la maduración del individuo tienen las relaciones afectivas y sexuales, analizando críticamente sus aspectos fundamentales."
+        },
+        {
+          "codigo": "7.1",
+          "competencia": 7,
+          "texto": "Comprender y apreciar la dimensión social del ser humano y entender el proceso de socialización como la interiorización de las normas y valores sociales apreciando su influencia en la personalidad y conducta de las personas."
+        },
+        {
+          "codigo": "7.2",
+          "competencia": 7,
+          "texto": "Conocer y valorar los procesos psicológicos de las masas, su naturaleza, características y pautas de comportamiento, con el fin de evitar las situaciones de vulnerabilidad en las que el individuo pueda perder el control sobre sus propios actos."
+        },
+        {
+          "codigo": "7.3",
+          "competencia": 7,
+          "texto": "Entender y describir la importancia que actualmente tiene la Psicología en el campo laboral y el desarrollo organizacional, reflexionando sobre la importancia del liderazgo como condición necesaria para la gestión de las empresas, reflexionando sobre los errores psicológicos que se producen en su gestión y buscando los recursos adecuados para afrontar los problemas."
+        }
+      ],
+      "saberes": [
+        {
+          "letra": "A",
+          "titulo": "La psicología como ciencia",
+          "items": [
+            {
+              "nivel": 2,
+              "texto": "La especificidad de la Psicología."
+            },
+            {
+              "nivel": 3,
+              "texto": "Dimensiones teórica y práctica."
+            },
+            {
+              "nivel": 3,
+              "texto": "Definiciones: diferentes acepciones del término psicología a lo largo de su evolución, desde el etimológico, como «ciencia del alma», a los aportados por las diferentes corrientes actuales: Conductismo, Cognitivismo, Psicoanálisis, Humanismo o Gestalt."
+            },
+            {
+              "nivel": 3,
+              "texto": "Contenidos, cuestiones y problemas que investiga la psicología."
+            },
+            {
+              "nivel": 2,
+              "texto": "Origen y análisis de la evolución histórica de la psicología: desde sus orígenes en Grecia (en las filosofías de Platón y Aristóteles), hasta su reconocimiento como saber independiente de la mano de Wundt, Watson, James y Freud, así como las aportaciones de las diferentes corrientes actuales como Conductismo, Cognitivismo, Psicoanálisis, Humanismo o Gestalt."
+            },
+            {
+              "nivel": 2,
+              "texto": "El ámbito teórico y práctico de la Psicología."
+            },
+            {
+              "nivel": 3,
+              "texto": "Objetivos de la psicología: describir, explicar, predecir y modificar."
+            },
+            {
+              "nivel": 3,
+              "texto": "Ramas: clínica y de la salud, del arte, de las actividades físicodeportivas, de la educación, forense, de la intervención social, ambiental, etc."
+            },
+            {
+              "nivel": 3,
+              "texto": "Características de las técnicas y metodologías de investigación psicológica. Métodos comprensivos (introspección, fenomenología, hermenéutica, test, entrevista personal, dinámica de grupos…) y objetivos (observación, descripción, experimentación, explicación, estudios de casos, etc.)"
+            },
+            {
+              "nivel": 3,
+              "texto": "Las corrientes de la Psicología contemporánea: funciones y aportaciones más importantes."
+            }
+          ]
+        },
+        {
+          "letra": "B",
+          "titulo": "Fundamentos biológicos de la conducta",
+          "items": [
+            {
+              "nivel": 2,
+              "texto": "La arquitectura del cerebro."
+            },
+            {
+              "nivel": 3,
+              "texto": "La morfología neuronal y los neurotransmisores. Procesos de transmisión sináptica."
+            },
+            {
+              "nivel": 3,
+              "texto": "Organización del sistema nervioso central. Principales áreas cerebrales y sus funciones."
+            },
+            {
+              "nivel": 3,
+              "texto": "Diferencias anatómicas entre el cerebro humano y animal."
+            },
+            {
+              "nivel": 3,
+              "texto": "Técnicas actuales en la investigación del cerebro: angiogramas, EEG, TAC, TEP, IRM,"
+            },
+            {
+              "nivel": 3,
+              "texto": "intervenciones directas y estudio de casos. Aportaciones al conocimiento del comportamiento humano."
+            },
+            {
+              "nivel": 2,
+              "texto": "La relación entre la evolución del cerebro y la conducta humana."
+            },
+            {
+              "nivel": 2,
+              "texto": "Influencia de la genética en el comportamiento humano y Psicoendocrinología."
+            },
+            {
+              "nivel": 3,
+              "texto": "La raíz genética del comportamiento humano."
+            },
+            {
+              "nivel": 3,
+              "texto": "Las alteraciones genéticas (mutación, trisomía, monosomía, deleción, etc.) y su relación con enfermedades (síndrome de Down, el síndrome de Turner, síndrome del maullido de gato o el síndrome de Klinefelter, etc.) y trastornos conductuales."
+            },
+            {
+              "nivel": 2,
+              "texto": "Bases hormonales de la conducta: el sistema endocrino y sus efectos en la conducta de la persona."
+            },
+            {
+              "nivel": 3,
+              "texto": "Trastornos psicológicos derivados de problemas endocrinológicos: hipófisis/ depresión, tiroides/ansiedad, paratiroides/astenia, suprarrenales/delirios, páncreas/depresión, sexuales/climaterio, etc."
+            },
+            {
+              "nivel": 3,
+              "texto": "Diferencias endocrinológicas entre hombres y mujeres y sus efectos en la conducta."
+            }
+          ]
+        },
+        {
+          "letra": "C",
+          "titulo": "Los procesos cognitivos básicos: percepción, atención y memoria",
+          "items": [
+            {
+              "nivel": 2,
+              "texto": "Nuestro conocimiento del mundo: la percepción."
+            },
+            {
+              "nivel": 3,
+              "texto": "El fenómeno perceptivo, sus elementos (estímulo, sentido, sensación y umbrales de percepción) y las fases del proceso perceptivo (excitación, transducción, transmisión y recepción)."
+            },
+            {
+              "nivel": 3,
+              "texto": "Teorías explicativas acerca de la percepción: Asociacionismo, Gestalt, Cognitivismo y Neuropsicología, entre otras."
+            },
+            {
+              "nivel": 3,
+              "texto": "Trastornos: alucinaciones, agnosia, entre otros."
+            },
+            {
+              "nivel": 3,
+              "texto": "Fenómenos perceptivos: la constancia perceptiva, la percepción subliminal y extrasensorial, el miembro fantasma, entre otros."
+            },
+            {
+              "nivel": 3,
+              "texto": "Los factores individuales (motivación, actitudes, intereses) y sociales (cultura, hábitat) en la percepción humana. Experimentos de Allport y Kramer."
+            },
+            {
+              "nivel": 2,
+              "texto": "La Memoria."
+            },
+            {
+              "nivel": 3,
+              "texto": "Definiciones de memoria y atención."
+            },
+            {
+              "nivel": 3,
+              "texto": "Procesos de atención y concentración implicados en el funcionamiento de la memoria."
+            },
+            {
+              "nivel": 3,
+              "texto": "Alteraciones en los procesos de atención y concentración."
+            },
+            {
+              "nivel": 3,
+              "texto": "Tipos de memoria (sensorial, MCP y MLP)."
+            },
+            {
+              "nivel": 3,
+              "texto": "El olvido y sus causas (fisiológicas, lesiones, represión, falta de procesamiento, contexto inadecuado, etc.)."
+            },
+            {
+              "nivel": 3,
+              "texto": "Las distorsiones y alteraciones de la memoria: amnesia, hipermnesia, paramnesia, falsos recuerdos, entre otras."
+            }
+          ]
+        },
+        {
+          "letra": "D",
+          "titulo": "Los procesos cognitivos superiores: aprendizaje, inteligencia y pensamiento",
+          "items": [
+            {
+              "nivel": 2,
+              "texto": "El Aprendizaje."
+            },
+            {
+              "nivel": 3,
+              "texto": "Teorías del aprendizaje: condicionamiento clásico (Pavlov y Watson), aprendizaje por ensayo y error (Thorndike), condicionamiento instrumental (Skinner), teoría cognitiva (Piaget), Gestalt (Khöler) y aprendizaje social o vicario (Bandura), entre otros"
+            },
+            {
+              "nivel": 3,
+              "texto": "Factores influyentes: los conocimientos previos adquiridos, las capacidades, la personalidad, los estilos cognitivos, la motivación, las actitudes y los valores, entre otros."
+            },
+            {
+              "nivel": 3,
+              "texto": "Aplicaciones en el ámbito social y personal."
+            },
+            {
+              "nivel": 2,
+              "texto": "La Inteligencia y el pensamiento."
+            },
+            {
+              "nivel": 3,
+              "texto": "Teorías acerca de la Inteligencia: la teoría factorial de Spearman, la multifactorial de Thurstone y las de Cattell, Vernon, Sternberg, Gardner, etc."
+            },
+            {
+              "nivel": 3,
+              "texto": "El desarrollo de la inteligencia: Piaget."
+            },
+            {
+              "nivel": 3,
+              "texto": "Tipos de inteligencia y sus aplicaciones prácticas. Inteligencias múltiples."
+            },
+            {
+              "nivel": 3,
+              "texto": "Los test de inteligencia, sus clases y su eficacia."
+            },
+            {
+              "nivel": 3,
+              "texto": "Pensamiento racional y pensamiento creativo: características."
+            },
+            {
+              "nivel": 3,
+              "texto": "La Inteligencia Emocional: teorías explicativas de Gardner y Goleman."
+            },
+            {
+              "nivel": 3,
+              "texto": "La inteligencia artificial: límites, ventajas y peligros."
+            }
+          ]
+        },
+        {
+          "letra": "E",
+          "titulo": "La construcción del ser humano. Motivación, personalidad y afectividad",
+          "items": [
+            {
+              "nivel": 2,
+              "texto": "La Motivación."
+            },
+            {
+              "nivel": 3,
+              "texto": "Definición y clasificación."
+            },
+            {
+              "nivel": 3,
+              "texto": "Teorías explicativas de la motivación: Homeostática, de las Necesidades, del Incentivo, Cognitivas, Psicoanalíticas y Humanistas, entre otras."
+            },
+            {
+              "nivel": 3,
+              "texto": "La frustración: causas y consecuencias. Los conflictos de Lewin."
+            },
+            {
+              "nivel": 3,
+              "texto": "Relación entre la consecución de logros y la motivación en el ámbito educativo y laboral."
+            },
+            {
+              "nivel": 2,
+              "texto": "La personalidad."
+            },
+            {
+              "nivel": 3,
+              "texto": "Teorías explicativas de la personalidad: el Psicoanálisis, el Humanismo, las Tipologías, el Cognitivismo y el Conductismo."
+            },
+            {
+              "nivel": 3,
+              "texto": "Clasificación y características de test y cuestionarios para la evaluación de la personalidad."
+            },
+            {
+              "nivel": 3,
+              "texto": "Las pruebas proyectivas (test de Rorschach, TAT, test de la frustración de Rosenzweig, etc.), las pruebas no-proyectivas (16FP, NEO-PI-R, MMPI) y las técnicas fisiológicas (tomografías, p. ej.)"
+            },
+            {
+              "nivel": 3,
+              "texto": "Factores genéticos, ambientales, cognitivos y afectivos que intervienen en el desarrollo de la personalidad."
+            },
+            {
+              "nivel": 3,
+              "texto": "Procesos conscientes y fenómenos inconscientes (los sueños, la hipnosis). Las drogas y las alteraciones de la personalidad."
+            },
+            {
+              "nivel": 3,
+              "texto": "Alteraciones y trastornos de conducta."
+            },
+            {
+              "nivel": 3,
+              "texto": "Psicopatología. Trastornos mentales más frecuentes: los asociados a las necesidades biológicas y las adicciones (sexuales, alimentarios, drogodependencias), a las emociones (ansiedad y depresión), a elementos corporales (psicosomáticos, somatomorfos y disociativos), a la personalidad (esquizoide, paranoide, limítrofe, dependiente, narcisista, antisocial), al desarrollo evolutivo (autismo, retraso mental, déficit de atención e hiperactividad, del aprendizaje, asociados a la vejez), etc."
+            },
+            {
+              "nivel": 3,
+              "texto": "Psicoterapias: modelos, objetivos y características."
+            },
+            {
+              "nivel": 2,
+              "texto": "Los Afectos. Emoción, sentimiento y pasión."
+            },
+            {
+              "nivel": 3,
+              "texto": "Tipos de afectos: sentimiento, emoción y pasión."
+            },
+            {
+              "nivel": 3,
+              "texto": "Tipos de emociones: primarias (miedo, asco, alegría, tristeza, ira, sorpresa) y secundarias"
+            },
+            {
+              "nivel": 3,
+              "texto": "(ansiedad, hostilidad, humor, felicidad, amor), autoconscientes (culpa, vergüenza, orgullo)."
+            },
+            {
+              "nivel": 3,
+              "texto": "Trastornos emocionales: indiferencia emocional, dependencia afectiva, trastorno maniacodepresivo y descontrol emotivo, entre otros"
+            },
+            {
+              "nivel": 3,
+              "texto": "Afectividad y sexualidad: fisiología de la respuesta sexual, conducta sexual, etc."
+            },
+            {
+              "nivel": 3,
+              "texto": "El lenguaje verbal y no verbal."
+            }
+          ]
+        },
+        {
+          "letra": "F",
+          "titulo": "Psicología social y de las organizaciones",
+          "items": [
+            {
+              "nivel": 2,
+              "texto": "El yo y la identidad social."
+            },
+            {
+              "nivel": 3,
+              "texto": "Las diferencias culturales. La estructura psicológica de los individuos."
+            },
+            {
+              "nivel": 3,
+              "texto": "El proceso de socialización y la interiorización de las normas y valores."
+            },
+            {
+              "nivel": 3,
+              "texto": "Influencia de la cultura en el desarrollo psicológico y social de los individuos."
+            },
+            {
+              "nivel": 3,
+              "texto": "Las actitudes, los esquemas cognitivos y su origen social. Los grupos, los roles y los status sociales."
+            },
+            {
+              "nivel": 3,
+              "texto": "La conducta del individuo imbuido en la masa, sus características y sus consecuencias. La impulsividad, la intolerancia, la inconsciencia, la falta de perseverancia, la volubilidad y la falta de capacidad crítica, entre otras. Pautas preventivas que eviten las situaciones de vulnerabilidad del individuo frente a la presión de grupo o de las masas."
+            },
+            {
+              "nivel": 3,
+              "texto": "Los estudios psicológicos de las masas de Gustav Le Bon."
+            },
+            {
+              "nivel": 2,
+              "texto": "La Psicología en el mundo laboral y empresarial."
+            },
+            {
+              "nivel": 3,
+              "texto": "Campos de aplicación. Los aspectos psicológicos que influyen en la productividad y desarrollo empresarial, la importancia de los métodos y técnicas psicológicas para la selección de personal según los perfiles laborales y la resolución de conflictos, entre otros."
+            },
+            {
+              "nivel": 3,
+              "texto": "Factores psicológicos implicados en el adecuado desarrollo personal y laboral: creatividad, motivación, liderazgo, cooperación."
+            },
+            {
+              "nivel": 3,
+              "texto": "Principales riesgos de salud laboral: estrés, ansiedad, acoso laboral, síndrome de Burnout o de desgaste profesional, etc. Recursos para la gestión de estos riesgos de salud laboral."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
