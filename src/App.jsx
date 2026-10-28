@@ -8,6 +8,8 @@ import Sidebar from './components/Sidebar';
 import LegislacionView from './components/LegislacionView';
 import TemarioView from './components/TemarioView';
 import SobreNosotrosView from './components/SobreNosotrosView';
+
+const ProgramacionView = React.lazy(() => import('./components/ProgramacionView'));
 import {
   Compass,
   Clock,
@@ -137,6 +139,8 @@ export default function App() {
                         ? 'Ley Vigente'
                         : activeSection === 'temario'
                         ? 'Temario Oficial'
+                        : activeSection === 'programacion'
+                        ? 'Programación Didáctica'
                         : '¿Qué es esto?'}
                     </span>
                   )}
@@ -270,6 +274,16 @@ export default function App() {
           <LegislacionView />
         ) : activeSection === 'temario' ? (
           <TemarioView onNavigateToAtlas={() => setActiveSection('atlas')} />
+        ) : activeSection === 'programacion' ? (
+          <React.Suspense
+            fallback={
+              <div className="w-full h-full flex items-center justify-center bg-slate-950 text-amber-400 font-mono text-sm">
+                Cargando programación didáctica...
+              </div>
+            }
+          >
+            <ProgramacionView />
+          </React.Suspense>
         ) : (
           <SobreNosotrosView />
         )}

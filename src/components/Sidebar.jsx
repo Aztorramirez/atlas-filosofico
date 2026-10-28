@@ -21,7 +21,7 @@ export default function Sidebar({
   onSelectSection,
 }) {
   const [oposicionesOpen, setOposicionesOpen] = useState(
-    activeSection === 'ley_vigente' || activeSection === 'temario'
+    activeSection === 'ley_vigente' || activeSection === 'temario' || activeSection === 'programacion'
   );
 
   if (!isOpen) return null;
@@ -113,7 +113,7 @@ export default function Sidebar({
                     Oposiciones Filosofía
                   </div>
                   <div className="text-[11px] text-slate-400">
-                    Especialidad Secundaria
+                    ESO y Bachillerato
                   </div>
                 </div>
               </div>
@@ -173,6 +173,31 @@ export default function Sidebar({
                       }`}
                     >
                       Los 71 temas estructurados
+                    </div>
+                  </div>
+                </button>
+
+                {/* Sub-opción C: Programación Didáctica */}
+                <button
+                  onClick={() => {
+                    onSelectSection('programacion');
+                    onClose();
+                  }}
+                  className={`w-full py-2.5 px-3 rounded-xl flex items-center gap-2.5 transition text-left text-xs ${
+                    activeSection === 'programacion'
+                      ? 'bg-amber-400 text-slate-950 font-bold shadow-md shadow-amber-400/20'
+                      : 'text-slate-300 hover:text-white hover:bg-slate-800'
+                  }`}
+                >
+                  <FileText className="w-4 h-4 text-amber-400" />
+                  <div>
+                    <div className="font-semibold">Programación didáctica</div>
+                    <div
+                      className={`text-[10px] ${
+                        activeSection === 'programacion' ? 'text-slate-800' : 'text-slate-400'
+                      }`}
+                    >
+                      Cómo prepararla
                     </div>
                   </div>
                 </button>
