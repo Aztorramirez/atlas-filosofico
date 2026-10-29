@@ -6,6 +6,7 @@ import {
   Compass,
   Play,
   Users,
+  Layers,
   ChevronRight,
   Sparkles,
 } from 'lucide-react';
@@ -36,7 +37,13 @@ export default function TemarioView({ onNavigateToAtlas }) {
         }
         return false;
       });
-      const matchCorrientes = t.corrientes_relacionadas?.some((c) => c.toLowerCase().includes(term));
+      const matchCorrientes = t.corrientes_relacionadas?.some((c) => {
+        if (typeof c === 'string') return c.toLowerCase().includes(term);
+        if (c && typeof c === 'object') {
+          return c.nombre?.toLowerCase().includes(term) || c.justificacion?.toLowerCase().includes(term);
+        }
+        return false;
+      });
       const matchObras = t.obras_relacionadas?.some((obra) => {
         return (
           obra.titulo?.toLowerCase().includes(term) ||
@@ -173,6 +180,12 @@ export default function TemarioView({ onNavigateToAtlas }) {
                               <span>{tema.autores_relacionados.length} autores</span>
                             </span>
                           )}
+                          {tema.corrientes_relacionadas && tema.corrientes_relacionadas.length > 0 && (
+                            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-indigo-400/10 text-indigo-300 border border-indigo-400/20 text-[10px] font-mono">
+                              <Layers className="w-2.5 h-2.5" />
+                              <span>{tema.corrientes_relacionadas.length} corrientes</span>
+                            </span>
+                          )}
                           {tema.obras_relacionadas && tema.obras_relacionadas.length > 0 && (
                             <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-amber-400/10 text-amber-300 border border-amber-400/20 text-[10px] font-mono">
                               <BookOpen className="w-2.5 h-2.5" />
@@ -185,7 +198,7 @@ export default function TemarioView({ onNavigateToAtlas }) {
                               <span>Videoclase</span>
                             </span>
                           )}
-                          {!hasAutores && !hasVideo && (!tema.obras_relacionadas || tema.obras_relacionadas.length === 0) && (
+                          {!hasAutores && !hasVideo && (!tema.obras_relacionadas || tema.obras_relacionadas.length === 0) && (!tema.corrientes_relacionadas || tema.corrientes_relacionadas.length === 0) && (
                             <span className="text-[10px] text-slate-600 font-mono">
                               Ficha de estudio
                             </span>

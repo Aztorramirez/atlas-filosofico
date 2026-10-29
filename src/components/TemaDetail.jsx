@@ -57,13 +57,28 @@ export default function TemaDetail({
         const filosofoObj = allFilosofos.find((f) => f.id.toLowerCase() === idLower);
         return {
           id_filosofo: item.id_filosofo,
+          nombre: item.nombre || filosofoObj?.nombre || item.id_filosofo,
           justificacion: item.justificacion,
           filosofo: filosofoObj || null,
         };
       });
   }, [tema, allFilosofos]);
 
+  // Lista de corrientes que cuentan con texto de justificación
+  const corrientesConJustificacion = useMemo(() => {
+    if (!tema?.corrientes_relacionadas || tema.corrientes_relacionadas.length === 0) {
+      return [];
+    }
+    return tema.corrientes_relacionadas
+      .filter((item) => typeof item === 'object' && (item.nombre || item.id_corriente) && item.justificacion)
+      .map((item) => ({
+        nombre: item.nombre || item.id_corriente,
+        justificacion: item.justificacion,
+      }));
+  }, [tema]);
+
   const hasAutoresJustificados = autoresConJustificacion.length > 0;
+  const hasCorrientesJustificadas = corrientesConJustificacion.length > 0;
   const hasObrasJustificadas = tema?.obras_relacionadas && tema.obras_relacionadas.length > 0;
 
   // Navegación secuencial entre temas (Anterior / Siguiente)
@@ -176,7 +191,12 @@ export default function TemaDetail({
                 <span className="text-slate-600">•</span>
                 <span className="flex items-center gap-1 text-slate-400">
                   <Layers className="w-3.5 h-3.5 text-amber-400" />
-                  <span>{tema.corrientes_relacionadas.join(', ')}</span>
+                  <span>
+                    {tema.corrientes_relacionadas
+                      .map((c) => (typeof c === 'string' ? c : (c.nombre || c.id_corriente || '')))
+                      .filter(Boolean)
+                      .join(', ')}
+                  </span>
                 </span>
               </>
             )}
@@ -274,7 +294,7 @@ export default function TemaDetail({
       {/* =========================================================================
           NUEVA SECCIÓN: JUSTIFICACIÓN CURRICULAR PARA EL EXAMEN
       ========================================================================= */}
-      {(hasAutoresJustificados || hasObrasJustificadas) && (
+      {(hasAutoresJustificados || hasCorrientesJustificadas || hasObrasJustificadas) && (
         <div className="max-w-6xl mx-auto space-y-4">
           <div className="p-6 sm:p-8 rounded-3xl bg-slate-900/80 border border-slate-800 shadow-2xl space-y-6">
             
@@ -289,7 +309,7 @@ export default function TemaDetail({
                   Justificación Curricular para el Examen
                 </h3>
                 <p className="text-xs sm:text-sm text-slate-400">
-                  Fundamentación conceptual de la presencia de cada autor y obra en el desarrollo temático.
+                  Fundamentación conceptual de la presencia de cada autor, corriente y obra en el desarrollo temático.
                 </p>
               </div>
               <span className="text-xs text-slate-400 font-mono bg-slate-950 px-3 py-1.5 rounded-xl border border-slate-800 self-start sm:self-auto">
@@ -306,8 +326,8 @@ export default function TemaDetail({
                 </div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {autoresConJustificacion.map(({ filosofo, justificacion, id_filosofo }) => {
-                    const nombre = filosofo ? filosofo.nombre : id_filosofo;
+                  {autoresConJustificacion.map(({ filosofo, justificacion, id_filosofo, nombre: authorDisplay }) => {
+                    const nombre = authorDisplay || (filosofo ? filosofo.nombre : id_filosofo);
                     const epoca = filosofo ? filosofo.epoca_año : '';
                     return (
                       <div
@@ -349,7 +369,37 @@ export default function TemaDetail({
               </div>
             )}
 
-            {/* Sub-bloque 2: Obras y Tratados Fundamentales */}
+            {/* Sub-bloque 2: Corrientes y Tradiciones Filosóficas */}
+            {hasCorrientesJustificadas && (
+              <div className="space-y-3 pt-3 border-t border-slate-800/60">
+                <div className="flex items-center gap-2 text-sm font-bold text-amber-300">
+                  <Layers className="w-4 h-4 text-amber-400" />
+                  <h4>Corrientes y Tradiciones Filosóficas</h4>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {corrientesConJustificacion.map((c, idx) => (
+                    <div
+                      key={idx}
+                      className="p-5 rounded-2xl bg-slate-950/70 border border-slate-800/90 hover:border-amber-400/30 transition-all space-y-2.5"
+                    >
+                      <div className="flex items-center gap-2">
+                        <Layers className="w-4 h-4 text-amber-400 shrink-0" />
+                        <h5 className="text-sm sm:text-base font-bold text-amber-300">
+                          {c.nombre}
+                        </h5>
+                      </div>
+
+                      <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                        {c.justificacion}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Sub-bloque 3: Obras y Tratados Fundamentales */}
             {hasObrasJustificadas && (
               <div className="space-y-3 pt-3 border-t border-slate-800/60">
                 <div className="flex items-center gap-2 text-sm font-bold text-amber-300">

@@ -140,10 +140,318 @@
     "num": 14,
     "bloque": "Bloque II: Metafísica, ontología y estética",
     "titulo": "La Metafísica como problema.",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
+    "autores_relacionados": [
+      {
+        "id_filosofo": "platon",
+        "nombre": "Platón",
+        "justificacion": "Indaga sobre la naturaleza de la realidad última a través de la hipótesis de las Formas inteligibles universales y desarrolla la dialéctica como método de conocimiento de sus relaciones."
+      },
+      {
+        "id_filosofo": "aristoteles",
+        "nombre": "Aristóteles",
+        "justificacion": "Funda la metafísica clásica como una ciencia onto-teológica que estudia los primeros principios, el ente en cuanto ente, la sustancia y lo divino (primer motor inmóvil)."
+      },
+      {
+        "id_filosofo": "boecio",
+        "nombre": "Boecio",
+        "justificacion": "Clsifica las ciencias especulativas y sostiene que la metafísica tiene por objeto los seres inmateriales y separados (Dios y las sustancias espirituales) según su grado de abstracción."
+      },
+      {
+        "id_filosofo": "al-farabi",
+        "nombre": "Al-Farabi",
+        "justificacion": "Concibe la metafísica como la ciencia del ser en cuanto ser, dividiendo su objeto entre el estudio del ser y sus atributos, los primeros principios y los seres incorporales."
+      },
+      {
+        "id_filosofo": "avicena",
+        "nombre": "Avicena",
+        "justificacion": "Sostiene que el objeto primero de la metafísica es el ente en cuanto ente, mientras que Dios es su objeto último como Causa Primera y Ser Necesario alcanzado al final de la reflexión."
+      },
+      {
+        "id_filosofo": "averroes",
+        "nombre": "Averroes",
+        "justificacion": "Defiende que la existencia del primer motor inmóvil queda demostrada en la Física, permitiendo a la metafísica investigar la esencia de Dios como un objeto propio de pleno derecho."
+      },
+      {
+        "id_filosofo": "roger-bacon",
+        "nombre": "Roger Bacon",
+        "justificacion": "Plantea un triple objeto para la metafísica (el ente en cuanto ente, la sustancia y Dios como causa primera), situando a la divinidad como principio explicativo supremo."
+      },
+      {
+        "id_filosofo": "alberto-magno",
+        "nombre": "San Alberto Magno",
+        "justificacion": "Afirma que el objeto primero es el ente en cuanto ente y sus atributos, mientras que su segunda parte aborda la causa primera para completar el esfuerzo especulativo."
+      },
+      {
+        "id_filosofo": "tomas-aquino",
+        "nombre": "Santo Tomás de Aquino",
+        "justificacion": "Establece que el objeto propio de la metafísica es el ente en cuanto ente real, siendo Dios la causa primera y el fin supremo al que tiende la ciencia."
+      },
+      {
+        "id_filosofo": "duns-escoto",
+        "nombre": "Duns Escoto",
+        "justificacion": "Introduce el concepto unívoco y abstracto de ente en cuanto ente como objeto propio del entendimiento, lo que permite demostrar la existencia de Dios como ser infinito."
+      },
+      {
+        "id_filosofo": "guillermo-ockham",
+        "nombre": "Guillermo de Ockham",
+        "justificacion": "Afirma que el ente en cuanto ente es el primer objeto por prioridad de predicación y Dios por prioridad de perfección, unificados de forma accidental."
+      },
+      {
+        "id_filosofo": "descartes",
+        "nombre": "René Descartes",
+        "justificacion": "Reconfigura la metafísica como la raíz del árbol del saber, partiendo del cogito para demostrar la existencia de Dios y distinguir las sustancias pensante y extensa."
+      },
+      {
+        "id_filosofo": "malebranche",
+        "nombre": "Nicolas Malebranche",
+        "justificacion": "Afirma el ocasionalismo y la \"visión en Dios\", sosteniendo que conocemos las ideas y las cosas directamente en la divinidad."
+      },
+      {
+        "id_filosofo": "spinoza",
+        "nombre": "Baruch Spinoza",
+        "justificacion": "Identifica la sustancia única con la Naturaleza y Dios (Deus sive Natura), reduciendo el alma y el cuerpo a meros modos de un monismo absoluto."
+      },
+      {
+        "id_filosofo": "leibniz",
+        "nombre": "Gottfried Wilhelm Leibniz",
+        "justificacion": "Concibe la sustancia como mónada activa e individual y distingue entre verdades de razón (análisis finito) y verdades de hecho (análisis infinito en Dios)."
+      },
+      {
+        "id_filosofo": "locke",
+        "nombre": "John Locke",
+        "justificacion": "Considera que la metafísica no nos instruye sobre las sustancias en su esencia real, sino únicamente sobre las esencias nominales y el significado de las palabras."
+      },
+      {
+        "id_filosofo": "berkeley",
+        "nombre": "George Berkeley",
+        "justificacion": "Denuncia las ideas abstractas como la ilusión de la metafísica tradicional y reorienta la disciplina hacia un inmaterialismo centrado en las mentes y sus percepciones."
+      },
+      {
+        "id_filosofo": "hume",
+        "nombre": "David Hume",
+        "justificacion": "Critica la metafísica tradicional por pretender ir más allá de los fenómenos empíricos (calificándola de ilusión), pero acepta la metafísica en un segundo sentido como razonamiento profundo."
+      },
+      {
+        "id_filosofo": "kant",
+        "nombre": "Immanuel Kant",
+        "justificacion": "Protagoniza la revolución copernicana al limitar el conocimiento a la experiencia fenoménica y redefinir la metafísica legítima como filosofía trascendental (condiciones a priori del sujeto)."
+      },
+      {
+        "id_filosofo": "comte",
+        "nombre": "Auguste Comte",
+        "justificacion": "Describe la metafísica como un estadio mental transitorio que recurre a abstracciones no verificables antes de alcanzar el estado positivo o científico."
+      },
+      {
+        "id_filosofo": "herbert-spencer",
+        "nombre": "Herbert Spencer",
+        "justificacion": "Afirma que el conocimiento se limita a lo cognoscible empírico y declara la metafísica imposible por intentar razonar sobre lo \"incognoscible\" (lo absoluto)."
+      },
+      {
+        "id_filosofo": "carnap",
+        "nombre": "Rudolf Carnap",
+        "justificacion": "Exponente del positivismo lógico que sostiene que las proposiciones metafísicas son pseudo-enunciados sin sentido al no ser analíticos ni verificables empíricamente."
+      },
+      {
+        "id_filosofo": "c-d-broad",
+        "nombre": "C. D. Broad",
+        "justificacion": "Divide la filosofía en crítica (ontología formal sobre conceptos y postulados implícitos) y especulativa (visión sinóptica y probable de la realidad en relación con la experiencia humana)."
+      },
+      {
+        "id_filosofo": "r-g-collingwood",
+        "nombre": "R. G. Collingwood",
+        "justificacion": "Redefine la metafísica como una ciencia histórica cuyo cometido es sacar a la luz las presuposiciones absolutas que fundamentan la ciencia de cada época."
+      },
+      {
+        "id_filosofo": "quine",
+        "nombre": "W. V. O. Quine",
+        "justificacion": "Restringe la ontología a la pregunta por la existencia (\"¿qué hay?\"), establece el criterio del compromiso ontológico (\"ser es ser el valor de una variable ligada\") y defiende la relatividad ontológica."
+      },
+      {
+        "id_filosofo": "strawson",
+        "nombre": "P. F. Strawson",
+        "justificacion": "Promueve la metafísica descriptiva para analizar la estructura real de nuestro pensamiento sobre el mundo, basada en particulares primarios (cuerpos materiales y personas)."
+      },
+      {
+        "id_filosofo": "michael-dummett",
+        "nombre": "Michael Dummett",
+        "justificacion": "Sostiene que los debates metafísicos (como realismo frente a antirrealismo) deben resolverse analizando la teoría del significado y la lógica de las proposiciones."
+      },
+      {
+        "id_filosofo": "heidegger",
+        "nombre": "Martin Heidegger",
+        "justificacion": "Denuncia el \"olvido del ser\" en la metafísica occidental por haber reducido el ser al ente y a la presencia constante (Anwesenheit)."
+      },
+      {
+        "id_filosofo": "emanuele-severino",
+        "nombre": "Emanuele Severino",
+        "justificacion": "Interpreta la metafísica occidental como una fe nihilista en el devenir que piensa erróneamente lo que es como si fuese nada."
+      },
+      {
+        "id_filosofo": "levinas",
+        "nombre": "Emmanuel Levinas",
+        "justificacion": "Opone la ética a la ontología neutra e impersonal de la metafísica tradicional, proclamando la ética como la verdadera filosofía primera."
+      },
+      {
+        "id_filosofo": "vattimo",
+        "nombre": "Gianni Vattimo",
+        "justificacion": "Plantea la ontología débil del declinar, donde el ser se resuelve en una multiplicidad de interpretaciones históricas finitas sin estados de cosas fijos."
+      },
+      {
+        "id_filosofo": "derrida",
+        "nombre": "Jacques Derrida",
+        "justificacion": "Desarrolla la deconstrucción de la metafísica de la presencia, mostrando la irreductibilidad de la différance y de la escritura frente al logos hablado."
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Presocráticos (physiologoi)",
+        "justificacion": "Investigadores arcaicos centrados en el estudio de la naturaleza (physis) y en la búsqueda de un principio supremo (arché) reductivo de todos los entes."
+      },
+      {
+        "nombre": "Platonismo",
+        "justificacion": "Filosofía que postula la existencia de un mundo inteligible de Formas o Ideas universales, perfectas y separadas de las cosas sensibles."
+      },
+      {
+        "nombre": "Aristotelismo / Metafísica clásica",
+        "justificacion": "Sistema onto-teológico que concibe la metafísica como la ciencia suprema que estudia los primeros principios, el ente en cuanto ente, la sustancia y lo divino."
+      },
+      {
+        "nombre": "Escolástica (y Filosofía Árabe Medieval)",
+        "justificacion": "Movimiento teológico-filosófico medieval dedicado a delimitar el objeto de la metafísica y a determinar la relación entre la razón natural y la teología revelada."
+      },
+      {
+        "nombre": "Racionalismo",
+        "justificacion": "Corriente moderna que concibe la metafísica como la raíz del saber y sostiene que la razón e ideas innatas pueden aprehender la realidad objetiva mediante demostraciones a priori."
+      },
+      {
+        "nombre": "Empirismo británico",
+        "justificacion": "Movimiento que sostiene que todo conocimiento proviene de la experiencia sensible, criticando la metafísica tradicional por intentar trascender los fenómenos con conceptos abstractos."
+      },
+      {
+        "nombre": "Positivismo (siglo XIX)",
+        "justificacion": "Corriente que considera la metafísica como un estadio histórico transitorio basado en abstracciones no verificables que debe ser sustituido por el conocimiento científico positivo."
+      },
+      {
+        "nombre": "Positivismo Lógico / Empirismo Lógico (Círculo de Viena)",
+        "justificacion": "Movimiento que rechaza la metafísica declarando sus enunciados como pseudo-proposiciones carentes de sentido cognitivo al no ser analíticos ni verificables empíricamente."
+      },
+      {
+        "nombre": "Filosofía Analítica (Giro Lingüístico)",
+        "justificacion": "Movimiento que traslada el análisis de las condiciones del conocimiento a las condiciones del significado, redefiniendo la metafísica mediante el análisis del lenguaje, el compromiso ontológico y las presuposiciones conceptuales."
+      },
+      {
+        "nombre": "Pensamiento Postmetafísico / Hermenéutica y Deconstrucción",
+        "justificacion": "Corrientes contemporáneas que critican el olvido del ser y la metafísica de la presencia, proponiendo la deconstrucción del logos o una ontología débil fundada en la interpretación histórica."
+      }
+    ],
     "video_url": "",
-    "obras_relacionadas": []
+    "obras_relacionadas": [
+      {
+        "titulo": "El mundo como voluntad y representación",
+        "autor": "Arthur Schopenhauer",
+        "justificacion": "Examina la necesidad metafísica del ser humano nacida de la admiración reflexiva ante el enigma del mundo y la muerte."
+      },
+      {
+        "titulo": "Fedón",
+        "autor": "Platón",
+        "justificacion": "Expone la teoría de las Formas o Ideas como hipótesis previa para fundamentar la inmortalidad del alma."
+      },
+      {
+        "titulo": "República",
+        "autor": "Platón",
+        "justificacion": "Expone las alegorías del sol, la línea dividida y la caverna, situando la Idea de Bien como el principio supremo de la realidad e inteligibilidad."
+      },
+      {
+        "titulo": "Parménides",
+        "autor": "Platón",
+        "justificacion": "Formula las aporías y dificultades conceptuales de la teoría de las Formas y su relación con los particulares sensibles."
+      },
+      {
+        "titulo": "Timeo",
+        "autor": "Platón",
+        "justificacion": "Introduce la figura del Demiurgo y el receptáculo del devenir para explicar la constitución del mundo sensible a imagen de las Formas."
+      },
+      {
+        "titulo": "Sofista",
+        "autor": "Platón",
+        "justificacion": "Reconfigura el mundo inteligible como un plexo de relaciones y combinaciones entre Formas o Géneros alcanzado mediante la dialéctica."
+      },
+      {
+        "titulo": "Metafísica",
+        "autor": "Aristóteles",
+        "justificacion": "Obra donde define la filosofía primera bajo sus cuatro dimensiones (causas primeras, ente en cuanto ente, sustancia y teología)."
+      },
+      {
+        "titulo": "Física",
+        "autor": "Aristóteles",
+        "justificacion": "Estudia el movimiento en el mundo natural y demuestra la existencia del primer motor inmóvil."
+      },
+      {
+        "titulo": "Meditaciones metafísicas",
+        "autor": "René Descartes",
+        "justificacion": "Fundamenta la certeza a partir del cogito y demuestra la existencia de Dios y las sustancias creadas."
+      },
+      {
+        "titulo": "Discurso de metafísica",
+        "autor": "Gottfried Wilhelm Leibniz",
+        "justificacion": "Desarrolla la noción de sustancia individual (mónada) y la distinción entre verdades de razón y verdades de hecho."
+      },
+      {
+        "titulo": "Ensayo sobre el entendimiento humano",
+        "autor": "John Locke",
+        "justificacion": "Distingue entre esencia real y esencia nominal, restringiendo el conocimiento a la experiencia e interpretando la metafísica como mero discurso sobre palabras."
+      },
+      {
+        "titulo": "Diálogos entre Hylas y Filonús",
+        "autor": "George Berkeley",
+        "justificacion": "Defiende el inmaterialismo frente a la metafísica tradicional para restablecer el sentido común mediante la tesis de que las cosas son percepciones en la mente."
+      },
+      {
+        "titulo": "De Motu",
+        "autor": "George Berkeley",
+        "justificacion": "Deslinda la provincia de la física respecto de la metafísica, asignando a esta última el estudio de las causas eficientes reales y las mentes incorpóreas."
+      },
+      {
+        "titulo": "Investigación sobre el entendimiento humano",
+        "autor": "David Hume",
+        "justificacion": "Critica la metafísica tradicional como sofistería e ilusión por pretender ir más allá de los fenómenos y la experiencia sensible."
+      },
+      {
+        "titulo": "Tratado de la naturaleza humana",
+        "autor": "David Hume",
+        "justificacion": "Examina la génesis empírica de las ideas y reduce los conceptos metafísicos como sustancia y causalidad a impresiones y asociaciones subjetivas."
+      },
+      {
+        "titulo": "Crítica de la Razón Pura (1781 / 1787)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Somete a examen la razón pura para fundamentar la metafísica como ciencia trascendental de la experiencia empírica posible."
+      },
+      {
+        "titulo": "¿Qué es metafísica?",
+        "autor": "Martin Heidegger",
+        "justificacion": "Discurso que aborda el problema de la Nada, utilizado críticamente por Carnap como ejemplo de lenguaje metafísico sin sentido."
+      },
+      {
+        "titulo": "El ser y el tiempo",
+        "autor": "Martin Heidegger",
+        "justificacion": "Investiga el sentido del ser y denuncia el olvido ontológico cometido por la metafísica occidental."
+      },
+      {
+        "titulo": "Tractatus Logico-Philosophicus",
+        "autor": "Ludwig Wittgenstein",
+        "justificacion": "Concibe la filosofía como una actividad de clarificación lógica del lenguaje para delimitar lo pensable con sentido de lo indecible."
+      },
+      {
+        "titulo": "Totalidad e infinito",
+        "autor": "Emmanuel Levinas",
+        "justificacion": "Critica la primacía del ser neutro e impersonal en la ontología occidental y proclama la ética como filosofía primera."
+      },
+      {
+        "titulo": "The Logical Basis of Metaphysics (1991)",
+        "autor": "Michael Dummett",
+        "justificacion": "Propone abordar y resolver las disputas metafísicas desde el análisis de la teoría del significado y la lógica de las proposiciones."
+      }
+    ]
   },
   {
     "id": 15,
@@ -263,14 +571,141 @@
     "autores_relacionados": [
       {
         "id_filosofo": "platon",
+        "nombre": "Platón",
         "justificacion": "Reflexionó por primera vez en la Atenas clásica sobre la psique en contrapunto con el cuerpo, trasladando el interés filosófico hacia la antropología."
       },
       {
         "id_filosofo": "aristoteles",
-        "justificacion": "Elaboró el primer estudio sistemático de la mente en su tratado Acerca del alma, defendiendo una concepción biologista."
+        "nombre": "Aristóteles",
+        "justificacion": "Elaboró el primer estudio sistemático de la mente en su tratado Acerca del alma, defendiendo una concepción biologista donde el espíritu es el principio vital regulado en tres niveles: vegetativo, sensitivo y racional."
+      },
+      {
+        "id_filosofo": "descartes",
+        "nombre": "René Descartes",
+        "justificacion": "Inició la vía del subjetivismo y el dualismo cartesiano, marcando una distinción radical entre el cuerpo (sometido a leyes mecánicas) y la psique (caracterizada por la reflexión y la conciencia)."
+      },
+      {
+        "id_filosofo": "locke",
+        "nombre": "John Locke, David Hume y George Berkeley",
+        "justificacion": "Representantes del empirismo británico que analizaron el funcionamiento de las facultades cognitivas a través de la sensación y los mecanismos de asociación de ideas simples y complejas."
+      },
+      {
+        "id_filosofo": "comte",
+        "nombre": "Auguste Comte",
+        "justificacion": "Fundador del positivismo, impulsó el examen sistemático de los hechos empíricos incuestionables, influyendo decisivamente en el surgimiento de la psicología científica."
+      },
+      {
+        "id_filosofo": "ernst-heinrich-weber",
+        "nombre": "Ernst Heinrich Weber",
+        "justificacion": "Investigó de forma cuantitativa las sensaciones táctiles y la relación proporcional entre la intensidad del estímulo y la percepción del sujeto."
+      },
+      {
+        "id_filosofo": "gustav-fechner",
+        "nombre": "Gustav Fechner",
+        "justificacion": "Perfeccionó los trabajos de Weber formulando la «ley psicofísica fundamental», que otorga una expresión matemática a la relación entre estímulos y sensaciones."
+      },
+      {
+        "id_filosofo": "hermann-von-helmholtz",
+        "nombre": "Hermann von Helmholtz",
+        "justificacion": "Sostuvo que los órganos sensoriales no son meros registradores pasivos sino elaboradores activos que organizan y evalúan los estímulos."
+      },
+      {
+        "id_filosofo": "wilhelm-wundt",
+        "nombre": "Wilhelm Wundt",
+        "justificacion": "Considerado el fundador de la psicología experimental moderna por crear el primer laboratorio en Leipzig (1879), concibió la psicología como la ciencia de la experiencia consciente inmediata estudiada mediante la introspección experimental."
+      },
+      {
+        "id_filosofo": "oswald-kulpe",
+        "nombre": "Oswald Külpe",
+        "justificacion": "Lideró la Escuela de Wurzburgo y aplicó la introspección experimental al estudio de los procesos mentales superiores y del pensamiento sin imágenes."
+      },
+      {
+        "id_filosofo": "max-wertheimer-wolfgang-kohler-y-kurt-koffka",
+        "nombre": "Max Wertheimer, Wolfgang Köhler y Kurt Koffka",
+        "justificacion": "Principales exponentes de la Psicología de la Gestalt, dedicados al estudio de la percepción y de las totalidades estructuradas."
+      },
+      {
+        "id_filosofo": "william-james-y-james-rowland-angell",
+        "nombre": "William James y James Rowland Angell",
+        "justificacion": "Figuras centrales del funcionalismo norteamericano; James concibió la conciencia como un instrumento adaptativo «luchador por los fines», mientras Angell destacó la función de la sensación frente a las exigencias del entorno."
+      },
+      {
+        "id_filosofo": "freud",
+        "nombre": "Sigmund Freud",
+        "justificacion": "Creador del psicoanálisis, redefinió la mente al situar en el centro de estudio al inconsciente, la represión, la dinámica pulsional y la interpretación de los símbolos y sueños."
+      },
+      {
+        "id_filosofo": "john-b-watson",
+        "nombre": "John B. Watson",
+        "justificacion": "Fundador del conductismo, rechazó el estudio introspectivo de la conciencia y redefinió la psicología como la ciencia objetiva de la conducta observable y las respuestas a estímulos ambientalmente medibles (E-R)."
+      },
+      {
+        "id_filosofo": "ivan-petrovich-pavlov",
+        "nombre": "Ivan Petrovich Pavlov",
+        "justificacion": "Descubrió los reflejos condicionados y sentó las bases de la reflexología y del condicionamiento clásico."
+      },
+      {
+        "id_filosofo": "b-f-skinner",
+        "nombre": "B.F. Skinner",
+        "justificacion": "Representante del conductismo radical, introdujo el concepto de conducta operante y explicó el aprendizaje mediante el refuerzo y la selección por consecuencias ambientales."
+      },
+      {
+        "id_filosofo": "jean-piaget",
+        "nombre": "Jean Piaget",
+        "justificacion": "Desarrolló la epistemología genética, investigando la génesis y evolución de las estructuras cognitivas desde la infancia para explicar el funcionamiento de la mente adulta."
+      },
+      {
+        "id_filosofo": "hilary-putnam",
+        "nombre": "Hilary Putnam y Jerry Fodor",
+        "justificacion": "Defensores del funcionalismo en la filosofía de la mente y las ciencias cognitivas, entendiendo los procesos mentales como la organización funcional de un sistema de procesamiento de información independiente de su soporte físico"
       }
     ],
-    "corrientes_relacionadas": [],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Psicología Clásica y Filosofía de la Mente (Antigüedad y Edad Media)",
+        "justificacion": "Transición desde la concepción biologista de Aristóteles sobre el alma como principio vital hasta la visión teológica medieval de la psique como sustancia inmaterial e inmortal."
+      },
+      {
+        "nombre": "Dualismo Cartesiano y Empirismo",
+        "justificacion": "Paradigmas modernos que abordaron la mente mediante el análisis reflexivo de la conciencia y la síntesis asociacionista de sensaciones e ideas."
+      },
+      {
+        "nombre": "Psicología de las Facultades",
+        "justificacion": "Doctrina del siglo XIX que explicaba la actividad mental atribuyéndola a potencias o facultades innatas (inteligencia, voluntad, memoria)."
+      },
+      {
+        "nombre": "Estructuralismo / Psicología Voluntarista e Introspectiva (Escuela de Leipzig)",
+        "justificacion": "Primera escuela experimental dedicada al estudio de los elementos simples de la experiencia consciente inmediata a través del método introspectivo y el paralelismo psicofísico."
+      },
+      {
+        "nombre": "Escuela de Wurzburgo",
+        "justificacion": "Movimiento que amplió la introspección experimental al estudio de los procesos mentales superiores (pensamiento) y la disposición mental."
+      },
+      {
+        "nombre": "Psicología de la Gestalt (Psicología de la Forma)",
+        "justificacion": "Escuela de enfoque holístico que sostiene que la percepción consciente se organiza en totalidades estructuradas e irreducibles a la mera suma de sus partes constitutivas."
+      },
+      {
+        "nombre": "Funcionalismo",
+        "justificacion": "Orientación surgida del pragmatismo que concibe los procesos mentales y la conciencia según su función adaptativa para la supervivencia del organismo; desarrollada posteriormente en la ciencia cognitiva como la arquitectura funcional/computacional del sistema."
+      },
+      {
+        "nombre": "Psicoanálisis",
+        "justificacion": "Escuela que descentró el estudio de la conciencia inmediata para enfocarlo en el inconsciente, el aparato psíquico (tópicas freudianas), las pulsiones, la represión y la estructuración del sujeto a través del lenguaje."
+      },
+      {
+        "nombre": "Conductismo (Metodológico, Psicológico y Radical)",
+        "justificacion": "Corriente que eliminó el estudio de la mente y la conciencia, reduciendo el objeto de la psicología al análisis objetivo y experimental de la conducta observable y el condicionamiento por estímulo-respuesta y refuerzo."
+      },
+      {
+        "nombre": "Epistemología Genética",
+        "justificacion": "Enfoque enfocado en el estudio del desarrollo ontogenético e infantil de las estructuras lógicas e intelectuales."
+      },
+      {
+        "nombre": "Psicología Cognitiva / Cognitivismo / Ciencia Cognitiva",
+        "justificacion": "Paradigma interdisciplinar que entiende la mente como un sistema de procesamiento de información, estudiando las estructuras y procesos mentales internos que determinan la conducta."
+      }
+    ],
     "video_url": "https://youtu.be/YKz3ggWxwHo",
     "obras_relacionadas": [
       {
@@ -279,9 +714,129 @@
         "justificacion": "Tratado pionero dedicado al estudio sistemático de la psique y las funciones vitales."
       },
       {
-        "titulo": "Leviatán",
+        "titulo": "Leviatán (Leviathan, 1651)",
         "autor": "Thomas Hobbes",
         "justificacion": "Obra donde expone una concepción mecanicista del pensamiento y el razonamiento como cálculo o computación."
+      },
+      {
+        "titulo": "\"Psychology as the Behaviorist Views It\" (1913)",
+        "autor": "John B. Watson",
+        "justificacion": "Manifiesto donde proclama la psicología como una rama puramente objetiva y experimental de las ciencias naturales."
+      },
+      {
+        "titulo": "Behaviorism (1930)",
+        "autor": "John B. Watson",
+        "justificacion": "Exposición del programa conductista centrado en el esquema estímulo-respuesta y la conducta observable."
+      },
+      {
+        "titulo": "Proyecto de psicología para neurólogos (Project for a Scientific Psychology, 1895)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Escrito temprano sobre el funcionamiento del aparato psíquico."
+      },
+      {
+        "titulo": "La interpretación de los sueños (1900)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Obra clave sobre el funcionamiento del inconsciente, la represión, el desplazamiento, la condensación y el cumplimiento de deseos."
+      },
+      {
+        "titulo": "Tres ensayos sobre la teoría sexual (1905)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Estudio sobre el desarrollo de la libido, las perversiones y la sexualidad infantil y adulta."
+      },
+      {
+        "titulo": "Tótem y tabú (1913)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Texto donde analiza la figura mítica del padre primal y el origen de las prohibiciones culturales."
+      },
+      {
+        "titulo": "Más allá del principio del placer (1920)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Trabajo donde introduce la pulsión de muerte (Todestrieb) y la compulsión de repetición."
+      },
+      {
+        "titulo": "El yo y el ello (1923)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Obra donde formula la segunda tópica estructural de la psique (Ello, Yo y Superyó)."
+      },
+      {
+        "titulo": "The Concept of Mind (1949)",
+        "autor": "Gilbert Ryle",
+        "justificacion": "Obra representativa del conductismo analítico que aborda los conceptos mentales como disposiciones conductuales."
+      },
+      {
+        "titulo": "Investigaciones filosóficas (Philosophical Investigations, 1953)",
+        "autor": "Ludwig Wittgenstein",
+        "justificacion": "Trabajo filosófico citado en relación con el análisis del lenguaje y la crítica a las sustancias mentales privadas."
+      },
+      {
+        "titulo": "Walden Two (1948)",
+        "autor": "B.F. Skinner",
+        "justificacion": "Novela en la que proyecta una sociedad diseñada a partir de principios de condicionamiento conductista."
+      },
+      {
+        "titulo": "Ciencia y conducta humana (Science and Human Behavior, 1953)",
+        "autor": "B.F. Skinner",
+        "justificacion": "Exposición del análisis funcional y la conducta operante."
+      },
+      {
+        "titulo": "Verbal Behavior (1957)",
+        "autor": "B.F. Skinner",
+        "justificacion": "Análisis conductista de la adquisición y mantenimiento del lenguaje."
+      },
+      {
+        "titulo": "Más allá de la libertad y la dignidad (Beyond Freedom and Dignity, 1971)",
+        "autor": "B.F. Skinner",
+        "justificacion": "Texto sobre el control ambiental de la conducta y la transferencia de la autonomía al entorno."
+      },
+      {
+        "titulo": "About Behaviorism (1974)",
+        "autor": "B.F. Skinner",
+        "justificacion": "Reconstrucción filosófica del conductismo radical."
+      },
+      {
+        "titulo": "\"Why I am not a Cognitive Psychologist\" (1977)",
+        "autor": "B.F. Skinner",
+        "justificacion": "Artículo de crítica hacia los modelos cognitivos internos e intermediarios."
+      },
+      {
+        "titulo": "\"Review of Verbal Behavior\" (1959)",
+        "autor": "Noam Chomsky",
+        "justificacion": "Reseña crítica al libro de Skinner que impulsó el desarrollo de la psicología cognitiva al argumentar la insuficiencia del refuerzo en la adquisición del lenguaje."
+      },
+      {
+        "titulo": "Las estructuras elementales del parentesco (1949)",
+        "autor": "Claude Lévi-Strauss",
+        "justificacion": "Texto fundamental del estructuralismo antropológico que influyó en la reinterpretación del complejo de Edipo."
+      },
+      {
+        "titulo": "De la psychose paranoïaque dans ses rapports avec la personnalité (1932)",
+        "autor": "Jacques Lacan",
+        "justificacion": "Tesis doctoral sobre la psicosis paranoica."
+      },
+      {
+        "titulo": "\"Les complexes familiaux dans la formation de l'individu\" (1938)",
+        "autor": "Jacques Lacan",
+        "justificacion": "Ensayo sobre la función de los complejos familiares en la estructuración psíquica."
+      },
+      {
+        "titulo": "\"El estadio del espejo como formador de la función del yo...\" (1949)",
+        "autor": "Jacques Lacan",
+        "justificacion": "Presentación sobre la génesis del moi a través de la imagen especular."
+      },
+      {
+        "titulo": "\"La función y campo de la palabra y del lenguaje en el psicoanálisis\" (1953)",
+        "autor": "Jacques Lacan",
+        "justificacion": "Manifiesto sobre la estructuración lingüística del inconsciente."
+      },
+      {
+        "titulo": "Écrits (1966)",
+        "autor": "Jacques Lacan",
+        "justificacion": "Compilación de sus ensayos teóricos fundamentales."
+      },
+      {
+        "titulo": "Le Séminaire (Seminarios impartidos entre 1953 y 1980, entre los que se citan Libro VII",
+        "autor": "Jacques Lacan",
+        "justificacion": "La ética del psicoanálisis, Libro XI: Los cuatro conceptos fundamentales del psicoanálisis, Libro XVII: El reverso del psicoanálisis y Libro XX: Aún): Serie de imparticiones orales sobre los registros de lo Imaginario, lo Simbólico y lo Real."
       }
     ]
   },
@@ -490,10 +1045,166 @@
     "num": 47,
     "bloque": "Bloque VI: Historia de la Filosofía",
     "titulo": "Los modelos de explicación racional en los presocráticos.",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
+    "autores_relacionados": [
+      {
+        "id_filosofo": "homero",
+        "nombre": "Homero",
+        "justificacion": "Poeta mítico de la cultura helénica cuyos cantos épicos sobre la sociedad aristocrática estructuraron la imaginación griega bajo un sentido de armonía e indagación de causas que preparó el camino hacia la filosofía"
+      },
+      {
+        "id_filosofo": "hesiodo",
+        "nombre": "Hesíodo",
+        "justificacion": "Poeta del siglo VIII a. C. que introdujo en la literatura la pregunta por el principio (arché) y la ordenación total del cosmos a partir del Caos inicial en la Teogonía"
+      },
+      {
+        "id_filosofo": "tales",
+        "nombre": "Tales de Mileto",
+        "justificacion": "Primer filósofo de la naturaleza que postuló el agua como el principio primario (arché) e inauguró la explicación del universo mediante causas puramente naturales e hilozoístas"
+      },
+      {
+        "id_filosofo": "anaximandro",
+        "nombre": "Anaximandro de Mileto",
+        "justificacion": "Pensador que sustituyó el agua por el apeiron (lo indeterminado o ilimitado) como principio originario y propuso una ley de justicia cósmica entre elementos contrarios"
+      },
+      {
+        "id_filosofo": "anaximenes",
+        "nombre": "Anaxímenes de Mileto",
+        "justificacion": "Filósofo que sostuvo que el aire es el principio básico de las cosas y explicó el cambio físico mediante la condensación y la rarefacción"
+      },
+      {
+        "id_filosofo": "jenofanes",
+        "nombre": "Jenófanes de Colofón",
+        "justificacion": "Crítico de la religión antropomórfica tradicional que defendió la existencia de un único dios supremo e impulsó la autonomía de la indagación humana"
+      },
+      {
+        "id_filosofo": "heraclito",
+        "nombre": "Heráclito de Éfeso",
+        "justificacion": "Afirmó que la realidad es un flujo constante regulado por un logos universal y la tensión entre opuestos, tomando el fuego como su elemento arquetípico"
+      },
+      {
+        "id_filosofo": "pitagoras",
+        "nombre": "Pitágoras de Samos",
+        "justificacion": "Fundador de la tradición pitagórica que estableció que los números y sus proporciones constituyen los principios de la estructura y la armonía del cosmos"
+      },
+      {
+        "id_filosofo": "parmenides",
+        "nombre": "Parménides de Elea",
+        "justificacion": "Creador de la escuela eleática que contrapuso la razón a los sentidos, argumentando que el Ser es uno, inmutable, ingénito e imperecedero, y negando el no-ser y el movimiento"
+      },
+      {
+        "id_filosofo": "zenon-de-elea",
+        "nombre": "Zenón de Elea",
+        "justificacion": "Discípulo de Parménides que desarrolló paradojas sobre el movimiento y la pluralidad para sostener la lógica monista eleática mediante la reducción al absurdo"
+      },
+      {
+        "id_filosofo": "meliso-de-samos",
+        "nombre": "Meliso de Samos",
+        "justificacion": "Pensador eleata que sistematizó la doctrina de Parménides al sostener que el Ser es ilimitado, único y homogéneo, rechazando la existencia del vacío"
+      },
+      {
+        "id_filosofo": "empedocles",
+        "nombre": "Empédocles de Agrigento",
+        "justificacion": "Pluralista que postuló cuatro raíces o elementos (tierra, agua, aire y fuego) movidos cíclicamente por dos fuerzas enfrentadas: el Amor y la Discordia"
+      },
+      {
+        "id_filosofo": "anaxagoras",
+        "nombre": "Anaxágoras de Clazómenas",
+        "justificacion": "Pluralista que sostuvo que todas las cosas derivan de una mezcla de \"semillas\" (homeomerías) ordenadas por la acción motora de una Mente (Nous) inteligente"
+      },
+      {
+        "id_filosofo": "leucipo",
+        "nombre": "Leucipo y Demócrito",
+        "justificacion": "Filósofos atomistas que formularon que la realidad está compuesta únicamente por una infinidad de átomos indivisibles e inmutables que se mueven en el vacío"
+      },
+      {
+        "id_filosofo": "diogenes",
+        "nombre": "Diógenes de Apolonia",
+        "justificacion": "Pensador que reanimó la física monista al identificar el aire con el alma y la inteligencia divina (noēsis) que ordena el cosmos"
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Escuela Jónica / Milesia",
+        "justificacion": "Corriente fundamentada por Tales, Anaximandro y Anaxímenes que buscó explicar la estructura y los procesos del universo mediante un principio material único (arché) y causas naturales"
+      },
+      {
+        "nombre": "Orfismo y Religión de los Misterios",
+        "justificacion": "Movimiento místico-religioso que introdujo una concepción dualista del ser humano (cuerpo mortal y alma/demonio inmortal preexistente) orientada a la purificación y salvación del alma mediante el ciclo de reencarnaciones"
+      },
+      {
+        "nombre": "Pitagorismo / Escuela Pitagórica",
+        "justificacion": "Movimiento filosófico y religioso que defendió que los principios de las matemáticas y el número son la causa formal de todas las cosas y de la armonía del cielo"
+      },
+      {
+        "nombre": "Escuela Eleática (Eleatismo)",
+        "justificacion": "Corriente que antepuso el conocimiento racional al intuitivo de los sentidos, sosteniendo la permanencia, unidad e inmutabilidad del Ser y negando la pluralidad y el cambio"
+      },
+      {
+        "nombre": "Pluralismo",
+        "justificacion": "Movimiento que intentó resolver la aporía eleática afirmando una pluralidad de elementos o principios eternos cuyas combinaciones y disoluciones explican la generación y corrupción"
+      },
+      {
+        "nombre": "Atomismo presocrático",
+        "justificacion": "Corriente propuesta por Leucipo y Demócrito que redujo la realidad a átomos indivisibles con propiedades cuantitativas que chocan en el espacio vacío"
+      },
+      {
+        "nombre": "Sofística (Los Sofistas)",
+        "justificacion": "Movimiento centrado en la enseñanza de la retórica y los asuntos ético-políticos, que cuestionó la posibilidad de un conocimiento teórico definitivo y contrapuso la naturaleza (physis) a la convención (nomos)"
+      }
+    ],
     "video_url": "",
-    "obras_relacionadas": []
+    "obras_relacionadas": [
+      {
+        "titulo": "Ilíada",
+        "autor": "Homero",
+        "justificacion": "Poema épico que refleja la concepción de la religión pública olímpica, los valores bélicos y la estructura aristocrática"
+      },
+      {
+        "titulo": "Teogonía",
+        "autor": "Hesíodo",
+        "justificacion": "Poema épico que narra la genealogía divina y la formación del orden del cosmos a partir del Caos original"
+      },
+      {
+        "titulo": "Trabajos y días",
+        "autor": "Hesíodo",
+        "justificacion": "Poema didáctico centrado en la justicia de Zeus, las edades de la humanidad y la ética del trabajo agrícola"
+      },
+      {
+        "titulo": "Libro de Heráclito / Sobre la naturaleza",
+        "autor": "Heráclito",
+        "justificacion": "Obra aforística que expone el logos universal como ley que rige el cosmos, la unidad de los opuestos y el fuego divino"
+      },
+      {
+        "titulo": "Poema de Parménides",
+        "autor": "Parménides",
+        "justificacion": "Poema en hexámetros que relata el viaje del kouros ante una diosa que revela la Vía de la Verdad y la Vía de la Opinión"
+      },
+      {
+        "titulo": "Física",
+        "autor": "Empédocles",
+        "justificacion": "Poema cosmológico que explica el ciclo del universo a través de los cuatro elementos y el juego de fuerzas del Amor y la Discordia"
+      },
+      {
+        "titulo": "Purificaciones",
+        "autor": "Empédocles",
+        "justificacion": "Poema ético-religioso sobre la caída del alma, la expiación de la culpa original y las normas de purificación"
+      },
+      {
+        "titulo": "Sobre la naturaleza / Libro de Anaxágoras",
+        "autor": "Anaxágoras",
+        "justificacion": "Tratado en prosa sobre la mezcla universal de semillas homeómeras y el impulso giratorio generado por la Mente (Nous)"
+      },
+      {
+        "titulo": "Sobre la naturaleza / Libro de Diógenes",
+        "autor": "Diógenes de Apolonia",
+        "justificacion": "Obra en prosa que fundamenta al aire como principio primero dotado de inteligencia y ordenación teleológica"
+      },
+      {
+        "titulo": "Sobre la naturaleza, o Sobre el no-ser",
+        "autor": "Gorgias",
+        "justificacion": "Tratado sofístico que refuta las exigencias Parmenídeas sobre el ser e impugna la certeza del conocimiento teórico"
+      }
+    ]
   },
   {
     "id": 48,
@@ -546,30 +1257,507 @@
     "num": 52,
     "bloque": "Bloque VI: Historia de la Filosofía",
     "titulo": "La síntesis escolástica de Santo Tomás de Aquino.",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
+    "autores_relacionados": [
+      {
+        "id_filosofo": "tomas-aquino",
+        "nombre": "Santo Tomás de Aquino",
+        "justificacion": "Pensador y teólogo escolástico del siglo XIII que construyó la síntesis definitiva entre la filosofía aristotélica y la teología cristiana, demostrando la armonía entre la razón natural y la fe revelada"
+      },
+      {
+        "id_filosofo": "aristoteles",
+        "nombre": "Aristóteles",
+        "justificacion": "Filósofo griego clásico (denominado \"el Estagirita\" o \"el Filósofo\") cuyo sistema físico, metafísico y ético constituyó la base racional que Santo Tomás adaptó y reestructuró dentro del marco escolástico"
+      },
+      {
+        "id_filosofo": "alberto-magno",
+        "nombre": "Alberto Magno",
+        "justificacion": "Fraile dominico y maestro de Tomás de Aquino en Colonia, pionero en el programa de integrar la filosofía griega y árabe en la teología cristiana e impulsor decisivo de la orientación aristotélica de Tomás"
+      },
+      {
+        "id_filosofo": "averroes",
+        "nombre": "Averroes",
+        "justificacion": "Filósofo e intérprete musulmán de Aristóteles cuyas lecturas heterodoxas —especialmente la doctrina de la unicidad del entendimiento para toda la humanidad— fueron combatidas activamente por Santo Tomás para salvaguardar la inmortalidad del alma individual"
+      },
+      {
+        "id_filosofo": "pedro-lombardo",
+        "nombre": "Pedro Lombardo",
+        "justificacion": "Obispo de París y autor de las Sentencias, compendio doctrinal sobre el cual Santo Tomás redactó su célebre comentario como parte central de su formación y labor magisterial"
+      },
+      {
+        "id_filosofo": "san-agustin",
+        "nombre": "San Agustín",
+        "justificacion": "Padre de la Iglesia y autoridad teológica de tradición platónico-cristiana con quien Tomás mantiene un diálogo constante para integrar el aristotelismo sin romper con la tradición patrística previa"
+      },
+      {
+        "id_filosofo": "boecio",
+        "nombre": "Boecio",
+        "justificacion": "Filósofo de la Antigüedad tardía que transmitió herramientas lógicas y formulaciones metafísicas fundamentales (como la definición de persona y la distinción entre la sustancia y su acto de ser) integradas en la metafísica tomista"
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Escolástica",
+        "justificacion": "Movimiento teológico y filosófico desarrollado en las universidades medievales que buscaba estructurar y fundamentar las verdades de la fe cristiana mediante la investigación racional y el método riguroso de disputas y sumas"
+      },
+      {
+        "nombre": "Aristotelismo",
+        "justificacion": "Sistema filosófico griego basado en la obra de Aristóteles que Santo Tomás reformó profundamente mediante la distinción entre esencia y existencia para transformarlo en una consideración metafísica del ser creado"
+      },
+      {
+        "nombre": "Averroísmo latino",
+        "justificacion": "Movimiento heterodoxo surgido en la Universidad de París a partir de los comentarios de Averroes que defendía la eternidad del mundo y la existencia de un solo entendimiento agente para todos los hombres, postura explícitamente refutada por el tomismo"
+      },
+      {
+        "nombre": "Neoplatonismo",
+        "justificacion": "Corriente filosófica clásica cuyas nociones (como la gradación jerárquica de los seres, la participación y la teología negativa) fueron asimiladas por Tomás a través de las obras de Agustín, Boecio y el Seudodionisio"
+      },
+      {
+        "nombre": "Tomismo",
+        "justificacion": "Escuela de pensamiento teológico y filosófico nacida de la síntesis de Santo Tomás de Aquino, continuada por la Orden de Predicadores (Dominicos) y consolidada como corriente de referencia en el pensamiento católico"
+      },
+      {
+        "nombre": "Agustinismo / Tradición franciscana",
+        "justificacion": "Corriente teológica medieval previa y contemporánea a Tomás que rechazaba la asimilación profunda del aristotelismo pagano y defendía tesis tradicionales como la pluralidad de formas sustanciales"
+      }
+    ],
     "video_url": "",
-    "obras_relacionadas": []
+    "obras_relacionadas": [
+      {
+        "titulo": "Summa theologiae (1267–1273)",
+        "autor": "Santo Tomás de Aquino",
+        "justificacion": "Exposición sistemática y monumental de la doctrina sagrada y la filosofía tomista que examina a Dios, la creación, la antropología, las virtudes y el fin último del hombre"
+      },
+      {
+        "titulo": "Summa contra gentiles (1259–1265)",
+        "autor": "Santo Tomás de Aquino",
+        "justificacion": "Tratado teológico-filosófico diseñado para fundamentar racionalmente la verdad cristiana y refutar los errores de la filosofía pagana e islámica mediante la luz de la razón natural"
+      },
+      {
+        "titulo": "De ente et essentia (1252–1256)",
+        "autor": "Santo Tomás de Aquino",
+        "justificacion": "Breve opúsculo metafísico en el que Tomás establece la distinción real entre la esencia y la existencia en las sustancias finitas"
+      },
+      {
+        "titulo": "De unitate intellectus contra averroistas (1270)",
+        "autor": "Santo Tomás de Aquino",
+        "justificacion": "Opúsculo polemista escrito para demostrar que la filosofía de Aristóteles exige considerar el entendimiento como una facultad propia de cada alma humana individual"
+      },
+      {
+        "titulo": "De aeternitate mundi (1271)",
+        "autor": "Santo Tomás de Aquino",
+        "justificacion": "Tratado en el que demuestra que filosóficamente no se puede probar ni la eternidad del mundo ni su inicio temporal, siendo la creación en el tiempo una verdad conocida únicamente por fe"
+      },
+      {
+        "titulo": "De principiis naturae (c. 1250)",
+        "autor": "Santo Tomás de Aquino",
+        "justificacion": "Obra introductoria sobre la filosofía de la naturaleza que sintetiza la teoría aristotélica de la materia, la forma y la privación en el cambio físico"
+      },
+      {
+        "titulo": "Scriptum super libros Sententiarum (1252–1256)",
+        "autor": "Santo Tomás de Aquino",
+        "justificacion": "Comentario académico monumental en cuatro libros sobre la obra de Pedro Lombardo donde Tomás expone sus primeras grandes posiciones filosófico-teológicas"
+      },
+      {
+        "titulo": "Exposición del De Trinitate de Boecio (1257–1259)",
+        "autor": "Santo Tomás de Aquino",
+        "justificacion": "Tratado especulativo en el que fundamenta la ordenación metodológica de las ciencias teóricas y la separación formal entre filosofía y teología"
+      },
+      {
+        "titulo": "Física",
+        "autor": "Aristóteles",
+        "justificacion": "Obra sobre el estudio del mundo natural, el análisis del movimiento como paso de la potencia al acto y la demostración a posteriori de la necesidad de un primer motor inmóvil"
+      },
+      {
+        "titulo": "Metafísica",
+        "autor": "Aristóteles",
+        "justificacion": "Tratado sobre la ciencia del ser en cuanto ser, las sustancias y la búsqueda de las primeras causas de la realidad"
+      },
+      {
+        "titulo": "De Anima",
+        "autor": "Aristóteles",
+        "justificacion": "Estudio sobre la naturaleza del alma definida como forma sustancial del cuerpo físico y sobre sus facultades vegetativas, sensitivas e intelectivas"
+      },
+      {
+        "titulo": "Ética a Nicómaco",
+        "autor": "Aristóteles",
+        "justificacion": "Tratado moral centrado en el análisis de la felicidad como fin supremo del hombre y la clasificación de las virtudes teóricas y prácticas"
+      },
+      {
+        "titulo": "Analíticos Posteriores",
+        "autor": "Aristóteles",
+        "justificacion": "Obra lógica que establece la estructura del conocimiento científico, la teoría de la demostración mediante causas y la función de los primeros principios"
+      },
+      {
+        "titulo": "Sententiae (Libro de las Sentencias) (siglo XII)",
+        "autor": "Pedro Lombardo",
+        "justificacion": "Compendio de doctrina cristiana que sirvió de texto de referencia obligatorio para la formación y el comentario en las facultades medievales de teología"
+      },
+      {
+        "titulo": "De Trinitate",
+        "autor": "Boecio",
+        "justificacion": "Tratado teológico sobre la doctrina trinitaria que proporcionó a la Escolástica modelos para clasificar las ciencias especulativas"
+      },
+      {
+        "titulo": "De hebdomadibus",
+        "autor": "Boecio",
+        "justificacion": "Tratado corto donde se formulan axiomas metafísicos fundamentales sobre la distinción entre la sustancia y su acto de ser"
+      }
+    ]
   },
   {
     "id": 53,
     "num": 53,
     "bloque": "Bloque VI: Historia de la Filosofía",
     "titulo": "El nominalismo y la ciencia del siglo XIV.",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
-    "video_url": "",
-    "obras_relacionadas": []
+    "autores_relacionados": [
+      {
+        "id_filosofo": "guillermo-ockham",
+        "nombre": "Guillermo de Ockham",
+        "justificacion": "Figura cumbre del nominalismo y de la vía moderna del siglo XIV, revolucionó la filosofía al negar la existencia extramental de los universales, afirmar la realidad exclusiva de los entes singulares y establecer la separación radical entre la fe y la razón. Formuló el principio de economía ontológica (\"navaja de Ockham\") e impulsó el estudio empírico de la naturaleza."
+      },
+      {
+        "id_filosofo": "duns-escoto",
+        "nombre": "Duns Escoto",
+        "justificacion": "Teólogo franciscano considerado precursor del siglo XIV por conceder primacía al conocimiento intuitivo de la realidad singular a través del concepto de hecceidad y por defender el voluntarismo divino. Su crítica al tomismo inició el giro hacia la observación empírica y la simplificación del andamiaje metafísico."
+      },
+      {
+        "id_filosofo": "roscelino",
+        "nombre": "Roscelino de Compiègne",
+        "justificacion": "Considerado el primer nominalista medieval destacado (siglo XI), sostuvo que los universales no son realidades sino meros sonidos de la voz (flatus vocis) y que solo existen las entidades particulares. Sus tesis sobre los universales le llevaron a sostener el triteísmo en teología."
+      },
+      {
+        "id_filosofo": "pedro-abelardo",
+        "nombre": "Pedro Abelardo",
+        "justificacion": "Pensador clave en la disputa de los universales que rechazó tanto el realismo exagerado como el nominalismo de meras voces de Roscelino, sosteniendo que los universales son nombres o signos (nomina) dotados de significado. Además, sentó las bases del método escolástico mediante la confrontación dialéctica de argumentos."
+      },
+      {
+        "id_filosofo": "juan-buridan",
+        "nombre": "Juan Buridán",
+        "justificacion": "Filósofo nominalista y rector de la Universidad de París que impulsó el estudio de la física como ciencia empírica y desarrolló la teoría del ímpetus para explicar el movimiento de proyectiles. Destacó también por plantear una postura determinista en la relación entre el entendimiento y la voluntad."
+      },
+      {
+        "id_filosofo": "nicolas-de-oresme",
+        "nombre": "Nicolás de Oresme",
+        "justificacion": "Físico y matemático parisino que destacó por introducir la representación gráfica de las variaciones cualitativas e intensivas de las formas. En cosmología, evaluó la hipótesis del movimiento de rotación de la Tierra, anticipando discusiones de la ciencia moderna."
+      },
+      {
+        "id_filosofo": "thomas-bradwardino",
+        "nombre": "Thomas Bradwardino",
+        "justificacion": "Miembro destacado de los calculatores de Oxford que introdujo la cuantificación matemática en la física aristotélica mediante su ley de las proporciones del movimiento. Mantuvo asimismo una postura teológica sobre la predeterminación divina."
+      },
+      {
+        "id_filosofo": "roger-bacon",
+        "nombre": "Roger Bacon",
+        "justificacion": "Precursor del empirismo en Oxford que defendió la unión necesaria entre la matemática y la experiencia directa, acuñando el término scientia experimentalis. Afirmó que la comprobación empírica es imprescindible para otorgar certeza a las deducciones de las ciencias."
+      },
+      {
+        "id_filosofo": "nicolas-autricuria",
+        "nombre": "Nicolás de Autrecourt",
+        "justificacion": "Denominado \"el Hume de la Edad Media\", llevó el criticismo nominalista al extremo al no aceptar como evidencia indiscutible más que las proposiciones reducibles al principio de no contradicción. Defendió un marcado experimentalismo y cuestionó la demostrabilidad de la causalidad."
+      },
+      {
+        "id_filosofo": "alberto-sajonia",
+        "nombre": "Alberto de Sajonia",
+        "justificacion": "Discípulo de Buridán y profesor en París que ofreció la formulación canónica de la definición nominalista del término universal. Tuvo un papel relevante en la difusión de los cálculos mertonianos y en el desarrollo de teorías físicas sobre la gravedad y el ímpetu."
+      },
+      {
+        "id_filosofo": "pedro-aureoli",
+        "nombre": "Pedro Aureoli",
+        "justificacion": "Precursor de Ockham que rechazó la necesidad de las especies inteligibles y planteó la doctrina del ser de apariencia o concepto intencional, según el cual las cosas son captadas directamente por el espíritu bajo un modo de ser fenoménico.Durand de Saint-Pourçain: Pensador que rechazó la distinción real entre esencia y existencia, eliminó el intelecto agente y las especies intermediarias, y sostuvo que la universalidad la introduce el intelecto mientras que en las cosas solo existe la singularidad."
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Nominalismo (o Terminismo)",
+        "justificacion": "Postura filosófica y ontológica que afirma que los universales carecen de existencia real extramental (ante rem o in re) y son únicamente nombres (nomina), conceptos o términos cuya función es suponer o estar en lugar de los individuos singulares. Defiende que solo existen las realidades concretas e individuales, reduciendo los conceptos a signos naturales de la mente."
+      },
+      {
+        "nombre": "Vía Moderna (o Moderni)",
+        "justificacion": "Movimiento filosófico y teológico del siglo XIV liderado por Ockham y sus seguidores en oposición a la vía antiqua o realismo tradicional. Se caracteriza por el rechazo de las esencias metafísicas, la confianza en la intuición empírica y la separación radical entre el ámbito de la fe y el de la razón."
+      },
+      {
+        "nombre": "Escuela de París (o Físicos de París)",
+        "justificacion": "Corriente científica del siglo XIV cuyos integrantes (como Buridán, Oresme y Alberto de Sajonia) aplicaron los principios nominalistas a la filosofía de la naturaleza. Se distinguieron por cuestionar la física de Aristóteles y formular la teoría del ímpetus y representaciones gráficas del movimiento."
+      },
+      {
+        "nombre": "Calculatores del Merton College (o Escuela de Oxford)",
+        "justificacion": "Grupo de lógicos y matemáticos de la Universidad de Oxford que introdujeron el método matemático en el estudio de la física aristotélica. Cultivaron la resolución de \"sofismas\" y la cuantificación cualitativa, formulando leyes cinéticas anticipatorias."
+      },
+      {
+        "nombre": "Voluntarismo",
+        "justificacion": "Doctrina teológica y filosófica defendida por Duns Escoto y Ockham que establece la primacía de la voluntad sobre el entendimiento. Implica la contingencia radical de todo lo creado por la omnipotencia divina y sostiene que las leyes morales dependen enteramente de la libre decisión de Dios."
+      },
+      {
+        "nombre": "Realismo (Exagerado y Moderado / Vía Antiqua)",
+        "justificacion": "Orientaciones filosóficas escolásticas que sostenían que a los conceptos universales les corresponden esencias reales subsistentes por sí mismas (realismo exagerado) o fundamentadas en las cosas (realismo moderado). Frente a ellas se estructuró el nominalismo mediante la crítica a las entidades metafísicas intermedias."
+      },
+      {
+        "nombre": "Averroísmo latino",
+        "justificacion": "Movimiento inspirado en la filosofía de Averroes que defendió la autonomía de la razón y planteó tesis que dieron origen a la polémica de la \"doble verdad\" condena en 1277. Esta condena resquebrajó la síntesis tomista entre fe y razón, propiciando el desarrollo del criticismo posterior."
+      }
+    ],
+    "video_url": "https://youtu.be/d0CIhHcVSnM",
+    "obras_relacionadas": [
+      {
+        "titulo": "Sic et non",
+        "autor": "Pedro Abelardo",
+        "justificacion": "Obra en la que contrapone argumentos divergentes de autoridades sobre cuestiones teológicas e intenta una síntesis armónica, estableciendo el método dialéctico escolástico"
+      },
+      {
+        "titulo": "Opus Maius",
+        "autor": "Roger Bacon",
+        "justificacion": "Tratado donde argumenta que la ciencia experimental (scientia experimentalis) aventaja a los demás conocimientos y exige combinar las matemáticas con la comprobación empírica directa"
+      },
+      {
+        "titulo": "Ordinatio",
+        "autor": "Duns Escoto",
+        "justificacion": "Obra teológica en la que expone la doctrina del voluntarismo y afirma que las cosas son buenas únicamente porque son queridas por la voluntad divina"
+      },
+      {
+        "titulo": "Comentario a las Sentencias de Pedro Lombardo (In Sent.)",
+        "autor": "Guillermo de Ockham",
+        "justificacion": "Tratado teológico donde expone su doctrina del conocimiento intuitivo y la distinción entre experiencia perfecta e imperfecta"
+      },
+      {
+        "titulo": "Summa totius logicae (Summa de la lógica)",
+        "autor": "Guillermo de Ockham",
+        "justificacion": "Obra fundamental de lógica terminista en la que analiza la función de los universales como signos naturales y sostiene la heterogeneidad entre ciencia y fe"
+      },
+      {
+        "titulo": "Quodlibeta (Quodlibetalia)",
+        "autor": "Guillermo de Ockham",
+        "justificacion": "Colección de cuestiones disputadas donde demuestra la imposibilidad del universal extramental y argumenta a favor de una ontología basada exclusivamente en individuos singulares"
+      },
+      {
+        "titulo": "De causa Dei contra Pelagium et de virtute causarum",
+        "autor": "Thomas Bradwardino",
+        "justificacion": "Obra teológico-filosófica en la que defiende que Dios es la causa que predetermina los actos libres del ser humano"
+      },
+      {
+        "titulo": "Tractatus proportionum (1328)",
+        "autor": "Thomas Bradwardino",
+        "justificacion": "Tratado dinámico y matemático en el que reformula la ley aristotélica del movimiento estableciendo la velocidad en función de la relación entre fuerza y resistencia"
+      },
+      {
+        "titulo": "Summulae logicae",
+        "autor": "Juan Buridán",
+        "justificacion": "Compendio de lógica terminista en el que aborda cuestiones epistemológicas sobre el conocimiento sensitivo e intelectual de lo singular y lo universal"
+      },
+      {
+        "titulo": "Tratado del cielo y del mundo",
+        "autor": "Nicolás de Oresme",
+        "justificacion": "Escrito cosmológico en el que expone y rebate argumentos sobre el movimiento de la Tierra, defendiendo la relatividad de las mediciones físicas del movimiento"
+      }
+    ]
   },
   {
     "id": 54,
     "num": 54,
     "bloque": "Bloque VI: Historia de la Filosofía",
     "titulo": "La revolución científica. Galileo y Newton.",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
-    "video_url": "",
-    "obras_relacionadas": []
+    "autores_relacionados": [
+      {
+        "id_filosofo": "guillermo-ockham",
+        "nombre": "Guillermo de Ockham",
+        "justificacion": "Su posición nominalista e individualista dio primacía al conocimiento intuitivo y experimental del hecho individual singular frente a las abstracciones universales del aristotelismo, favoreciendo el desarrollo de una ciencia basada en la observación."
+      },
+      {
+        "id_filosofo": "francis-bacon",
+        "nombre": "Francis Bacon",
+        "justificacion": "Formuló el nuevo método inductivo y experimental en el Novum Organum, rechazando la silogística a priori tradicional y promoviendo una ciencia activa y técnica fundada en las causas eficientes (saber es poder)."
+      },
+      {
+        "id_filosofo": "copernico",
+        "nombre": "Nicolás Copérnico",
+        "justificacion": "Inició la revolución astronómica al formular la teoría heliocéntrica, situando al Sol inmóvil en el centro del universo y asignando a la Tierra movimientos de rotación, traslación y declinación."
+      },
+      {
+        "id_filosofo": "andreas-osiander",
+        "nombre": "Andreas Osiander",
+        "justificacion": "Teólogo autor del prólogo anónimo a la obra de Copérnico, en el que propuso una interpretación fenomenista e instrumentalista de la astronomía para \"salvar los fenómenos\" mediante hipótesis de cálculo sin afirmar su realidad física."
+      },
+      {
+        "id_filosofo": "georg-joachim-rheticus-retico",
+        "nombre": "Georg Joachim Rheticus (Rético)",
+        "justificacion": "Discípulo de Copérnico que redactó y publicó la Narratio prima, divulgado por primera vez de forma resumida el sistema heliocéntrico copernicano."
+      },
+      {
+        "id_filosofo": "tycho-brahe",
+        "nombre": "Tycho Brahe",
+        "justificacion": "Observó el cometa de 1577 y demostró que atravesaba las órbitas planetarias, refutando la existencia material de las esferas cristalinas e introduciendo un sistema geocéntrico-heliocéntrico híbrido."
+      },
+      {
+        "id_filosofo": "kepler",
+        "nombre": "Johannes Kepler",
+        "justificacion": "Formuló las tres leyes cuantitativas del movimiento planetario (órbitas elípticas, áreas iguales y proporcionalidad armónica global), unificando geométricamente el sistema heliocéntrico bajo una concepción neoplatónica."
+      },
+      {
+        "id_filosofo": "galileo",
+        "nombre": "Galileo Galilei",
+        "justificacion": "Padre de la física matemática que introdujo el uso astronómico del telescopio, enunció la ley de caída de los graves, la trayectoria parabólica de los proyectiles, el principio de inercia y la relatividad del movimiento."
+      },
+      {
+        "id_filosofo": "newton",
+        "nombre": "Isaac Newton",
+        "justificacion": "Culminó la Revolución Científica al unificar la física terrestre y celeste en sus Principia Mathematica mediante las tres leyes de la dinámica, la ley de la gravitación universal y las nociones de espacio y tiempo absolutos."
+      },
+      {
+        "id_filosofo": "aristoteles",
+        "nombre": "Aristóteles",
+        "justificacion": "Figura central del paradigma científico antiguo, caracterizado por una física cualitativa y una ciencia logoteórica basada en la contemplación de esencias inmutables y la lógica silogística."
+      },
+      {
+        "id_filosofo": "descartes",
+        "nombre": "René Descartes",
+        "justificacion": "Filósofo y científico que contribuyó a la geometría cuantitativa, la concepción del sabio solitario y la visión mecanicista de la naturaleza como un gran autómata."
+      },
+      {
+        "id_filosofo": "ptolomeo",
+        "nombre": "Ptolomeo",
+        "justificacion": "Astrónomo que formuló el modelo geocéntrico tradicional con ecuantes y epiciclos, criticado por Copérnico por su excesiva complejidad e incapacidad para mantener la uniformidad del movimiento."
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Ciencia logoteórica (Filosofía Antigua)",
+        "justificacion": "Paradigma propio de la antigüedad constituido por el discurso verbal (logos) y la contemplación espiritual (theoria), que entendía el saber como el reflejo mental de esencias inmutables a través del análisis del lenguaje ordinario."
+      },
+      {
+        "nombre": "Nominalismo (bajomedieval)",
+        "justificacion": "Corriente filosófica iniciada por Ockham que rechazó la existencia real de los universales y otorgó primacía al conocimiento intuitivo y sensible del objeto individual concreto."
+      },
+      {
+        "nombre": "Aristotelismo / Escolástica",
+        "justificacion": "Paradigma cualitativo y deductivo dominante en la ciencia tradicional que explicaba los fenómenos mediante esencias, virtudes, lugares naturales, causas finales y silogismos."
+      },
+      {
+        "nombre": "Empirismo",
+        "justificacion": "Filosofía metodológica que sostiene que la fuente principal del conocimiento es la experiencia inmediata, la observación sistemática y la interacción activa con la naturaleza."
+      },
+      {
+        "nombre": "Pitagorismo y Neoplatonismo",
+        "justificacion": "Corrientes que conciben la naturaleza estructurada conforme a proporciones matemáticas y orden geométrico divino, inspirando el pensamiento de Copérnico y Kepler."
+      },
+      {
+        "nombre": "Fenomenismo / Instrumentalismo (de Osiander)",
+        "justificacion": "Postura epistemológica que sostiene que las hipótesis científicas no buscan describir la verdad física objetiva, sino \"salvar los fenómenos\" sirviendo de herramientas para predecir observaciones."
+      },
+      {
+        "nombre": "Realismo epistemológico",
+        "justificacion": "Doctrina asumida por Copérnico, Galileo y Newton que defiende que los modelos matemáticos y las leyes científicas describen la estructura y el comportamiento de la realidad física objetiva."
+      },
+      {
+        "nombre": "Mecanicismo / Física mecanicista",
+        "justificacion": "Concepción que entiende la naturaleza como un gigantesco autómata o máquina cuyos fenómenos se explican por el movimiento cuantitativo de partículas y causas eficientes."
+      },
+      {
+        "nombre": "Fisicalismo",
+        "justificacion": "Corriente filosófica que considera que la caracterización matemática de las leyes de la física es el único modelo explicativo universal para toda la realidad (enfoque rechazado por Newton)."
+      }
+    ],
+    "video_url": "https://youtu.be/sXf9CCSDFkA",
+    "obras_relacionadas": [
+      {
+        "titulo": "Organon",
+        "autor": "Aristóteles",
+        "justificacion": "Colección de tratados de lógica que constituía el instrumento metodológico tradicional basado en el razonamiento silogístico y discursivo."
+      },
+      {
+        "titulo": "Novum Organum (1620)",
+        "autor": "Francis Bacon",
+        "justificacion": "Obra fundamental en la que expone la crítica al saber tradicional y propone la nueva inducción y la experimentación activa."
+      },
+      {
+        "titulo": "Discurso del método (1637)",
+        "autor": "René Descartes",
+        "justificacion": "Texto en el que plantea el tratado del sabio solitario y la mayor solidez de los sistemas construidos por un solo autor."
+      },
+      {
+        "titulo": "De hypotesibus coelestium a se constituis Commentariolus (1512)",
+        "autor": "Nicolás Copérnico",
+        "justificacion": "Manuscrito esquemático inicial en el que hizo circular entre sus amigos los primeros principios de la astronomía heliocentricista."
+      },
+      {
+        "titulo": "Sobre las revoluciones de los orbes celestes (De revolutionibus orbium coelestium, 1543)",
+        "autor": "Nicolás Copérnico",
+        "justificacion": "Tratado fundamental de la astronomía moderna donde expone formalmente el sistema heliocéntrico."
+      },
+      {
+        "titulo": "Narratio prima (1540)",
+        "autor": "Georg Joachim Rheticus (Rético)",
+        "justificacion": "Breve resumen que supuso la primera noticia publicada sobre la teoría heliocéntrica de Copérnico."
+      },
+      {
+        "titulo": "Mysterium cosmographicum (1596)",
+        "autor": "Johannes Kepler",
+        "justificacion": "Su primera obra astronómica, en la que descubre que los planos orbitales de los planetas pasan por el Sol."
+      },
+      {
+        "titulo": "Nueva Astronomía (Astronomia Nova, 1609)",
+        "autor": "Johannes Kepler",
+        "justificacion": "Obra en la que formula sus dos primeras leyes del movimiento planetario."
+      },
+      {
+        "titulo": "De motu (c. 1590)",
+        "autor": "Galileo Galilei",
+        "justificacion": "Tratado manuscrito de juventud sobre la física del movimiento de los cuerpos y la crítica a la ligereza aristotélica."
+      },
+      {
+        "titulo": "Sidereus nuncius (El mensaje o mensajero sideral, 1610)",
+        "autor": "Galileo Galilei",
+        "justificacion": "Tratado en el que publica sus observaciones telescópicas sobre las montañas de la Luna y los satélites de Júpiter."
+      },
+      {
+        "titulo": "Cartas sobre las manchas solares (Letters on Sunspots, 1613)",
+        "autor": "Galileo Galilei",
+        "justificacion": "Obra en la que manifiesta de forma abierta su adhesión al heliocentrismo y formula la conservación inercial del movimiento."
+      },
+      {
+        "titulo": "Carta a la Gran Duquesa Cristina (1615)",
+        "autor": "Galileo Galilei",
+        "justificacion": "Escrito en el que defiende la autonomía de la investigación científica frente a la interpretación literal de las Escrituras."
+      },
+      {
+        "titulo": "El ensayador (Il Saggiatore, 1623)",
+        "autor": "Galileo Galilei",
+        "justificacion": "Tratado donde sostiene que la naturaleza está escrita en lenguaje matemático y diferencia las propiedades primarias de las secundarias."
+      },
+      {
+        "titulo": "Diálogo sobre los dos máximos sistemas del mundo (Dialogo sopra i due massimi sistemi del mondo, 1632)",
+        "autor": "Galileo Galilei",
+        "justificacion": "Discusión dialógica sobre los sistemas ptolemaico y copernicano en la que formula el principio de relatividad y la caída de los graves."
+      },
+      {
+        "titulo": "Consideraciones y demostraciones matemáticas sobre dos nuevas ciencias (Discorsi e dimostrazioni matematiche intorno a due nuove scienze, 1638)",
+        "autor": "Galileo Galilei",
+        "justificacion": "Obra cumbre sobre mecánica en la que demuestra cuantitativamente la ley de caída libre y la trayectoria parabólica de los proyectiles."
+      },
+      {
+        "titulo": "Propositiones de motu (1684)",
+        "autor": "Isaac Newton",
+        "justificacion": "Breve escrito registrado en la Royal Society que sirvió como germen inicial para la redacción de los Principia."
+      },
+      {
+        "titulo": "Philosophiae naturalis principia mathematica (1687)",
+        "autor": "Isaac Newton",
+        "justificacion": "Obra cumbre de la física clásica en la que expone las leyes de la dinámica, la ley de la gravitación universal, las nociones de espacio y tiempo absolutos y las Regulae philosophandi."
+      },
+      {
+        "titulo": "Hipótesis sobre las propiedades de la luz (1675)",
+        "autor": "Isaac Newton",
+        "justificacion": "Escrito en el que propone un sistema mecánico sustentado en un medio etéreo para explicar la atracción gravitatoria."
+      },
+      {
+        "titulo": "Opticks (1704)",
+        "autor": "Isaac Newton",
+        "justificacion": "Tratado en el que expone sus descubrimientos y experimentos sobre la luz y los colores."
+      },
+      {
+        "titulo": "Correspondencia con Oldenburg, Boyle y Bentley",
+        "autor": "Isaac Newton",
+        "justificacion": "Serie de cartas en las que analiza la causa física de la gravedad, el éter y la necesidad de una causa inteligente divina para el sistema del mundo."
+      }
+    ]
   },
   {
     "id": 55,
