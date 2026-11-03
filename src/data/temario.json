@@ -20,10 +20,214 @@
     "num": 2,
     "bloque": "Bloque I: El saber filosófico, lógica y teoría del conocimiento",
     "titulo": "La función de la filosofía en el conjunto de la cultura. La relación del saber filosófico con el saber científico y otros saberes.",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
+    "autores_relacionados": [
+      {
+        "id_filosofo": "aristoteles",
+        "nombre": "Aristóteles",
+        "justificacion": "Concibe la filosofía como la ciencia primera que investiga el «ser en cuanto ser» y proporciona el fundamento unificador a las ciencias particulares, situando además el origen del filosofar en la admiración humana"
+      },
+      {
+        "id_filosofo": "platon",
+        "nombre": "Platón",
+        "justificacion": "Establece la raíz del filosofar en la admiración ante el Todo, analiza la teología pedagógica y cuestiona la capacidad de la escritura para transmitir la vivencia filosófica frente al diálogo oral"
+      },
+      {
+        "id_filosofo": "pitagoras",
+        "nombre": "Pitágoras",
+        "justificacion": "Creador del término «filosofía» como amor a la sabiduría, entendiéndola como la constante aspiración humana hacia una verdad plena que solo poseen los dioses"
+      },
+      {
+        "id_filosofo": "kant",
+        "nombre": "Immanuel Kant",
+        "justificacion": "Define la cultura como la capacidad de un ser racional para elegir sus propios fines y concibe la filosofía como una actividad elucidatoria en la que se enseña a filosofar más que una doctrina cerrada"
+      },
+      {
+        "id_filosofo": "heidegger",
+        "nombre": "Martin Heidegger",
+        "justificacion": "Defiende la prioridad de la filosofía sobre la ciencia al examinar las estructuras previas de la comprensión del Ser, planteando que la disolución de la filosofía en las ciencias tecnificadas marca su fin y exige el retorno a un pensamiento poético o rememorativo"
+      },
+      {
+        "id_filosofo": "wittgenstein",
+        "nombre": "Ludwig Wittgenstein",
+        "justificacion": "Concibe la filosofía no como una ciencia ni una teoría, sino como una actividad de clarificación lógica del pensamiento y crítica terapéutica de las confusiones del lenguaje"
+      },
+      {
+        "id_filosofo": "popper",
+        "nombre": "Karl Popper",
+        "justificacion": "Sostiene que la demarcación entre ciencia y filosofía/metafísica se basa en el criterio de falsabilidad, concluyendo que la diferencia entre ambas es de carácter gradual"
+      },
+      {
+        "id_filosofo": "quine",
+        "nombre": "W. v. O. Quine",
+        "justificacion": "Impugna la existencia de una «filosofía primera» y la separación analítico/sintético, planteando una epistemología naturalizada que integra la filosofía dentro del marco continuo de la investigación científica"
+      },
+      {
+        "id_filosofo": "husserl",
+        "nombre": "Edmund Husserl",
+        "justificacion": "Propone la fenomenología como ciencia rigurosa que critica el objetivismo ingenuo de las ciencias naturales para restituir las evidencias del «mundo de la vida» (Lebenswelt)"
+      },
+      {
+        "id_filosofo": "wilhelm-dilthey",
+        "nombre": "Wilhelm Dilthey",
+        "justificacion": "Distingue entre ciencias de la naturaleza y ciencias del espíritu, definiendo la filosofía como «filosofía de las filosofías» o examen reflexivo e histórico de las distintas visiones del mundo"
+      },
+      {
+        "id_filosofo": "horkheimer",
+        "nombre": "Theodor W. Adorno y Max Horkheimer",
+        "justificacion": "Analizan cómo la razón ilustrada derivó en dominación tecnocrática y asignan a la filosofía el papel de teoría crítica y pensamiento negativo frente al objetivismo científico"
+      },
+      {
+        "id_filosofo": "maria-zambrano",
+        "nombre": "María Zambrano",
+        "justificacion": "Aborda la relación entre la filosofía (búsqueda metódica) y la poesía (hallazgo del hombre concreto) como las dos mitades indispensables del ser humano que aspiran a integrarse en un logos común"
+      },
+      {
+        "id_filosofo": "gustavo-bueno",
+        "nombre": "Gustavo Bueno",
+        "justificacion": "Define la filosofía como un saber crítico de segundo grado que toma como objeto de reflexión la realidad y los saberes de primer grado constituidos por las ciencias"
+      },
+      {
+        "id_filosofo": "jose-cerezo-galan",
+        "nombre": "José Cerezo Galán",
+        "justificacion": "Defiende la vigencia de la filosofía ante la indigencia cultural contemporánea, asignándole la tarea de impulsar un movimiento infinito de racionalidad, libertad y tolerancia frente al utilitarismo"
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Positivismo lógico / Neopositivismo (Círculo de Viena)",
+        "justificacion": "Sostiene que solo el conocimiento empíricamente verificable posee significado cognoscitivo, reduciendo la filosofía a la clarificación del lenguaje científico y desestimando la metafísica y la religión como proposiciones sin sentido"
+      },
+      {
+        "nombre": "Filosofía Analítica",
+        "justificacion": "Desarrolla el análisis del lenguaje como crítica de pseudoproblemas y evoluciona hacia la metafísica descriptiva y la epistemología naturalizada, entendiendo la filosofía como una clarificación conceptual y del uso lingüístico en relación estrecha con la ciencia"
+      },
+      {
+        "nombre": "Fenomenología",
+        "justificacion": "Surgida frente al naturalismo e historicismo escéptico, busca constituir una ciencia rigurosa mediante la suspensión del «prejuicio del hecho» para describir la conciencia intencionada y las vivencias del «mundo de la vida» (Lebenswelt)"
+      },
+      {
+        "nombre": "Hermenéutica / Ciencias del Espíritu",
+        "justificacion": "Distingue la explicación causal de la ciencia física de la comprensión interpretativa de los hechos humanos, definiendo a la filosofía como una investigación crítica sobre las visiones del mundo (Weltanschauungen) de cada época"
+      },
+      {
+        "nombre": "Teoría Crítica (Escuela de Frankfurt)",
+        "justificacion": "Denuncia la transformación de la razón ilustrada en una técnica de dominio social y propone una filosofía concebida como pensamiento negativo que desenmascara las verdades dadas por la razón burguesa y científica"
+      },
+      {
+        "nombre": "Posmodernidad filosófica",
+        "justificacion": "Sostiene el fracaso de los grandes metarrelatos e ideales clásicos de totalidad y validez universal, defendiendo una filosofía fragmentaria, disuelta en la conversación liberal o la redescripción poética y hermenéutica"
+      },
+      {
+        "nombre": "Falsacionismo / Racionalismo Crítico",
+        "justificacion": "Establece que el criterio de demarcación de los enunciados científicos radica en su capacidad de ser sometidos a refutación o falsación empírica, a diferencia de las teorías filosóficas"
+      },
+      {
+        "nombre": "Teología Natural (o Racional)",
+        "justificacion": "Corriente teórica que estudia lo divino e incondicionado sirviéndose únicamente de la fuerza especulativa de la razón humana, a diferencia de la teología basada en la fe y la revelación positiva"
+      },
+      {
+        "nombre": "Concepción tecnológica y utilitarista de la cultura (Pragmatismo educativo)",
+        "justificacion": "Enfoque contemporáneo que concibe la educación como una preparación profesional de carácter práctico, relegando la formación filosófica integrada y libre"
+      }
+    ],
     "video_url": "",
-    "obras_relacionadas": []
+    "obras_relacionadas": [
+      {
+        "titulo": "Metafísica",
+        "autor": "Aristóteles",
+        "justificacion": "Desarrolla la concepción de la filosofía primera como teología y como ciencia del «ser en cuanto ser», otorgándole la función de fundamentar la enciclopedia de las ciencias particulares"
+      },
+      {
+        "titulo": "Séptima Carta",
+        "autor": "Platón",
+        "justificacion": "Afirma que las verdades filosóficas fundamentales no pueden comunicarse mediante tratados escritos sistemáticos, sino a través del diálogo vivo y la convivencia prolongada con el tema"
+      },
+      {
+        "titulo": "Fedro",
+        "autor": "Platón",
+        "justificacion": "Critica la escritura al calificarla como un medio estático e incapaz de responder o defenderse, cuya función principal es la de servir como recordatorio"
+      },
+      {
+        "titulo": "Diálogos",
+        "autor": "Platón",
+        "justificacion": "Obras maestras de la literatura donde el pensamiento se despliega de forma abierta e ininterrumpida a través de la disputa filosófica"
+      },
+      {
+        "titulo": "Crítica del juicio",
+        "autor": "Immanuel Kant",
+        "justificacion": "Define la cultura como la producción en un ser racional de la capacidad para elegir sus propios fines superiores a los de la naturaleza"
+      },
+      {
+        "titulo": "Tractatus Logico-Philosophicus",
+        "autor": "Ludwig Wittgenstein",
+        "justificacion": "Expone que la filosofía es una actividad de clarificación lógica encargada de delimitar lo pensable con sentido (ciencias naturales) de los pseudoproblemas absurdos de la metafísica"
+      },
+      {
+        "titulo": "Investigaciones filosóficas",
+        "autor": "Ludwig Wittgenstein",
+        "justificacion": "Define las cuestiones filosóficas tradicionales como embrollos generados por malentendidos del lenguaje cotidiano y asigna a la filosofía una función descriptiva y terapéutica"
+      },
+      {
+        "titulo": "La pregunta por la cosa",
+        "autor": "Martin Heidegger",
+        "justificacion": "Examina cómo las ciencias modernas presuponen marcos de objetividad que no pueden estudiar por sí mismas, asignando a la filosofía la tarea prioritaria de fundamentar dicho trasfondo"
+      },
+      {
+        "titulo": "El final de la filosofía y la tarea del pensar",
+        "autor": "Martin Heidegger",
+        "justificacion": "Afirma que la fragmentación y disolución de la filosofía en las ciencias específicas señala su conclusión técnica, abriendo la posibilidad de un pensamiento rememorativo"
+      },
+      {
+        "titulo": "Sendas perdidas",
+        "autor": "Martin Heidegger",
+        "justificacion": "Analiza la transformación cartesiana de las entidades en objetos de la conciencia del ego cogito en el marco de la técnica moderna"
+      },
+      {
+        "titulo": "Esencia de la filosofía",
+        "autor": "Wilhelm Dilthey",
+        "justificacion": "Establece la distinción entre las visiones del mundo históricas y la filosofía como análisis reflexivo y crítico de dichas concepciones"
+      },
+      {
+        "titulo": "La filosofía como ciencia rigurosa",
+        "autor": "Edmund Husserl",
+        "justificacion": "Propone una refundación de la filosofía como disciplina rigurosa alejada del naturalismo ingenuo y del escepticismo historicista"
+      },
+      {
+        "titulo": "La crisis de las ciencias europeas y la fenomenología trascendental",
+        "autor": "Edmund Husserl",
+        "justificacion": "Critica el objetivismo matemático iniciado por Galileo y defiende la necesidad de suspender los dogmas científicos para recuperar las evidencias del «mundo de la vida»"
+      },
+      {
+        "titulo": "Dialéctica de la ilustración",
+        "autor": "Theodor W. Adorno y Max Horkheimer",
+        "justificacion": "Muestran cómo el ideal ilustrado degeneró en razón tecnocrática y dominación, proponiendo la necesidad de un pensamiento dialéctico negativo"
+      },
+      {
+        "titulo": "Dos dogmas del empirismo",
+        "autor": "W. v. O. Quine",
+        "justificacion": "Critica la distinción analítico/sintético y rechaza la existencia de una filosofía primera independiente, integrando la epistemología en el marco empírico de la ciencia"
+      },
+      {
+        "titulo": "Análisis y metafísica",
+        "autor": "P. F. Strawson",
+        "justificacion": "Describe la «metafísica descriptiva» como una investigación sistemática de la estructura y relaciones de nuestro esquema conceptual básico"
+      },
+      {
+        "titulo": "Lenguaje, verdad y lógica",
+        "autor": "A. J. Ayer",
+        "justificacion": "Formula el criterio verificacionista de significado para deslindar las proposiciones científicas de las afirmaciones metafísicas"
+      },
+      {
+        "titulo": "La lógica de la investigación científica",
+        "autor": "Karl Popper",
+        "justificacion": "Plantea la falsabilidad como principio de demarcación para distinguir las hipótesis científicas de las teorías filosóficas"
+      },
+      {
+        "titulo": "Del sentimiento trágico de la vida",
+        "autor": "Miguel de Unamuno",
+        "justificacion": "Reivindica la metafísica como un producto de la fantasía y el sentimiento trágico capaz de alcanzar la sabiduría por encima del mero conocimiento científico"
+      }
+    ]
   },
   {
     "id": 3,
@@ -1152,7 +1356,7 @@
         "justificacion": "Movimiento centrado en la enseñanza de la retórica y los asuntos ético-políticos, que cuestionó la posibilidad de un conocimiento teórico definitivo y contrapuso la naturaleza (physis) a la convención (nomos)"
       }
     ],
-    "video_url": "",
+    "video_url": "https://youtu.be/LBazs8Bn7Kc",
     "obras_relacionadas": [
       {
         "titulo": "Ilíada",
@@ -1211,10 +1415,152 @@
     "num": 48,
     "bloque": "Bloque VI: Historia de la Filosofía",
     "titulo": "El debate ético-político en Sócrates y los sofistas.",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
+    "autores_relacionados": [
+      {
+        "id_filosofo": "socrates",
+        "nombre": "Sócrates",
+        "justificacion": "Figura central del giro antropológico del siglo V a. C. que contrapuso a la retórica sofista la búsqueda de verdades morales inmutables, el intelectualismo moral y el método dialéctico inductivo Su propuesta filosófica sitúa el cuidado del alma y el conocimiento de uno mismo como los ejes orientadores de la convivencia e individualidad en la polis"
+      },
+      {
+        "id_filosofo": "protagoras",
+        "nombre": "Protágoras de Abdera",
+        "justificacion": "Sofista capital de la primera época que situó al ser humano como referencia absoluta del conocimiento mediante el principio del homo mensura (\"el hombre es la medida de todas las cosas\") Defendió el relativismo gnoseológico, la doctrina del pacto social y la necesidad de una educación orientada al aprendizaje de la virtud"
+      },
+      {
+        "id_filosofo": "gorgias",
+        "nombre": "Gorgias de Sicilia",
+        "justificacion": "Pensador emblemático de la primera sofística que articuló un escepticismo y nihilismo radicales a través de sus tres tesis sobre la inexistencia, incognoscibilidad e incomunicabilidad del ser Formuló un contingentismo moral circunstancial y promovió la retórica como el arte de seducción y fascinación por medio del poder del lógos"
+      },
+      {
+        "id_filosofo": "trasimaco",
+        "nombre": "Trasímaco",
+        "justificacion": "Sofista de la segunda etapa que radicalizó la concepción política de la justicia al definirla como \"lo conveniente para el más fuerte\" o para el gobierno constituido Argumentó que las leyes y las normas morales son elaboradas por los gobernantes poderosos en beneficio propio a fin de someter a los débiles"
+      },
+      {
+        "id_filosofo": "antifonte",
+        "nombre": "Antifonte",
+        "justificacion": "Sofista que profundizó en la fractura entre physis y nómos, sosteniendo que por naturaleza todos los seres humanos son iguales Denunció las leyes humanas como meras convenciones impuestas que coartan la libertad natural e independizó el provecho personal de los preceptos legales"
+      },
+      {
+        "id_filosofo": "hipias",
+        "nombre": "Hipias",
+        "justificacion": "Pensador sofista destacado por defender que la naturaleza (physis) constituye un principio ético universal de igualdad y fraternidad entre los hombres Contrapuso esta igualdad natural a las convenciones legales e instituciones (nómos), a las que consideró la fuente de las desigualdades sociales"
+      },
+      {
+        "id_filosofo": "critias",
+        "nombre": "Critias",
+        "justificacion": "Sofista de la segunda época recordado por exponer una teoría sobre el origen político de la religión Planteó que las divinidades fueron una invención astuta de antiguos legisladores para infundir temor e impedir los delitos cometidos en secreto"
+      },
+      {
+        "id_filosofo": "calicles",
+        "nombre": "Calicles",
+        "justificacion": "Sofista que concibió la naturaleza (physis) a nivel zoológico como el triunfo ineludible del más fuerte sobre el débil Afirmó que las normas convencionales (nómos) son mecanismos artificiales creados por las mayorías débiles para defenderse y frenar la superioridad natural"
+      },
+      {
+        "id_filosofo": "platon",
+        "nombre": "Platón",
+        "justificacion": "Discípulo de Sócrates fundamental para la transmisión y reconstrucción teórica del debate ético-político de la época Sus diálogos constituyen la fuente primaria principal donde se retrata el método socrático y su confrontación directa con los sofistas"
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Sofística (Movimiento Sofista)",
+        "justificacion": "Movimiento filosófico y pedagógico del siglo V a. C. que protagonizó el giro antropológico, profesionalizando la enseñanza remunerada de la oratoria y la areté política en el marco de la democracia ateniense Se caracterizó por el escepticismo gnoseológico, el relativismo moral, el pragmatismo utilitario y la distinción crítica entre naturaleza (physis) y convención (nómos)"
+      },
+      {
+        "nombre": "Filosofía Socrática (Socratismo)",
+        "justificacion": "Corriente ética y dialéctica desarrollada por Sócrates frente al relativismo sofista, orientada a la búsqueda incesante de la verdad (alethéia) y de definiciones morales universales Fundamentó la conducta virtuosa en el intelectualismo moral, concibiendo el conocimiento interno como condición necesaria y suficiente para la consecución de la felicidad"
+      },
+      {
+        "nombre": "Escuela Eléata (Eleatismo)",
+        "justificacion": "Doctrina presocrática caracterizada por defender la unidad e inmutabilidad del ser y el dogmatismo de una verdad absoluta accesible por la razón Tanto los sofistas en general como Gorgias en particular se fundamentaron en la crítica radical a sus presupuestos para postular la supremacía del discurso, las apariencias y la relatividad del conocimiento"
+      },
+      {
+        "nombre": "Heraclitismo (Pensamiento de Heráclito)",
+        "justificacion": "Pensamiento presocrático basado en la movilidad, el cambio incesante y el devenir de la realidad Esta concepción fluyente del ser sirvió de base ontológica a Protágoras para formular su fenomenismo epistemológico y la mutabilidad del conocimiento sensible"
+      },
+      {
+        "nombre": "Pitagorismo (Escuela Pitagórica)",
+        "justificacion": "Escuela filosófica presocrática reseñada en las fuentes por intentar definir la esencia de las virtudes éticas, como la justicia, mediante estructuras y relaciones numérico-matemáticas Su aspiración de alcanzar la esencia abstracta del concepto influyó en el modelo socrático de indagación de definiciones universales"
+      },
+      {
+        "nombre": "Naturalismo Presocrático (Filosofía de la Naturaleza)",
+        "justificacion": "Etapa filosófica inicial volcada en la especulación cosmológica sobre el origen y orden de la physis Frente a su desoladora diversidad de teorías contrapuestas, los sofistas y Sócrates impulsaron el giro antropológico hacia los asuntos ético-políticos de la polis"
+      }
+    ],
     "video_url": "",
-    "obras_relacionadas": []
+    "obras_relacionadas": [
+      {
+        "titulo": "Antilogías",
+        "autor": "Protágoras",
+        "justificacion": "Obra principal del autor en la que abordó la epistemología fenomenista, la sociedad y la célebre tesis de que sobre cualquier tema se pueden articular dos argumentos contrarios"
+      },
+      {
+        "titulo": "Sobre el no Ser o sobre la Naturaleza",
+        "autor": "Gorgias",
+        "justificacion": "Tratado filosófico en el que reaccionó contra la escuela eléata para enunciar sus tres proposiciones escépticas sobre la inexistencia, incognoscibilidad e incomunicabilidad del ser"
+      },
+      {
+        "titulo": "Elogio de Helena",
+        "autor": "Gorgias",
+        "justificacion": "Discurso de exhibición retórica donde exculpa a Helena de Troya para argumentar el poder mágico, seductor y hechicero del lógos sobre el alma"
+      },
+      {
+        "titulo": "Alétheia (Verdad)",
+        "autor": "Antifonte",
+        "justificacion": "Obra en la que fundamenta la oposición radical entre la physis igualitaria e innata y el nómos convencional y coercitivo"
+      },
+      {
+        "titulo": "Apología",
+        "autor": "Platón",
+        "justificacion": "Diálogo en el que se expone la defensa de Sócrates en su juicio, el mandato filosófico encomendado por el Oráculo de Delfos y su entrega incuestionable a la justicia"
+      },
+      {
+        "titulo": "Critón",
+        "autor": "Platón",
+        "justificacion": "Diálogo que recoge la conversación socrática en prisión sobre la obligación moral de acatar las leyes de la polis y la negativa radical a devolver daño por daño"
+      },
+      {
+        "titulo": "Gorgias",
+        "autor": "Platón",
+        "justificacion": "Diálogo que aborda la discusión sobre la virtud, la felicidad y la tesis socrática de que cometer una injusticia constituye un mal mayor que padecerla"
+      },
+      {
+        "titulo": "República",
+        "autor": "Platón",
+        "justificacion": "Diálogo en el que se plasma la controversia entre Sócrates y Trasímaco acerca de la definición de la justicia como valor absoluto o relativo"
+      },
+      {
+        "titulo": "Cratilo",
+        "autor": "Platón",
+        "justificacion": "Diálogo que analiza la teoría del lenguaje y la validez de la frase del homo mensura de Protágoras en el marco del convencionalismo lingüístico"
+      },
+      {
+        "titulo": "Fedón",
+        "autor": "Platón",
+        "justificacion": "Diálogo que relata el trágico desenlace de Sócrates en la cárcel e indaga en la definición e inmortalidad del alma"
+      },
+      {
+        "titulo": "Eutifrón",
+        "autor": "Platón",
+        "justificacion": "Diálogo dedicado a la indagación de la definición de la piedad y al examen socrático de la sumisión de los dioses a normas morales objetivas"
+      },
+      {
+        "titulo": "Hippias Menor",
+        "autor": "Platón",
+        "justificacion": "Diálogo que expone la paradoja del intelectualismo moral socrático según la cual quien obra mal intencionadamente es moralmente impensable, aunque técnicamente equivalente a un saber experto"
+      },
+      {
+        "titulo": "Teeteto",
+        "autor": "Platón",
+        "justificacion": "Diálogo donde se presenta el método mayéutico de Sócrates explicándolo a través de la comparación con el oficio de partera ejercido por su madre"
+      },
+      {
+        "titulo": "Retórica",
+        "autor": "Aristóteles",
+        "justificacion": "Obra en la que se analiza y critica explícitamente el precepto protagórico de transformar el peor argumento en el mejor dentro de la dialéctica"
+      }
+    ]
   },
   {
     "id": 49,
@@ -1222,35 +1568,443 @@
     "bloque": "Bloque VI: Historia de la Filosofía",
     "titulo": "La justicia en la Polis como objetivo de la filosofía de Platón.",
     "autores_relacionados": [
-      "socrates",
-      "platon",
-      "aristoteles"
+      {
+        "id_filosofo": "platon",
+        "nombre": "Platón",
+        "justificacion": "Autor central del temario cuya filosofía política y moral busca liberar a la ciudad-estado del relativismo, articulando la justicia en la polis mediante un gobierno guiado por verdades objetivas e inmutables como el Bien y la Verdad"
+      },
+      {
+        "id_filosofo": "socrates",
+        "nombre": "Sócrates",
+        "justificacion": "Maestro de Platón e interlocutor principal en la mayoría de sus diálogos, cuya investigación ética, búsqueda de definiciones e ideal de vida virtuosa inspiraron la teoría platónica del rey filósofo y la justicia"
+      },
+      {
+        "id_filosofo": "protagoras",
+        "nombre": "Protágoras",
+        "justificacion": "Filósofo sofista cuyo relativismo moral y político es rechazado frontalmente por Platón, quien busca fundamentar la política en principios eternos en lugar de en la mera convención u opinión"
+      },
+      {
+        "id_filosofo": "trasimaco",
+        "nombre": "Trasímaco y Calicles",
+        "justificacion": "Pensadores y portavoces de la sofística que representan posturas amorales, la identificación del bien con el placer desmedido y la defensa de la justicia como la conveniencia del más fuerte, sirviendo de oponentes teóricos fundamentales para la construcción platónica de la justicia"
+      },
+      {
+        "id_filosofo": "aristoteles",
+        "nombre": "Aristóteles",
+        "justificacion": "Discípulo de Platón que analiza, documenta y contrasta críticamente la evolución del pensamiento político de su maestro y sus obras legislativas fundamentales"
+      }
     ],
     "corrientes_relacionadas": [
-      "platonismo"
+      {
+        "nombre": "Sofística (o Relativismo sofístico)",
+        "justificacion": "Movimiento teórico que reducía la moral y la política al relativismo, la utilidad y el derecho del más fuerte, frente al cual Platón reacciona definiendo la justicia y la política como ciencias normativas objetivas"
+      },
+      {
+        "nombre": "Platonismo (o Filosofía de las Formas)",
+        "justificacion": "Corriente fundada por Platón que establece la existencia de una realidad inteligible de Formas e Ideas eternas (encabezada por el Bien) y sostiene que la verdadera política es el gobierno de los filósofos orientado a la perfección moral del alma y de la polis"
+      }
     ],
-    "video_url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    "obras_relacionadas": []
+    "video_url": "https://youtu.be/U548IUxqyJg",
+    "obras_relacionadas": [
+      {
+        "titulo": "La República (o De lo justo)",
+        "autor": "Platón",
+        "justificacion": "Diálogo fundamental que investiga la naturaleza de la justicia individual y ciudadana, exponiendo la analogía entre las tres partes del alma y las tres clases de la polis, la educación de los guardianes y el gobierno de los filósofos-reyes"
+      },
+      {
+        "titulo": "Las Leyes",
+        "autor": "Platón",
+        "justificacion": "Última y más extensa obra platónica en la que se diseña la ciudad \"segunda en preferencia\" (Magnesia), centrándose en la legislación práctica, la educación del ciudadano y el uso de preludios persuasivos"
+      },
+      {
+        "titulo": "Gorgias (o Sobre la retórica)",
+        "autor": "Platón",
+        "justificacion": "Diálogo dedicado a fundamentar la política como un verdadero arte (téchnē) orientado a la salud moral del alma y al bien común, rechazando la retórica sofística y el hedonismo de Calicles"
+      },
+      {
+        "titulo": "El Político",
+        "autor": "Platón",
+        "justificacion": "Obra que examina la función y ciencia propia del verdadero gobernante como unificador sabio de la comunidad humana y analiza las diversas formas de gobierno"
+      },
+      {
+        "titulo": "Carta VII",
+        "autor": "Platón",
+        "justificacion": "Epístola autobiográfica en la que Platón reflexiona sobre la degradación de la vida política en Atenas y Siracusa y afirma la necesidad insoslayable de la filosofía para lograr regímenes justos"
+      },
+      {
+        "titulo": "Apología de Sócrates",
+        "autor": "Platón",
+        "justificacion": "Recreación del discurso de defensa de Sócrates en su juicio, que testimonio su compromiso ético irrenunciable con la verdad y la virtud frente a la ciudad"
+      },
+      {
+        "titulo": "Política",
+        "autor": "Aristóteles",
+        "justificacion": "Tratado en el que se analiza el origen de las constituciones y se examinan y comparan críticamente las propuestas políticas de Platón en la República y Las Leyes"
+      },
+      {
+        "titulo": "Metafísica",
+        "autor": "Aristóteles",
+        "justificacion": "Obra que testimonia históricamente que el interés filosófico de Sócrates estuvo acotado a la investigación de los conceptos éticos y la búsqueda de definiciones"
+      },
+      {
+        "titulo": "Refutaciones Sofísticas",
+        "autor": "Aristóteles",
+        "justificacion": "Texto en el que Aristóteles refiere la práctica dialéctica de Sócrates de formular preguntas definicionales"
+      },
+      {
+        "titulo": "Las nubes",
+        "autor": "Aristófanes",
+        "justificacion": "Comedia clásica que ofrece una representación satírica de la figura de Sócrates y del ambiente intelectual de su tiempo"
+      }
+    ]
   },
   {
     "id": 50,
     "num": 50,
     "bloque": "Bloque VI: Historia de la Filosofía",
     "titulo": "La Naturaleza en Aristóteles.",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
+    "autores_relacionados": [
+      {
+        "id_filosofo": "aristoteles",
+        "nombre": "Aristóteles",
+        "justificacion": "Es el autor central del cuaderno, quien concibe la naturaleza (physis) como el principio y causa intrínseca del movimiento y del reposo inmanente a los seres naturales Su filosofía explica la realidad física mediante el hilemorfismo, la teoría de las cuatro causas y la actualización de la potencia hacia un fin teleológico"
+      },
+      {
+        "id_filosofo": "platon",
+        "nombre": "Platón",
+        "justificacion": "Es un autor fundamental ya que Aristóteles desarrolla su concepción física en diálogo crítico con las enseñanzas recibidas en la Academia A diferencia de Platón, que situaba la auténtica realidad en el mundo trascendente de las Ideas, Aristóteles sostiene que la forma y la inteligibilidad residen en las propias cosas sensibles"
+      },
+      {
+        "id_filosofo": "parmenides",
+        "nombre": "Parménides",
+        "justificacion": "Es esencial para comprender el punto de partida de la física aristotélica, pues su concepción unívoca del ser le llevó a negar la realidad del movimiento Aristóteles supera esta aporía eleática al demostrar la multivocidad del ser y definir el cambio como el paso del ser en potencia al ser en acto"
+      },
+      {
+        "id_filosofo": "democrito",
+        "nombre": "Demócrito",
+        "justificacion": "Es clave debido a que Aristóteles se opone frontalmente a su modelo atomista, el cual pretendía explicar el cosmos por meras diferencias cuantitativas de átomos en el vacío y por causas azarosas En su lugar, Aristóteles defiende una naturaleza cualitativa, continua y orientada racionalmente a un fin"
+      },
+      {
+        "id_filosofo": "empedocles",
+        "nombre": "Empédocles",
+        "justificacion": "Es un referente relevante porque Aristóteles adopta su planteamiento de los cuatro elementos cualitativamente diferenciados (tierra, agua, aire y fuego) para constituir la materia del mundo sublunar Sobre esta base, añade el éter o quintaesencia como elemento propio e incorruptible de los astros del mundo supralunar"
+      },
+      {
+        "id_filosofo": "eudoxo",
+        "nombre": "Eudoxo",
+        "justificacion": "Es un autor citado en el ámbito astronómico, cuyas teorías matemáticas sobre las esferas concéntricas le sirven a Aristóteles para construir el mecanismo físico real con el que explica el movimiento del cosmos"
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Academia (platónica)",
+        "justificacion": "Escuela filosófica fundada por Platón en la que Aristóteles se formó durante veinte años y frente a cuya doctrina trascendente desarrolló su propia concepción inmanente del ser y de la naturaleza"
+      },
+      {
+        "nombre": "Liceo (o Peripato)",
+        "justificacion": "Escuela ateniense fundada por Aristóteles en los jardines de Apolo Licio, desde la cual impartió sus lecciones esotéricas y promovió el estudio sistemático de la física, la biología y las ciencias naturales"
+      },
+      {
+        "nombre": "Eleatismo (o Escuela eleática)",
+        "justificacion": "Corriente teórica encabezada por Parménides que rechazaba la existencia del cambio por considerarlo contradictorio al implicar el no-ser Aristóteles refuta esta postura demostrando que el movimiento ocurre dentro del ser al actualizarse una potencia"
+      },
+      {
+        "nombre": "Atomismo",
+        "justificacion": "Movimiento filosófico impulsado por Demócrito que postulaba que la realidad se compone exclusivamente de átomos indivisibles y vacío Aristóteles rebate esta escuela al negar la posibilidad del vacío y afirmar que la naturaleza posee un orden cualitativo, continuo y teleológico"
+      },
+      {
+        "nombre": "Filosofía presocrática",
+        "justificacion": "Movimiento filosófico anterior a Aristóteles que identificó la physis con un único arché material y corpóreo Aristóteles critica su enfoque por haber sido excesivamente físico y atender primariamente a la causa material en detrimento de la causa formal"
+      },
+      {
+        "nombre": "Pitagorismo (o Escuela pitagórica)",
+        "justificacion": "Escuela cuya doctrina sobre la propiedad y perfección del número tres es tomada por Aristóteles para justificar la perfección del mundo físico en sus tres dimensiones"
+      }
+    ],
     "video_url": "",
-    "obras_relacionadas": []
+    "obras_relacionadas": [
+      {
+        "titulo": "Física (escrita entre el 335 y el 332 a.C.)",
+        "autor": "Aristóteles",
+        "justificacion": "Tratado en ocho libros dedicado a investigar la physis, las cuatro causas, el movimiento como paso de la potencia al acto, el tiempo, el espacio y la existencia del Primer Motor Inmóvil"
+      },
+      {
+        "titulo": "Metafísica",
+        "autor": "Aristóteles",
+        "justificacion": "Tratado sobre la \"filosofía primera\" que examina el ser en cuanto ser, la teoría de la sustancia, las categorías y la garantía teológica de la inteligibilidad de la naturaleza"
+      },
+      {
+        "titulo": "Sobre el cielo (De caelo)",
+        "autor": "Aristóteles",
+        "justificacion": "Escrito astronómico que aborda la estructura finita del universo, la inmovilidad de la Tierra en el centro, los movimientos circulares celestes y la naturaleza del éter"
+      },
+      {
+        "titulo": "Sobre la generación y la corrupción (De generatione et corruptione)",
+        "autor": "Aristóteles",
+        "justificacion": "Tratado dedicado a la transformación continua de los cuatro elementos y a las alteraciones sustanciales en la región sublunar impulsadas por el Sol"
+      },
+      {
+        "titulo": "Sobre el alma (De anima)",
+        "autor": "Aristóteles",
+        "justificacion": "Obra de antropología filosófica en la que se define el alma como forma y entelequia del cuerpo orgánico, clasificándola en vegetativa, sensitiva y racional"
+      },
+      {
+        "titulo": "Ética a Nicómaco",
+        "autor": "Aristóteles",
+        "justificacion": "Tratado de filosofía moral que analiza el Bien supremo y la felicidad como una actividad del alma realizada conforme a la virtud racional"
+      },
+      {
+        "titulo": "Política",
+        "autor": "Aristóteles",
+        "justificacion": "Escrito de filosofía política donde Aristóteles sostiene que el ser humano es un animal político por naturaleza y que la polis tiene como fin la vida feliz y virtuosa"
+      },
+      {
+        "titulo": "Organon (incluye Categorías, Acerca de la interpretación, Analíticos Primeros, Analíticos Segundos y Acerca de las refutaciones sofísticas)",
+        "autor": "Aristóteles",
+        "justificacion": "Conjunto de libros de lógica que establecen la teoría de los términos, los juicios, las categorías del ser y los presupuestos de la demostración científica"
+      },
+      {
+        "titulo": "Historia de los animales",
+        "autor": "Aristóteles",
+        "justificacion": "Trabajo de investigación biológica basado en la observación empírica de las distintas especies y tipos naturales de seres vivos"
+      }
+    ]
   },
   {
     "id": 51,
     "num": 51,
     "bloque": "Bloque VI: Historia de la Filosofía",
     "titulo": "El desarrollo de la ciencia en el pensamiento helenístico.",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
-    "video_url": "",
-    "obras_relacionadas": []
+    "autores_relacionados": [
+      {
+        "id_filosofo": "antistenes",
+        "nombre": "Antístenes",
+        "justificacion": "Fundador de la escuela cínica en el gimnasio de Cynosarges, orientó la filosofía socrática hacia la búsqueda ascética de la virtud y el desprecio de los bienes materiales como respuesta al declive de la polis"
+      },
+      {
+        "id_filosofo": "diogenes",
+        "nombre": "Diógenes de Sínope",
+        "justificacion": "El miembro más conocido del cinismo, representó el ideal de la autarquía e independencia individual mediante un estilo de vida errante, austero y provocador frente a las convenciones sociales"
+      },
+      {
+        "id_filosofo": "epicuro",
+        "nombre": "Epicuro",
+        "justificacion": "Fundador del epicureismo y de la escuela «El Jardín» en Atenas, formuló una ética individual basada en el placer catastemático y la ataraxia para liberar al ser humano de los miedos a la muerte y a los dioses"
+      },
+      {
+        "id_filosofo": "zenon-citio",
+        "nombre": "Zenón de Citio",
+        "justificacion": "Fundador del estoicismo en la Stoa Poikile, estructuró la filosofía en lógica, física pansomatista y una ética basada en el cumplimiento del deber y el seguimiento del logos divino"
+      },
+      {
+        "id_filosofo": "crisipo",
+        "nombre": "Crisipo",
+        "justificacion": "El gran sistematizador de la antigua Stoa, fue el responsable de desarrollar la lógica de proposiciones, la teoría del lektón, la gramática y la doctrina del criterio de verdad cataléptico"
+      },
+      {
+        "id_filosofo": "pirron",
+        "nombre": "Pirrón de Elis",
+        "justificacion": "Fundador del escepticismo (pirronismo), sostuvo que ni los sentidos ni la razón permiten alcanzar certezas objetivas, proponiendo la suspensión del juicio (epokhé) para lograr la tranquilidad interior"
+      },
+      {
+        "id_filosofo": "arcesilao",
+        "nombre": "Arcesilao",
+        "justificacion": "Fundador de la Nueva Academia platónica, introdujo la actitud escéptica y probabilista en la tradición académica para combatir el dogmatismo de los estoicos"
+      },
+      {
+        "id_filosofo": "carneades",
+        "nombre": "Carnéades",
+        "justificacion": "Filósofo de la Academia escéptica que desarrolló la teoría del conocimiento probable (píthanon) y la distinción entre verdad objetiva e impresión subjetiva"
+      },
+      {
+        "id_filosofo": "eudoxo-de-cnido",
+        "nombre": "Eudoxo de Cnido",
+        "justificacion": "Matemático y astrónomo precursor de la geometría deductiva que formuló el modelo de las «esferas homocéntricas» para intentar conciliar el geocentrismo platónico con las observaciones celestes"
+      },
+      {
+        "id_filosofo": "euclides",
+        "nombre": "Euclides",
+        "justificacion": "Matemático del Museo de Alejandría que unificó y sistematizó todo el saber geométrico y aritmético de la Antigüedad bajo un método formal axiomático-deductivo"
+      },
+      {
+        "id_filosofo": "arquimedes",
+        "nombre": "Arquímedes de Siracusa",
+        "justificacion": "Sabio que articuló la geometría pura con la física aplicada, fundando la estática deductiva y la hidrostática mediante el cálculo de centros de gravedad y el uso del método de exhaustión"
+      },
+      {
+        "id_filosofo": "apolonio-de-perga",
+        "nombre": "Apolonio de Perga",
+        "justificacion": "Geómetra que realizó la reconstrucción sistemática y rigurosa del estudio de las curvas cónicas, introduciendo los términos técnicos de elipse, parábola e hipérbole"
+      },
+      {
+        "id_filosofo": "aristarco",
+        "nombre": "Aristarco de Samos",
+        "justificacion": "Astrónomo helenístico que propuso por primera vez la hipótesis del heliocentrismo y el movimiento de rotación terrestre, midiendo las distancias y tamaños del Sol y la Luna"
+      },
+      {
+        "id_filosofo": "hiparco-de-nicea",
+        "nombre": "Hiparco de Nicea",
+        "justificacion": "Considerado el mayor astrónomo observacional de la Antigüedad, confecciónó el primer catálogo estelar, midió la precesión de los equinoccios e inició la teoría geocéntrica de epiciclos y excéntricas"
+      },
+      {
+        "id_filosofo": "ptolomeo",
+        "nombre": "Ptolomeo",
+        "justificacion": "Astrónomo que organizó y completó la teoría geocéntrica antigua en una síntesis matemática basada en epiciclos y excéntricas que perduró hasta el Renacimiento"
+      },
+      {
+        "id_filosofo": "eratostenes-de-cirene",
+        "nombre": "Eratóstenes de Cirene",
+        "justificacion": "Director de la Biblioteca de Alejandría y sabio enciclopédico que calculó con gran precisión matemática la circunferencia terrestre y trazó el primer mapamundi con meridianos y paralelos"
+      },
+      {
+        "id_filosofo": "estraton-de-lampsaco",
+        "nombre": "Estratón de Lámpsaco",
+        "justificacion": "Físico y escolarca del Liceo que elaboró una explicación mecanicista de la naturaleza, rechazando la teleología y la teoría de los lugares naturales de Aristóteles"
+      },
+      {
+        "id_filosofo": "herofilo-de-calcedonia-y-erasistrato-de-ceos",
+        "nombre": "Herófilo de Calcedonia y Erasístrato de Ceos",
+        "justificacion": "Médicos del Museo de Alejandría que revolucionaron la medicina experimental mediante disecciones, ubicando en el cerebro el centro del sistema nervioso y diferenciando nervios, venas y arterias"
+      },
+      {
+        "id_filosofo": "galeno",
+        "nombre": "Galeno",
+        "justificacion": "Médico del siglo II d.C. que realizó la gran síntesis de la medicina antigua, unificando la tradición anatomofisiológica de Alejandría, la teoría hipocrática de los humores y el método lógico"
+      },
+      {
+        "id_filosofo": "calimaco-y-zenodoto",
+        "nombre": "Calímaco y Zenodoto",
+        "justificacion": "Filólogos de la Biblioteca de Alejandría que establecieron las bases de la crítica textual y la catalogación científica mediante la edición de Homero y la compilación de los Pinakes"
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Cinismo",
+        "justificacion": "Escuela socrática menor que rechaza las instituciones, costumbres y saberes abstractos por considerarlos inauténticos, proponiendo la autarquía individual y una vida ascética conforme a la naturaleza"
+      },
+      {
+        "nombre": "Epicureísmo",
+        "justificacion": "Corriente filosófica centrada en la búsqueda individual de la felicidad y el equilibrio emocional mediante la eliminación del dolor físico y moral (placer catastemático) y la adopción de una física atomista"
+      },
+      {
+        "nombre": "Estoicismo",
+        "justificacion": "Escuela que concibe el universo como un orden corpóreo y panteísta regido por un logos o pneuma, promoviendo una ética del deber, el cosmopolitismo y la apatía ante el determinismo providencial"
+      },
+      {
+        "nombre": "Escepticismo (Pirronismo y Nueva Academia)",
+        "justificacion": "Movimiento epistemológico que niega la posibilidad de alcanzar certezas objetivas e inmutables, proponiendo la suspensión del juicio (epokhé) como única vía para la serenidad de ánimo (ataraxia)"
+      },
+      {
+        "nombre": "Eclecticismo",
+        "justificacion": "Tendencia filosófica de los siglos II y I a.C. que buscó conciliar y seleccionar las mejores tesis de las distintas escuelas (excluyendo a la epicúrea) para fundamentar una certeza práctica suficiente para la ética"
+      },
+      {
+        "nombre": "Escuela Médica (Dogmáticos, Empíricos y síntesis galénica)",
+        "justificacion": "Corrientes científicas divididas entre la deducción puramente teórica (dogmáticos), la confianza exclusiva en la experiencia práctica (empíricos) y el intento galénico de sintetizar método y observación"
+      },
+      {
+        "nombre": "Neoplatonismo y Platonismo Medio",
+        "justificacion": "Corrientes de la etapa helenístico-romana tardía que reinterpretan la metafísica platónica con acento especulativo y religioso, dominando el pensamiento hasta el cierre de las escuelas en el 529 d.C."
+      }
+    ],
+    "video_url": "https://youtu.be/wWVcVOdLIMI",
+    "obras_relacionadas": [
+      {
+        "titulo": "Los Elementos (Stoikheia)",
+        "autor": "Euclides",
+        "justificacion": "Tratado en 13 libros que expone en sistema formal axiomático-deductivo la geometría del plano, del espacio y la teoría de números"
+      },
+      {
+        "titulo": "Fenómenos",
+        "autor": "Euclides",
+        "justificacion": "Tratado dedicado al estudio y aplicación de la geometría a los fenómenos astronómicos"
+      },
+      {
+        "titulo": "Óptica",
+        "autor": "Euclides",
+        "justificacion": "Obra enfocada en el estudio matemático de la perspectiva y la visión"
+      },
+      {
+        "titulo": "Cálculos",
+        "autor": "Euclides",
+        "justificacion": "Escrito centrado en operaciones y procedimientos matemáticos"
+      },
+      {
+        "titulo": "Sobre el equilibrio de las figuras planas",
+        "autor": "Arquímedes de Siracusa",
+        "justificacion": "Tratado deductivo en el que formula las leyes de la palanca y determina los centros de gravedad de las superficies"
+      },
+      {
+        "titulo": "Sobre los cuerpos flotantes",
+        "autor": "Arquímedes de Siracusa",
+        "justificacion": "Obra fundacional de la hidrostática que establece las leyes de la presión de los fluidos y el empuje sobre cuerpos sumergidos"
+      },
+      {
+        "titulo": "El Arenero (Arenario)",
+        "autor": "Arquímedes de Siracusa",
+        "justificacion": "Escrito donde desarrolla una notación numérica para expresar cantidades infinitamente grandes al calcular los granos de arena necesarios para llenar el universo"
+      },
+      {
+        "titulo": "Secciones Cónicas",
+        "autor": "Apolonio de Perga",
+        "justificacion": "Obra cumbre de la geometría donde se analizan de manera sistemática las propiedades de las curvas del cono y se introducen los términos elipse, parábola e hipérbole"
+      },
+      {
+        "titulo": "Sobre los tamaños y las distancias del Sol y de la Luna",
+        "autor": "Aristarco de Samos",
+        "justificacion": "Tratado geométrico-astronómico donde calcula las dimensiones y distancias relativas de los tres cuerpos celestes"
+      },
+      {
+        "titulo": "Almagesto",
+        "autor": "Ptolomeo",
+        "justificacion": "Gran tratado astronómico que sistematiza y expone el modelo geocéntrico del universo mediante construcciones de epiciclos y excéntricas"
+      },
+      {
+        "titulo": "Sobre el vacío",
+        "autor": "Estratón de Lámpsaco",
+        "justificacion": "Tratado de física mecanicista en el que postula micro-intervalos de vacío en el interior de los cuerpos y rechaza los lugares naturales"
+      },
+      {
+        "titulo": "De rerum natura",
+        "autor": "Lucrecio",
+        "justificacion": "Poema filosófico que expone y defiende de forma sistemática la física atomista y la ética de Epicuro"
+      },
+      {
+        "titulo": "Pinakes",
+        "autor": "Calímaco",
+        "justificacion": "Catálogo bio-bibliográfico en 120 libros que clasificó y sistematizó los fondos de la Biblioteca de Alejandría por sectores y autores"
+      },
+      {
+        "titulo": "Gramática griega",
+        "autor": "Dionisio de Tracia",
+        "justificacion": "Primera obra gramatical formal de la lengua griega, elaborada a partir de las aportaciones peripatéticas y estoicas"
+      },
+      {
+        "titulo": "Razonamientos pirrónicos",
+        "autor": "Enesidemo de Cnossos",
+        "justificacion": "Tratado en el que expone la lista de «tropos» o contraposiciones argumentativas que sustentan la duda escéptica"
+      },
+      {
+        "titulo": "Supuestos del escepticismo pirrónico",
+        "autor": "Sexto Empírico",
+        "justificacion": "Obra que expone el escepticismo como el arte de enfrentar las contradicciones de los fenómenos para alcanzar la ataraxia"
+      },
+      {
+        "titulo": "Vidas de los más ilustres filósofos",
+        "autor": "Diógenes Laercio",
+        "justificacion": "Compendio doxográfico cuyo décimo libro preserva de forma monográfica las cartas y doctrinas de Epicuro"
+      },
+      {
+        "titulo": "La República",
+        "autor": "Platón",
+        "justificacion": "Obra clásica citada en las fuentes por teorizar la polis como un Estado ideal"
+      },
+      {
+        "titulo": "Política",
+        "autor": "Aristóteles",
+        "justificacion": "Tratado clásico donde la ética griega se muestra integrada y subordinada a la estructura de la ciudad-estado"
+      }
+    ]
   },
   {
     "id": 52,
@@ -1320,7 +2074,7 @@
         "justificacion": "Corriente teológica medieval previa y contemporánea a Tomás que rechazaba la asimilación profunda del aristotelismo pagano y defendía tesis tradicionales como la pluralidad de formas sustanciales"
       }
     ],
-    "video_url": "",
+    "video_url": "https://youtu.be/DiOWd4VZIwA",
     "obras_relacionadas": [
       {
         "titulo": "Summa theologiae (1267–1273)",
@@ -1765,13 +2519,122 @@
     "bloque": "Bloque VI: Historia de la Filosofía",
     "titulo": "El método cartesiano.",
     "autores_relacionados": [
-      "descartes"
+      {
+        "id_filosofo": "descartes",
+        "nombre": "René Descartes",
+        "justificacion": "Es el autor central del tema, responsable de refundar el conocimiento sobre bases racionales mediante la creación de un método unificado, el uso de la duda metódica hiperbólica, la intuición del cogito y la sistematización de la metafísica racionalista y mecanicista"
+      },
+      {
+        "id_filosofo": "galileo",
+        "nombre": "Galileo Galilei",
+        "justificacion": "Científico y físico de referencia cuya matematización de la naturaleza y física mecanicista influyen profundamente en Descartes, aunque este le critica carecer de un marco de principios universales deductivos para edificar su ciencia"
+      },
+      {
+        "id_filosofo": "aristoteles",
+        "nombre": "Aristóteles",
+        "justificacion": "Referente clave de la tradición escolástica que Descartes pretende superar; de su filosofía toma y adapta elementos como la clasificación de las facultades del alma y la formulación del principio de causalidad para sus demostraciones"
+      },
+      {
+        "id_filosofo": "blaise-pascal",
+        "nombre": "Blaise Pascal",
+        "justificacion": "Pensador y científico contemporáneo que cuestionó la física cartesiana al defender experimentalmente la existencia del vacío frente al pleno cartesiano, y criticó la reducción de Dios a un mero \"primer empujón\" mecanicista"
+      },
+      {
+        "id_filosofo": "hegel",
+        "nombre": "Georg Wilhelm Friedrich Hegel",
+        "justificacion": "Filósofo fundamental para contextualizar el alcance histórico de Descartes, al señalar que con él se inicia formalmente la filosofía moderna independiente, asentada autónomamente en la razón y la conciencia de sí"
+      },
+      {
+        "id_filosofo": "pierre-gassendi",
+        "nombre": "Pierre Gassendi",
+        "justificacion": "Filósofo contemporáneo relevante en las fuentes por formular objeciones críticas a las pruebas cartesianas sobre la existencia de Dios y el uso del principio de causalidad"
+      },
+      {
+        "id_filosofo": "antoine-arnauld",
+        "nombre": "Antoine Arnauld",
+        "justificacion": "Teólogo y filósofo vital por plantear las objeciones centrales al dualismo cartesiano, cuestionando cómo puede haber interacción entre alma y cuerpo si la esencia humana se reduce a puro espíritu y el cuerpo es un mero vehículo"
+      },
+      {
+        "id_filosofo": "san-agustin",
+        "nombre": "San Agustín",
+        "justificacion": "Referente filosófico citado explícitamente al tratar la teoría del error, el cual es concebido no como una creación divina sino como una privación o defecto en el juicio del sujeto"
+      }
     ],
     "corrientes_relacionadas": [
-      "racionalismo"
+      {
+        "nombre": "Racionalismo",
+        "justificacion": "Corriente filosófica fundamentada por Descartes que afirma la primacía de la razón y de las ideas innatas como origen del conocimiento cierto, tomando la matemática como el modelo supremo de evidencia y orden"
+      },
+      {
+        "nombre": "Escolástica (o Tradición Aristotélico-Escolástica)",
+        "justificacion": "Marco filosófico y científico hegemónico que el método cartesiano busca desmantelar y sustituir, criticando su fragmentación del saber según los objetos y su confianza en opiniones probables y autoridades en lugar de evidencias"
+      },
+      {
+        "nombre": "Mecanicismo",
+        "justificacion": "Doctrina física y filosófica que concibe la naturaleza material (y la totalidad de los organismos vivos ajenos al alma humana) como un autómata o máquina regida exclusivamente por materia extensa, figura y leyes cuantitativas de movimiento"
+      },
+      {
+        "nombre": "Escepticismo",
+        "justificacion": "Posición filosófica que sostiene la imposibilidad de alcanzar verdades absolutas; Descartes asume provisionalmente una duda hiperbólica de corte escéptico como herramienta estratégica para refutar esta corriente y hallar certezas indubitables"
+      },
+      {
+        "nombre": "Dualismo antropológico (o psicofísico)",
+        "justificacion": "Postura metafísica que concibe al ser humano como la confluencia de dos sustancias ontológicamente heterogéneas e independientes: la sustancia pensante (res cogitans) y la sustancia extensa (res extensa)"
+      }
     ],
     "video_url": "",
-    "obras_relacionadas": []
+    "obras_relacionadas": [
+      {
+        "titulo": "Tratado del hombre (1622)",
+        "autor": "René Descartes",
+        "justificacion": "Desarrolla la concepción mecanicista de las funciones vitales del cuerpo humano, explicándolo como un autómata o máquina sin necesidad de atribuirle almas sensitivas o vegetativas"
+      },
+      {
+        "titulo": "Reglas para la dirección del espíritu (1628, pub. 1701)",
+        "autor": "René Descartes",
+        "justificacion": "Obra inconclusa donde define el método como un conjunto de reglas ciertas y fáciles para dirigir la razón mediante la intuición y la deducción sin tomar lo falso por verdadero"
+      },
+      {
+        "titulo": "Tratado sobre el mundo o sobre la luz (1633, pub. 1664)",
+        "autor": "René Descartes",
+        "justificacion": "Escrito científico sobre la física mecanicista, la rotación terrestre y el universo donde Descartes expone sus teorías heliocentristas"
+      },
+      {
+        "titulo": "Discurso del Método (1637)",
+        "autor": "René Descartes",
+        "justificacion": "Texto autobiográfico y filosófico fundamental donde se formulan las cuatro reglas del método, la duda metódica, la certeza del cogito y las máximas de la moral provisional"
+      },
+      {
+        "titulo": "La dióptrica, los meteoros y la geometría (1637)",
+        "autor": "René Descartes",
+        "justificacion": "Ensayos científicos adjuntos al Discurso del método que ejemplifican la aplicación práctica del método racional y sientan las bases de la geometría analítica"
+      },
+      {
+        "titulo": "Meditaciones Metafísicas (1641)",
+        "autor": "René Descartes",
+        "justificacion": "Obra metafísica central en la que expone la duda hiperbólica del genio maligno, la intuición del yo pensante, las demostraciones de Dios y la distinción real entre alma y cuerpo"
+      },
+      {
+        "titulo": "Principios de la Filosofía (1644)",
+        "autor": "René Descartes",
+        "justificacion": "Tratado académico destinado a exponer sistemáticamente el conjunto del sistema cartesiano, abarcando la metafísica, la física del pleno y las leyes del movimiento"
+      },
+      {
+        "titulo": "Tratado de las pasiones del alma (1649)",
+        "autor": "René Descartes",
+        "justificacion": "Ensayo antropológico sobre el control racional de las emociones involuntarias y la explicación psicofísica de la interacción alma-cuerpo a través de la glándula pineal"
+      },
+      {
+        "titulo": "Correspondencia (Cartas a Mersenne, Clercelier e Isabel)",
+        "autor": "René Descartes",
+        "justificacion": "Epistolario en el que Descartes aborda temas como la libre creación de las verdades eternas por Dios, la crítica a Galileo, el carácter intuitivo del cogito y el desarrollo de su ética racionalista"
+      },
+      {
+        "titulo": "Lecciones sobre la Historia de la Filosofía",
+        "autor": "Georg Wilhelm Friedrich Hegel",
+        "justificacion": "Obra donde el filósofo alemán sitúa a Descartes como el punto de inflexión decisivo que inaugura la filosofía moderna autónoma y basada en la conciencia racional"
+      }
+    ]
   },
   {
     "id": 56,
@@ -1798,10 +2661,157 @@
     "num": 58,
     "bloque": "Bloque VI: Historia de la Filosofía",
     "titulo": "El empirismo y las ciencias morales: Locke y Hume.",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
+    "autores_relacionados": [
+      {
+        "id_filosofo": "locke",
+        "nombre": "John Locke",
+        "justificacion": "Considerado el sintetizador de la tradición empirista e impulsador de la filosofía crítica, establece que todo conocimiento proviene de la experiencia y se constituye en el padre del constitucionalismo liberal y del utilitarismo moral"
+      },
+      {
+        "id_filosofo": "hume",
+        "nombre": "David Hume",
+        "justificacion": "Representa la culminación del empirismo moderno al llevar la crítica de la sustancia y la causalidad al fenomenismo escéptico, fundamentando la ética en el emotivismo moral, la benevolencia y la utilidad social"
+      },
+      {
+        "id_filosofo": "thomas-hobbes",
+        "nombre": "Thomas Hobbes",
+        "justificacion": "Antecedente y punto de contraste crítico fundamental que inaugura la filosofía política moderna con un materialismo mecanicista y la defensa del absolutismo estatal en el Leviatán"
+      },
+      {
+        "id_filosofo": "francis-bacon",
+        "nombre": "Francis Bacon",
+        "justificacion": "Precursor que impulsó los métodos inductivos y la experiencia frente al principio de autoridad, sirviendo su proyecto como modelo metodológico para la «ciencia del hombre» de Hume"
+      },
+      {
+        "id_filosofo": "newton",
+        "nombre": "Isaac Newton",
+        "justificacion": "Científico cuyo modelo de filosofía experimental e inductiva basada en las ciencias físicas constituyó el ideal epistemológico adoptado por el empirismo de Locke y Hume"
+      },
+      {
+        "id_filosofo": "berkeley",
+        "nombre": "George Berkeley",
+        "justificacion": "Segundo gran representante del empirismo inglés que criticó la noción de sustancia material y sirvió de nexo de desarrollo entre Locke y Hume hacia el inmaterialismo"
+      },
+      {
+        "id_filosofo": "lord-shaftesbury",
+        "nombre": "Lord Shaftesbury",
+        "justificacion": "Pensador de la ética del sentido moral que influyó en Hume para sostener que el ser humano posee un sentimiento innato para discernir los valores morales"
+      },
+      {
+        "id_filosofo": "francis-hutcheson",
+        "nombre": "Francis Hutcheson",
+        "justificacion": "Filósofo del sentido moral de quien Hume adoptó de manera directa las ideas de la benevolencia altruista, el utilitarismo y la primacía del sentimiento sobre la razón en la moral"
+      },
+      {
+        "id_filosofo": "descartes",
+        "nombre": "René Descartes",
+        "justificacion": "Interlocutor y antecedente del cual Locke adopta el concepto de idea, aunque el empirismo reacciona frontalmente contra su doctrina de las ideas innatas y su método racionalista"
+      },
+      {
+        "id_filosofo": "robert-filmer",
+        "nombre": "Robert Filmer",
+        "justificacion": "Teórico del absolutismo cuyo libro Patriarca y su doctrina del derecho divino de los reyes son expresamente refutados por Locke en sus escritos políticos"
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Empirismo británico",
+        "justificacion": "Corriente filosófica moderna que sostiene que la experiencia sensible es el origen, fundamento y límite de todo conocimiento válido, rechazando las ideas innatas y los dogmas metafísicos"
+      },
+      {
+        "nombre": "Emotivismo moral",
+        "justificacion": "Doctrina ética desarrollada por Hume que afirma que las distinciones entre el bien y el mal no proceden de la razón ni de relaciones de ideas, sino de sentimientos desinteresados de agrado, aprobación o censura"
+      },
+      {
+        "nombre": "Utilitarismo",
+        "justificacion": "Orientación ética y política presente en Locke y Hume que identifica el bien con el placer y la satisfacción del deseo, evaluando las reglas morales y políticas en función de su utilidad para la preservación de la sociedad y la felicidad colectiva"
+      },
+      {
+        "nombre": "Constitucionalismo liberal",
+        "justificacion": "Corriente político-filosófica impulsada por Locke que defiende la legitimidad del gobierno basada en el consentimiento del pueblo, la división de poderes, el derecho a la resistencia y la salvaguarda de los derechos naturales como la propiedad y la libertad"
+      },
+      {
+        "nombre": "Racionalismo (o Intelectualismo moral)",
+        "justificacion": "Movimiento filosófico contrapuesto ante el cual el empirismo define su postura crítica, rechazando su intento de fundamentar el conocimiento en principios innatos y la moral en deducciones puramente abstractas de la razón"
+      },
+      {
+        "nombre": "Iusnaturalismo (o Doctrina de la Ley Natural)",
+        "justificacion": "Marco teórico compartido por Hooker y Locke que postula la existencia de una ley natural previa a las leyes positivas del Estado, orientada a la paz, la justicia y el bien común"
+      }
+    ],
     "video_url": "",
-    "obras_relacionadas": []
+    "obras_relacionadas": [
+      {
+        "titulo": "Ensayo sobre el entendimiento humano (1690)",
+        "autor": "John Locke",
+        "justificacion": "Obra gnoseológica fundamental donde Locke refuta las ideas innatas y expone que todos los contenidos mentales proceden de la sensación y la reflexión"
+      },
+      {
+        "titulo": "Dos tratados sobre el gobierno civil (1690)",
+        "autor": "John Locke",
+        "justificacion": "Textos políticos en los que refuta el absolutismo de Filmer y sienta las bases del liberalismo político mediante el pacto social y la división de poderes"
+      },
+      {
+        "titulo": "Cartas sobre la tolerancia (1689–1705)",
+        "autor": "John Locke",
+        "justificacion": "Serie de escritos donde argumenta a favor de la estricta separación entre la Iglesia y el Estado y la libertad de conciencia religiosa"
+      },
+      {
+        "titulo": "Pensamientos sobre la educación (1693)",
+        "autor": "John Locke",
+        "justificacion": "Tratado dedicado al análisis y propuestas sobre el proceso de formación educativa"
+      },
+      {
+        "titulo": "La racionalidad del cristianismo (1695)",
+        "autor": "John Locke",
+        "justificacion": "Ensayo en el que Locke examina la religión desde un enfoque racional e influenciado por el deísmo"
+      },
+      {
+        "titulo": "Tratado sobre la naturaleza humana (1739–1740)",
+        "autor": "David Hume",
+        "justificacion": "Obra cumbre en la que Hume intenta aplicar el método experimental a la ciencia del hombre, analizando las percepciones, las pasiones y la moral"
+      },
+      {
+        "titulo": "Investigación sobre el entendimiento humano (1748)",
+        "autor": "David Hume",
+        "justificacion": "Exposición revisada de su epistemología centrada en la crítica antimetafísica y los límites del conocimiento"
+      },
+      {
+        "titulo": "Investigación sobre los principios de la moral (1751)",
+        "autor": "David Hume",
+        "justificacion": "Tratado en el que analiza la naturaleza de las virtudes y fundamenta la ética en la utilidad social y el sentimiento moral"
+      },
+      {
+        "titulo": "Discursos políticos (1752)",
+        "autor": "David Hume",
+        "justificacion": "Colección de ensayos dedicados al análisis de cuestiones de teoría y praxis política"
+      },
+      {
+        "titulo": "Historia natural de la religión (1757)",
+        "autor": "David Hume",
+        "justificacion": "Estudio sobre el origen psicológico e histórico de las creencias religiosas en la naturaleza humana"
+      },
+      {
+        "titulo": "Diálogos sobre la religión natural (1751, publicado póstumamente)",
+        "autor": "David Hume",
+        "justificacion": "Obra dialogada que critica los argumentos teológico-racionales sobre la existencia de Dios y el orden del mundo"
+      },
+      {
+        "titulo": "Leviatán (Leviathan)",
+        "autor": "Thomas Hobbes",
+        "justificacion": "Obra capital de la filosofía política que expone una concepción mecanicista del ser humano y la necesidad de instituir un Estado autoritario absoluto mediante el pacto social"
+      },
+      {
+        "titulo": "Leyes del gobierno eclesiástico",
+        "autor": "Richard Hooker",
+        "justificacion": "Escrito teológico-político en el que se propone la distinción conceptual entre la ley natural y la ley humana positiva"
+      },
+      {
+        "titulo": "Patriarca",
+        "autor": "Robert Filmer",
+        "justificacion": "Obra que defiende la doctrina del derecho divino y la autoridad natural heredada de los reyes, objeto de la refutación explícita de Locke"
+      }
+    ]
   },
   {
     "id": 59,
@@ -1843,10 +2853,242 @@
     "num": 62,
     "bloque": "Bloque VI: Historia de la Filosofía",
     "titulo": "El positivismo y el avance científico del siglo XIX.",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
-    "video_url": "",
-    "obras_relacionadas": []
+    "autores_relacionados": [
+      {
+        "id_filosofo": "saint-simon",
+        "nombre": "Henri de Saint-Simon",
+        "justificacion": "Precursor del positivismo social que conceptualiza la historia como una sucesión necesaria de épocas orgánicas y críticas, proponiendo reorganizar la sociedad destruida por la Revolución Francesa mediante una filosofía positiva dirigida por científicos e industriales"
+      },
+      {
+        "id_filosofo": "comte",
+        "nombre": "Auguste Comte",
+        "justificacion": "Fundador del positivismo sistemático y de la sociología; formuló la ley de los tres estadios y la clasificación jerárquica de las ciencias para reorganizar la sociedad en un estado positivo que culmina en la Religión de la Humanidad"
+      },
+      {
+        "id_filosofo": "emile-littre",
+        "nombre": "Émile Littré",
+        "justificacion": "Principal exponente del positivismo republicano, que rechazó la dictadura espiritual y el culto religioso del \"segundo Comte\" para defender las libertades individuales, el régimen parlamentario y la libertad de discusión"
+      },
+      {
+        "id_filosofo": "mill",
+        "nombre": "John Stuart Mill",
+        "justificacion": "Representante fundamental del positivismo empírico británico, quien sistematizó la lógica inductiva excluyendo todo saber a priori o metafísico y concilió el utilitarismo con la defensa estricta de la libertad individual"
+      },
+      {
+        "id_filosofo": "herbert-spencer",
+        "nombre": "Herbert Spencer",
+        "justificacion": "Creador del positivismo evolucionista, quien aplicó la ley universal de la evolución (paso ineludible de lo homogéneo inestable a lo heterogéneo coherente) a la biología, la psicología, la sociología y la ética dentro de su \"Filosofía Sintética\""
+      },
+      {
+        "id_filosofo": "ernst-mach",
+        "nombre": "Ernst Mach",
+        "justificacion": "Exponente del positivismo científico y sensacionalista (empiriocriticismo), que redujo el conocimiento a un complejo de sensaciones u \"elementos\" neutros y postuló el principio de \"economía del pensamiento\" para depurar a la ciencia de conceptos metafísicos"
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Positivismo Social",
+        "justificacion": "Corriente formulada por Saint-Simon y sistematizada por Auguste Comte que enfatiza la dimensión histórica del conocimiento, la reorganización política tras la quiebra del Antiguo Régimen y la función práctica de la ciencia para garantizar el orden y el progreso social"
+      },
+      {
+        "nombre": "Positivismo Evolucionista",
+        "justificacion": "Corriente liderada por Herbert Spencer que postula una ley cósmica y universal de transformación progresiva (tránsito de lo homogéneo incoherente a lo heterogéneo coherente y diferenciado) aplicable tanto a la naturaleza orgánica como a la sociedad e instituciones humanas"
+      },
+      {
+        "nombre": "Positivismo Científico (Sensacionalismo / Empiriocriticismo)",
+        "justificacion": "Corriente desarrollada por Ernst Mach que minimiza los componentes sociológicos para proponer una reducción sistemática de los conceptos científicos a sensaciones u \"elementos\" neutros, concibiendo las leyes científicas como meras herramientas de economía del pensamiento"
+      },
+      {
+        "nombre": "Positivismo Republicano",
+        "justificacion": "Movimiento impulsado por Émile Littré que depura el positivismo del absolutismo y dogmatismo de la etapa tardía de Comte, adaptándolo al marco democrático, parlamentario y al respeto a las libertades individuales mediante un método \"oportunista\" y negociado"
+      },
+      {
+        "nombre": "Empirismo Inductivista",
+        "justificacion": "Base epistemológica y raíz del positivismo (heredada de Bacon y Hume) que sostiene que la experiencia y la observación empírica intersubjetivamente controlable son las únicas fuentes legítimas de conocimiento objetivo, rechazando la metafísica y las esencias a priori"
+      },
+      {
+        "nombre": "Utilitarismo (Liberal / Evolutivo)",
+        "justificacion": "Corriente ética articulada por J. S. Mill y Spencer que evalúa las acciones, leyes e instituciones en función de su capacidad para promover la mayor felicidad general, vinculando el bienestar social con la protección incondicional de los derechos y libertades individuales"
+      }
+    ],
+    "video_url": "https://youtu.be/mFArWy7bR9o",
+    "obras_relacionadas": [
+      {
+        "titulo": "Lettres d'un habitant de Genève à ses contemporains (1803)",
+        "autor": "Henri de Saint-Simon",
+        "justificacion": "Propone la financiación pública de la investigación científica y esboza la idea de un poder espiritual confiado a los sabios"
+      },
+      {
+        "titulo": "De la réorganisation de la société européenne (1814)",
+        "autor": "Henri de Saint-Simon",
+        "justificacion": "Plantea la reorganización de las relaciones internacionales y europeas bajo la guía de un poder espiritual"
+      },
+      {
+        "titulo": "Le Nouveau Christianisme (1825)",
+        "autor": "Henri de Saint-Simon",
+        "justificacion": "Defiende la necesidad de una religión sobre bases científicas para mantener la cohesión y la moral social"
+      },
+      {
+        "titulo": "Plan des travaux scientifiques nécessaires pour réorganiser la société (1822)",
+        "autor": "Auguste Comte",
+        "justificacion": "Obra germinal que establece la unión entre ciencia y política para refundar el orden social"
+      },
+      {
+        "titulo": "Considérations philosophiques sur la science et les savants (1825)",
+        "autor": "Auguste Comte",
+        "justificacion": "Presenta las primeras formulaciones clásicas de la ley de los tres estadios y la clasificación de las ciencias"
+      },
+      {
+        "titulo": "Considérations sur le pouvoir spirituel (1826)",
+        "autor": "Auguste Comte",
+        "justificacion": "Expone la necesidad del dogmatismo como estado normal de la mente y fundamenta la teoría de la autoridad social"
+      },
+      {
+        "titulo": "Cours de philosophie positive (1830–1842)",
+        "autor": "Auguste Comte",
+        "justificacion": "Obra magna positivista donde desarrolla la ley de los tres estadios, la jerarquía encyclopédica de las ciencias y la fundación de la sociología"
+      },
+      {
+        "titulo": "Discours sur l'esprit positif (1844)",
+        "autor": "Auguste Comte",
+        "justificacion": "Reorienta la filosofía positiva hacia su función práctica y moral como fundamento de la sociología"
+      },
+      {
+        "titulo": "Discours sur l'ensemble du positivisme (1848)",
+        "autor": "Auguste Comte",
+        "justificacion": "Sintetiza la doctrina positiva sirviendo de introducción general a su sistema de madurez"
+      },
+      {
+        "titulo": "Système de politique positive, ou Traité de sociologie instituant la religion de l'Humanité (1851–1854)",
+        "autor": "Auguste Comte",
+        "justificacion": "Transforma la filosofía positiva en una religión secular de la Humanidad donde la mente se subordina al corazón"
+      },
+      {
+        "titulo": "Catéchisme positiviste (1852)",
+        "autor": "Auguste Comte",
+        "justificacion": "Resume en forma dialógica los dogmas, culto y preceptos morales de la religión de la Humanidad"
+      },
+      {
+        "titulo": "Appel aux conservateurs (1855)",
+        "autor": "Auguste Comte",
+        "justificacion": "Plantea alianzas conservadoras para la implantación del orden positivo tras el desencanto con la clase obrera"
+      },
+      {
+        "titulo": "Synthèse subjective (1856)",
+        "autor": "Auguste Comte",
+        "justificacion": "Aplica el método subjetivo a la unificación de las concepciones matemáticas"
+      },
+      {
+        "titulo": "A System of Logic, Ratiocinative and Inductive (1843)",
+        "autor": "John Stuart Mill",
+        "justificacion": "Sistematiza las reglas de la inducción empírica y sostiene que todas las verdades y axiomas derivan de la experiencia acumulada"
+      },
+      {
+        "titulo": "On Liberty (1859)",
+        "autor": "John Stuart Mill",
+        "justificacion": "Formula el principio de libertad individual y libertad de expresión como límites infranqueables frente al poder estatal y la presión social"
+      },
+      {
+        "titulo": "Utilitarianism (1861)",
+        "autor": "John Stuart Mill",
+        "justificacion": "Articula el principio de la mayor felicidad, introduciendo la distinción cualitativa de los placeres y ligando la justicia a la utilidad"
+      },
+      {
+        "titulo": "Auguste Comte and Positivism (1865)",
+        "autor": "John Stuart Mill",
+        "justificacion": "Analiza críticamente la obra de Comte, distinguiendo entre el \"primer Comte\" científico y el \"segundo Comte\" autoritario"
+      },
+      {
+        "titulo": "An Examination of Sir William Hamilton's Philosophy (1865)",
+        "autor": "John Stuart Mill",
+        "justificacion": "Expone su empirismo fenomenalista reduciendo la materia a una \"posibilidad permanente de sensación\""
+      },
+      {
+        "titulo": "The Subjection of Women (1869)",
+        "autor": "John Stuart Mill",
+        "justificacion": "Impugna la discriminación sistemática de la mujer y exige su plena igualdad jurídica y social"
+      },
+      {
+        "titulo": "Autobiography (1873)",
+        "autor": "John Stuart Mill",
+        "justificacion": "Registra su formación intelectual, su crisis de juventud y la evolución de su pensamiento filosófico y político"
+      },
+      {
+        "titulo": "Social Statics (1851)",
+        "autor": "Herbert Spencer",
+        "justificacion": "Formula el principio de igual libertad y fundamenta los derechos individuales como corolarios indispensables de la utilidad"
+      },
+      {
+        "titulo": "The Principles of Psychology (1855)",
+        "autor": "Herbert Spencer",
+        "justificacion": "Aplica la teoría de la evolución a las funciones mentales y a la formación de las asociaciones morales hereditarias"
+      },
+      {
+        "titulo": "Progress",
+        "autor": "Herbert Spencer",
+        "justificacion": "Its Law and Cause (1857): Define el progreso como una ley universal que transforma ineludiblemente lo simple y homogéneo en complejo y heterogéneo"
+      },
+      {
+        "titulo": "First Principles (1862)",
+        "autor": "Herbert Spencer",
+        "justificacion": "Establece las bases axiomáticas de su Filosofía Sintética, dividiendo la experiencia entre lo cognoscible y lo incognoscible"
+      },
+      {
+        "titulo": "The Principles of Biology (1864–1867)",
+        "autor": "Herbert Spencer",
+        "justificacion": "Analiza el desarrollo orgánico mediante el uso-herencia de Lamarck y la selección natural"
+      },
+      {
+        "titulo": "The Principles of Sociology (1876–1896)",
+        "autor": "Herbert Spencer",
+        "justificacion": "Explica la evolución de las sociedades desde los tipos militantes organizados coercitivamente hasta los industriales basados en el contrato y la libertad"
+      },
+      {
+        "titulo": "The Principles of Ethics (1879–1893)",
+        "autor": "Herbert Spencer",
+        "justificacion": "Desarrolla una ética biológica e inductiva fundada en la adaptación progresiva del ser humano a sus condiciones de vida"
+      },
+      {
+        "titulo": "The Man Versus the State (1884)",
+        "autor": "Herbert Spencer",
+        "justificacion": "Defiende los derechos individuales de carácter natural frente a la deriva intervencionista y socialista del Estado"
+      },
+      {
+        "titulo": "An Autobiography (1904)",
+        "autor": "Herbert Spencer",
+        "justificacion": "Revisa su trayectoria biográfica e intelectual rectificando su postura previa sobre ciertos derechos políticos"
+      },
+      {
+        "titulo": "Die Geschichte und die Wurzel des Satzes von der Erhaltung der Arbeit (1872)",
+        "autor": "Ernst Mach",
+        "justificacion": "Presenta su primer examen histórico-crítico de los conceptos físicos apelando a la economía del pensamiento"
+      },
+      {
+        "titulo": "Die Mechanik in ihrer Entwickelung",
+        "autor": "Ernst Mach",
+        "justificacion": "Historisch-kritisch dargestellt (1883): Desarrolla su método histórico-crítico para desmontar los conceptos newtonianos de espacio, tiempo y masa absolutos"
+      },
+      {
+        "titulo": "Die Analyse der Empfindungen (1886)",
+        "autor": "Ernst Mach",
+        "justificacion": "Expone su doctrina de los \"elementos\" y sensaciones, disolviendo las ficciones metafísicas del cuerpo y del yo"
+      },
+      {
+        "titulo": "Die Prinzipien der Wärmelehre (1896)",
+        "autor": "Ernst Mach",
+        "justificacion": "Aplica la clarificación epistemológica e histórica a los conceptos fundamentales de la termodinámica"
+      },
+      {
+        "titulo": "Erkenntnis und Irrtum (1905)",
+        "autor": "Ernst Mach",
+        "justificacion": "Obra sistemática de madurez donde analiza la investigación científica como un proceso biológico de adaptación de pensamientos a hechos"
+      },
+      {
+        "titulo": "Die Prinzipien der physikalischen Optik (1921)",
+        "autor": "Ernst Mach",
+        "justificacion": "Exposición histórico-epistemológica de la evolución de la óptica física"
+      }
+    ]
   },
   {
     "id": 63,
