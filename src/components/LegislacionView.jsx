@@ -18,13 +18,14 @@ import {
   Brain,
   Shield,
   ScrollText,
+  Compass,
 } from 'lucide-react';
 
 export default function LegislacionView() {
   // Pestaña principal activa: 'asignaturas' | 'descriptores' | 'objetivos'
   const [mainTab, setMainTab] = useState('asignaturas');
 
-  // En 'asignaturas': id de la asignatura activa ('valores', 'filosofia', 'historia-filosofia', 'psicologia')
+  // En 'asignaturas': id de la asignatura activa ('valores', 'filosofia-4eso', 'filosofia', 'historia-filosofia', 'psicologia')
   const [selectedAsignaturaId, setSelectedAsignaturaId] = useState('filosofia');
 
   // Sub-pestaña dentro de la asignatura: 'competencias' | 'saberes' | 'criterios'
@@ -86,7 +87,7 @@ export default function LegislacionView() {
   const activeAsignatura = useMemo(() => {
     return (
       legislacionData.asignaturas.find((a) => a.id === selectedAsignaturaId) ||
-      legislacionData.asignaturas[1]
+      legislacionData.asignaturas[0]
     );
   }, [selectedAsignaturaId]);
 
@@ -286,21 +287,25 @@ export default function LegislacionView() {
             <BookOpen className="w-4 h-4 text-amber-400 shrink-0" />
             <div>
               <div className="text-xs text-slate-400">Materias Oficiales</div>
-              <div className="text-sm font-bold text-white">4 Asignaturas</div>
+              <div className="text-sm font-bold text-white">{legislacionData.asignaturas.length} Asignaturas</div>
             </div>
           </div>
           <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex items-center gap-3">
             <Target className="w-4 h-4 text-amber-400 shrink-0" />
             <div>
               <div className="text-xs text-slate-400">Competencias Esp.</div>
-              <div className="text-sm font-bold text-white">27 en total</div>
+              <div className="text-sm font-bold text-white">
+                {legislacionData.asignaturas.reduce((acc, a) => acc + a.competencias.length, 0)} en total
+              </div>
             </div>
           </div>
           <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex items-center gap-3">
             <ListChecks className="w-4 h-4 text-amber-400 shrink-0" />
             <div>
               <div className="text-xs text-slate-400">Criterios de Eval.</div>
-              <div className="text-sm font-bold text-white">64 criterios</div>
+              <div className="text-sm font-bold text-white">
+                {legislacionData.asignaturas.reduce((acc, a) => acc + a.criteriosEvaluacion.length, 0)} criterios
+              </div>
             </div>
           </div>
           <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex items-center gap-3">
@@ -334,7 +339,7 @@ export default function LegislacionView() {
                 mainTab === 'asignaturas' ? 'bg-slate-950/20 text-slate-950' : 'bg-slate-800 text-slate-400'
               }`}
             >
-              4 materias
+              {legislacionData.asignaturas.length} materias
             </span>
           </button>
 
@@ -410,11 +415,12 @@ export default function LegislacionView() {
       {mainTab === 'asignaturas' && (
         <div className="max-w-6xl mx-auto space-y-6">
           {/* Selector de Asignatura */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-2.5">
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-2.5">
             {legislacionData.asignaturas.map((asig) => {
               const isSelected = asig.id === selectedAsignaturaId;
               let IconComp = BookOpen;
               if (asig.id === 'valores') IconComp = Shield;
+              if (asig.id === 'filosofia-4eso') IconComp = Compass;
               if (asig.id === 'filosofia') IconComp = Brain;
               if (asig.id === 'historia-filosofia') IconComp = ScrollText;
               if (asig.id === 'psicologia') IconComp = Sparkles;

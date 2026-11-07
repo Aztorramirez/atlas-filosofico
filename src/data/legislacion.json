@@ -637,6 +637,353 @@
       ]
     },
     {
+      "id": "filosofia-4eso",
+      "nombre": "Filosofía (4º ESO)",
+      "nombreCorto": "Filosofía 4º ESO",
+      "etapa": "Educación Secundaria Obligatoria (ESO)",
+      "etapaCorta": "4º ESO",
+      "curso": "4º de la ESO (Materia optativa)",
+      "departamento": "Filosofía",
+      "marcoLegal": "Decreto 65/2022, de 20 de julio (Comunidad de Madrid)",
+      "marcoLegalUrl": "https://gestiona.comunidad.madrid/wleg_pub/secure/normativas/contenidoNormativa.jsf?opcion=VerHtml&nmnorma=12793&eli=true#no-back-button",
+      "descripcion": "Materia optativa de 4º de la ESO orientada a reconocer la especificidad del análisis filosófico, el ejercicio de la racionalidad crítica frente a la desinformación, el carácter problemático de lo real, el autoconocimiento y la dimensión socio-cultural del ser humano.",
+      "competencias": [
+        {
+          "numero": 1,
+          "texto": "Reconocer la especificidad y las principales funciones de la filosofía, entendida como un instrumento de análisis de la realidad, que favorezca la capacidad de elaborar y expresar articuladamente un modo de pensar libre, veraz y responsable promoviendo el intercambio de ideas, así como formas de actuación lúcidas y racionalmente fundamentadas.",
+          "descriptores": [
+            "CCL1",
+            "STEM5",
+            "CPSAA1",
+            "CC1"
+          ],
+          "criterios": [
+            {
+              "codigo": "1.1",
+              "competencia": 1,
+              "texto": "Comprender qué es la reflexión filosófica, diferenciándola de otros saberes, como las diferentes ciencias, del arte, o de la fe. La filosofía como saber que se hace cuestión de la realidad entera usando la razón. La filosofía como forma de vida y toma de postura ante la realidad."
+            },
+            {
+              "codigo": "1.2",
+              "competencia": 1,
+              "texto": "Conocer el origen de la filosofía occidental, distinguiéndola del saber mítico, identificando sus principales características y reconociendo las principales disciplinas que la integran."
+            },
+            {
+              "codigo": "1.3",
+              "competencia": 1,
+              "texto": "Identificar el primer interrogante de la filosofía griega, la pregunta por el origen de todo cuanto existe, y conocer el giro antropológico de la filosofía en el siglo V a. C., reflexionando sobre la conexión de la filosofía con el individuo y la sociedad en la que vive."
+            }
+          ]
+        },
+        {
+          "numero": 2,
+          "texto": "Entender la facultad racional como algo específicamente humano y problematizador, que da lugar a diferentes teorías respecto a la verdad y a la posibilidad y límites del conocimiento, haciendo hincapié en el peligro que supone la desinformación o el uso sesgado e interesado de la información.",
+          "descriptores": [
+            "CCL3",
+            "CCL5",
+            "STEM4",
+            "CC1",
+            "CC3"
+          ],
+          "criterios": [
+            {
+              "codigo": "2.1",
+              "competencia": 2,
+              "texto": "Comprender la facultad racional como específica del ser humano, definirla, determinar su funcionalidad y describir sus principales características."
+            },
+            {
+              "codigo": "2.2",
+              "competencia": 2,
+              "texto": "Explicar las principales tesis de algunas concepciones filosóficas acerca del origen, los límites y la posibilidad de conocimiento y comprender algunas de las principales teorías sobre la verdad, reflexionando sobre la posibilidad de alcanzar la verdad."
+            },
+            {
+              "codigo": "2.3",
+              "competencia": 2,
+              "texto": "Entender la importancia personal, social, política y económica del saber y la verdad. Analizar las implicaciones de la mentira, la manipulación, los bulos y la propaganda."
+            }
+          ]
+        },
+        {
+          "numero": 3,
+          "texto": "Descubrir el carácter problemático de lo real, aprendiendo a diferenciar entre lo real y lo aparente, lo transitorio y lo permanente, lo esencial y lo accidental, al tiempo que se reflexiona sobre el sentido de la vida, el significado de la muerte y la necesidad, generalmente común en la persona, de trascendencia.",
+          "descriptores": [
+            "CCL2",
+            "CCL3",
+            "STEM4",
+            "CPSAA1",
+            "CC1",
+            "CC3",
+            "CC4"
+          ],
+          "criterios": [
+            {
+              "codigo": "3.1",
+              "competencia": 3,
+              "texto": "Conocer el significado del término metafísica, identificando su objetivo fundamental, consistente en un análisis radical de la realidad."
+            },
+            {
+              "codigo": "3.2",
+              "competencia": 3,
+              "texto": "Definir qué es el determinismo y qué es el indeterminismo, comprendiendo la importancia de saber si la naturaleza se rige por leyes o es producto del azar."
+            },
+            {
+              "codigo": "3.3",
+              "competencia": 3,
+              "texto": "Reflexionar sobre el sentido de la vida humana, explicando las tesis centrales de las principales teorías de la vida, reflexionando sobre la vida y la muerte, entre otras cuestiones metafísicas. La trascendencia, Dios y su ausencia, la relación entre la religión, el arte y la filosofía."
+            }
+          ]
+        },
+        {
+          "numero": 4,
+          "texto": "Conocer y aceptar la propia identidad personal, aprendiendo a valorar la de los demás mediante el reconocimiento de la inmensa diversidad del género humano. Diversidad que se plasma no solo en la personalidad, la emocionalidad y la afectividad de cada individuo, sino en la que también intervienen otros elementos como la procedencia geográfica, el género o las circunstancias socioeconómicas y culturales.",
+          "descriptores": [
+            "CCL1",
+            "CPSAA1",
+            "CPSAA2",
+            "CPSAA4",
+            "CC1",
+            "CC3",
+            "CCEC3"
+          ],
+          "criterios": [
+            {
+              "codigo": "4.1",
+              "competencia": 4,
+              "texto": "Comprender la profundidad de la pregunta por la vida personal, conociendo algunas respuestas dadas por la filosofía y la psicología, valorando la importancia de conocerse a uno mismo."
+            },
+            {
+              "codigo": "4.2",
+              "competencia": 4,
+              "texto": "Comprender las diferentes facetas de la personalidad de cada uno, en las correspondientes etapas de la vida. La vocación y la motivación. El argumento de la vida humana. La libertad. La felicidad y la infelicidad humanas."
+            },
+            {
+              "codigo": "4.3",
+              "competencia": 4,
+              "texto": "Identificar las emociones y los sentimientos y su papel en la vida humana. El deseo, la tentación. La satisfacción y la frustración. El amor y el desamor. El enamoramiento. El papel esencial de la imaginación. La vida como narración: el papel de la literatura y el cine en la educación sentimental."
+            }
+          ]
+        },
+        {
+          "numero": 5,
+          "texto": "Descubrir la dimensión social y cultural del ser humano, estudiando las distintas formas de articulación social y su grado de legitimidad, como la forma básica de instalación en el mundo y en la Historia.",
+          "descriptores": [
+            "CCL2",
+            "CPSAA1",
+            "CC1",
+            "CC2",
+            "CC3",
+            "CC4"
+          ],
+          "criterios": [
+            {
+              "codigo": "5.1",
+              "competencia": 5,
+              "texto": "Reconocer la dimensión social y cultural del ser humano, identificando y distinguiendo los conceptos de cultura y sociedad."
+            },
+            {
+              "codigo": "5.2",
+              "competencia": 5,
+              "texto": "Identificar la cultura como las distintas versiones de las formas de vida en la Historia y en el mundo; lo que tienen en común, de diferente, y la permanencia de elementos comunes."
+            },
+            {
+              "codigo": "5.3",
+              "competencia": 5,
+              "texto": "Conocer las teorías sobre el origen de la sociedad y explicar las tesis fundamentales sobre el origen de la sociedad y el estado."
+            }
+          ]
+        }
+      ],
+      "criteriosEvaluacion": [
+        {
+          "codigo": "1.1",
+          "competencia": 1,
+          "texto": "Comprender qué es la reflexión filosófica, diferenciándola de otros saberes, como las diferentes ciencias, del arte, o de la fe. La filosofía como saber que se hace cuestión de la realidad entera usando la razón. La filosofía como forma de vida y toma de postura ante la realidad."
+        },
+        {
+          "codigo": "1.2",
+          "competencia": 1,
+          "texto": "Conocer el origen de la filosofía occidental, distinguiéndola del saber mítico, identificando sus principales características y reconociendo las principales disciplinas que la integran."
+        },
+        {
+          "codigo": "1.3",
+          "competencia": 1,
+          "texto": "Identificar el primer interrogante de la filosofía griega, la pregunta por el origen de todo cuanto existe, y conocer el giro antropológico de la filosofía en el siglo V a. C., reflexionando sobre la conexión de la filosofía con el individuo y la sociedad en la que vive."
+        },
+        {
+          "codigo": "2.1",
+          "competencia": 2,
+          "texto": "Comprender la facultad racional como específica del ser humano, definirla, determinar su funcionalidad y describir sus principales características."
+        },
+        {
+          "codigo": "2.2",
+          "competencia": 2,
+          "texto": "Explicar las principales tesis de algunas concepciones filosóficas acerca del origen, los límites y la posibilidad de conocimiento y comprender algunas de las principales teorías sobre la verdad, reflexionando sobre la posibilidad de alcanzar la verdad."
+        },
+        {
+          "codigo": "2.3",
+          "competencia": 2,
+          "texto": "Entender la importancia personal, social, política y económica del saber y la verdad. Analizar las implicaciones de la mentira, la manipulación, los bulos y la propaganda."
+        },
+        {
+          "codigo": "3.1",
+          "competencia": 3,
+          "texto": "Conocer el significado del término metafísica, identificando su objetivo fundamental, consistente en un análisis radical de la realidad."
+        },
+        {
+          "codigo": "3.2",
+          "competencia": 3,
+          "texto": "Definir qué es el determinismo y qué es el indeterminismo, comprendiendo la importancia de saber si la naturaleza se rige por leyes o es producto del azar."
+        },
+        {
+          "codigo": "3.3",
+          "competencia": 3,
+          "texto": "Reflexionar sobre el sentido de la vida humana, explicando las tesis centrales de las principales teorías de la vida, reflexionando sobre la vida y la muerte, entre otras cuestiones metafísicas. La trascendencia, Dios y su ausencia, la relación entre la religión, el arte y la filosofía."
+        },
+        {
+          "codigo": "4.1",
+          "competencia": 4,
+          "texto": "Comprender la profundidad de la pregunta por la vida personal, conociendo algunas respuestas dadas por la filosofía y la psicología, valorando la importancia de conocerse a uno mismo."
+        },
+        {
+          "codigo": "4.2",
+          "competencia": 4,
+          "texto": "Comprender las diferentes facetas de la personalidad de cada uno, en las correspondientes etapas de la vida. La vocación y la motivación. El argumento de la vida humana. La libertad. La felicidad y la infelicidad humanas."
+        },
+        {
+          "codigo": "4.3",
+          "competencia": 4,
+          "texto": "Identificar las emociones y los sentimientos y su papel en la vida humana. El deseo, la tentación. La satisfacción y la frustración. El amor y el desamor. El enamoramiento. El papel esencial de la imaginación. La vida como narración: el papel de la literatura y el cine en la educación sentimental."
+        },
+        {
+          "codigo": "5.1",
+          "competencia": 5,
+          "texto": "Reconocer la dimensión social y cultural del ser humano, identificando y distinguiendo los conceptos de cultura y sociedad."
+        },
+        {
+          "codigo": "5.2",
+          "competencia": 5,
+          "texto": "Identificar la cultura como las distintas versiones de las formas de vida en la Historia y en el mundo; lo que tienen en común, de diferente, y la permanencia de elementos comunes."
+        },
+        {
+          "codigo": "5.3",
+          "competencia": 5,
+          "texto": "Conocer las teorías sobre el origen de la sociedad y explicar las tesis fundamentales sobre el origen de la sociedad y el estado."
+        }
+      ],
+      "saberes": [
+        {
+          "letra": "A",
+          "titulo": "La experiencia filosófica",
+          "items": [
+            {
+              "nivel": 2,
+              "texto": "El origen de la filosofía: el paso del mito al logos. Características del pensamiento mítico. ¿Qué es filosofía? La preocupación cosmológica: los presocráticos. El giro antropológico: Sócrates y los sofistas. Las ramas de la filosofía: ontología, teoría del conocimiento, metafísica, cosmogonía, antropología, ética, estética y política, lógica y retórica. La filosofía como tronco del que proceden las demás ciencias. Vigencia y utilidad de la filosofía."
+            },
+            {
+              "nivel": 2,
+              "texto": "La importancia de saber pensar. El uso de la razón: la aprehensión de la realidad en su conexión. Los estilos y métodos de la filosofía: el discurso, el diálogo, el comentario, el aforismo, el criticismo, la razón narrativa. Saber leer un texto filosófico y la dificultad de entender de verdad."
+            },
+            {
+              "nivel": 2,
+              "texto": "La filosofía como partida de nacimiento de Occidente. Las otras formas de hacerse cuestión de la realidad en su conjunto: el arte, la fe, la sabiduría. La Historia de la filosofía."
+            }
+          ]
+        },
+        {
+          "letra": "B",
+          "titulo": "El conocimiento y la realidad",
+          "items": [
+            {
+              "nivel": 1,
+              "texto": "1. El problema filosófico del conocimiento y la verdad."
+            },
+            {
+              "nivel": 2,
+              "texto": "El origen del conocimiento y sus límites. Las teorías del conocimiento: racionalismo e idealismo, el empirismo y la síntesis kantiana. El escepticismo y el relativismo. El irracionalismo. La razón vital y la perspectiva como superación de la dicotomía en la teoría del conocimiento."
+            },
+            {
+              "nivel": 2,
+              "texto": "El razonamiento y la argumentación: inducción y deducción. La diferencia entre la opinión (δόξα) y la verdad (ἀλήθεια). Tipos de saberes."
+            },
+            {
+              "nivel": 2,
+              "texto": "El saber científico: definición y características. Criterios de verdad. Clasificación de la ciencia y metodologías científicas. Los límites del conocimiento científico."
+            },
+            {
+              "nivel": 2,
+              "texto": "La dimensión personal, social y política del saber y la verdad. Conocimiento, información y poder. La prensa como «cuarto poder» y su importancia en la formación de la opinión pública, necesaria para una democracia liberal. Los bulos, la propaganda."
+            },
+            {
+              "nivel": 1,
+              "texto": "2. La preocupación metafísica por la realidad."
+            },
+            {
+              "nivel": 2,
+              "texto": "La metafísica y su preocupación acerca de la realidad. Apariencia y realidad. La realidad virtual. Las realidades no sensibles. La teoría de los valores."
+            },
+            {
+              "nivel": 2,
+              "texto": "Determinismo y libre albedrío: necesidad, azar y libertad."
+            },
+            {
+              "nivel": 2,
+              "texto": "El problema filosófico del tiempo y el cambio."
+            },
+            {
+              "nivel": 2,
+              "texto": "La interrogación por el sentido de la vida. La muerte y la necesidad de trascendencia. Dios y su ausencia."
+            }
+          ]
+        },
+        {
+          "letra": "C",
+          "titulo": "La persona y la sociedad",
+          "items": [
+            {
+              "nivel": 1,
+              "texto": "1. El ser humano como individuo."
+            },
+            {
+              "nivel": 2,
+              "texto": "La condición humana en la historia de la filosofía. La teoría del alma: Platón y Aristóteles. La filosofía cristiana: San Agustín. La importancia del yo: René Descartes. El hombre natural: Hobbes y Rousseau. El hombre como un fin en sí mismo: Kant. La superación del hombre: Nietzsche. El ser humano como ser libre: Sartre. La Escuela de Madrid: José Ortega y Gasset."
+            },
+            {
+              "nivel": 2,
+              "texto": "La construcción de la personalidad: temperamento, carácter y personalidad. La herencia genética y lo aprendido. La vocación."
+            },
+            {
+              "nivel": 2,
+              "texto": "Teorías psicológicas de la personalidad. El psicoanálisis de Sigmund Freud. La teoría humanista: Maslow y Carl Rogers. La teoría cognitiva: Piaget y Kohlberg. La teoría de la identidad personal de Erik H. Erikson. La teoría de rasgos y tipos de Hans J. Eysenck."
+            },
+            {
+              "nivel": 2,
+              "texto": "Las emociones y los sentimientos. La autoestima personal. El respeto mutuo en las relaciones afectivas. Motivación y autorrealización. El deseo y las tentaciones. El amor y la amistad. Los lazos familiares. El enamoramiento. El desamor. El desengaño y la frustración. La felicidad humana."
+            },
+            {
+              "nivel": 2,
+              "texto": "La condición moral del ser humano: libertad y responsabilidad. El problema ético: el ser y el deber ser. Éticas materiales y éticas formales. El problema del mal: Hannah Arendt."
+            },
+            {
+              "nivel": 1,
+              "texto": "2. Individuo y sociedad."
+            },
+            {
+              "nivel": 2,
+              "texto": "Antropología y política: sociedad y cultura. La cultura como la instalación del hombre en la Historia. La dimensión social del ser humano."
+            },
+            {
+              "nivel": 2,
+              "texto": "El fundamento de la organización social y del poder político. El ser humano como animal social: Aristóteles. Las principales teorías sobre el origen de la sociedad y el estado: Hobbes y Rousseau. Las teorías contractualistas. La reflexión filosófica en torno a la democracia. Tocqueville. La democracia y su forma degenerada: la demagogia o populismo. El liberalismo."
+            },
+            {
+              "nivel": 2,
+              "texto": "La cuestión filosófica de la justicia. Legalidad y legitimidad. Utopías y distopías. Los movimientos sociales y políticos. El totalitarismo: comunismo, fascismo y nacionalismo. El anarquismo. El terrorismo."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "filosofia",
       "nombre": "Filosofía",
       "nombreCorto": "Filosofía 1º Bach.",
