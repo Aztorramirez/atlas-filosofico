@@ -234,10 +234,299 @@
     "num": 3,
     "bloque": "Bloque I: El saber filosófico, lógica y teoría del conocimiento",
     "titulo": "La comunicación humana y el lenguaje: lenguaje natural y lenguajes formales.",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
+    "autores_relacionados": [
+      {
+        "id_filosofo": "wittgenstein",
+        "nombre": "Ludwig Wittgenstein",
+        "justificacion": "Fundamental por su doble contribución: el primer Wittgenstein concibe el lenguaje como imagen lógica del mundo, mientras que el último Wittgenstein revoluciona la pragmática al estudiar el lenguaje ordinario como una actividad gobernada por reglas en el habla cotidiana para combatir los usos metafísicos."
+      },
+      {
+        "id_filosofo": "austin",
+        "nombre": "J. L. Austin",
+        "justificacion": "Autor de la Escuela de Oxford esencial para el análisis pragmático del lenguaje ordinario como instrumento de acción e instaurador de la teoría de los actos de habla (locucionario, ilocucionario y perlocucionario)."
+      },
+      {
+        "id_filosofo": "john-r-searle",
+        "nombre": "John R. Searle",
+        "justificacion": "Filósofo oxoniense que estructura y amplía las ideas de Austin, destacando por establecer la distinción clave entre reglas regulativas y reglas constitutivas, y definir el lenguaje como una actividad regida esencialmente por reglas constitutivas."
+      },
+      {
+        "id_filosofo": "chomsky",
+        "nombre": "Noam Chomsky",
+        "justificacion": "Defensor del innatismo y de la gramática generativo-transformacional, que demuestra que el lenguaje humano posee una capacidad creadora e innovadora (recursividad heurística) irreductible a los modelos conductistas."
+      },
+      {
+        "id_filosofo": "karl-buhler",
+        "nombre": "Karl Bühler",
+        "justificacion": "Diseñador del modelo del Organon o triángulo semántico, en el que delimita las tres funciones semánticas básicas del signo lingüístico: representativa (símbolo), expresiva (síntoma) y apelativa (señal)."
+      },
+      {
+        "id_filosofo": "roman-jakobson",
+        "nombre": "Roman Jakobson",
+        "justificacion": "Lingüista que amplía el esquema de funciones del lenguaje a seis dimensiones (expresiva, conativa, referencial, fática, poética y metalingüística) deducidas de los factores constitutivos del proceso comunicativo."
+      },
+      {
+        "id_filosofo": "charles-morris",
+        "nombre": "Charles Morris",
+        "justificacion": "Creador del marco semiótico triádico que divide el estudio del signo en tres dimensiones fundamentales: sintáctica (signo-signo), semántica (signo-objeto) y pragmática (signo-sujeto)."
+      },
+      {
+        "id_filosofo": "claude-shannon-y-warren-weaver",
+        "nombre": "Claude Shannon y Warren Weaver",
+        "justificacion": "Formuladores de la teoría matemática de la información, esquema técnico universal que define la comunicación mediante conceptos como emisor, mensaje, canal, código, receptor, ruido y retroalimentación."
+      },
+      {
+        "id_filosofo": "norbert-wiener",
+        "nombre": "Norbert Wiener",
+        "justificacion": "Padre de la Cibernética que conceptualiza el control y la comunicación en máquinas y animales como un estudio integrador de mensajes e información en sistemas autorregulados."
+      },
+      {
+        "id_filosofo": "paul-grice",
+        "nombre": "Paul Grice",
+        "justificacion": "Filósofo que introduce el Principio de Cooperación, sus cuatro máximas conversacionales (cantidad, cualidad, relación y modo) y el concepto de implicatura conversacional para explicar el contenido implícito del discurso."
+      },
+      {
+        "id_filosofo": "dan-sperber-y-deirdre-wilson",
+        "nombre": "Dan Sperber y Deirdre Wilson",
+        "justificacion": "Creadores de la Teoría de la Pertinencia, que fundamentan la cognición y comunicación humanas en la maximización de efectos cognitivos contextuales con el mínimo esfuerzo de procesamiento (ostensión e inferencia)."
+      },
+      {
+        "id_filosofo": "jean-piaget",
+        "nombre": "Jean Piaget",
+        "justificacion": "Teórico de la epistemología genética que defiende la primacía del desarrollo cognitivo sobre el lingüístico, sosteniendo que el lenguaje del niño evoluciona de una etapa egocéntrica a una socializada."
+      },
+      {
+        "id_filosofo": "lev-vygotski",
+        "nombre": "Lev Vygotski",
+        "justificacion": "Defensor del origen social y comunicativo primario del lenguaje, el cual se interioriza progresivamente para actuar como instrumento de autorregulación del pensamiento."
+      },
+      {
+        "id_filosofo": "b-f-skinner",
+        "nombre": "B. F. Skinner",
+        "justificacion": "Psicólogo conductista que postula que la adquisición del lenguaje en el niño se explica mediante el condicionamiento operante y los refuerzos del entorno."
+      },
+      {
+        "id_filosofo": "benjamin-lee-whorf",
+        "nombre": "Benjamin Lee Whorf",
+        "justificacion": "Exponente del relativismo lingüístico (junto a Edward Sapir), quien argumenta que las estructuras y modelos formales de cada lengua determinan la visión del mundo y el pensamiento de sus hablantes."
+      },
+      {
+        "id_filosofo": "ernst-cassirer",
+        "nombre": "Ernst Cassirer",
+        "justificacion": "Filósofo que caracteriza al ser humano como animal simbólico y sostiene que el signo lingüístico es el órgano necesario mediante el cual se constituye el pensamiento."
+      },
+      {
+        "id_filosofo": "david-hilbert",
+        "nombre": "David Hilbert",
+        "justificacion": "Matemático impulsor del programa formalista y la metamatemática (teoría de la prueba), dedicado a investigar la consistencia de los sistemas formales desprovistos de significado mediante métodos finitistas."
+      },
+      {
+        "id_filosofo": "alfred-tarski",
+        "nombre": "Alfred Tarski",
+        "justificacion": "Lógico clave en la constitución de la semántica formal y la teoría de modelos, definiendo con rigor técnico nociones como verdad, satisfacción y consecuencia lógica."
+      },
+      {
+        "id_filosofo": "marshall-mcluhan",
+        "nombre": "Marshall McLuhan",
+        "justificacion": "Teórico de los medios (\"el medio es el mensaje\") que explica la evolución histórica de la comunicación humana desde la \"Galaxia Gutenberg\" (hombre tipográfico) hasta la \"aldea global\" de los mass-media."
+      },
+      {
+        "id_filosofo": "leibniz",
+        "nombre": "Gottfried Wilhelm Leibniz",
+        "justificacion": "Filósofo que planteó la incomunicación monadológica (armonía preestablecida) y proyectó la characteristica universalis, una lengua franca cuyo rigor redujera la comunicación al cálculo."
+      },
+      {
+        "id_filosofo": "aristoteles",
+        "nombre": "Aristóteles",
+        "justificacion": "Pensador clásico que sostiene una postura convencionalista moderada sobre el lenguaje (signo de las afecciones del alma) y fundamenta la estructura axiomático-deductiva de la lógica."
+      },
+      {
+        "id_filosofo": "platon",
+        "nombre": "Platón",
+        "justificacion": "Filósofo que en el Cratilo plantea el debate entre convencionalismo y naturalismo, defendiendo el lenguaje como un instrumento derivado de elecciones repetidas."
+      },
+      {
+        "id_filosofo": "locke",
+        "nombre": "John Locke",
+        "justificacion": "Empirista que define el lenguaje como el gran instrumento social cuyos sonidos articulados son señales sensibles de las ideas inmanentes en la mente."
+      },
+      {
+        "id_filosofo": "habermas",
+        "nombre": "Karl-Otto Apel y Jürgen Habermas",
+        "justificacion": "Formuladores de la pragmática trascendental, quienes postulan contrafácticamente la necesidad de una comunidad ideal de comunicación presupuesta en toda argumentación racional."
+      },
+      {
+        "id_filosofo": "gabriel-marcel",
+        "nombre": "Gabriel Marcel y Martin Buber",
+        "justificacion": "Exponentes del existencialismo y la filosofía dialógica que entienden la comunicación como un encuentro interpersonal auténtico y abierto (relación Yo-Tú)"
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Escuela de Oxford (Filosofía del lenguaje ordinario)",
+        "justificacion": "Corriente que aborda la investigación del lenguaje natural desde una perspectiva pragmática, concibiendo el habla cotidiana como una actividad regida por uso y reglas."
+      },
+      {
+        "nombre": "Pragmática de los lenguajes naturales / Teoría de los actos de habla",
+        "justificacion": "Movimiento que sitúa la comunicación como la función primaria del lenguaje y centra su estudio en las relaciones entre signos, contextos y hablantes en la ejecución de actos locucionarios, ilocucionarios y perlocucionarios."
+      },
+      {
+        "nombre": "Innatismo lingüístico / Gramática generativo-transformacional",
+        "justificacion": "Escuelas lideradas por Chomsky que afirman que la especie humana posee una competencia o facultad lingüística innata fijada genéticamente, la cual permite la generación ilimitada de mensajes."
+      },
+      {
+        "nombre": "Conductismo",
+        "justificacion": "Corriente psicológica representada por Skinner que reduce la adquisición y uso del lenguaje a esquemas de estímulo-respuesta, condicionamiento y refuerzos ambientales."
+      },
+      {
+        "nombre": "Relativismo lingüístico (Hipótesis Sapir-Whorf)",
+        "justificacion": "Postura que afirma que la estructura gramatical y la retícula de cada idioma moldean e imponen de forma inexorable las categorías del pensamiento y la percepción de la realidad de su comunidad hablante."
+      },
+      {
+        "nombre": "Teoría matemática de la información y Cibernética",
+        "justificacion": "Enfoque técnico-mecanicista e interdisciplinar (Shannon, Weaver, Wiener) que define la comunicación en máquinas y seres vivos como un sistema autorregulado de transmisión de mensajes, señales e información."
+      },
+      {
+        "nombre": "Teoría de la Pertinencia (Relevancia)",
+        "justificacion": "Modelo pragmático-cognitivo (Sperber y Wilson) que explica la comunicación intencional ostensivo-inferencial mediante el principio de maximización de efectos cognitivos con el menor esfuerzo de procesamiento."
+      },
+      {
+        "nombre": "Formalismo y Metamatemática (Programa de Hilbert)",
+        "justificacion": "Corriente lógica y matemática que concibe los lenguajes formalizados como sistemas sintácticos desprovistos de significado para analizar formalmente su consistencia y completud."
+      },
+      {
+        "nombre": "Semántica lógica y Teoría de Modelos",
+        "justificacion": "Escuela iniciada en Polonia por Tarski, Lesniewski y Kotarbinski que estudia las relaciones formales entre los cálculos lógicos y las estructuras matemáticas que los satisfacen, precisando los conceptos de verdad y consecuencia."
+      },
+      {
+        "nombre": "Pragmática trascendental",
+        "justificacion": "Corriente filosófica de Apel y Habermas que postula de modo presuposicional una comunidad de comunicación ideal e hipotética en todo discurso de argumentación racional."
+      },
+      {
+        "nombre": "Existencialismo y Filosofía dialógica",
+        "justificacion": "Movimiento filosófico (Kierkegaard, Marcel, Jaspers, Buber, Heidegger, Sartre) centrado en el problema del solipsismo, el aislamiento de la subjetividad y las posibilidades o límites del encuentro comunicativo auténtico con el otro."
+      },
+      {
+        "nombre": "Teoría convencionalista del lenguaje",
+        "justificacion": "Tesis histórica (Hermógenes, Sofistas, Demócrito, Carnap, segundo Wittgenstein) que defiende que la asignación de nombres y significados responde a un acuerdo o convención humana arbitraria."
+      },
+      {
+        "nombre": "Teoría naturalista del lenguaje",
+        "justificacion": "Tesis (Heráclito, Cratilo, Estoicos, Fichte) que afirma que la relación entre el signo lingüístico y el objeto es necesaria, bien por imitación mímica, emotividad o por ser imagen lógica de la realidad."
+      },
+      {
+        "nombre": "Estructuralismo lingüístico",
+        "justificacion": "Escuela inaugurada por Saussure que define la lengua como un sistema autónomo de signos donde la relación entre significante y significado es arbitraria"
+      }
+    ],
     "video_url": "",
-    "obras_relacionadas": []
+    "obras_relacionadas": [
+      {
+        "titulo": "De interpretatione",
+        "autor": "Aristóteles",
+        "justificacion": "Texto clásico donde sostiene que las palabras habladas son símbolos primarios de las afecciones del alma y las escritas de las habladas."
+      },
+      {
+        "titulo": "Antropología estructural",
+        "autor": "Claude Lévi-Strauss",
+        "justificacion": "Obra antropológica donde establece la clasificación de los tres niveles organizacionales de intercambio: bienes económicos, mensajes lingüísticos y relaciones de parentesco."
+      },
+      {
+        "titulo": "La relevancia / Teoría de la pertinencia",
+        "autor": "Dan Sperber y Deirdre Wilson",
+        "justificacion": "Formulación original donde establecen los principios cognitivo y comunicativo de la pertinencia y la presunción de pertinencia óptima en la ostensión."
+      },
+      {
+        "titulo": "Filosofía de las formas simbólicas (1971)",
+        "autor": "Ernst Cassirer",
+        "justificacion": "Demuestra que el signo lingüístico no es una mera envoltura del pensamiento, sino el órgano esencial en virtud del cual este se constituye."
+      },
+      {
+        "titulo": "Antropología filosófica (1974)",
+        "autor": "Ernst Cassirer",
+        "justificacion": "Expone la caracterización del ser humano como animal simbólico."
+      },
+      {
+        "titulo": "Elementos",
+        "autor": "Euclides",
+        "justificacion": "Tratado clásico representativo de la sistematización del método axiomático-deductivo en geometría."
+      },
+      {
+        "titulo": "Curso de lingüística general (1987)",
+        "autor": "Ferdinand de Saussure",
+        "justificacion": "Obra donde analiza la naturaleza multiforme del lenguaje y establece las bases teóricas de la lengua y la arbitrariedad del signo."
+      },
+      {
+        "titulo": "Monadología / Characteristica Universalis",
+        "autor": "Gottfried Wilhelm Leibniz",
+        "justificacion": "Escritos referidos explícitamente sobre el sistema de mónadas incomunicadas y el proyecto de un lenguaje formal reducible a cálculo."
+      },
+      {
+        "titulo": "El lenguaje y el pensamiento en el niño",
+        "autor": "Jean Piaget",
+        "justificacion": "Ensayo donde contrapone el funcionamiento de la lógica egocéntrica infantil frente a la inteligencia comunicada."
+      },
+      {
+        "titulo": "Seis estudios de psicología (1975)",
+        "autor": "Jean Piaget",
+        "justificacion": "Muestra que el lenguaje es una condición necesaria pero no suficiente en la elaboración del pensamiento, el cual se asienta en la acción sensoriomotriz."
+      },
+      {
+        "titulo": "Ensayo sobre el entendimiento humano",
+        "autor": "John Locke",
+        "justificacion": "Establece que las palabras son señales sensibles instituidas para exteriorizar las ideas inmanentes alojadas en la mente."
+      },
+      {
+        "titulo": "Actos de habla (1980)",
+        "autor": "John R. Searle",
+        "justificacion": "Presenta la formulación de las reglas regulativas y constitutivas y la sistematización de la unidad de comunicación lingüística."
+      },
+      {
+        "titulo": "Investigaciones filosóficas (1988)",
+        "autor": "Ludwig Wittgenstein",
+        "justificacion": "Obra fundamental del último Wittgenstein dedicada al estudio pragmático del lenguaje ordinario y los juegos de lenguaje."
+      },
+      {
+        "titulo": "La galaxia Gutemberg (1969)",
+        "autor": "Marshall McLuhan",
+        "justificacion": "Estudio sobre la imprenta, la configuración del hombre tipográfico y la llegada de los mass-media en la aldea global."
+      },
+      {
+        "titulo": "Signos (1973)",
+        "autor": "Maurice Merleau-Ponty",
+        "justificacion": "Ensayos donde afirma la inseparabilidad y desdoblamiento mutuo entre el pensamiento y el lenguaje."
+      },
+      {
+        "titulo": "El lenguaje y el entendimiento humano (1980)",
+        "autor": "Noam Chomsky",
+        "justificacion": "Exposición sobre las estructuras mentales innatas y la gramática generativo-transformacional."
+      },
+      {
+        "titulo": "Cibernética",
+        "autor": "Norbert Wiener",
+        "justificacion": "Obra donde define el marco del control y la comunicación en la máquina y el animal a partir del mensaje y el ruido."
+      },
+      {
+        "titulo": "Studies in the Way of Words",
+        "autor": "Paul Grice",
+        "justificacion": "Texto donde enuncia la fórmula del Principio de Cooperación y las máximas de la conversación."
+      },
+      {
+        "titulo": "El nombre de la Rosa",
+        "autor": "Umberto Eco",
+        "justificacion": "Novela en la que, a través de las proferencias de Salvatore, analiza la imposibilidad real de una lingua franca universal."
+      },
+      {
+        "titulo": "Teoría matemática de la comunicación",
+        "autor": "Warren Weaver y Claude Shannon",
+        "justificacion": "Presenta la formulación general del modelo matemático de los sistemas de transmisión de información."
+      },
+      {
+        "titulo": "Lenguaje, Pensamiento y Realidad (1971)",
+        "autor": "Benjamin Lee Whorf",
+        "justificacion": "Expone el análisis comparativo del lenguaje hopi y el inglés para demostrar cómo la gramática moldea la concepción del tiempo y la realidad"
+      }
+    ]
   },
   {
     "id": 4,
@@ -284,10 +573,308 @@
     "num": 8,
     "bloque": "Bloque I: El saber filosófico, lógica y teoría del conocimiento",
     "titulo": "La verdad en las matemáticas y en las ciencias empíricas (sociales y naturales).",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
+    "autores_relacionados": [
+      {
+        "id_filosofo": "aristoteles",
+        "nombre": "Aristóteles",
+        "justificacion": "Fundador de la concepción clásica de la verdad como correspondencia en su Metafísica, definida como decir de lo que es que es y de lo que no es que no es, además de caracterizar originalmente la ciencia como el conocimiento de las cosas por sus causas."
+      },
+      {
+        "id_filosofo": "tomas-aquino",
+        "nombre": "Santo Tomás de Aquino",
+        "justificacion": "Principal exponente de la tradición escolástica que definió la verdad lógica como la adecuación o conformidad del entendimiento con la cosa (adaequatio intellectus et rei)."
+      },
+      {
+        "id_filosofo": "kant",
+        "nombre": "Immanuel Kant",
+        "justificacion": "Concibe la verdad como la conformidad del entendimiento con sus propias categorías aplicadas a la experiencia, sosteniendo que las cosas en sí resultan inaccesibles."
+      },
+      {
+        "id_filosofo": "russell",
+        "nombre": "Bertrand Russell",
+        "justificacion": "Defendió la teoría de la correspondencia mediante la relación múltiple para explicar la creencia y las falsedades, e impulsó el logicismo al sostener que la matemática se reduce a la lógica."
+      },
+      {
+        "id_filosofo": "austin",
+        "nombre": "J. L. Austin",
+        "justificacion": "Reformuló la correspondencia veritativa aplicándola a las aseveraciones o actos de habla mediante el establecimiento de correlaciones convencionales descriptivas y demostrativas."
+      },
+      {
+        "id_filosofo": "husserl",
+        "nombre": "Edmund Husserl",
+        "justificacion": "Formuló la concepción fenomenológica de la verdad como \"cumplimiento\" (Erfüllung) o síntesis de identificación en la evidencia directa donde el objeto se da por sí mismo ante la intención significativa."
+      },
+      {
+        "id_filosofo": "charles-s-peirce",
+        "nombre": "Charles S. Peirce",
+        "justificacion": "Creador de la teoría pragmática de la verdad, entendiéndola como la conclusión o acuerdo fijado al que llegaría la comunidad de investigadores mediante el método científico."
+      },
+      {
+        "id_filosofo": "william-james",
+        "nombre": "William James",
+        "justificacion": "Definió la verdad pragmática en términos de la eficacia, las buenas consecuencias prácticas o la utilidad de una creencia para guiar la acción en la experiencia."
+      },
+      {
+        "id_filosofo": "habermas",
+        "nombre": "Jürgen Habermas",
+        "justificacion": "Desarrolló la teoría consensual de la verdad, definiéndola como una pretensión de validez intersubjetiva basada en el acuerdo racional potencialmente alcanzable mediante el diálogo discursivo."
+      },
+      {
+        "id_filosofo": "hegel",
+        "nombre": "G. W. F. Hegel",
+        "justificacion": "Defensor de la concepción holística y coherentista de la verdad al enunciar en la Fenomenología del espíritu que \"lo verdadero es el todo\"."
+      },
+      {
+        "id_filosofo": "alfred-tarski",
+        "nombre": "Alfred Tarski",
+        "justificacion": "Creador de la concepción semántica de la verdad mediante la noción de satisfacción y el Esquema V, resolviendo las paradojas semánticas con la distinción entre lenguaje objeto y metalenguaje."
+      },
+      {
+        "id_filosofo": "frege",
+        "nombre": "Gottlob Frege",
+        "justificacion": "Coautor del logicismo matemático que también contribuyó a la teoría de la redundancia al señalar que adscribir verdad a un pensamiento no añade contenido nuevo."
+      },
+      {
+        "id_filosofo": "f-p-ramsey",
+        "nombre": "F. P. Ramsey",
+        "justificacion": "Desarrolló la teoría de la redundancia de la verdad, sosteniendo que el predicado \"es verdadero\" carece de significado aseverativo independiente y resulta lógicamente vacuo."
+      },
+      {
+        "id_filosofo": "kurt-godel",
+        "nombre": "Kurt Gödel",
+        "justificacion": "Revolucionó la filosofía de la matemática con sus teoremas de incompletud, demostrando que en un sistema axiomático formal consistente existen proposiciones indecidibles y que la verdad supera a la demostrabilidad interna."
+      },
+      {
+        "id_filosofo": "popper",
+        "nombre": "Karl Popper",
+        "justificacion": "Crítico del verificacionismo, propuso el criterio de falsación y concibió las teorías científicas como conjeturas provisionales y verosímiles sometidas a refutación."
+      },
+      {
+        "id_filosofo": "heidegger",
+        "nombre": "Martin Heidegger",
+        "justificacion": "Planteó que la correspondencia es una noción derivada de la verdad originaria entendida como alêtheia o des-ocultamiento del ser."
+      },
+      {
+        "id_filosofo": "l-e-j-brouwer",
+        "nombre": "L. E. J. Brouwer",
+        "justificacion": "Padre del intuicionismo matemático, sostuvo que la verdad en matemáticas es una construcción mental en pasos finitos respaldada por la evidencia e invalida el infinito actual."
+      },
+      {
+        "id_filosofo": "lakatos",
+        "nombre": "Imre Lakatos",
+        "justificacion": "Propuso la concepción \"cuasi-empírica\" de la matemática, sosteniendo que se desarrolla mediante un proceso heurístico de conjeturas y refutaciones frente al dogmatismo deductivista."
+      },
+      {
+        "id_filosofo": "neurath",
+        "nombre": "Otto Neurath y Rudolf Carnap",
+        "justificacion": "Filósofos del Círculo de Viena que adoptaron el fisicismo y la coherencia, entendiendo la verdad como la consistencia entre enunciados del sistema científico."
+      },
+      {
+        "id_filosofo": "adorno",
+        "nombre": "Theodor Adorno",
+        "justificacion": "Defensor de la dialéctica crítica en la Escuela de Frankfurt frente al racionalismo crítico, sosteniendo que la verdad sociológica debe abordar la totalidad contradictoria de la sociedad y su transformación práctica"
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Teoría de la verdad como correspondencia (o adecuación)",
+        "justificacion": "Sostiene que un juicio o proposición es verdadero si existe un ajuste, adecuación o correlación con los hechos o la realidad independiente."
+      },
+      {
+        "nombre": "Teoría pragmática de la verdad",
+        "justificacion": "Concibe la verdad de una creencia en función de su eficacia, sus consecuencias prácticas útiles o el consenso duradero alcanzado por el método científico."
+      },
+      {
+        "nombre": "Teoría de la coherencia (o consistencia)",
+        "justificacion": "Afirma que la verdad de un enunciado reside en su integración armónica y no contradictoria dentro de un sistema preexistente de creencias o conocimientos aceptados."
+      },
+      {
+        "nombre": "Teoría semántica de la verdad",
+        "justificacion": "Definición formal propuesta por Tarski que explicita la verdad mediante la relación de satisfacción y el Esquema V, exigiendo la separación entre lenguaje objeto y metalenguaje para evitar paradojas."
+      },
+      {
+        "nombre": "Teoría deflacionaria / de la redundancia",
+        "justificacion": "Considera que el predicado \"es verdadero\" no añade contenido aseverativo ni nombra una propiedad real, actuando como un mero mecanismo desentrecomillador o prooracional."
+      },
+      {
+        "nombre": "Teoría consensual de la verdad",
+        "justificacion": "Plantea que la condición de verdad de una aserción reside en el acuerdo o asentimiento potencial alcanzado intersubjetivamente por todos los participantes en un diálogo racional."
+      },
+      {
+        "nombre": "Positivismo lógico / Círculo de Viena",
+        "justificacion": "Movimiento que defendió la verificabilidad empírica o lógica como el criterio de demarcación para atribuir significado cognoscitivo y verdad a los enunciados científicos."
+      },
+      {
+        "nombre": "Racionalismo crítico (Popper)",
+        "justificacion": "Corriente epistemológica que sustituye la verificabilidad por el criterio de falsación, concibiendo el saber científico como un conjunto de hipótesis provisionales e incomprobables de forma absoluta."
+      },
+      {
+        "nombre": "Logicismo matemático",
+        "justificacion": "Postura (liderada por Frege y Russell) que afirma que la matemática pura carece de principios propios y es reducible por entero a conceptos y axiomas de la lógica formal."
+      },
+      {
+        "nombre": "Formalismo matemático",
+        "justificacion": "Corriente formulada por Hilbert que concibe las matemáticas como un cálculo autónomo de reglas aplicadas sobre hileras de signos carentes de significado, identificando la verdad con la consistencia."
+      },
+      {
+        "nombre": "Intuicionismo matemático",
+        "justificacion": "Postura desarrollada por Brouwer que concibe la verdad matemática como una construcción efectuada en pasos finitos desde la evidencia intuitiva, rechazando el infinito actual."
+      },
+      {
+        "nombre": "Concepción cuasi-empírica de las matemáticas (Lakatos)",
+        "justificacion": "Afirma que las matemáticas progresan históricamente mediante conjeturas, refutaciones y análisis de problemas de modo análogo a las ciencias empíricas."
+      },
+      {
+        "nombre": "Escuela de Frankfurt (Teoría crítica / Dialéctica)",
+        "justificacion": "Concibe el conocimiento de las ciencias sociales a partir de la totalidad dialéctica y contradictoria de la realidad humana, enfocando la verdad como transformación social y justicia."
+      },
+      {
+        "nombre": "Fenomenología",
+        "justificacion": "Entiende la verdad como intencionalidad cumplida en la intuición y presencia inmediata del objeto ante la conciencia, superando la escisión entre sujeto y mundo exterior."
+      },
+      {
+        "nombre": "Dualismo metodológico / Hermenéutica",
+        "justificacion": "Sostiene que las ciencias humanas exigen la comprensión del significado intencional y cultural de la acción, a diferencia del patrón explicativo nomológico propio de las ciencias naturales"
+      }
+    ],
     "video_url": "",
-    "obras_relacionadas": []
+    "obras_relacionadas": [
+      {
+        "titulo": "Metafísica (o Metafísica, IV, 7 / IX, 10)",
+        "autor": "Aristóteles",
+        "justificacion": "Contiene la formulación clásica de la verdad como correspondencia y la definición del enunciado verdadero frente al falso."
+      },
+      {
+        "titulo": "Suma contra gentiles (I, 49)",
+        "autor": "Santo Tomás de Aquino",
+        "justificacion": "Texto donde formula explícitamente la definición medieval de la verdad como adecuación del entendimiento a la cosa."
+      },
+      {
+        "titulo": "Ser y tiempo (1927 / parágrafo 44)",
+        "autor": "Martin Heidegger",
+        "justificacion": "Examina la concepción de la verdad como alêtheia o estado de \"des-ocultamiento\" de las cosas en sí mismas."
+      },
+      {
+        "titulo": "Ensayos filosóficos (1991)",
+        "autor": "Bertrand Russell",
+        "justificacion": "Examina la naturaleza del juicio y la imposibilidad de admitir falsedades objetivas simples."
+      },
+      {
+        "titulo": "Los problemas de la filosofía (1970)",
+        "autor": "Bertrand Russell",
+        "justificacion": "Define la verdad como la correspondencia o congruencia entre la secuencia del juicio y la secuencia del hecho real."
+      },
+      {
+        "titulo": "Los principios de la matemática",
+        "autor": "Bertrand Russell",
+        "justificacion": "Enuncia la tesis logicista fundamental de que toda la matemática procede de la lógica simbólica."
+      },
+      {
+        "titulo": "Principia Mathematica (con A. N. Whitehead)",
+        "autor": "Bertrand Russell",
+        "justificacion": "Desarrolla la reducción axiomática de la matemática pura a partir de conceptos lógicos primarios."
+      },
+      {
+        "titulo": "Atomismo lógico",
+        "autor": "Bertrand Russell",
+        "justificacion": "Sostiene que a partir de ideas y axiomas de la lógica formal es posible deducir la totalidad de la matemática."
+      },
+      {
+        "titulo": "\"Verdad\" (1989)",
+        "autor": "J. L. Austin",
+        "justificacion": "Desarrolla la teoría de la verdad aplicada a las aseveraciones mediante reglas de correlación convencional descriptivas y demostrativas."
+      },
+      {
+        "titulo": "\"Teorías de la verdad\" (1973)",
+        "autor": "Jürgen Habermas",
+        "justificacion": "Expone la teoría consensual de la verdad como una pretensión de validez ligada a la pragmática de las aserciones en el discurso teórico."
+      },
+      {
+        "titulo": "Fenomenología del espíritu",
+        "autor": "G. W. F. Hegel",
+        "justificacion": "Desarrolla la teoría coherentista de la verdad sintetizada en la tesis de que lo verdadero es el todo en su desenvolvimiento."
+      },
+      {
+        "titulo": "Mente, mundo y acción",
+        "autor": "Donald Davidson",
+        "justificacion": "Examina la coherencia como el criterio fundamental para la aceptabilidad de una creencia como verdadera dentro de un sistema."
+      },
+      {
+        "titulo": "\"Proposiciones protocolares\" (1932)",
+        "autor": "Otto Neurath",
+        "justificacion": "Expone la célebre metáfora de la reconstrucción del barco en pleno mar para ilustrar el carácter no definitivo de las oraciones básicas de la ciencia."
+      },
+      {
+        "titulo": "Investigaciones filosóficas",
+        "autor": "Ludwig Wittgenstein",
+        "justificacion": "Contiene la formulación canónica de la teoría de la redundancia en la que \"'p' es verdadera = p\"."
+      },
+      {
+        "titulo": "Las leyes fundamentales de la Aritmética",
+        "autor": "Gottlob Frege",
+        "justificacion": "Sostiene que la aritmética es una rama de la lógica que no requiere justificación en la experiencia ni en la intuición."
+      },
+      {
+        "titulo": "\"El pensamiento\"",
+        "autor": "Gottlob Frege",
+        "justificacion": "Enuncia la equivalencia entre la oración afirmativa y la adscripción de la propiedad de verdad a dicho pensamiento."
+      },
+      {
+        "titulo": "Los fundamentos de la geometría",
+        "autor": "David Hilbert",
+        "justificacion": "Establece las bases del método axiomático formal riguroso para la matemática moderna."
+      },
+      {
+        "titulo": "\"Intuicionismo y Formalismo\" (1933)",
+        "autor": "L. E. J. Brouwer",
+        "justificacion": "Describe la postura intuicionista que ubica la exactitud matemática en la sucesión de construcciones efectivas."
+      },
+      {
+        "titulo": "Pruebas y refutaciones. La lógica del descubrimiento matemático (1978)",
+        "autor": "Imre Lakatos",
+        "justificacion": "Expone la dinámica cuasi-empírica de las matemáticas mediante el método de conjeturas y refutaciones."
+      },
+      {
+        "titulo": "Matemáticas, ciencia y epistemología (1981)",
+        "autor": "Imre Lakatos",
+        "justificacion": "Reúne sus ensayos sobre la filosofía de las matemáticas y la crítica al deductivismo formalista."
+      },
+      {
+        "titulo": "La estructura de las revoluciones científicas (1971)",
+        "autor": "Thomas S. Kuhn",
+        "justificacion": "Plantea el carácter discontinuo del progreso científico y cuestiona la correspondencia neutra entre las teorías y los hechos."
+      },
+      {
+        "titulo": "La lógica de la investigación científica (1962)",
+        "autor": "Karl R. Popper",
+        "justificacion": "Formula el criterio de falsación y el método deductivo de contrastación empírica."
+      },
+      {
+        "titulo": "La miseria del historicismo (1973)",
+        "autor": "Karl R. Popper",
+        "justificacion": "Critica el pretendido conocimiento holístico y las profecías históricas en las ciencias sociales."
+      },
+      {
+        "titulo": "Conjeturas y refutaciones (1969)",
+        "autor": "Karl R. Popper",
+        "justificacion": "Expone la concepción de las teorías como conjeturas provisionales y la aproximación asintótica a la verdad."
+      },
+      {
+        "titulo": "Los dos problemas fundamentales de la epistemología (1998)",
+        "autor": "Karl R. Popper",
+        "justificacion": "Examina en detalle los problemas de la inducción y la demarcación científica."
+      },
+      {
+        "titulo": "\"Der Wahrheitsbegriff in der formalisierten Sprachen\" (1935)",
+        "autor": "Alfred Tarski",
+        "justificacion": "Publicación original donde define formalmente la concepción semántica de la verdad mediante la noción de satisfacción."
+      },
+      {
+        "titulo": "La concepción semántica de la verdad y los fundamentos de la semántica (1972)",
+        "autor": "Alfred Tarski",
+        "justificacion": "Presentación accesible de la teoría semántica de la verdad y el Esquema V"
+      }
+    ]
   },
   {
     "id": 9,
@@ -682,10 +1269,226 @@
     "num": 17,
     "bloque": "Bloque II: Metafísica, ontología y estética",
     "titulo": "Las categorías y los diversos sistemas categoriales.",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
+    "autores_relacionados": [
+      {
+        "id_filosofo": "platon",
+        "nombre": "Platón",
+        "justificacion": "Constituye el antecedente primordial de la doctrina categorial al postular los «géneros supremos» del ser (ser, movimiento, reposo, identidad y alteridad) y fundamentar la comunicación lógica de las propiedades en la participación de las Ideas."
+      },
+      {
+        "id_filosofo": "aristoteles",
+        "nombre": "Aristóteles",
+        "justificacion": "Es el fundador técnico de la teoría de las categorías, a las que concibe como las diez divisiones supremas del ser (sustancia y nueve accidentes) con una doble dimensión ontológica (modos reales de ser) y lógica (modos de predicación)."
+      },
+      {
+        "id_filosofo": "plotino",
+        "nombre": "Plotino",
+        "justificacion": "Figura central del neoplatonismo que adapta los géneros supremos al mundo inteligible (bajo la trascendencia de lo Uno) y establece categorías específicas para el mundo sensible (sustancia, relación, cantidad, cualidad y movimiento)."
+      },
+      {
+        "id_filosofo": "boecio",
+        "nombre": "Boecio",
+        "justificacion": "Autor clave de la filosofía medieval para la transmisión de las categorías (praedicamenta), analizando la naturaleza abstracta de los géneros y especies y la distinción entre sustancia simple y compuesta."
+      },
+      {
+        "id_filosofo": "kant",
+        "nombre": "Immanuel Kant",
+        "justificacion": "Da un giro trascendental al definir las categorías como los doce conceptos puros del entendimiento a priori, deducidos de la tabla de los juicios, que actúan como condiciones de posibilidad para estructurar los fenómenos en el conocimiento objetivo."
+      },
+      {
+        "id_filosofo": "hegel",
+        "nombre": "G. W. F. Hegel",
+        "justificacion": "Reinterpreta las categorías dentro del idealismo absoluto como determinaciones o «momentos» donde el pensamiento y la realidad coinciden en el desarrollo de la autoconciencia o el Yo."
+      },
+      {
+        "id_filosofo": "schopenhauer",
+        "nombre": "Arthur Schopenhauer",
+        "justificacion": "Simplifica el esquema categorial kantiano reduciéndolo a una sola categoría fundamental y verdaderamente a priori, la causalidad (principio de razón suficiente), que gobierna el mundo en cuanto representación."
+      },
+      {
+        "id_filosofo": "wilhelm-dilthey",
+        "nombre": "Wilhelm Dilthey",
+        "justificacion": "Introduce las «categorías de la vida» (como la significación y la temporalidad), rechazando las estructuras a priori puras para concebirlas como formas inmanentes a la vivencia y a la comprensión del mundo histórico."
+      },
+      {
+        "id_filosofo": "hermann-cohen",
+        "nombre": "Hermann Cohen",
+        "justificacion": "Principal referente del neokantismo de Marburgo que define las categorías como «direcciones fundamentales» del pensamiento puro que producen el objeto científico en el juicio, superando la distinción entre intuición y entendimiento."
+      },
+      {
+        "id_filosofo": "husserl",
+        "nombre": "Edmund Husserl",
+        "justificacion": "Fundamenta las categorías en el marco fenomenológico de las «regiones ontológicas», distinguiendo entre categorías lógicas o formales, sintéticas y de sustrato."
+      },
+      {
+        "id_filosofo": "nicolai-hartmann",
+        "nombre": "Nicolai Hartmann",
+        "justificacion": "Desarrolla una ontología crítica antiidealista en la que las categorías son principios inmanentes que determinan los cuatro estratos del mundo real (inorgánico, orgánico, psíquico y espiritual) según leyes de validez, coherencia y dependencia."
+      },
+      {
+        "id_filosofo": "charles-sanders-peirce",
+        "nombre": "Charles Sanders Peirce",
+        "justificacion": "Elabora un sistema categorial fenomenológico (faneroscópico) articulado en Primeridad (cualidad/ser en sí), Segundidad (hecho/reacción) y Terceridad (ley/mediación), además de categorías metafísicas y cosmológicas."
+      },
+      {
+        "id_filosofo": "habermas",
+        "nombre": "Jürgen Habermas",
+        "justificacion": "Revisa la filosofía trascendental al plantear categorías «cuasi-trascendentales» vinculadas a los esquemas cognitivos, la pragmática del lenguaje y la interacción comunicativa entre sujetos."
+      },
+      {
+        "id_filosofo": "ryle",
+        "nombre": "Gilbert Ryle",
+        "justificacion": "Representante de la filosofía analítica que introduce el concepto de «error categorial», producido cuando se combinan indebidamente los factores oracionales en esquemas semánticos dando lugar a proposiciones absurdas."
+      },
+      {
+        "id_filosofo": "strawson",
+        "nombre": "P. F. Strawson",
+        "justificacion": "Construye una metafísica descriptiva en la que analiza las categorías a partir de la estructura gramatical y semántica de los términos de sujeto y predicado"
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Filosofía aristotélico-escolástica",
+        "justificacion": "Concibe las categorías como predicamentos (praedicamenta) o géneros supremos que clasifican el ser tanto en la realidad ontológica como en el entendimiento, distinguiéndolas de los predicables y diferenciando términos categoremáticos y sincategoremáticos."
+      },
+      {
+        "nombre": "Platonismo y Neoplatonismo",
+        "justificacion": "Entienden las categorías como géneros del ser fundados en la participación de las Ideas (Platón) u organizados jerárquicamente entre el mundo inteligible y el sensible bajo la primacía absoluta de lo Uno (Plotino)."
+      },
+      {
+        "nombre": "Estoicismo",
+        "justificacion": "Reduce la tabla aristotélica a dos categorías fundamentales (sustancia material y cualidad) y dos secundarias (modos y modos relativos), concibiéndolas como formas de un único género supremo de carácter corporal."
+      },
+      {
+        "nombre": "Racionalismo",
+        "justificacion": "Utiliza esquemas categoriales centrados en la división de tipos de sustancias autónomas (como la sustancia pensante, extensa e infinita en Descartes) para explicar la estructura objetiva de la realidad."
+      },
+      {
+        "nombre": "Empirismo",
+        "justificacion": "Revisa las categorías desde el análisis de las ideas en la mente (Locke), clasificándolas en cualidades primarias (objetivas), secundarias (subjetivas) e ideas complejas (modos, sustancias y relaciones)."
+      },
+      {
+        "nombre": "Idealismo trascendental (Kantismo)",
+        "justificacion": "Sostiene que las categorías son formas o conceptos puros del entendimiento a priori que posibilitan la síntesis de las impresiones sensibles y la constitución del conocimiento científico fenoménico."
+      },
+      {
+        "nombre": "Idealismo alemán",
+        "justificacion": "Confiere a las categorías una dimensión metafísica y dinámica al considerarlas momentos generados por la actividad del Yo (Fichte) o determinaciones idénticas de la realidad y del pensamiento en el desarrollo del Absoluto (Hegel)."
+      },
+      {
+        "nombre": "Neokantismo (Escuela de Marburgo)",
+        "justificacion": "Define las categorías como «direcciones fundamentales» y creaciones del pensamiento puro que producen autónomamente los contenidos del conocimiento científico sin recurrir a datos sensibles externos."
+      },
+      {
+        "nombre": "Ontología crítica (Realismo crítico)",
+        "justificacion": "Define las categorías como principios constitutivos inmanentes y leyes necesarias que rigen la estructuración por capas o estratos del mundo real de forma antiidealista."
+      },
+      {
+        "nombre": "Fenomenología",
+        "justificacion": "Considera las categorías como estructuras objetivas vinculadas a las distintas «regiones ontológicas» de la conciencia intencional, diferenciando niveles analíticos, sintéticos y de sustrato."
+      },
+      {
+        "nombre": "Filosofía analítica y del lenguaje",
+        "justificacion": "Estudia las categorías como reglas semánticas, tipos de predicados o herramientas del uso lingüístico en los juegos del lenguaje, analizando las combinaciones oracionales y los errores de sentido."
+      },
+      {
+        "nombre": "Teoría crítica / Pragmática universal",
+        "justificacion": "Revisa el marco trascendental al considerar las categorías como estructuras «cuasi-trascendentales» constituidas en la interacción social, la acción y la pragmática del lenguaje"
+      }
+    ],
     "video_url": "",
-    "obras_relacionadas": []
+    "obras_relacionadas": [
+      {
+        "titulo": "El Sofista",
+        "autor": "Platón",
+        "justificacion": "Expone los cinco géneros supremos del ser (ser, movimiento, reposo, identidad y alteridad) y su comunicación mutua."
+      },
+      {
+        "titulo": "El Teeteto",
+        "autor": "Platón",
+        "justificacion": "Menciona las propiedades comunes del ser como la igualdad, la desigualdad, el ser, el no ser y el número."
+      },
+      {
+        "titulo": "Categorías (2001)",
+        "autor": "Aristóteles",
+        "justificacion": "Clasifica las expresiones sin enlace en los diez géneros supremos o categorías (sustancia y nueve accidentes)."
+      },
+      {
+        "titulo": "Metafísica (1982)",
+        "autor": "Aristóteles",
+        "justificacion": "Desarrolla la doctrina del ser como concepto analógico que se predica de múltiples maneras según las figuras de las categorías, fundamentadas en la sustancia (ousía)."
+      },
+      {
+        "titulo": "Tópicos",
+        "autor": "Aristóteles",
+        "justificacion": "Presenta los estadios iniciales del concepto de categoría concebido como esquema de predicación o tipos de enunciados."
+      },
+      {
+        "titulo": "Analíticos Posteriores",
+        "autor": "Aristóteles",
+        "justificacion": "Ofrece una lista reducida a ocho categorías al asumir las categorías de posición y estado dentro de las anteriores."
+      },
+      {
+        "titulo": "Ética a Nicómaco",
+        "autor": "Aristóteles",
+        "justificacion": "Contempla una enumeración simplificada reducida a seis categorías."
+      },
+      {
+        "titulo": "Crítica de la razón pura (1998 / 1988)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Expone en la Analítica trascendental la deducción metafísica y trascendental de los doce conceptos puros del entendimiento (categorías) y sus principios de aplicación a los fenómenos."
+      },
+      {
+        "titulo": "Fenomenología del espíritu (1981)",
+        "autor": "G. W. F. Hegel",
+        "justificacion": "Define la categoría como la autoconciencia en la cual la realidad pensante y el ser poseen la misma esencia."
+      },
+      {
+        "titulo": "Enciclopedia de las ciencias filosóficas (1985)",
+        "autor": "G. W. F. Hegel",
+        "justificacion": "Articula las determinaciones categoriales en las esferas del ser, la esencia y el concepto."
+      },
+      {
+        "titulo": "La construcción del mundo histórico en las ciencias del espíritu",
+        "autor": "Wilhelm Dilthey",
+        "justificacion": "Desarrolla las categorías de la vida (como la significación y la estructura) que organizan la experiencia concreta del mundo histórico."
+      },
+      {
+        "titulo": "La esencia de la filosofía (1968)",
+        "autor": "Wilhelm Dilthey",
+        "justificacion": "Trata las categorías como modos de concepción de los objetos en las concepciones del mundo."
+      },
+      {
+        "titulo": "Teoría de las concepciones del mundo (1974)",
+        "autor": "Wilhelm Dilthey",
+        "justificacion": "Indaga en la articulación de las categorías formales y reales del pensamiento histórico."
+      },
+      {
+        "titulo": "Ideas relativas a una fenomenología pura y una filosofía fenomenológica (1962)",
+        "autor": "Edmund Husserl",
+        "justificacion": "Formula las categorías lógicas, sintéticas y de sustrato ligadas a las regiones ontológicas de la conciencia."
+      },
+      {
+        "titulo": "Zur Grundlegung der Ontologie",
+        "autor": "Nicolai Hartmann",
+        "justificacion": "Expone la ontología crítica categorial frente a la teoría del ser de Heidegger."
+      },
+      {
+        "titulo": "Ontología (1986)",
+        "autor": "Nicolai Hartmann",
+        "justificacion": "Desarrolla el análisis de las capas del ser real y las leyes categoriales de validez, coherencia y dependencia."
+      },
+      {
+        "titulo": "Tractatus Logico-Philosophicus",
+        "autor": "Ludwig Wittgenstein",
+        "justificacion": "Expone la función del lenguaje como representación o figura exacta de la realidad."
+      },
+      {
+        "titulo": "Investigaciones filosóficas",
+        "autor": "Ludwig Wittgenstein",
+        "justificacion": "Plantea la concepción del lenguaje como juego convencional donde las categorías son instrumentos del uso en diversos contextos"
+      }
+    ]
   },
   {
     "id": 18,
@@ -2641,20 +3444,287 @@
     "num": 56,
     "bloque": "Bloque VI: Historia de la Filosofía",
     "titulo": "El sujeto ético-político en Spinoza.",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
+    "autores_relacionados": [
+      {
+        "id_filosofo": "descartes",
+        "nombre": "René Descartes",
+        "justificacion": "Filósofo fundamental de cuyo racionalismo y método geométrico parte Spinoza, aunque este último supera el dualismo cartesiano al unificar pensamiento y extensión en una sola sustancia infinita y rechazar la duda metódica como punto de partida."
+      },
+      {
+        "id_filosofo": "thomas-hobbes",
+        "nombre": "Thomas Hobbes",
+        "justificacion": "Pensador político con el que Spinoza mantiene un estrecho paralelismo al concebir que el derecho natural se identifica con el poder y el impulso de autoconservación en el estado de naturaleza. Sin embargo, Spinoza se diferencia de Hobbes al rechazar el absolutismo y defender que el pacto civil solo es válido si preserva la utilidad, la democracia y la libertad de pensamiento."
+      },
+      {
+        "id_filosofo": "jan-de-witt",
+        "nombre": "Jan de Witt",
+        "justificacion": "Gran pensionario y gobernante liberal holandés, amigo personal de Spinoza, cuyo régimen republicano y tolerante sirvió de marco socio-político para que el filósofo respaldara intelectualmente la laicidad y la libertad de expresión."
+      },
+      {
+        "id_filosofo": "giordano-bruno",
+        "nombre": "Giordano Bruno",
+        "justificacion": "Antecedente filosófico renacentista mencionado por su influencia en la formulación del panteísmo y por el uso de los conceptos de natura naturans y natura naturata adoptados por Spinoza para explicar la totalidad de la naturaleza."
+      },
+      {
+        "id_filosofo": "leibniz",
+        "nombre": "Gottfried Wilhelm Leibniz",
+        "justificacion": "Filósofo racionalista que visitó a Spinoza en La Haya en 1676 y que comparte el contexto histórico de la \"crisis de la conciencia europea\" y la búsqueda de sistemas deductivos de pensamiento."
+      },
+      {
+        "id_filosofo": "locke",
+        "nombre": "John Locke",
+        "justificacion": "Pensador inglés coetáneo citado como exponente del pensamiento liberal y de la búsqueda de tolerancia en Holanda ante las convulsiones del absolutismo monárquico del siglo XVII."
+      },
+      {
+        "id_filosofo": "platon",
+        "nombre": "Platón",
+        "justificacion": "Referente de la filosofía clásica citado por contraposición a Spinoza, ya que pretendió fundar la política en una élite gobernante guiada por la razón moral, mientras que Spinoza analiza la política desde las pasiones reales de la multitud."
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Racionalismo",
+        "justificacion": "Corriente filosófica central del siglo XVII que postula la razón y la deducción matemática (more geometrico) como la vía privilegiada para alcanzar el conocimiento de lo real, la virtud y la felicidad humana."
+      },
+      {
+        "nombre": "Contractualismo (Teoría del Pacto Social)",
+        "justificacion": "Movimiento de filosofía política que explica la constitución del Estado y la sociedad civil mediante un acuerdo orientado a superar la inseguridad y los conflictos del estado de naturaleza."
+      },
+      {
+        "nombre": "Iusnaturalismo",
+        "justificacion": "Doctrina filosófico-jurídica sobre el derecho natural que Spinoza reinterpreta radicalmente al negar la libertad moral abstracta e igualar el derecho con el poder, el conatus y las leyes necesarias de la naturaleza."
+      },
+      {
+        "nombre": "Monismo panteísta",
+        "justificacion": "Concepción metafísica condensada en la fórmula Deus sive Natura, la cual sostiene la existencia de una única sustancia infinita de la que todo lo existente es una manifestación o modo."
+      },
+      {
+        "nombre": "Mecanicismo",
+        "justificacion": "Esquema explicativo de la ciencia y filosofía modernas que concibe la extensión material como un sistema necesario regido por leyes de movimiento y reposo, rechazando las causas finales."
+      },
+      {
+        "nombre": "Absolutismo",
+        "justificacion": "Modelo político monárquico del siglo XVII criticado por el pensamiento spinoziano, que propone en su lugar un modelo republicano, laico y protector de las libertades individuales."
+      },
+      {
+        "nombre": "Escolástica",
+        "justificacion": "Tradición filosófica y teológica medieval en decadencia en el siglo XVII, citada al discutir la definición del hombre como \"animal social\" y criticada por su apelación a explicaciones antropomórficas."
+      }
+    ],
     "video_url": "",
-    "obras_relacionadas": []
+    "obras_relacionadas": [
+      {
+        "titulo": "Tratado teológico-político (1670)",
+        "autor": "Baruch Spinoza",
+        "justificacion": "Obra publicada de forma anónima para defender la laicidad, el gobierno republicano y la libertad de pensamiento y expresión frente al dogmatismo religioso."
+      },
+      {
+        "titulo": "Ética demostrada según el orden geométrico (1677)",
+        "autor": "Baruch Spinoza",
+        "justificacion": "Obra póstuma fundamental que expone deductivamente su metafísica monista, la teoría de los afectos y la liberación humana mediante el conocimiento."
+      },
+      {
+        "titulo": "Tratado político (1677)",
+        "autor": "Baruch Spinoza",
+        "justificacion": "Obra póstuma e incompleta que deduce la estructura y funcionamiento del Estado a partir de las pasiones humanas y la potencia colectiva de la multitud."
+      },
+      {
+        "titulo": "Tratado sobre la reforma del entendimiento (1677)",
+        "autor": "Baruch Spinoza",
+        "justificacion": "Escrito póstumo e incompleto de orientación ética que establece los grados de conocimiento necesarios para purificar el entendimiento y alcanzar el sumo bien."
+      },
+      {
+        "titulo": "Principios de filosofía de Descartes (1663)",
+        "autor": "Baruch Spinoza",
+        "justificacion": "Única obra publicada en vida con su nombre, en la que expone sintéticamente el sistema cartesiano mediante el método geométrico."
+      },
+      {
+        "titulo": "Pensamientos metafísicos (1663)",
+        "autor": "Baruch Spinoza",
+        "justificacion": "Apéndice a la exposición de la filosofía cartesiana que profundiza en problemas de la metafísica racionalista de su tiempo."
+      },
+      {
+        "titulo": "Breve tratado sobre Dios, el hombre y su felicidad (1852)",
+        "autor": "Baruch Spinoza",
+        "justificacion": "Escrito primerizo descubierto en el siglo XIX donde Spinoza anticipa sus tesis metafísicas y antropológicas iniciales."
+      },
+      {
+        "titulo": "Discurso del Método",
+        "autor": "René Descartes",
+        "justificacion": "Obra mencionada por contraste en las fuentes para señalar la diferencia entre el objetivo metodológico-científico de Descartes y la finalidad ético-política del proyecto spinoziano."
+      }
+    ]
   },
   {
     "id": 57,
     "num": 57,
     "bloque": "Bloque VI: Historia de la Filosofía",
     "titulo": "Ciencia y conocimiento en Leibniz.",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
+    "autores_relacionados": [
+      {
+        "id_filosofo": "descartes",
+        "nombre": "René Descartes",
+        "justificacion": "Filósofo racionalista con quien Leibniz contrasta su pensamiento; Leibniz cuestiona el criterio cartesiano subjetivo de la evidencia frente al formalismo lógico, combate la reducción de la materia a mera extensión (res extensa) proponiendo la noción de \"fuerza viva\", y sustituye el dualismo cartesiano por la armonía preestablecida1more_horiz."
+      },
+      {
+        "id_filosofo": "newton",
+        "nombre": "Isaac Newton",
+        "justificacion": "Científico con el que Leibniz mantuvo una célebre disputa sobre la prioridad en la invención del cálculo infinitesimal y un profundo debate en física y metafísica; frente a la concepción newtoniana de un espacio y tiempo absolutos e intervenciones divinas correctoras, Leibniz defiende el carácter relacional del espacio-tiempo y la suficiencia del orden preestablecido6more_horiz."
+      },
+      {
+        "id_filosofo": "locke",
+        "nombre": "John Locke",
+        "justificacion": "Pensador empirista cuya teoría del conocimiento es el principal contrapunto para Leibniz; frente a la postura de Locke de que la mente es una tabula rasa nutrida exclusivamente por la experiencia, Leibniz defiende un innatismo virtual en el que las verdades necesarias residen potencialmente en la mente (\"salvo el entendimiento mismo\")13more_horiz."
+      },
+      {
+        "id_filosofo": "aristoteles",
+        "nombre": "Aristóteles",
+        "justificacion": "Filósofo clásico cuya metafísica Leibniz intenta rehabilitar y sintetizar con la ciencia moderna de su tiempo; de él recupera e reinterpreta nociones esenciales como la forma sustancial, la entelequia y las causas finales para dotar de dinamismo a la física5more_horiz."
+      },
+      {
+        "id_filosofo": "platon",
+        "nombre": "Platón",
+        "justificacion": "Pensador de la Antigüedad al que Leibniz recurre para fundamentar su gnoseología de las ideas innatas; reivindica la solidez de la doctrina platónica de la reminiscencia (anámnesis) expresada en el Menón para explicar cómo el espíritu encuentra verdades necesarias en su propio interior23more_horiz."
+      },
+      {
+        "id_filosofo": "spinoza",
+        "nombre": "Baruch Spinoza",
+        "justificacion": "Racionalista del que Leibniz se distorsiona categóricamente al rechazar la identificación entre la posibilidad lógica y la existencia actual (ordo rerum = ordo idearum); frente al monismo y mecanicismo determinista spinoziano, Leibniz postula el pluralismo de sustancias (mónadas), la contingencia de lo real y la pluralidad de mundos posibles26more_horiz."
+      },
+      {
+        "id_filosofo": "samuel-clarke",
+        "nombre": "Samuel Clarke",
+        "justificacion": "Teólogo y representante de la física newtoniana que sostuvo con Leibniz la famosa Polémica Leibniz-Clarke; a través de sus cartas debatieron sobre el estatuto ontológico del espacio y el tiempo, la conservación de la fuerza física y la acción de Dios en la naturaleza9more_horiz."
+      },
+      {
+        "id_filosofo": "ramon-llull",
+        "nombre": "Ramón Llull",
+        "justificacion": "Lógico medieval en cuyos trabajos se inspiró Leibniz para sus investigaciones lógicas de juventud; su propuesta de un ars combinatoria sirvió de base al proyecto leibniziano de elaborar una characteristica universalis o lenguaje formal simbólico universal2more_horiz."
+      },
+      {
+        "id_filosofo": "pierre-bayle",
+        "nombre": "Pierre Bayle",
+        "justificacion": "Pensador ilustrado que argumentó la incompatibilidad entre razón y religión basándose en la presencia del mal en el mundo; sus tesis impulsaron a Leibniz a redactar su Teodicea para ofrecer una justificación racional de Dios ante la existencia del mal32.San Agustín (Agustín de Tagaste): Referente teológico en quien se apoya Leibniz para abordar el problema de la libertad y el mal en el universo; adopta de él la clasificación tripartita del mal (metafísico, físico y moral) y la compatibilidad con el libre albedrío2732."
+      },
+      {
+        "id_filosofo": "christiaan-huygens",
+        "nombre": "Christiaan Huygens",
+        "justificacion": "Científico que orientó a Leibniz en París hacia las investigaciones matemático-físicas de vanguardia y con quien sostuvo la formulación de la energía dinámica mediante la \"fuerza viva\" ($m \\cdot v^2$)37."
+      },
+      {
+        "id_filosofo": "pierre-gassendi",
+        "nombre": "Pierre Gassendi",
+        "justificacion": "Filósofo atomista cuya física influyó en Leibniz antes de que este superase tanto el atomismo puramente material como el cartesianismo mediante su concepción de las mónadas35."
+      },
+      {
+        "id_filosofo": "christian-wolff",
+        "nombre": "Christian Wolff",
+        "justificacion": "Continuador metafísico que sistematizó la filosofía leibniziana en la Ilustración alemana, intentando derivar el principio de razón suficiente a partir del principio de no contradicción3334."
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Racionalismo (onto-teológico / metafísico)",
+        "justificacion": "Corriente filosófica en la que se enmarca Leibniz (junto a Descartes y Spinoza), fundamentada en la confianza en la razón y en sus principios lógicos formales para comprender las estructuras profundas de la realidad, el conocimiento y la existencia de Dios."
+      },
+      {
+        "nombre": "Empirismo (inglés)",
+        "justificacion": "Movimiento filosófico sostenido por Locke que afirma que todo conocimiento procede de la experiencia sensible y que la mente carece de contenidos previos; Leibniz se opone al sostener que la experiencia es solo la ocasión para que la mente tome de sí misma las verdades necesarias."
+      },
+      {
+        "nombre": "Mecanicismo / Física mecanicista",
+        "justificacion": "Paradigma científico impulsado por Descartes y Newton que explica la naturaleza exclusivamente a través de la materia, la extensión geométrica y el movimiento; Leibniz acepta el mecanicismo en el plano fenoménico pero sostiene que debe subordinarse a una finalidad metafísica previa."
+      },
+      {
+        "nombre": "Escolástica / Filosofía escolástico-aristotélica",
+        "justificacion": "Tradición filosófica medieval orientada a la teleología y al estudio del ser mediante esencias; Leibniz recupera su concepción finalista y sus nociones de forma sustancial y entelequia para corregir la insuficiencia de la física mecanicista."
+      },
+      {
+        "nombre": "Atomismo (física atomística)",
+        "justificacion": "Corriente teórica (asociada a Gassendi y Newton) que concibe el universo compuesto por corpúsculos materiales e indivisibles en el vacío; Leibniz la supera reemplazando los átomos materiales por las mónadas, concebidas como átomos inmateriales e inextensos de fuerza espiritual."
+      },
+      {
+        "nombre": "Ocasionalismo",
+        "justificacion": "Corriente cartesiana (representada por Malebranche) que recurre a la intervención continua de Dios para explicar el acuerdo entre alma y cuerpo; Leibniz la rechaza por considerarla un recurso artificioso e introduce en su lugar la doctrina de la armonía preestablecida."
+      },
+      {
+        "nombre": "Platonismo",
+        "justificacion": "Escuela filosófica de la Antigüedad a la que acude Leibniz para sustentar la teoría de las ideas innatas y defender que el conocimiento superior atañe a las esencias eternas e inteligibles mediante un proceso de reflexión e iluminación interior."
+      }
+    ],
     "video_url": "",
-    "obras_relacionadas": []
+    "obras_relacionadas": [
+      {
+        "titulo": "De casis perplexis in jure (1664/1666)",
+        "autor": "Gottfried Wilhelm Leibniz",
+        "justificacion": "Tesis doctoral de temática jurídica con la que culminó sus estudios en la Universidad de Altdorf."
+      },
+      {
+        "titulo": "De arte combinatoria (1666)",
+        "autor": "Gottfried Wilhelm Leibniz",
+        "justificacion": "Tratado de juventud inspirado en Ramón Llull donde expone las bases de una lógica formal y deductiva para combinar símbolos universales."
+      },
+      {
+        "titulo": "Existentia Dei, ad mathematicam certitudinem exacta (1669)",
+        "autor": "Gottfried Wilhelm Leibniz",
+        "justificacion": "Escrito anónimo que aplica el rigor deductivo del método matemático a la demostración de la existencia divina."
+      },
+      {
+        "titulo": "Defensio trinitatis per nova reperta logica (1669)",
+        "autor": "Gottfried Wilhelm Leibniz",
+        "justificacion": "Obra en la que emplea desarrollos lógicos renovados para argumentar la defensa del dogma de la Trinidad."
+      },
+      {
+        "titulo": "Nova methodus pro maximis et minimis itemque tangentibus (1684)",
+        "autor": "Gottfried Wilhelm Leibniz",
+        "justificacion": "Memoria matemática publicada en Acta eruditorum donde formula de modo sistemático las reglas del cálculo diferencial e infinitesimal."
+      },
+      {
+        "titulo": "Discurso de metafísica (1685)",
+        "autor": "Gottfried Wilhelm Leibniz",
+        "justificacion": "Tratado donde expone la estructura de la sustancia individual, el orden no necesario del mundo y la elección por Dios del sistema más perfecto."
+      },
+      {
+        "titulo": "Nuevo sistema de la naturaleza y de la comunicación de las substancias (1695)",
+        "autor": "Gottfried Wilhelm Leibniz",
+        "justificacion": "Publicación en la que presenta la explicación de la concordancia entre sustancias simples mediante el principio de la armonía preestablecida."
+      },
+      {
+        "titulo": "Nuevos ensayos sobre el entendimiento humano (redactados c. 1704, pub. 1765)",
+        "autor": "Gottfried Wilhelm Leibniz",
+        "justificacion": "Obra escrita en réplica al Ensayo de Locke para sostener el innatismo virtual de las verdades de razón frente al empirismo."
+      },
+      {
+        "titulo": "Ensayo de Teodicea (1710)",
+        "autor": "Gottfried Wilhelm Leibniz",
+        "justificacion": "Tratado dedicado a la justificación de la justicia y sabiduría divinas ante el problema del mal y a la defensa del libre albedrío en el mejor de los mundos posibles."
+      },
+      {
+        "titulo": "Monadología (1714)",
+        "autor": "Gottfried Wilhelm Leibniz",
+        "justificacion": "Obra sintética redactada en Viena que expone la teoría de las mónadas como átomos de fuerza, las verdades de razón y de hecho, y la armonía preestablecida."
+      },
+      {
+        "titulo": "Polémica Leibniz-Clarke / Correspondencia con Clarke (1715-1716)",
+        "autor": "Gottfried Wilhelm Leibniz",
+        "justificacion": "Intercambio epistolar donde debate con Samuel Clarke sobre la naturaleza del espacio, el tiempo, la gravedad y la conservación de la energía física."
+      },
+      {
+        "titulo": "Ensayo sobre el entendimiento humano (mencionado en las fuentes como el Ensayo de Locke)",
+        "autor": "John Locke",
+        "justificacion": "Obra fundacional del empirismo que sostiene la tesis de la mente como tabula rasa y que sirve de contrapunto para los Nuevos ensayos leibnizianos."
+      },
+      {
+        "titulo": "Menón",
+        "autor": "Platón",
+        "justificacion": "Diálogo sobre la virtud y el conocimiento citado expresamente para respaldar la solidez de la teoría de la reminiscencia (anámnesis) e ideas innatas."
+      },
+      {
+        "titulo": "Los ocho libros de Aristóteles (Física)",
+        "autor": "Aristóteles",
+        "justificacion": "Compendio clásico sobre la naturaleza y el cambio que Leibniz sostiene que la filosofía renovada puede asumir para la explicación de las sustancias"
+      }
+    ]
   },
   {
     "id": 58,
@@ -2819,34 +3889,474 @@
     "bloque": "Bloque VI: Historia de la Filosofía",
     "titulo": "El uso teórico de la razón en Kant.",
     "autores_relacionados": [
-      "kant"
+      {
+        "id_filosofo": "kant",
+        "nombre": "Immanuel Kant",
+        "justificacion": "Es el filósofo central del tema, cuya obra realiza un examen crítico de las facultades cognoscitivas humanas para fijar los límites del conocimiento teórico y fundamentar la dimensión práctica de la razón y la moral"
+      },
+      {
+        "id_filosofo": "newton",
+        "nombre": "Isaac Newton",
+        "justificacion": "Su física constituye el modelo de ciencia empírico-matemática que Kant busca fundamentar teóricamente a través de los juicios sintéticos a priori, requiriendo presupuestos como el espacio y el tiempo absolutos"
+      },
+      {
+        "id_filosofo": "descartes",
+        "nombre": "René Descartes",
+        "justificacion": "Representa el modelo racionalista de ciencia fundado en las matemáticas que Kant contrapone al modelo newtoniano, siendo también un referente de la metafísica analizada críticamente en el examen del conocimiento"
+      },
+      {
+        "id_filosofo": "leibniz",
+        "nombre": "Gottfried Wilhelm Leibniz",
+        "justificacion": "Filósofo racionalista con quien Kant polemiza directamente al sostener que la aritmética no es una ciencia analítica, sino sintética a priori"
+      },
+      {
+        "id_filosofo": "hume",
+        "nombre": "David Hume",
+        "justificacion": "Pensador empirista cuya postura es examinada por Kant para superar tanto el escepticismo resultante del empirismo como el dogmatismo racionalista"
+      },
+      {
+        "id_filosofo": "copernico",
+        "nombre": "Nicolás Copérnico",
+        "justificacion": "Su revolución astronómica inspira el «giro copernicano» kantiano, según el cual los objetos deben adecuarse a la estructura a priori del sujeto cognoscente y no a la inversa"
+      },
+      {
+        "id_filosofo": "aristoteles",
+        "nombre": "Aristóteles",
+        "justificacion": "Mencionado por Kant al diferenciar sus «categorías» como conceptos puros a priori del entendimiento frente al sentido aristotélico original concebido como modos del ser"
+      },
+      {
+        "id_filosofo": "friedrich-schiller",
+        "nombre": "Friedrich Schiller",
+        "justificacion": "Autor que cuestiona el rigorismo de la ética kantiana mediante sus epigramas, criticando la oposición estricta entre el cumplimiento del deber moral y las inclinaciones afectivas"
+      },
+      {
+        "id_filosofo": "hegel",
+        "nombre": "G. W. F. Hegel",
+        "justificacion": "Filósofo que presenta objeciones a la formalidad del imperativo categórico kantiano a propósito de la universalización de máximas como la custodia de bienes y la propiedad privada"
+      },
+      {
+        "id_filosofo": "adam-smith",
+        "nombre": "Adam Smith",
+        "justificacion": "Máximo exponente del liberalismo económico inglés en la Ilustración, citado en la contextualización histórica por defender que el trabajo es el origen de la riqueza"
+      },
+      {
+        "id_filosofo": "francois-quesnay",
+        "nombre": "François Quesnay",
+        "justificacion": "Teórico fisiócrata francés citado en el marco histórico de la Ilustración por considerar que la economía está regida por leyes naturales en las que el Estado no debe intervenir"
+      }
     ],
     "corrientes_relacionadas": [
-      "criticismo",
-      "idealismo"
+      {
+        "nombre": "Ilustración (Siglo de las Luces / Aufklärung)",
+        "justificacion": "Movimiento cultural y filosófico del siglo XVIII caracterizado por la confianza en la razón crítica y la ciencia para emancipar al ser humano del dogmatismo y la superstición, constituyendo el marco histórico-intelectual de la obra kantiana"
+      },
+      {
+        "nombre": "Racionalismo (o Dogmatismo racionalista)",
+        "justificacion": "Corriente que sostiene que la razón es la fuente del conocimiento; Kant critica su pretensión de conocer lo suprasensible mediante juicios analíticos o dogmáticos sin recurrir a la experiencia"
+      },
+      {
+        "nombre": "Empirismo (o Escepticismo empirista)",
+        "justificacion": "Escuela filosófica que deriva todo conocimiento de la experiencia sensible; Kant señala su limitación al no poder explicar la necesidad ni la universalidad a priori de los juicios científicos"
+      },
+      {
+        "nombre": "Filosofía trascendental (o Criticismo kantiano)",
+        "justificacion": "Proyecto filosófico inaugurado por Kant que investiga las condiciones a priori que hacen posible el conocimiento de objetos y la experiencia moral, superando el dogmatismo y el escepticismo"
+      },
+      {
+        "nombre": "Pietismo",
+        "justificacion": "Movimiento de renacimiento religioso protestante en Alemania en el que fue educado Kant, ejerciendo un marcado influjo en la rigurosidad de su vida y de su planteamiento ético"
+      },
+      {
+        "nombre": "Fisiocracia",
+        "justificacion": "Corriente del pensamiento económico ilustrado que sostiene que la economía se rige por leyes naturales basadas en la producción agraria y defiende la no intervención estatal (laissez faire)"
+      },
+      {
+        "nombre": "Liberalismo económico",
+        "justificacion": "Doctrina económica nacida en Gran Bretaña que defiende la libertad de comercio y el trabajo como origen de la riqueza, limitando el papel del Estado al mantenimiento del orden y la justicia"
+      },
+      {
+        "nombre": "Deísmo",
+        "justificacion": "Postura religiosa difundida entre las capas cultas ilustradas que defiende una religión fundada exclusivamente en la razón al margen de los dogmas de las iglesias institucionales"
+      }
     ],
     "video_url": "",
-    "obras_relacionadas": []
+    "obras_relacionadas": [
+      {
+        "titulo": "Disertación sobre la forma y los principios del mundo sensible y del mundo inteligible (1770)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Memoria de acceso a la cátedra universitaria que marca la transición de Kant hacia la formulación de su período crítico"
+      },
+      {
+        "titulo": "Crítica de la razón pura (1781)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Obra fundamental donde Kant analiza la sensibilidad, el entendimiento y la razón para establecer los límites del conocimiento y fundamentar la posibilidad de los juicios sintéticos a priori en la ciencia"
+      },
+      {
+        "titulo": "Prolegómenos a toda metafísica futura que quiera presentarse como ciencia (1783)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Escrito concebido para aclarar de forma accesible los fundamentos trascendentales de la metafísica crítica"
+      },
+      {
+        "titulo": "Fundamentación de la metafísica de las costumbres (1785)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Obra dedicada a fundamentar a priori el principio supremo de la moralidad a través del análisis de la buena voluntad, el deber y el imperativo categórico"
+      },
+      {
+        "titulo": "Crítica de la razón práctica (1788)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Tratado centrado en el uso práctico de la razón, demostrando la autonomía de la voluntad y los postulados de la libertad, la inmortalidad del alma y Dios"
+      },
+      {
+        "titulo": "Crítica del Juicio (1790)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Obra principal del período crítico kantiano orientada al estudio del juicio estético y la teleología"
+      },
+      {
+        "titulo": "La religión dentro de los límites de la mera razón (1793)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Escrito en el que Kant aborda el fenómeno religioso desde la perspectiva de la razón pura y la moral"
+      },
+      {
+        "titulo": "Sobre la paz perpetua (1795)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Ensayo de filosofía política que propone la articulación racional de la concordia internacional y la paz regulada entre Estados"
+      },
+      {
+        "titulo": "La metafísica de las costumbres (1797)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Obra que expone el sistema completo de los deberes morales y jurídicos aplicados a las condiciones de la existencia humana"
+      },
+      {
+        "titulo": "Nova dilucidatio (1755)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Trabajo del período pre-crítico kantiano dedicado a investigaciones filosóficas y científicas iniciales"
+      },
+      {
+        "titulo": "Filosofía de la historia (2017)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Recopilación de escritos en los que Kant analiza el desarrollo teleológico de las disposiciones racionales de la humanidad a lo largo del tiempo"
+      },
+      {
+        "titulo": "Fisiocracia, o gobierno de la naturaleza (1768)",
+        "autor": "François Quesnay",
+        "justificacion": "Obra donde se expone la teoría económica fisiócrata según la cual la economía se rige por leyes naturales sin intervención del Estado"
+      },
+      {
+        "titulo": "Ensayo sobre la naturaleza y las causas de la riqueza de las naciones (1776)",
+        "autor": "Adam Smith",
+        "justificacion": "Texto fundador del liberalismo económico que sostiene que el trabajo es el origen de la riqueza y aboga por el libre comercio"
+      },
+      {
+        "titulo": "Escrúpulo de conciencia",
+        "autor": "Friedrich Schiller",
+        "justificacion": "Epigrama satírico en el que se cuestiona el rigorismo de la ética kantiana al oponer la realización del deber a los impulsos del corazón"
+      },
+      {
+        "titulo": "Decisión",
+        "autor": "Friedrich Schiller",
+        "justificacion": "Epigrama poético que critica la concepción kantiana de que la inclinación afectiva despoja de valor moral a la acción"
+      }
+    ]
   },
   {
     "id": 60,
     "num": 60,
     "bloque": "Bloque VI: Historia de la Filosofía",
     "titulo": "El uso práctico de la razón en Kant.",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
+    "autores_relacionados": [
+      {
+        "id_filosofo": "kant",
+        "nombre": "Immanuel Kant",
+        "justificacion": "Autor central del tema cuya filosofía crítica examina la estructura, las condiciones de posibilidad y los límites de la razón pura teórica a través de su «revolución copernicana»."
+      },
+      {
+        "id_filosofo": "hume",
+        "nombre": "David Hume",
+        "justificacion": "Filósofo empirista cuya crítica a la causalidad y a la inducción «despertó a Kant del sueño dogmático», impulsándole a fundamentar la posibilidad de los juicios sintéticos a priori frente al escepticismo."
+      },
+      {
+        "id_filosofo": "leibniz",
+        "nombre": "Gottfried Wilhelm Leibniz",
+        "justificacion": "Pensador racionalista cuya obra (Nuevos ensayos sobre el entendimiento humano) despertó a Kant del «sueño escéptico» al señalar el carácter activo a priori del entendimiento, y de cuyo dogmatismo metafísico Kant se distanció en su período crítico."
+      },
+      {
+        "id_filosofo": "newton",
+        "nombre": "Isaac Newton",
+        "justificacion": "Científico de cuya física teórica parte Kant como modelo de ciencia consolidada basada en juicios universales y necesarios, inspirando la reorganización metodológica del conocimiento teórico."
+      },
+      {
+        "id_filosofo": "locke",
+        "nombre": "John Locke",
+        "justificacion": "Filósofo empirista cuya doctrina del origen sensorial del conocimiento influyó en la premisa kantiana de que todo conocimiento comienza con la experiencia."
+      },
+      {
+        "id_filosofo": "descartes",
+        "nombre": "René Descartes",
+        "justificacion": "Representante del racionalismo clásico a quien Kant toma como referente del método matemático en filosofía, pero a quien critica en la Analítica y Dialéctica trascendentales por reducir el sujeto trascendental a una sustancia pensante."
+      },
+      {
+        "id_filosofo": "christian-wolff",
+        "nombre": "Christian Wolff",
+        "justificacion": "Filósofo de la metafísica racionalista en cuya tradición se formó Kant antes de emprender la crítica a la razón pura para fijar los límites del saber científico."
+      },
+      {
+        "id_filosofo": "galileo",
+        "nombre": "Galileo Galilei",
+        "justificacion": "Físico moderno cuya alianza entre matemática y experimento sirvió a Kant como antecedente metodológico de la revolución copernicana en teoría del conocimiento"
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Racionalismo (o Racionalismo dogmático)",
+        "justificacion": "Corriente que sostiene que la razón pura puede conocer la realidad a partir de puros conceptos sin fundamentarse en la experiencia; Kant la critica por incurrir en un «sueño dogmático» al no investigar previamente los límites del propio conocer."
+      },
+      {
+        "nombre": "Empirismo (o Empirismo escéptico)",
+        "justificacion": "Corriente que afirma que todo conocimiento procede de la experiencia sensible; Kant acepta que el conocimiento comienza con la experiencia, pero rechaza su deriva escéptica por negar la existencia de elementos a priori universales y necesarios."
+      },
+      {
+        "nombre": "Ilustración (Aufklärung)",
+        "justificacion": "Movimiento cultural y filosófico del siglo XVIII centrado en la autonomía y autocrítica de la razón, la laicidad y la salida de la «minoría de edad», en el cual la filosofía kantiana se inserta y alcanza su culmen."
+      },
+      {
+        "nombre": "Idealismo Trascendental (o Filosofía Crítica / Apriorismo crítico)",
+        "justificacion": "Marco filosófico de Kant que sostiene que solo conocemos los fenómenos (lo constituido mediante las formas a priori de la sensibilidad y las categorías del entendimiento) y no las cosas en sí o noúmenos."
+      },
+      {
+        "nombre": "Dogmatismo",
+        "justificacion": "Postura filosófica que pretende avanzar en el conocimiento metafísico mediante conceptos sin haber examinado previamente la capacidad ni los límites de la razón pura."
+      },
+      {
+        "nombre": "Escepticismo",
+        "justificacion": "Postura derivada del empirismo radical que concluye que no es posible lograr un conocimiento científico universal y necesario, posición que la crítica trascendental kantiana busca superar."
+      }
+    ],
     "video_url": "",
-    "obras_relacionadas": []
+    "obras_relacionadas": [
+      {
+        "titulo": "Historia universal de la naturaleza y del cielo (1755)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Obra precrítica en la que expone una cosmología mecanicista basada en las teorías y fuerzas de atracción y repulsión newtonianas."
+      },
+      {
+        "titulo": "Monadologia Physica (1756)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Trabajo precrítico en el que opone a las mónadas inextensas de Leibniz mónadas físicas corpóreas concebidas como centros de fuerza."
+      },
+      {
+        "titulo": "Meditaciones sobre el optimismo",
+        "autor": "Immanuel Kant",
+        "justificacion": "Escrito precrítico donde defiende el optimismo ilustrado atacando el pesimismo de Voltaire."
+      },
+      {
+        "titulo": "La falsa sutileza de las cuatro figuras silogísticas (1762)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Obra precrítica en la que critica la lógica aristotélica por considerarla superflua e innecesaria."
+      },
+      {
+        "titulo": "De mundi sensibilis atque intelligibilis forma et principiis (Disertación de 1770) (1770)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Escrito de acceso a cátedra donde distingue formalmente entre conocimiento sensible (espacio y tiempo como formas a priori) e inteligible."
+      },
+      {
+        "titulo": "Crítica de la razón pura (1781 / 1787)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Obra principal del uso teórico de la razón en la que Kant investiga las condiciones de posibilidad de los juicios sintéticos a priori y fija los límites del conocimiento al ámbito fenoménico."
+      },
+      {
+        "titulo": "Prolegómenos a toda metafísica futura que quiera presentarse como ciencia (1783)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Trabajo en el que expone de forma sintética su filosofía crítica y la fundamentación a priori de la matemática y la física."
+      },
+      {
+        "titulo": "Idea de una historia universal desde el punto de vista cosmopolita (1784)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Ensayo sobre la filosofía de la historia e inserción del desarrollo humano en la perspectiva ilustrada."
+      },
+      {
+        "titulo": "¿Qué es la Ilustración?",
+        "autor": "Immanuel Kant",
+        "justificacion": "Escrito donde define la Ilustración como la liberación del ser humano de su culpable incapacidad mediante el lema ¡Sapere aude!."
+      },
+      {
+        "titulo": "Fundamentación de la metafísica de las costumbres (1785)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Texto inicial en el que expone los principios fundamentales de la voluntad pura y la ética formal."
+      },
+      {
+        "titulo": "Crítica de la Razón Práctica (1788)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Segunda crítica en la que Kant aborda el uso práctico de la razón, el imperativo categórico y los postulados metafísicos."
+      },
+      {
+        "titulo": "Crítica del Juicio (1790)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Tercera crítica kantiana dedicada al juicio reflexivo (estético y teleológico) como puente entre naturaleza y libertad."
+      },
+      {
+        "titulo": "La religión dentro de los límites de la mera razón (1793)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Obra en la que ofrece una justificación racional de la religión garantizándola contra la superstición."
+      },
+      {
+        "titulo": "Sobre la paz perpetua (1795)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Escrito filosófico-político orientado a fundamentar un orden pacífico y civilizado entre los pueblos."
+      },
+      {
+        "titulo": "La metafísica de las costumbres (1797)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Exposición sistemática de la doctrina del derecho y de las virtudes morales."
+      },
+      {
+        "titulo": "Antropología desde el punto de vista pragmático (1798)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Tratado centrado en el estudio pragmático de las facultades y conducta del ser humano."
+      },
+      {
+        "titulo": "Investigación sobre el conocimiento humano (o Investigación sobre el entendimiento humano)",
+        "autor": "David Hume",
+        "justificacion": "Obra empirista en la que argumenta la imposibilidad de la metafísica como ciencia y cuestiona la fundamentación racional del principio de causalidad."
+      },
+      {
+        "titulo": "Nuevos ensayos sobre el entendimiento humano",
+        "autor": "Gottfried Wilhelm Leibniz",
+        "justificacion": "Escrito en el que expone su teoría del innatismo virtual frente a Locke y cuya lectura alejó a Kant del escepticismo empirista."
+      }
+    ]
   },
   {
     "id": 61,
     "num": 61,
     "bloque": "Bloque VI: Historia de la Filosofía",
     "titulo": "La filosofía de Hegel: sujeto, sistema y estado.",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
+    "autores_relacionados": [
+      {
+        "id_filosofo": "kant",
+        "nombre": "Immanuel Kant",
+        "justificacion": "Representa el precedente crítico fundamental que Hegel busca superar; Hegel reconoce la aportación kantiana del sujeto trascendental como estructurador de la experiencia y la síntesis a priori, pero rechaza la incognoscibilidad del noúmeno o \"cosa en sí\", convirtiendo al sujeto en creador absoluto no solo de la forma sino también del contenido de la realidad."
+      },
+      {
+        "id_filosofo": "spinoza",
+        "nombre": "Baruch Spinoza",
+        "justificacion": "Filósofo vital por su monismo panteísta en el que se identifican el pensar y el ser; Hegel adopta este principio de unidad entre sujeto y objeto, pero critica su carácter estático e introduce el movimiento dialéctico y la génesis histórica para concebir la sustancia como sujeto."
+      },
+      {
+        "id_filosofo": "heraclito",
+        "nombre": "Heráclito",
+        "justificacion": "Precursor esencial del cual Hegel rescata la concepción del devenir y la lucha de contrarios ( Polemos ) como motor del pensamiento y de la realidad, integrando la negación inmanente en su método dialéctico para conciliar el ser uno con la multiplicidad."
+      },
+      {
+        "id_filosofo": "fichte",
+        "nombre": "Johann Gottlieb Fichte",
+        "justificacion": "Autor de cuya filosofía Hegel deriva la formulación de la dialéctica como síntesis de los opuestos, además de recibir la influencia de su concepción del yo creador y la libertad en el desarrollo del Espíritu."
+      },
+      {
+        "id_filosofo": "schelling",
+        "nombre": "Friedrich Wilhelm Joseph Schelling",
+        "justificacion": "Filósofo del idealismo con quien Hegel compartió formación e influencias iniciales; es relevante por su concepción organicista de la Naturaleza como Idea alienada y por el intento de conciliar dialécticamente la naturaleza y el espíritu."
+      },
+      {
+        "id_filosofo": "parmenides",
+        "nombre": "Parménides",
+        "justificacion": "Referente clásico crucial por haber postulado la identidad originaria entre el ser y el pensar, intuición que el idealismo absoluto hegeliano busca recuperar y dinamizar al articularla con el devenir."
+      },
+      {
+        "id_filosofo": "platon",
+        "nombre": "Platón",
+        "justificacion": "Pensador clave cuya dialéctica sirve a Hegel como punto de partida para poner en movimiento las ideas y vincularlas con la realidad concreta, superándolo al integrar las contradicciones conceptuales en la totalidad racional del sistema."
+      },
+      {
+        "id_filosofo": "jean-jacques-rousseau",
+        "nombre": "Jean-Jacques Rousseau",
+        "justificacion": "Teórico político fundamental por situar la voluntad libre en el origen de la legitimidad del Estado; Hegel lo examina críticamente por haber basado dicha voluntad en decisiones individuales abstractas y no en la voluntad racional universal."
+      },
+      {
+        "id_filosofo": "descartes",
+        "nombre": "René Descartes",
+        "justificacion": "Inaugura la filosofía del sujeto con el ego cogito y establece la escisión entre sujeto cognoscente y objeto conocido, dualidad que Hegel se propone reconciliar en la autoconciencia del Espíritu Absoluto"
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Idealismo alemán (Idealismo absoluto)",
+        "justificacion": "Corriente en la que se encuadra la filosofía de Hegel como su máxima culminación, caracterizada por concebir lo Absoluto como el desarrollo dialéctico e inmanente de la Idea, la Naturaleza y el Espíritu en el tiempo."
+      },
+      {
+        "nombre": "Romanticismo",
+        "justificacion": "Movimiento cultural y filosófico que marcó la juventud hegeliana con su exaltación del yo creador, la libertad, el sentimiento y el \"espíritu del pueblo\" (Volksgeist); Hegel asume sus inquietudes históricas pero reacciona contra su pretensión de captar lo Absoluto mediante la intuición emocional sin mediación conceptual."
+      },
+      {
+        "nombre": "Ilustración (y Criticismo / Racionalismo ilustrado)",
+        "justificacion": "Marco teórico al que se contrapuso el Romanticismo y que Hegel busca superar; el pensamiento hegeliano combate el entendimiento abstracto ilustrado para elevar la Razón a una mediación dialéctica y discursiva de lo real."
+      },
+      {
+        "nombre": "Panteísmo",
+        "justificacion": "Doctrina filosófica (representada eminentemente por Spinoza) que identifica la totalidad de lo real con lo divino; sirve a Hegel como base ontológica para afirmar que lo Absoluto es inmanente a la realidad, aunque dinamizado por el devenir dialéctico."
+      },
+      {
+        "nombre": "Estoicismo y Escepticismo",
+        "justificacion": "Escuelas del mundo antiguo tratadas por Hegel no solo como doctrinas, sino como \"figuras\" históricas y etapas de la autoconciencia en su proceso de liberación y desgarramiento frente al mundo sensible dentro de la Fenomenología"
+      }
+    ],
     "video_url": "",
-    "obras_relacionadas": []
+    "obras_relacionadas": [
+      {
+        "titulo": "Vida de Jesús (1793–1800)",
+        "autor": "Georg Wilhelm Friedrich Hegel",
+        "justificacion": "Escrito de juventud en el que traduce la figura y el mensaje de Cristo a fórmulas filosóficas kantianas para fundamentar una religión racional basada en la moral."
+      },
+      {
+        "titulo": "Fenomenología del Espíritu (1807)",
+        "autor": "Georg Wilhelm Friedrich Hegel",
+        "justificacion": "Describe el itinerario ascendente de la conciencia desde la experiencia sensible hasta el saber absoluto, sirviendo como teoría del conocimiento y propedéutica al sistema."
+      },
+      {
+        "titulo": "Ciencia de la Lógica (1812–1816)",
+        "autor": "Georg Wilhelm Friedrich Hegel",
+        "justificacion": "Desarrolla la metafísica y la ontología hegeliana mediante el análisis dialéctico de las categorías puras del ser, la esencia y el concepto."
+      },
+      {
+        "titulo": "Enciclopedia de las Ciencias Filosóficas (1817)",
+        "autor": "Georg Wilhelm Friedrich Hegel",
+        "justificacion": "Presentación orgánica y articulada del sistema filosófico hegeliano desglosado en Lógica, Filosofía de la Naturaleza y Filosofía del Espíritu."
+      },
+      {
+        "titulo": "Principios de filosofía del derecho (1821)",
+        "autor": "Georg Wilhelm Friedrich Hegel",
+        "justificacion": "Expone la realización de la libertad en el ámbito del espíritu objetivo (derecho, moralidad y eticidad) y desarrolla la teoría del Estado como encarnación de la razón."
+      },
+      {
+        "titulo": "Lecciones sobre la filosofía de la historia universal (Edición póstuma)",
+        "autor": "Georg Wilhelm Friedrich Hegel",
+        "justificacion": "Exposición de la historia humana como el despliegue racional del Espíritu en el tiempo y como progreso continuo en la conciencia de la libertad."
+      },
+      {
+        "titulo": "Lecciones sobre la historia de la filosofía (Edición póstuma)",
+        "autor": "Georg Wilhelm Friedrich Hegel",
+        "justificacion": "Estudio del devenir de los sistemas filosóficos pasados entendidos como fases necesarias del desarrollo dialéctico del concepto hacia la autoconciencia."
+      },
+      {
+        "titulo": "Filosofía del arte o estética (Edición póstuma)",
+        "autor": "Georg Wilhelm Friedrich Hegel",
+        "justificacion": "Aborda el despliegue del Espíritu Absoluto a través de la manifestación e intuición sensible en las diversas formas artísticas."
+      },
+      {
+        "titulo": "La Religión dentro de los límites de la razón (1793)",
+        "autor": "Immanuel Kant",
+        "justificacion": "Obra que sirvió de estímulo al joven Hegel para interpretar la religión desde un enfoque ético y racional sin dogmas eclesiásticos."
+      },
+      {
+        "titulo": "Teoría de la ciencia",
+        "autor": "Johann Gottlieb Fichte",
+        "justificacion": "Escrito en el que Fichte fundamenta el concepto de dialéctica como síntesis de los contrarios, antecedente directo del método hegeliano."
+      },
+      {
+        "titulo": "Manuscritos de 1844",
+        "autor": "Karl Marx",
+        "justificacion": "Obra en cuyo tercer manuscrito Marx lleva a cabo una célebre reinterpretación y desarrollo del análisis hegeliano sobre la dialectica del señorío y la esclavitud. ---"
+      }
+    ]
   },
   {
     "id": 62,
@@ -2857,58 +4367,58 @@
       {
         "id_filosofo": "saint-simon",
         "nombre": "Henri de Saint-Simon",
-        "justificacion": "Precursor del positivismo social que conceptualiza la historia como una sucesión necesaria de épocas orgánicas y críticas, proponiendo reorganizar la sociedad destruida por la Revolución Francesa mediante una filosofía positiva dirigida por científicos e industriales"
+        "justificacion": "Precursor del positivismo social que definió la historia como una sucesión de épocas orgánicas y críticas, proponiendo reorganizar la sociedad mediante una filosofía positiva dirigida por científicos e industriales."
       },
       {
         "id_filosofo": "comte",
         "nombre": "Auguste Comte",
-        "justificacion": "Fundador del positivismo sistemático y de la sociología; formuló la ley de los tres estadios y la clasificación jerárquica de las ciencias para reorganizar la sociedad en un estado positivo que culmina en la Religión de la Humanidad"
+        "justificacion": "Fundador del positivismo sistemático y de la sociología que formuló la ley de los tres estadios, la escala jerárquica de las ciencias y la religión de la Humanidad para refundar el orden social."
       },
       {
         "id_filosofo": "emile-littre",
         "nombre": "Émile Littré",
-        "justificacion": "Principal exponente del positivismo republicano, que rechazó la dictadura espiritual y el culto religioso del \"segundo Comte\" para defender las libertades individuales, el régimen parlamentario y la libertad de discusión"
+        "justificacion": "Exponente del positivismo republicano que aceptó el método científico comtiano pero rechazó su deriva dogmática e institucional, defendiendo las libertades individuales y el parlamentarismo."
       },
       {
         "id_filosofo": "mill",
         "nombre": "John Stuart Mill",
-        "justificacion": "Representante fundamental del positivismo empírico británico, quien sistematizó la lógica inductiva excluyendo todo saber a priori o metafísico y concilió el utilitarismo con la defensa estricta de la libertad individual"
+        "justificacion": "Representante del positivismo empírico e inductivo británico que fundamentó todo conocimiento en la experiencia, desarrolló la lógica inductiva y articuló un utilitarismo cualitativo compatible con la libertad individual."
       },
       {
         "id_filosofo": "herbert-spencer",
         "nombre": "Herbert Spencer",
-        "justificacion": "Creador del positivismo evolucionista, quien aplicó la ley universal de la evolución (paso ineludible de lo homogéneo inestable a lo heterogéneo coherente) a la biología, la psicología, la sociología y la ética dentro de su \"Filosofía Sintética\""
+        "justificacion": "Creador del positivismo evolucionista que formuló la ley universal de la evolución (paso de lo homogéneo inestable a lo heterogéneo coherente) aplicada a la biología, la sociología y la ética liberal."
       },
       {
         "id_filosofo": "ernst-mach",
         "nombre": "Ernst Mach",
-        "justificacion": "Exponente del positivismo científico y sensacionalista (empiriocriticismo), que redujo el conocimiento a un complejo de sensaciones u \"elementos\" neutros y postuló el principio de \"economía del pensamiento\" para depurar a la ciencia de conceptos metafísicos"
+        "justificacion": "Exponente del positivismo científico y empiriocriticismo que redujo la realidad a complejos de sensaciones u elementos neutros y formuló el principio de economía del pensamiento."
       }
     ],
     "corrientes_relacionadas": [
       {
         "nombre": "Positivismo Social",
-        "justificacion": "Corriente formulada por Saint-Simon y sistematizada por Auguste Comte que enfatiza la dimensión histórica del conocimiento, la reorganización política tras la quiebra del Antiguo Régimen y la función práctica de la ciencia para garantizar el orden y el progreso social"
+        "justificacion": "Corriente formulada por Auguste Comte y John Stuart Mill que acentúa la dimensión histórica del conocimiento, la aplicación del método científico a la sociedad y la búsqueda de un orden y progreso social práctico."
       },
       {
         "nombre": "Positivismo Evolucionista",
-        "justificacion": "Corriente liderada por Herbert Spencer que postula una ley cósmica y universal de transformación progresiva (tránsito de lo homogéneo incoherente a lo heterogéneo coherente y diferenciado) aplicable tanto a la naturaleza orgánica como a la sociedad e instituciones humanas"
+        "justificacion": "Corriente liderada por Herbert Spencer que sostiene un patrón universal de transformaciones progresivas desde lo simple y homogéneo hacia lo complejo y heterogéneo en la naturaleza, la ciencia y las instituciones humanas."
       },
       {
-        "nombre": "Positivismo Científico (Sensacionalismo / Empiriocriticismo)",
-        "justificacion": "Corriente desarrollada por Ernst Mach que minimiza los componentes sociológicos para proponer una reducción sistemática de los conceptos científicos a sensaciones u \"elementos\" neutros, concibiendo las leyes científicas como meras herramientas de economía del pensamiento"
+        "nombre": "Empiriocriticismo (o Positivismo Científico / Sensacionalismo)",
+        "justificacion": "Corriente desarrollada por Ernst Mach que propone una reducción de los conceptos científicos a conjuntos de sensaciones u elementos neutros, concibiendo las leyes científicas como herramientas auxiliares de economía del pensamiento."
       },
       {
         "nombre": "Positivismo Republicano",
-        "justificacion": "Movimiento impulsado por Émile Littré que depura el positivismo del absolutismo y dogmatismo de la etapa tardía de Comte, adaptándolo al marco democrático, parlamentario y al respeto a las libertades individuales mediante un método \"oportunista\" y negociado"
+        "justificacion": "Corriente impulsada por Émile Littré que depura el positivismo de las exigencias dogmáticas autoritarias de la etapa tardía de Comte, adaptándolo al marco democrático, la negociación parlamentaria y la libertad de discusión."
       },
       {
         "nombre": "Empirismo Inductivista",
-        "justificacion": "Base epistemológica y raíz del positivismo (heredada de Bacon y Hume) que sostiene que la experiencia y la observación empírica intersubjetivamente controlable son las únicas fuentes legítimas de conocimiento objetivo, rechazando la metafísica y las esencias a priori"
+        "justificacion": "Base epistemológica heredada por el positivismo (vía Bacon y Hume) que establece que la experiencia y la observación empírica son las únicas fuentes válidas de conocimiento, rechazando las nociones a priori y la metafísica."
       },
       {
-        "nombre": "Utilitarismo (Liberal / Evolutivo)",
-        "justificacion": "Corriente ética articulada por J. S. Mill y Spencer que evalúa las acciones, leyes e instituciones en función de su capacidad para promover la mayor felicidad general, vinculando el bienestar social con la protección incondicional de los derechos y libertades individuales"
+        "nombre": "Utilitarismo (Positivista / Liberal / Evolutivo)",
+        "justificacion": "Corriente ética articulada por J. S. Mill y Herbert Spencer que concibe el placer y la felicidad como el criterio moral supremo, buscando conciliar el bienestar general con la defensa de la libertad y los derechos individuales"
       }
     ],
     "video_url": "https://youtu.be/mFArWy7bR9o",
@@ -2916,177 +4426,172 @@
       {
         "titulo": "Lettres d'un habitant de Genève à ses contemporains (1803)",
         "autor": "Henri de Saint-Simon",
-        "justificacion": "Propone la financiación pública de la investigación científica y esboza la idea de un poder espiritual confiado a los sabios"
+        "justificacion": "Propone la financiación pública de la ciencia y la atribución del poder espiritual a los sabios."
       },
       {
         "titulo": "De la réorganisation de la société européenne (1814)",
         "autor": "Henri de Saint-Simon",
-        "justificacion": "Plantea la reorganización de las relaciones internacionales y europeas bajo la guía de un poder espiritual"
+        "justificacion": "Plantea la reorganización de la sociedad y las relaciones internacionales europeas bajo el liderazgo de una autoridad espiritual pacífica."
       },
       {
         "titulo": "Le Nouveau Christianisme (1825)",
         "autor": "Henri de Saint-Simon",
-        "justificacion": "Defiende la necesidad de una religión sobre bases científicas para mantener la cohesión y la moral social"
+        "justificacion": "Defiende la necesidad de fundamentar la moral y la religión sobre bases científicas para asegurar la cohesión social."
       },
       {
         "titulo": "Plan des travaux scientifiques nécessaires pour réorganiser la société (1822)",
         "autor": "Auguste Comte",
-        "justificacion": "Obra germinal que establece la unión entre ciencia y política para refundar el orden social"
+        "justificacion": "Obra germinal que plantea la alianza entre ciencia y política para reorganizar la sociedad."
       },
       {
         "titulo": "Considérations philosophiques sur la science et les savants (1825)",
         "autor": "Auguste Comte",
-        "justificacion": "Presenta las primeras formulaciones clásicas de la ley de los tres estadios y la clasificación de las ciencias"
+        "justificacion": "Presenta las primeras formulaciones de la ley de los tres estadios y de la clasificación de las ciencias."
       },
       {
         "titulo": "Considérations sur le pouvoir spirituel (1826)",
         "autor": "Auguste Comte",
-        "justificacion": "Expone la necesidad del dogmatismo como estado normal de la mente y fundamenta la teoría de la autoridad social"
+        "justificacion": "Sostiene que el dogmatismo y la fijación de creencias constituyen el estado normal de la mente humana."
       },
       {
         "titulo": "Cours de philosophie positive (1830–1842)",
         "autor": "Auguste Comte",
-        "justificacion": "Obra magna positivista donde desarrolla la ley de los tres estadios, la jerarquía encyclopédica de las ciencias y la fundación de la sociología"
+        "justificacion": "Obra magna donde desarrolla de forma sistemática la ley de los tres estadios, la jerarquía enciclopédica de las ciencias y la sociología."
       },
       {
         "titulo": "Discours sur l'esprit positif (1844)",
         "autor": "Auguste Comte",
-        "justificacion": "Reorienta la filosofía positiva hacia su función práctica y moral como fundamento de la sociología"
+        "justificacion": "Reorienta la filosofía positiva destacando su función social, moral y práctica."
       },
       {
         "titulo": "Discours sur l'ensemble du positivisme (1848)",
         "autor": "Auguste Comte",
-        "justificacion": "Sintetiza la doctrina positiva sirviendo de introducción general a su sistema de madurez"
+        "justificacion": "Expone una visión general del positivismo como introducción a su sistema sociológico."
       },
       {
         "titulo": "Système de politique positive, ou Traité de sociologie instituant la religion de l'Humanité (1851–1854)",
         "autor": "Auguste Comte",
-        "justificacion": "Transforma la filosofía positiva en una religión secular de la Humanidad donde la mente se subordina al corazón"
+        "justificacion": "Transforma el positivismo en una religión secular de la Humanidad donde el intelecto se subordina al corazón."
       },
       {
         "titulo": "Catéchisme positiviste (1852)",
         "autor": "Auguste Comte",
-        "justificacion": "Resume en forma dialógica los dogmas, culto y preceptos morales de la religión de la Humanidad"
+        "justificacion": "Expone de forma dialógica los dogmas, el culto y los preceptos morales de la religión positivista."
       },
       {
         "titulo": "Appel aux conservateurs (1855)",
         "autor": "Auguste Comte",
-        "justificacion": "Plantea alianzas conservadoras para la implantación del orden positivo tras el desencanto con la clase obrera"
+        "justificacion": "Propone alianzas conservadoras para la implantación del orden positivo."
       },
       {
         "titulo": "Synthèse subjective (1856)",
         "autor": "Auguste Comte",
-        "justificacion": "Aplica el método subjetivo a la unificación de las concepciones matemáticas"
+        "justificacion": "Aplica el método subjetivo a la unificación de las concepciones matemáticas."
       },
       {
         "titulo": "A System of Logic, Ratiocinative and Inductive (1843)",
         "autor": "John Stuart Mill",
-        "justificacion": "Sistematiza las reglas de la inducción empírica y sostiene que todas las verdades y axiomas derivan de la experiencia acumulada"
+        "justificacion": "Sistematiza la lógica inductiva sosteniendo que todas las verdades sobre el mundo proceden de la observación y la experiencia."
       },
       {
         "titulo": "On Liberty (1859)",
         "autor": "John Stuart Mill",
-        "justificacion": "Formula el principio de libertad individual y libertad de expresión como límites infranqueables frente al poder estatal y la presión social"
+        "justificacion": "Establece el principio de libertad individual frente al poder del Estado y la coacción del conformismo social."
       },
       {
         "titulo": "Utilitarianism (1861)",
         "autor": "John Stuart Mill",
-        "justificacion": "Articula el principio de la mayor felicidad, introduciendo la distinción cualitativa de los placeres y ligando la justicia a la utilidad"
+        "justificacion": "Defiende el principio de la mayor felicidad introduciendo la distinción cualitativa de los placeres."
       },
       {
         "titulo": "Auguste Comte and Positivism (1865)",
         "autor": "John Stuart Mill",
-        "justificacion": "Analiza críticamente la obra de Comte, distinguiendo entre el \"primer Comte\" científico y el \"segundo Comte\" autoritario"
+        "justificacion": "Evalúa críticamente el pensamiento comtiano separando su primera etapa científica de su posterior despotismo espiritual."
       },
       {
         "titulo": "An Examination of Sir William Hamilton's Philosophy (1865)",
         "autor": "John Stuart Mill",
-        "justificacion": "Expone su empirismo fenomenalista reduciendo la materia a una \"posibilidad permanente de sensación\""
+        "justificacion": "Expone su empirismo idealista definiendo la materia como una posibilidad permanente de sensación."
       },
       {
         "titulo": "The Subjection of Women (1869)",
         "autor": "John Stuart Mill",
-        "justificacion": "Impugna la discriminación sistemática de la mujer y exige su plena igualdad jurídica y social"
+        "justificacion": "Impugna la discriminación legal y social de las mujeres exigiendo su plena igualdad jurídica."
       },
       {
         "titulo": "Autobiography (1873)",
         "autor": "John Stuart Mill",
-        "justificacion": "Registra su formación intelectual, su crisis de juventud y la evolución de su pensamiento filosófico y político"
+        "justificacion": "Registra su educación, su crisis de juventud y la evolución de sus concepciones filosóficas y políticas."
       },
       {
         "titulo": "Social Statics (1851)",
         "autor": "Herbert Spencer",
-        "justificacion": "Formula el principio de igual libertad y fundamenta los derechos individuales como corolarios indispensables de la utilidad"
+        "justificacion": "Formula el principio de igual libertad y fundamenta los derechos individuales."
       },
       {
         "titulo": "The Principles of Psychology (1855)",
         "autor": "Herbert Spencer",
-        "justificacion": "Aplica la teoría de la evolución a las funciones mentales y a la formación de las asociaciones morales hereditarias"
+        "justificacion": "Aplica los principios asociacionistas y evolutivos a la formación de las funciones mentales."
       },
       {
         "titulo": "Progress",
         "autor": "Herbert Spencer",
-        "justificacion": "Its Law and Cause (1857): Define el progreso como una ley universal que transforma ineludiblemente lo simple y homogéneo en complejo y heterogéneo"
+        "justificacion": "Its Law and Cause (1857): Define el progreso como una ley universal de transformación de lo simple a lo complejo."
       },
       {
         "titulo": "First Principles (1862)",
         "autor": "Herbert Spencer",
-        "justificacion": "Establece las bases axiomáticas de su Filosofía Sintética, dividiendo la experiencia entre lo cognoscible y lo incognoscible"
+        "justificacion": "Establece los axiomas de su Filosofía Sintética dividiendo la experiencia entre lo cognoscible y lo incognoscible."
       },
       {
         "titulo": "The Principles of Biology (1864–1867)",
         "autor": "Herbert Spencer",
-        "justificacion": "Analiza el desarrollo orgánico mediante el uso-herencia de Lamarck y la selección natural"
+        "justificacion": "Estudia la evolución orgánica combinando la adaptación lamarckiana con la selección natural."
       },
       {
         "titulo": "The Principles of Sociology (1876–1896)",
         "autor": "Herbert Spencer",
-        "justificacion": "Explica la evolución de las sociedades desde los tipos militantes organizados coercitivamente hasta los industriales basados en el contrato y la libertad"
+        "justificacion": "Explica la evolución de las sociedades desde el tipo militante coercitivo hacia el tipo industrial pacífico y contractual."
       },
       {
         "titulo": "The Principles of Ethics (1879–1893)",
         "autor": "Herbert Spencer",
-        "justificacion": "Desarrolla una ética biológica e inductiva fundada en la adaptación progresiva del ser humano a sus condiciones de vida"
+        "justificacion": "Desarrolla una ética biológico-evolutiva donde el deber moral nace de hábitos y asociaciones heredados por la especie."
       },
       {
         "titulo": "The Man Versus the State (1884)",
         "autor": "Herbert Spencer",
-        "justificacion": "Defiende los derechos individuales de carácter natural frente a la deriva intervencionista y socialista del Estado"
-      },
-      {
-        "titulo": "An Autobiography (1904)",
-        "autor": "Herbert Spencer",
-        "justificacion": "Revisa su trayectoria biográfica e intelectual rectificando su postura previa sobre ciertos derechos políticos"
+        "justificacion": "Defiende la intangibilidad de los derechos naturales del individuo frente al intervencionismo estatal."
       },
       {
         "titulo": "Die Geschichte und die Wurzel des Satzes von der Erhaltung der Arbeit (1872)",
         "autor": "Ernst Mach",
-        "justificacion": "Presenta su primer examen histórico-crítico de los conceptos físicos apelando a la economía del pensamiento"
+        "justificacion": "Presenta su examen histórico-crítico de la física basándose en el principio de economía del pensamiento."
       },
       {
         "titulo": "Die Mechanik in ihrer Entwickelung",
         "autor": "Ernst Mach",
-        "justificacion": "Historisch-kritisch dargestellt (1883): Desarrolla su método histórico-crítico para desmontar los conceptos newtonianos de espacio, tiempo y masa absolutos"
+        "justificacion": "Historisch-kritisch dargestellt (1883): Critica los conceptos newtonianos de espacio, tiempo y masa absolutos."
       },
       {
         "titulo": "Die Analyse der Empfindungen (1886)",
         "autor": "Ernst Mach",
-        "justificacion": "Expone su doctrina de los \"elementos\" y sensaciones, disolviendo las ficciones metafísicas del cuerpo y del yo"
+        "justificacion": "Expone su doctrina de los elementos y sensaciones disolviendo las ficciones metafísicas de cuerpo y yo."
       },
       {
         "titulo": "Die Prinzipien der Wärmelehre (1896)",
         "autor": "Ernst Mach",
-        "justificacion": "Aplica la clarificación epistemológica e histórica a los conceptos fundamentales de la termodinámica"
+        "justificacion": "Aplica la clarificación epistemológica a la termodinámica mostrando el valor económico de las leyes."
       },
       {
         "titulo": "Erkenntnis und Irrtum (1905)",
         "autor": "Ernst Mach",
-        "justificacion": "Obra sistemática de madurez donde analiza la investigación científica como un proceso biológico de adaptación de pensamientos a hechos"
+        "justificacion": "Desarrolla su epistemología biológica entendida como un proceso de adaptación del pensamiento a los hechos."
       },
       {
         "titulo": "Die Prinzipien der physikalischen Optik (1921)",
         "autor": "Ernst Mach",
-        "justificacion": "Exposición histórico-epistemológica de la evolución de la óptica física"
+        "justificacion": "Presenta la evolución histórico-epistemológica de la óptica. ---"
       }
     ]
   },
@@ -3096,13 +4601,146 @@
     "bloque": "Bloque VI: Historia de la Filosofía",
     "titulo": "La crítica de Marx al capitalismo y su influjo en la historia del pensamiento occidental.",
     "autores_relacionados": [
-      "marx"
+      {
+        "id_filosofo": "marx",
+        "nombre": "Karl Marx",
+        "justificacion": "Pensador central que elabora la crítica al capitalismo mediante el desarrollo del materialismo histórico, el análisis de la alienación económica y la teoría de la plusvalía."
+      },
+      {
+        "id_filosofo": "friedrich-engels",
+        "nombre": "Friedrich Engels",
+        "justificacion": "Colaborador y amigo fundamental de Marx que prestó apoyo económico para su labor intelectual y sistematizó teóricamente el materialismo dialéctico."
+      },
+      {
+        "id_filosofo": "hegel",
+        "nombre": "Georg Wilhelm Friedrich Hegel",
+        "justificacion": "Filósofo cuyo pensamiento dialéctico constituye la base conceptual que Marx analiza e invierte, sustituyendo la primacía de la Idea por la de la materia y la praxis social."
+      },
+      {
+        "id_filosofo": "ludwig-feuerbach",
+        "nombre": "Ludwig Feuerbach",
+        "justificacion": "Miembro de la izquierda hegeliana que influye en Marx al invertir el idealismo hegeliano y formular la alienación religiosa, aunque Marx critica su materialismo por carecer de perspectiva histórica y subjetividad."
+      },
+      {
+        "id_filosofo": "saint-simon",
+        "nombre": "Henri de Saint-Simon",
+        "justificacion": "Socialista utópico que propone abolir el ánimo de lucro y la herencia para sustituirlos por la propiedad socializada y un gobierno guiado por científicos e industriales."
+      },
+      {
+        "id_filosofo": "charles-fourier",
+        "nombre": "Charles Fourier",
+        "justificacion": "Socialista utópico que critica el sistema industrial y el trabajo asalariado, planteando los Falansterios como sociedades cooperativas para convertir el trabajo en una necesidad gratificante."
+      },
+      {
+        "id_filosofo": "robert-owen",
+        "nombre": "Robert Owen",
+        "justificacion": "Empresario y socialista utópico que aplicó mejoras laborales en su fábrica de New Lanark y promovió el cooperativismo y la legislación protectora del trabajador."
+      },
+      {
+        "id_filosofo": "vladimir-lenin",
+        "nombre": "Vladimir Lenin",
+        "justificacion": "Teórico y líder político que redefinió el concepto de ideología en sentido positivo y adaptó la teoría marxista para llevar a cabo la revolución en Rusia."
+      }
     ],
     "corrientes_relacionadas": [
-      "marxismo"
+      {
+        "nombre": "Materialismo histórico",
+        "justificacion": "Ciencia marxista de la historia que sostiene que la infraestructura económica y las relaciones de producción determinan la superestructura ideológica y jurídico-política de la sociedad."
+      },
+      {
+        "nombre": "Materialismo dialéctico",
+        "justificacion": "Filosofía desarrollada teóricamente por Engels que afirma que la naturaleza y la historia están gobernadas por las mismas leyes dialécticas de transformación, contradicción y salto cualitativo."
+      },
+      {
+        "nombre": "Socialismo utópico",
+        "justificacion": "Tendencia del pensamiento político que critica abstractamente el capitalismo y promueve la propiedad social y el cooperativismo sin un análisis científico de la estructura socioeconómica."
+      },
+      {
+        "nombre": "Izquierda hegeliana",
+        "justificacion": "Corriente filosófica derivada de Hegel (integrada por Feuerbach, Bauer, Strauss y Marx) que enfatiza el método dialéctico como proceso de transformación frente al sistema idealista abstracto."
+      },
+      {
+        "nombre": "Idealismo hegeliano",
+        "justificacion": "Filosofía que concibe la realidad como una manifestación de la Razón Absoluta o Idea, postura que Feuerbach y Marx critican e invierten hacia el ámbito material y humano."
+      },
+      {
+        "nombre": "Humanismo marxista",
+        "justificacion": "Doctrina ética, atea, materialista y comunitaria que concibe al ser humano como sujeto activo de la historia llamado a liberarse de las alienaciones capitalistas mediante la praxis revolucionaria"
+      }
     ],
     "video_url": "",
-    "obras_relacionadas": []
+    "obras_relacionadas": [
+      {
+        "titulo": "Diferencias en la Filosofía de la naturaleza en Demócrito y Epicuro",
+        "autor": "Karl Marx",
+        "justificacion": "Tesis doctoral escrita en su período de formación universitaria dedicada al estudio de la filosofía antigua."
+      },
+      {
+        "titulo": "Manuscritos de Economía y Filosofía",
+        "autor": "Karl Marx",
+        "justificacion": "Obra del período especulativo centrada en el análisis de la economía política, la propiedad privada y la alienación del trabajador."
+      },
+      {
+        "titulo": "La Sagrada Familia",
+        "autor": "Karl Marx",
+        "justificacion": "Escrito del período especulativo redactado en colaboración con Engels durante su etapa de debate con la izquierda hegeliana."
+      },
+      {
+        "titulo": "La Ideología alemana",
+        "autor": "Karl Marx",
+        "justificacion": "Obra en la que Marx expone las bases del materialismo histórico y analiza la génesis de las ideologías como conciencia deformada."
+      },
+      {
+        "titulo": "Once tesis sobre Feuerbach",
+        "autor": "Karl Marx",
+        "justificacion": "Escrito breve donde critica el materialismo contemplativo de Feuerbach e introduce la primacía de la subjetividad y la praxis revolucionaria."
+      },
+      {
+        "titulo": "La miseria de la filosofía",
+        "autor": "Karl Marx",
+        "justificacion": "Obra del período especulativo dedicada a la crítica de las doctrinas económicas y filosóficas rivales."
+      },
+      {
+        "titulo": "Contribución a la crítica de la Economía política",
+        "autor": "Karl Marx",
+        "justificacion": "Texto que sienta las bases del análisis de la infraestructura económica y las relaciones de producción."
+      },
+      {
+        "titulo": "Manifiesto del Partido Comunista",
+        "autor": "Karl Marx",
+        "justificacion": "Obra política fundamental que sintetiza la lucha de clases, efectúa el llamamiento a la unión proletaria y anticipa la sociedad sin clases."
+      },
+      {
+        "titulo": "La lucha de clases en Francia",
+        "autor": "Karl Marx",
+        "justificacion": "Ensayo del período revolucionario sobre los acontecimientos sociopolíticos y las luchas de clases en el contexto francés."
+      },
+      {
+        "titulo": "El 18 Brumario de Luis Bonaparte",
+        "autor": "Karl Marx",
+        "justificacion": "Análisis del período revolucionario centrado en el estudio del golpe de Estado en Francia."
+      },
+      {
+        "titulo": "La Guerra civil en Francia",
+        "autor": "Karl Marx",
+        "justificacion": "Escrito del período revolucionario que analiza las luchas políticas y los conflictos sociales franceses."
+      },
+      {
+        "titulo": "El Capital",
+        "autor": "Karl Marx",
+        "justificacion": "Obra cumbre de Marx en la que analiza científicamente el régimen de producción capitalista, el valor de la fuerza de trabajo y la apropiación de la plusvalía."
+      },
+      {
+        "titulo": "Anti-Dühring",
+        "autor": "Friedrich Engels",
+        "justificacion": "Obra en la que se expone el desarrollo teórico del materialismo dialéctico y se formulan las tres leyes dialécticas de la naturaleza."
+      },
+      {
+        "titulo": "La esencia del cristianismo",
+        "autor": "Ludwig Feuerbach",
+        "justificacion": "Obra en la que sostiene que la teología es antropología camuflada y analiza la alienación religiosa como una proyección del ser humano. ---"
+      }
+    ]
   },
   {
     "id": 64,
@@ -3123,20 +4761,365 @@
     "num": 65,
     "bloque": "Bloque VI: Historia de la Filosofía",
     "titulo": "La fenomenología de E. Husserl.",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
+    "autores_relacionados": [
+      {
+        "id_filosofo": "brentano",
+        "nombre": "Franz Brentano",
+        "justificacion": "Impartió clases a Husserl e influyó decisivamente en él al introducir el concepto de intencionalidad como el carácter específico de los fenómenos psíquicos, presupuesto que Husserl transformó en el núcleo de su método fenomenológico."
+      },
+      {
+        "id_filosofo": "frege",
+        "nombre": "Gottlob Frege",
+        "justificacion": "Criticó la Filosofía de la Aritmética de Husserl acusándolo de psicologismo, lo que motivó a Husserl a revisar sus planteamientos y fundamentar la autonomía de la lógica pura y la idealidad de la verdad en las Investigaciones lógicas."
+      },
+      {
+        "id_filosofo": "bolzano",
+        "nombre": "Bernard Bolzano",
+        "justificacion": "Influyó en Husserl a través de su teoría de la ciencia y sus conceptos de \"proposición en sí\", \"representación en sí\" y \"verdad en sí\", los cuales sustentan la dimensión lógico-objetiva independiente de las condiciones subjetivas del conocer."
+      },
+      {
+        "id_filosofo": "natorp",
+        "nombre": "Paul Natorp",
+        "justificacion": "Defendió la validez objetiva y trascendental de las leyes lógicas frente a las fundamentaciones psicológicas o antropológicas en el debate neokantiano, marcando el horizonte problémico de la fundamentación objetiva de la ciencia."
+      },
+      {
+        "id_filosofo": "descartes",
+        "nombre": "René Descartes",
+        "justificacion": "Inauguró el giro hacia el ego cogito y el ideal de una ciencia universal; no obstante, Husserl critica que su postura objetivista derivó en un dualismo y en la cosificación del sujeto."
+      },
+      {
+        "id_filosofo": "kant",
+        "nombre": "Immanuel Kant",
+        "justificacion": "Aportó el marco del subjetivismo trascendental y la crítica de la razón; aunque Husserl concibe la fenomenología como la forma definitiva del idealismo trascendental, critica a Kant por su constructivismo y por dejar inalterado el dilema de la \"cosa en sí\"."
+      },
+      {
+        "id_filosofo": "hume",
+        "nombre": "David Hume",
+        "justificacion": "Llevó el subjetivismo empírico a sus últimas consecuencias al reducir las categorías objetivas del mundo a ficciones psicológicas, mostrando una bancarrota del conocimiento objetivo que Husserl busca superar mediante la reducción trascendental."
+      },
+      {
+        "id_filosofo": "johann-heinrich-lambert",
+        "nombre": "Johann Heinrich Lambert",
+        "justificacion": "Utilizó por primera vez el término fenomenología en su obra Nuevo Organon (1764) como una \"doctrina de la apariencia\" sensible en oposición a la doctrina de la verdad."
+      },
+      {
+        "id_filosofo": "heidegger",
+        "nombre": "Martin Heidegger",
+        "justificacion": "Discípulo y asistente de Husserl que aplicó el método fenomenológico al análisis de la ontología de la existencia humana (Dasein), editando además las lecciones sobre la conciencia del tiempo de Husserl."
+      },
+      {
+        "id_filosofo": "sartre",
+        "nombre": "Edith Stein, Maurice Merleau-Ponty, Jean-Paul Sartre y Emmanuel Levinas",
+        "justificacion": "Discípulos y continuadores que editaron, difundieron y desarrollaron la fenomenología en sus dimensiones corporal, existencial, ontológica e intersubjetiva"
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Fenomenología (trascendental y eidética)",
+        "justificacion": "Método y ciencia estricta iniciada por Husserl que busca describir el sentido de las cosas partiendo de la subjetividad pura y la intuición de las esencias (eidos), mediante la suspensión de la actitud natural (epojé)."
+      },
+      {
+        "nombre": "Psicologismo",
+        "justificacion": "Corriente epistemológica del siglo XIX que pretendía reducir los principios y leyes de la lógica y la matemática a meros hechos o procesos psicológicos del cerebro humano; Husserl la refuta por ser un error categorial y una forma solapada de relativismo y escepticismo."
+      },
+      {
+        "nombre": "Positivismo (y Naturalismo)",
+        "justificacion": "Paradigma filosófico y científico que reduce toda la realidad a hechos empíricos y físicos cuantificables; Husserl lo señala como el responsable de la crisis de la razón y del olvido del Mundo de la Vida (Lebenswelt) y de la subjetividad espiritual."
+      },
+      {
+        "nombre": "Idealismo Trascendental (Fenomenológico)",
+        "justificacion": "Posición asumida por Husserl en su etapa madura según la cual la validez existencial y el sentido del mundo se constituyen en y por la subjetividad e intersubjetividad trascendental."
+      },
+      {
+        "nombre": "Historicismo (y Filosofía de las concepciones del mundo)",
+        "justificacion": "Movimiento que reacciona contra el naturalismo reivindicando los hechos del espíritu, pero que incurre en un relativismo escéptico al someter la verdad y la lógica a las fluctuaciones temporales de la cultura."
+      },
+      {
+        "nombre": "Existencialismo (o Filosofía de la existencia)",
+        "justificacion": "Corriente desarrollada por pensadores como Heidegger, Sartre o Marcel que adoptó el método de análisis fenomenológico para aplicarlo a la descripción directa de la existencia humana concreta y sus estructuras necesarias (existenciarios)."
+      }
+    ],
     "video_url": "",
-    "obras_relacionadas": []
+    "obras_relacionadas": [
+      {
+        "titulo": "Sobre el concepto de número (On the Concept of Number) (1887)",
+        "autor": "Edmund Husserl",
+        "justificacion": "Tesis de habilitación donde explora los conceptos matemáticos a través del análisis psicológico."
+      },
+      {
+        "titulo": "Filosofía de la Aritmética (Philosophy of Arithmetic) (1891)",
+        "autor": "Edmund Husserl",
+        "justificacion": "Obra inicial que pretendía ofrecer una fundamentación psicológica a la matemática, criticada por Frege."
+      },
+      {
+        "titulo": "Investigaciones lógicas (Logical Investigations) (1900-1901)",
+        "autor": "Edmund Husserl",
+        "justificacion": "Obra monumental en la que refuta el psicologismo, defiende la autonomía de la lógica pura y formula su primera teoría de la intencionalidad."
+      },
+      {
+        "titulo": "La idea de la fenomenología (The Idea of Phenomenology) (1907)",
+        "autor": "Edmund Husserl",
+        "justificacion": "Serie de lecciones que marcan la consolidación de la fenomenología como método de conocimiento."
+      },
+      {
+        "titulo": "La filosofía como ciencia estricta (Philosophy as Rigorous Science) (1911)",
+        "autor": "Edmund Husserl",
+        "justificacion": "Manifiesto en el que propone la captación fenomenológica de la esencia como alternativa al positivismo y al historicismo."
+      },
+      {
+        "titulo": "Ideas relativas a una fenomenología pura y una filosofía fenomenológica (Libro I",
+        "autor": "Edmund Husserl",
+        "justificacion": "Ideas I) (1913): Obra fundamental donde asume formalmente el giro trascendental, la epojé y el idealismo trascendental."
+      },
+      {
+        "titulo": "Lecciones de fenomenología de la conciencia interna del tiempo (1928, editada por M. Heidegger)",
+        "autor": "Edmund Husserl",
+        "justificacion": "Análisis de la estructura temporal de la vivencia inmanente (impresión primaria, retención y protención)."
+      },
+      {
+        "titulo": "Meditaciones cartesianas (1931)",
+        "autor": "Edmund Husserl",
+        "justificacion": "Fruto de sus conferencias en la Sorbona, expone la introducción a la fenomenología trascendental, el análisis del Ego y la constitución de la intersubjetividad."
+      },
+      {
+        "titulo": "La crisis de las ciencias europeas y la fenomenología trascendental (1936)",
+        "autor": "Edmund Husserl",
+        "justificacion": "Obra tardía que denuncia la mecanización del saber y el olvido del Mundo de la Vida, proponiendo a la fenomenología como rescate teleológico de la razón."
+      },
+      {
+        "titulo": "Experiencia y juicio (Experience and Judgment) (1939, póstuma)",
+        "autor": "Edmund Husserl",
+        "justificacion": "Análisis sobre la genealogía de la lógica pre-predicativa y la evidencia originaria."
+      },
+      {
+        "titulo": "Ideas II (Ideas Pertaining to a Pure Phenomenology... Second Book) (1952, póstuma, editada por E. Stein)",
+        "autor": "Edmund Husserl",
+        "justificacion": "Investigaciones sobre la constitución fenomenológica de la naturaleza, la corporalidad (Leib) y el espíritu."
+      },
+      {
+        "titulo": "Psicología desde el punto de vista empírico (Psychology from an Empirical Standpoint) (1874)",
+        "autor": "Franz Brentano",
+        "justificacion": "Obra donde reintroduce el concepto de intencionalidad como delimitador exclusivo de los fenómenos psíquicos."
+      },
+      {
+        "titulo": "Nuevo Organon (1764)",
+        "autor": "J. H. Lambert",
+        "justificacion": "Texto pionero en el uso del término fenomenología como estudio de la apariencia sensible."
+      },
+      {
+        "titulo": "Tratado de la naturaleza humana (Treatise of Human Nature)",
+        "autor": "David Hume",
+        "justificacion": "Análisis donde concluye que las categorías objetivas del mundo y la ciencia son ficciones de la asociación psicológica."
+      },
+      {
+        "titulo": "Ser y tiempo (Being and Time) (1927)",
+        "autor": "Martin Heidegger",
+        "justificacion": "Dedicada originalmente a Husserl, investiga la ontología del Dasein aplicando el método del análisis fenomenológico a la existencia."
+      },
+      {
+        "titulo": "El ser y la nada (subtitulada Intento de ontología fenomenológica)",
+        "autor": "Jean-Paul Sartre",
+        "justificacion": "Aplica el análisis de la conciencia y la reducción fenomenológica al ámbito ontológico existencial."
+      },
+      {
+        "titulo": "Fenomenología del Haber",
+        "autor": "Gabriel Marcel",
+        "justificacion": "Estudio donde aplica el método del análisis fenomenológico a las estructuras de la experiencia y la existencia humana."
+      }
+    ]
   },
   {
     "id": 66,
     "num": 66,
     "bloque": "Bloque VI: Historia de la Filosofía",
     "titulo": "Freud: el psicoanálisis como crítica de la cultura occidental.",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
+    "autores_relacionados": [
+      {
+        "id_filosofo": "freud",
+        "nombre": "Sigmund Freud",
+        "justificacion": "Creador del psicoanálisis, formuló la primera teoría sistemática del inconsciente, la estructura del aparato psíquico (tópicas) y el desarrollo pulsional, aplicando estos principios a la crítica de la cultura occidental."
+      },
+      {
+        "id_filosofo": "josef-breuer",
+        "nombre": "Josef Breuer",
+        "justificacion": "Médico vienés que colaboró en los inicios del psicoanálisis empleando el método catártico e hipnótico en el tratamiento de la histeria (caso Anna O.), abriendo el camino hacia la técnica de libre asociación."
+      },
+      {
+        "id_filosofo": "jean-martin-charcot",
+        "nombre": "Jean-Martin Charcot",
+        "justificacion": "Neurólogo francés con quien Freud se formó en París en 1885 para profundizar en el uso de la hipnosis aplicada al tratamiento de las neurosis."
+      },
+      {
+        "id_filosofo": "carl-gustav-jung",
+        "nombre": "Carl Gustav Jung",
+        "justificacion": "Psicoanalista suizo y antiguo discípulo de Freud que se distanció al rechazar el pansexualismo, postulando la existencia del inconsciente colectivo, los arquetipos e introduciendo los tipos psicológicos de introversión y extraversión."
+      },
+      {
+        "id_filosofo": "alfred-adler",
+        "nombre": "Alfred Adler",
+        "justificacion": "Discípulo disidente que fundó la psicología individual, sosteniendo que las neurosis derivan del complejo de inferioridad y del intento de superación mediante la voluntad de poder en el plano social."
+      },
+      {
+        "id_filosofo": "jacques-lacan",
+        "nombre": "Jacques Lacan",
+        "justificacion": "Psicoanalista de la corriente culturalista/estructuralista que planteó el «retorno a Freud», defendiendo que el inconsciente está estructurado como un lenguaje y diferenciando los registros de lo real, lo imaginario y lo simbólico."
+      },
+      {
+        "id_filosofo": "erich-fromm",
+        "nombre": "Erich Fromm",
+        "justificacion": "Integrante del psicoanálisis culturalista y de la Escuela de Frankfurt que vinculó psicoanálisis y marxismo, definiendo a la familia como la agencia psicológica que interioriza la autoridad social."
+      },
+      {
+        "id_filosofo": "marcuse",
+        "nombre": "Herbert Marcuse",
+        "justificacion": "Filósofo de la Escuela de Frankfurt que aplicó la metapsicología freudiana al análisis del capitalismo tardío, criticando la represión excedente y planteando la posibilidad de una sociedad no represiva."
+      },
+      {
+        "id_filosofo": "habermas",
+        "nombre": "Jürgen Habermas",
+        "justificacion": "Filósofo alemán que integró la teoría freudiana en el materialismo histórico al interpretarla como una ciencia reflexivo-crítica guiada por un interés cognoscitivo emancipatorio"
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Psicoanálisis (o Doctrina psicoanalítica freudiana)",
+        "justificacion": "Disciplina fundada por Freud que actúa como método de investigación de los procesos mentales inconscientes, procedimiento psicoterapéutico y teoría metapsicológica del psiquismo y la cultura."
+      },
+      {
+        "nombre": "Psicología individual",
+        "justificacion": "Corriente creada por Alfred Adler que centra su análisis en la dimensión social de la persona, sosteniendo que los conflictos neuróticos nacen del complejo de inferioridad y la búsqueda compensatoria de poder."
+      },
+      {
+        "nombre": "Psicoanálisis culturalista (o Neofreudismo)",
+        "justificacion": "Movimiento teórico (Fromm, Marcuse, Lacan, entre otros) que reinterpreta las tesis freudianas enfatizando la mediación de los factores socioculturales, lingüísticos e históricos en la estructuración psíquica."
+      },
+      {
+        "nombre": "Teoría crítica (Escuela de Frankfurt / Freudomarxismo)",
+        "justificacion": "Corriente socio-filosófica que articuló el psicoanálisis con el marxismo para estudiar la interiorización de la opresión, el rol autoritario de la familia y el carácter represivo de la sociedad industrial."
+      },
+      {
+        "nombre": "Psicoanálisis estructuralista (o Escuela lacaniana)",
+        "justificacion": "Corriente que aplica los modelos de la lingüística estructural al psicoanálisis, afirmando que el inconsciente opera mediante mecanismos análogos al lenguaje como la metáfora (condensación) y la metonimia (desplazamiento)"
+      }
+    ],
     "video_url": "",
-    "obras_relacionadas": []
+    "obras_relacionadas": [
+      {
+        "titulo": "Estudios sobre la histeria (1895)",
+        "autor": "Josef Breuer y Sigmund Freud",
+        "justificacion": "Expone las investigaciones iniciales sobre la curación de la histeria mediante la hipnosis y el método catártico antes del desarrollo de la libre asociación."
+      },
+      {
+        "titulo": "La interpretación de los sueños (1899)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Establece la distinción entre contenido manifiesto y latente, definiendo al sueño como la vía de acceso al inconsciente."
+      },
+      {
+        "titulo": "Psicopatología de la vida cotidiana (1901)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Analiza cómo los actos fallidos y los olvidos revelan la acción del inconsciente en el comportamiento diario."
+      },
+      {
+        "titulo": "Tres ensayos sobre teoría sexual (1905)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Describe la ampliación del concepto de sexualidad y las etapas del desarrollo psicosexual infantil."
+      },
+      {
+        "titulo": "Análisis de la fobia de un niño de cinco años (caso del pequeño Hans) (1909)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Estudio clínico que aporta pruebas empíricas sobre las manifestaciones de la sexualidad infantil y el complejo de Edipo."
+      },
+      {
+        "titulo": "Tótem y tabú (1913)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Aplica el psicoanálisis a la antropología cultural, planteando el origen de las instituciones sociales en el asesinato del padre primigenio y la prohibición del incesto."
+      },
+      {
+        "titulo": "Para la historia del movimiento psicoanalítico (1914)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Documenta el desarrollo, los principios teóricos y las primeras escisiones del movimiento psicoanalítico."
+      },
+      {
+        "titulo": "Consideraciones acerca de la guerra y la muerte (1915)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Reflexiona sobre las manifestaciones del impulso de destrucción y la agresividad en los conflictos bélicos."
+      },
+      {
+        "titulo": "Metapsicología (1915)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Sistematiza los modelos teóricos del aparato psíquico bajo las perspectivas tópica, dinámica y económica."
+      },
+      {
+        "titulo": "Introducción al psicoanálisis / Lecciones introductorias al psicoanálisis (1915-1917 y 1933)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Conjunto de lecciones magistrales que recopilan de forma sistemática la doctrina freudiana."
+      },
+      {
+        "titulo": "Más allá del principio de placer (1920)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Formula la dualidad entre la pulsión de vida (Eros) y la pulsión de muerte o destrucción (Tánatos)."
+      },
+      {
+        "titulo": "Psicología de las masas y análisis del Yo (1921)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Explora los mecanismos inconscientes y las identificaciones en la formación de fenómenos colectivos."
+      },
+      {
+        "titulo": "El yo y el ello",
+        "autor": "Sigmund Freud",
+        "justificacion": "Expone la formulación de la segunda tópica psíquica compuesta por el Ello, el Yo y el Superyó."
+      },
+      {
+        "titulo": "El porvenir de una ilusión (1927)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Analiza las creencias religiosas como representaciones ilusorias nacidas de la necesidad de protección ante el desamparo."
+      },
+      {
+        "titulo": "El malestar en la cultura (1930)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Examina la tensión irreconciliable entre la búsqueda individual de felicidad y la represión pulsional impuesta por la civilización."
+      },
+      {
+        "titulo": "¿Por qué la guerra? (1933)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Reflexión sobre las bases psicológicas de la violencia y los impulsos destructivos en la especie humana."
+      },
+      {
+        "titulo": "Compendio de psicoanálisis / Esquema del psicoanálisis (1938)",
+        "autor": "Sigmund Freud",
+        "justificacion": "Síntesis final de madurez sobre los fundamentos teóricos y clínicos de la disciplina."
+      },
+      {
+        "titulo": "Tipos psicológicos (1920)",
+        "autor": "Carl Gustav Jung",
+        "justificacion": "Fundamenta la caracterología humana a partir de las actitudes de introversión y extraversión combinadas con cuatro funciones psíquicas."
+      },
+      {
+        "titulo": "Método y deberes de una psicología social analítica (1932)",
+        "autor": "Erich Fromm",
+        "justificacion": "Plantea la convergencia entre marxismo y psicoanálisis situando a la familia como mediadora de la estructura social."
+      },
+      {
+        "titulo": "Estudios sobre la autoridad y la familia (1936, obra colectiva)",
+        "autor": "Erich Fromm",
+        "justificacion": "Investiga la introyección de la autoridad social en la estructura psíquica infantil a través del núcleo familiar."
+      },
+      {
+        "titulo": "Eros y civilización",
+        "autor": "Herbert Marcuse",
+        "justificacion": "Analiza la represión excedente impuesta por el capitalismo tardío y postula la posibilidad teórica de una civilización no represiva."
+      },
+      {
+        "titulo": "Conocimiento e interés (1982)",
+        "autor": "Jürgen Habermas",
+        "justificacion": "Concibe el psicoanálisis como un modelo de ciencia reflexivo-crítica guiada por un interés cognoscitivo emancipatorio."
+      },
+      {
+        "titulo": "Ciencia y técnica como \"ideología\" (1994)",
+        "autor": "Jürgen Habermas",
+        "justificacion": "Examina la convergencia entre la autorreflexión y el interés emancipatorio en el conocimiento humano"
+      }
+    ]
   },
   {
     "id": 67,
@@ -3153,10 +5136,157 @@
     "num": 68,
     "bloque": "Bloque VI: Historia de la Filosofía",
     "titulo": "L. Wittgenstein y B. Russell: la corriente analítica de la filosofía.",
-    "autores_relacionados": [],
-    "corrientes_relacionadas": [],
+    "autores_relacionados": [
+      {
+        "id_filosofo": "wittgenstein",
+        "nombre": "Ludwig Wittgenstein",
+        "justificacion": "Co-protagonista fundamental del tema que articuló la filosofía analítica en dos etapas: el primer Wittgenstein, centrado en la teoría figurativa e isomórfica del lenguaje (Tractatus), y el segundo Wittgenstein, enfocado en la teoría del significado como uso, los juegos de lenguaje y la crítica al lenguaje privado (Investigaciones filosóficas)."
+      },
+      {
+        "id_filosofo": "russell",
+        "nombre": "Bertrand Russell",
+        "justificacion": "Co-protagonista esencial que desarrolló el atomismo lógico, el programa logicista y la teoría de las descripciones definidas, defendiendo la sustitución de entidades inferidas por construcciones lógicas y la distinción entre conocimiento por familiaridad y por descripción."
+      },
+      {
+        "id_filosofo": "frege",
+        "nombre": "Gottlob Frege",
+        "justificacion": "Mentor y precursor clave de la filosofía analítica que estableció la prioridad del análisis del lenguaje para abordar el estudio del pensamiento, introduciendo la distinción entre sentido y referencia y sustituyendo las nociones tradicionales de sujeto/predicado por argumento y función."
+      },
+      {
+        "id_filosofo": "g-e-moore",
+        "nombre": "G. E. Moore",
+        "justificacion": "Figura inaugural del análisis clásico junto a Russell que concibió la filosofía como la descomposición de conceptos o universales en sus constituyentes simples e inanalizables."
+      },
+      {
+        "id_filosofo": "carnap",
+        "nombre": "Rudolf Carnap",
+        "justificacion": "Representante del Círculo de Viena y del empirismo lógico que aplicó la reconstrucción lógica para articular el programa fenomenista y el principio de verificabilidad de las proposiciones empíricas."
+      },
+      {
+        "id_filosofo": "ryle",
+        "nombre": "Gilbert Ryle",
+        "justificacion": "Filósofo analítico perteneciente a la crítica del análisis clásico que impugnó el mito cartesiano de la mente como «el fantasma en la máquina», explicando las operaciones mentales a través de los actos y disposiciones observables de la conducta."
+      },
+      {
+        "id_filosofo": "quine",
+        "nombre": "W. v. O. Quine",
+        "justificacion": "Filósofo analítico que cuestionó los dogmas centrales del positivismo lógico —la distinción entre enunciados analíticos/sintéticos y el reduccionismo verificacionista—, proponiendo una concepción holista y pragmática del significado"
+      }
+    ],
+    "corrientes_relacionadas": [
+      {
+        "nombre": "Filosofía analítica",
+        "justificacion": "Orientación filosófica central del tema que asigna al lenguaje un papel primordial en el planteamiento y resolución de los problemas filosóficos, manteniendo la prioridad metodológica del análisis lingüístico sobre el estudio del pensamiento."
+      },
+      {
+        "nombre": "Análisis clásico",
+        "justificacion": "Tendencia inicial integrada por Frege, Moore, el primer Wittgenstein y el positivismo lógico que concibe la tarea filosófica como la descomposición de conceptos o proposiciones complejas en sus componentes elementales para desvelar su forma lógica latente."
+      },
+      {
+        "nombre": "Atomismo lógico",
+        "justificacion": "Corriente formulada por Russell y desarrollada en el Tractatus de Wittgenstein que sostiene que el mundo consta de hechos atómicos (simples) e independientes, existiendo un isomorfismo estructural perfecto entre el lenguaje formal y la realidad."
+      },
+      {
+        "nombre": "Logicismo",
+        "justificacion": "Programa filosófico y matemático defendido por Frege y Russell cuyo objetivo primordial es demostrar que la matemática es totalmente reducible a la lógica pura y a sus principios."
+      },
+      {
+        "nombre": "Positivismo lógico / Empirismo lógico (Círculo de Viena)",
+        "justificacion": "Movimiento inspirado por el análisis lógico de Russell y Wittgenstein que sostiene que el significado de una proposición estriba en su método de verificación empírica, rechazando la metafísica por carecer de sentido."
+      },
+      {
+        "nombre": "Filosofía del lenguaje ordinario / Deconstructivismo (segundo Wittgenstein)",
+        "justificacion": "Orientación crítica hacia los lenguajes ideales que propone abandonar el reformismo formalista para describir el uso cotidiano del lenguaje, sus reglas intersubjetivas y la diversidad de juegos de lenguaje integrados en las formas de vida sociales"
+      }
+    ],
     "video_url": "",
-    "obras_relacionadas": []
+    "obras_relacionadas": [
+      {
+        "titulo": "Tractatus Logico-Philosophicus (1921)",
+        "autor": "Ludwig Wittgenstein",
+        "justificacion": "Expone la teoría figurativa del lenguaje, el isomorfismo entre la forma lógica de las proposiciones y la realidad, y fija los límites de lo que se puede decir frente a lo que no se puede hablar."
+      },
+      {
+        "titulo": "Investigaciones filosóficas",
+        "autor": "Ludwig Wittgenstein",
+        "justificacion": "Introduce la concepción del significado como uso, la teoría de los juegos de lenguaje, los aires de familia y la crítica a la posibilidad de los lenguajes privados."
+      },
+      {
+        "titulo": "Los cuadernos azul y marrón",
+        "autor": "Ludwig Wittgenstein",
+        "justificacion": "Textos de transición donde recomienda sustituir la pregunta sobre qué es el significado por cómo se explica y enseña el uso de las expresiones en el lenguaje."
+      },
+      {
+        "titulo": "Diario filosófico (1914-1916)",
+        "autor": "Ludwig Wittgenstein",
+        "justificacion": "Notas preliminares donde analiza cómo la proposición construida a modo de modelo comparte la estructura lógica con el estado de cosas que representa."
+      },
+      {
+        "titulo": "On denoting (\"Sobre el denotar\") (1905)",
+        "autor": "Bertrand Russell",
+        "justificacion": "Artículo donde expone la teoría de las descripciones definidas como símbolos incompletos para resolver diversos rompecabezas lógicos y ontológicos sin postular entidades irreales."
+      },
+      {
+        "titulo": "Principia Mathematica (con A. N. Whitehead)",
+        "autor": "Bertrand Russell",
+        "justificacion": "Obra monumental de lógica formal que fundamenta la matemática y expone la teoría de los tipos para evitar las antinomias autorreferenciales."
+      },
+      {
+        "titulo": "Los problemas de la filosofía (1912)",
+        "autor": "Bertrand Russell",
+        "justificacion": "Obra donde formula la distinción epistemológica entre el conocimiento directo o por familiaridad y el conocimiento por descripción."
+      },
+      {
+        "titulo": "La filosofía del atomismo lógico (1918)",
+        "autor": "Bertrand Russell",
+        "justificacion": "Conferencias en las que expone su metafísica analítica sobre los hechos atómicos, los particulares, la necesidad de un lenguaje lógicamente perfecto y los nombres lógicamente propios."
+      },
+      {
+        "titulo": "Los principios de la matemática",
+        "autor": "Bertrand Russell",
+        "justificacion": "Texto donde sostiene la identidad entre matemática y lógica (logicismo) y formula la paradoja de las clases que no se contienen a sí mismas."
+      },
+      {
+        "titulo": "Introducción a la filosofía de la matemática",
+        "autor": "Bertrand Russell",
+        "justificacion": "Analiza la diferencia entre nombres y descripciones y explica la aplicación del concepto de número al material empírico."
+      },
+      {
+        "titulo": "Conceptografía (1879)",
+        "autor": "Gottlob Frege",
+        "justificacion": "Texto fundacional del logicismo que introduce un lenguaje formal bidimensional para analizar el pensamiento puro y liberarlo de las trampas del lenguaje natural, sustituyendo sujeto y predicado por argumento y función."
+      },
+      {
+        "titulo": "Los fundamentos de la aritmética",
+        "autor": "Gottlob Frege",
+        "justificacion": "Obra en la que define el concepto de número natural a partir de las nociones puramente lógicas de concepto y propiedad."
+      },
+      {
+        "titulo": "Leyes básicas de la aritmética",
+        "autor": "Gottlob Frege",
+        "justificacion": "Segunda etapa de su programa logicista enfocada en la reducción efectiva de las verdades aritméticas a verdades lógicas."
+      },
+      {
+        "titulo": "Investigaciones lógicas",
+        "autor": "Gottlob Frege",
+        "justificacion": "Escrito donde delimita el ámbito del pensamiento puro como el reino de lo verdadero y lo falso, separando tajantemente la lógica de los procesos psicológicos."
+      },
+      {
+        "titulo": "El concepto de lo mental (1967)",
+        "autor": "Gilbert Ryle",
+        "justificacion": "Obra que combate la concepción cartesiana del dualismo mente-cuerpo (\"el fantasma en la máquina\") y reinterpreta los términos mentales a través de los actos y disposiciones observables de la conducta."
+      },
+      {
+        "titulo": "Los pseudoproblemas de la filosofía",
+        "autor": "Rudolf Carnap",
+        "justificacion": "Texto en el que aplica el método de reconstrucción lógica para traducir los conceptos a distintos niveles hasta alcanzar un lenguaje fenomenalista basado en sensaciones inmediatas."
+      },
+      {
+        "titulo": "\"Dos dogmas del empirismo\"",
+        "autor": "W. v. O. Quine",
+        "justificacion": "Artículo fundacional en el que refuta la distinción tajante entre enunciados analíticos y sintéticos, defendiendo una concepción holista de la confirmación empírica"
+      }
+    ]
   },
   {
     "id": 69,
