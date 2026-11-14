@@ -1379,7 +1379,8 @@
         "autor": "Alfred Tarski",
         "justificacion": "Presentación accesible de la teoría semántica de la verdad y el Esquema V"
       }
-    ]
+    ],
+    "sinopsis": "Proponemos abordar el tema articulando un recorrido riguroso por las principales concepciones de la verdad y su aplicación en las ciencias. Conviene iniciar examinando los modelos clásicos: la correspondencia desde Aristóteles y Russell, el coherentismo hegeliano, el pragmatismo de Peirce y James, junto con la revolución semántica de Tarski y la redundancia. A continuación, el opositor debe trasladar este debate al ámbito formal, analizando el logicismo, el formalismo de Hilbert y la sacudida de los teoremas de incompletud de Gödel. Finalmente, resulta esencial culminar con las ciencias empíricas, contrastando el racionalismo crítico y la verosimilitud de Popper con el historicismo paradigmático de Kuhn, distinguiendo la explicación causal natural de la hermenéutica en las ciencias sociales para lograr un examen equilibrado, maduro y brillante."
   },
   {
     "id": 9,
@@ -2565,7 +2566,8 @@
         "autor": "Michael Dummett",
         "justificacion": "Propone abordar y resolver las disputas metafísicas desde el análisis de la teoría del significado y la lógica de las proposiciones."
       }
-    ]
+    ],
+    "sinopsis": "Proponemos abordar el tema articulando la metafísica como una constante tensión histórica entre la aspiración a realidades últimas y la crítica a sus fundamentos. Conviene estructurar el examen desde su génesis ontoteológica en Platón y Aristóteles, transitando hacia la escolástica medieval donde autores como Tomás de Aquino y Duns Escoto redefinen el estatuto del ser y de Dios. Resulta imprescindible confrontar la reconfiguración racionalista de la sustancia frente al embate empirista de Hume y el giro crítico de Kant, quien delimita la metafísica como disposición natural pero inviable como ciencia especulativa. \nFinalmente, debe culminarse con la crisis contemporánea: desde el positivismo lógico y la analítica de Quine o Strawson hasta la superación heideggeriana y la ontología hermenéutica."
   },
   {
     "id": 15,
@@ -5436,7 +5438,8 @@
         "autor": "Jacques Lacan",
         "justificacion": "La ética del psicoanálisis, Libro XI: Los cuatro conceptos fundamentales del psicoanálisis, Libro XVII: El reverso del psicoanálisis y Libro XX: Aún): Serie de imparticiones orales sobre los registros de lo Imaginario, lo Simbólico y lo Real."
       }
-    ]
+    ],
+    "sinopsis": "Proponemos abordar el tema trazando el tránsito de la psicología desde la especulación filosófica hasta su consolidación como ciencia experimental rigurosa. Conviene estructurar la exposición articulando la tensión histórica entre diversos métodos y objetos de estudio: el análisis de la conciencia inmediata mediante la introspección de Wundt frente a la concepción funcional y adaptativa de William James; la ruptura de Freud al situar el inconsciente en el centro de la vida anímica; y el giro radical del conductismo de Watson y Skinner, que redujo la disciplina a la conducta observable. Finalmente, resulta esencial examinar la revolución cognitiva y la epistemología genética de Piaget, planteando el debate actual sobre si la psicología debe regirse por los cánones naturalistas o integrar una perspectiva comprensiva de la mente humana."
   },
   {
     "id": 27,
@@ -9850,7 +9853,8 @@
         "autor": "Gorgias",
         "justificacion": "Tratado sofístico que refuta las exigencias Parmenídeas sobre el ser e impugna la certeza del conocimiento teórico"
       }
-    ]
+    ],
+    "sinopsis": "Proponemos abordar el tema articulando el paso del mito al logos mediante las condiciones sociopolíticas de la polis y la indagación racional de la naturaleza. Resulta imprescindible estructurar la exposición en tres ejes cardinales. En primer lugar, la búsqueda del principio material originario en los filósofos milesios, destacando el agua de Tales, el ápeiron de Anaximandro y el aire de Anaxímenes. En segundo lugar, conviene profundizar en el debate ontológico decisivo entre el devenir continuo de Heráclito y la inmutabilidad radical del Ser de Parménides, analizando la tensión gnoseológica entre razón y sentidos. Por último, debe examinarse la resolución pluralista frente a la aporía eleática, contrastando el mecanicismo atomista de Leucipo y Demócrito con las explicaciones del Nous de Anaxágoras y las cuatro raíces de Empédocles."
   },
   {
     "id": 48,
@@ -10002,7 +10006,8 @@
         "autor": "Aristóteles",
         "justificacion": "Obra en la que se analiza y critica explícitamente el precepto protagórico de transformar el peor argumento en el mejor dentro de la dialéctica"
       }
-    ]
+    ],
+    "sinopsis": "Proponemos abordar el tema articulando el giro antropológico del siglo V a. C. a partir del auge de la democracia ateniense. \nResulta indispensable contrastar con equilibrio la propuesta de la sofística frente al proyecto filosófico de Sócrates. Por un lado, debe examinarse el movimiento sofista a través del relativismo de Protágoras, el escepticismo de Gorgias y el fecundo debate entre physis y nomos planteado por autores como Antifonte y Trasímaco. Por otro lado, conviene desarrollar la figura socrática exponiendo su método inductivo sustentado en la ironía y la mayéutica, orientado a fundamentar definiciones universales. \nFinalmente, se coronará el examen abordando el intelectualismo moral y el firme compromiso cívico del filósofo con la polis"
   },
   {
     "id": 49,
@@ -10098,7 +10103,8 @@
         "autor": "Aristófanes",
         "justificacion": "Comedia clásica que ofrece una representación satírica de la figura de Sócrates y del ambiente intelectual de su tiempo"
       }
-    ]
+    ],
+    "sinopsis": "Proponemos abordar el tema estructurando un recorrido evolutivo que comience con los diálogos tempranos, examinando la confrontación con el relativismo de Protágoras y las tesis de Trasímaco o Calicles en el Gorgias. \nEl núcleo del examen debe centrarse en la República, articulando el paralelismo isomórfico entre las tres partes del alma y las tres clases sociales, donde la justicia resplandece como principio ordenador y especialización funcional. Es crucial vincular este modelo con el programa pedagógico de los guardianes y filósofos gobernantes guiados por la dialéctica y el Bien. \nFinalmente, conviene rematar con el realismo político de madurez tardía en El Político y Leyes, donde la utopía del rey sabio cede paso a la soberanía protectora de la ley."
   },
   {
     "id": 50,
@@ -10210,7 +10216,8 @@
         "autor": "Aristóteles",
         "justificacion": "Trabajo de investigación biológica basado en la observación empírica de las distintas especies y tipos naturales de seres vivos"
       }
-    ]
+    ],
+    "sinopsis": "Proponemos abordar el tema articulando la física aristotélica como una ontología de lo sensible en diálogo crítico frente a Platón y los presocráticos. \nConviene estructurar la exposición definiendo la naturaleza como principio intrínseco de movimiento y reposo, diferenciando los entes naturales de los artificiales. Resulta esencial desgranar el tránsito de la potencia al acto para resolver la aporía parmenídea, fundamentándolo en el hilemorfismo y en la primacía de la sustancia. Asimismo, el opositor debe integrar las cuatro causas destacando la primacía teleológica y el cosmos ordenado hasta el Motor Inmóvil. \nFinalmente, es clave proyectar este dinamismo teleológico hacia la unión sustancial del alma y el cuerpo, la ética y la política ciudadana."
   },
   {
     "id": 51,
@@ -10446,7 +10453,8 @@
         "autor": "Aristóteles",
         "justificacion": "Tratado clásico donde la ética griega se muestra integrada y subordinada a la estructura de la ciudad-estado"
       }
-    ]
+    ],
+    "sinopsis": "Proponemos abordar el tema articulando la profunda transformación sociopolítica tras la caída de la polis con la eclosión del saber especializado. \nPara estructurar una exposición equilibrada y rigurosa, conviene presentar el giro ético e individualista de las escuelas atenienses —el estoicismo de Zenón y Crisipo, el epicureísmo y el escepticismo de Pirrón— frente al impresionante florecimiento científico institucionalizado en el Museo y la Biblioteca de Alejandría. \nResulta fundamental examinar los debates entre la autonomía de las ciencias y la metafísica, contraponiendo la deducción axiomática de Euclides, la mecánica de Arquímedes, la audaz hipótesis heliocéntrica de Aristarco y la sistematización geocéntrica de Hiparco y Ptolomeo, culminando con la síntesis médica de Galeno."
   },
   {
     "id": 52,
@@ -10598,7 +10606,8 @@
         "autor": "Boecio",
         "justificacion": "Tratado corto donde se formulan axiomas metafísicos fundamentales sobre la distinción entre la sustancia y su acto de ser"
       }
-    ]
+    ],
+    "sinopsis": "Proponemos abordar el tema situando la síntesis tomista del siglo XIII como un lúcido equilibrio frente al agustinismo de Buenaventura y al averroísmo de Siger de Brabante. \nConviene articular la exposición en torno a la armonía entre fe y razón, mostrando cómo Tomás de Aquino asume a Aristóteles para fundamentar la autonomía racional sin contradecir la teología. En metafísica, resulta esencial explicar la distinción real entre esencia y existencia junto a la analogía del ser, clave para comprender la contingencia creada frente a Dios como acto puro. Asimismo, el examen ganará solidez analizando las vías a posteriori y la concepción hilemórfica del ser humano, culminando con la ley natural y el bien común."
   },
   {
     "id": 53,
@@ -10744,7 +10753,8 @@
         "autor": "Nicolás de Oresme",
         "justificacion": "Escrito cosmológico en el que expone y rebate argumentos sobre el movimiento de la Tierra, defendiendo la relatividad de las mediciones físicas del movimiento"
       }
-    ]
+    ],
+    "sinopsis": "Proponemos abordar el tema articulando la profunda crisis bajomedieval como una fecunda transformación epistemológica. \nConviene estructurar el ejercicio situando a Guillermo de Ockham en el centro neurálgico, analizando cómo su navaja metodológica y la ontología del singular desmantelan la metafísica escolástica y separan fe y razón. Asimismo, resulta fundamental exponer el giro empirista del conocimiento intuitivo y el voluntarismo teológico asentado en la omnipotencia divina. \nPara garantizar una visión equilibrada, debe examinarse la renovación científica del siglo XIV, confrontando la cinemática de los calculatores de Oxford con la física parisina, singularmente el ímpetu de Buridán y la geometría cualitativa de Oresme. Conviene rematar con la dimensión política que fundamenta la autonomía secular del Estado moderno."
   },
   {
     "id": 54,
@@ -11995,7 +12005,8 @@
         "autor": "Karl Marx",
         "justificacion": "Obra en cuyo tercer manuscrito Marx lleva a cabo una célebre reinterpretación y desarrollo del análisis hegeliano sobre la dialectica del señorío y la esclavitud. ---"
       }
-    ]
+    ],
+    "sinopsis": "Proponemos abordar el tema articulando la superación hegeliana del criticismo de Kant y del monismo estático de Spinoza, integrando la dialéctica del devenir de Heráclito. Conviene estructurar el examen mostrando cómo la conciencia asciende en la Fenomenología del espíritu desde la inmediatez sensible hasta el saber absoluto, destacando hitos como la dialéctica del amo y el esclavo o la conciencia desgarrada. Asimismo, resulta imprescindible exponer el despliegue del sistema tripartito desarrollado en la Enciclopedia: la Lógica, la Filosofía de la Naturaleza y la Filosofía del Espíritu. Finalmente, el opositor debe culminar con el espíritu objetivo y su realización en el Estado, entendido no como mera coacción, sino como la encarnación racional de la eticidad y la libertad concreta a través de la historia."
   },
   {
     "id": 62,
@@ -12232,7 +12243,8 @@
         "autor": "Ernst Mach",
         "justificacion": "Presenta la evolución histórico-epistemológica de la óptica. ---"
       }
-    ]
+    ],
+    "sinopsis": "Proponemos abordar el tema articulando la reacción antimetafísica decimonónica frente al idealismo con la profunda transformación científica e industrial de la época. Conviene estructurar la exposición en tres ejes cardinales: primero, el positivismo social de Auguste Comte, destacando la ley de los tres estados y la sociología como garante del orden y progreso; segundo, la vertiente británica con la lógica inductiva y el utilitarismo cualitativo de John Stuart Mill, complementada por el evolucionismo de Herbert Spencer; y tercero, el empirocriticismo de Ernst Mach. \nPara dotar a la prueba de madurez, resulta indispensable vincular tales doctrinas con las revoluciones científicas coetáneas: las geometrías no euclidianas, la quiebra del mecanicismo físico y el impacto antropológico del evolucionismo darwiniano."
   },
   {
     "id": 63,
@@ -12379,7 +12391,8 @@
         "autor": "Ludwig Feuerbach",
         "justificacion": "Obra en la que sostiene que la teología es antropología camuflada y analiza la alienación religiosa como una proyección del ser humano. ---"
       }
-    ]
+    ],
+    "sinopsis": "Proponemos abordar el tema situando primero el contexto socioeconómico del siglo XIX, contrastando las respuestas del socialismo utópico de Saint-Simon, Fourier u Owen con la organización obrera de la A.I.T.\nEn el plano filosófico, conviene estructurar la ruptura con el idealismo de Hegel y la inversión antropológica de Feuerbach, desembocando en el materialismo histórico. Resulta imprescindible desgranar las nociones de infraestructura y superestructura, integrando las leyes dialécticas formuladas por Engels. Asimismo, el núcleo analítico debe exponer la alienación económica del obrero, la plusvalía y la función deformadora de la ideología burguesa. \nFinalmente, se coronará el tema vinculando el humanismo revolucionario centrado en la praxis con el balance de su influjo transformador en el pensamiento contemporáneo."
   },
   {
     "id": 64,
@@ -13172,7 +13185,8 @@
         "autor": "Maurice Merleau-Ponty",
         "justificacion": "Obra representativa en la que realiza una descripción fenomenológica del propio cuerpo para argumentar la ambigüedad existencial"
       }
-    ]
+    ],
+    "sinopsis": "Proponemos abordar el tema articulando la ontología fundamental de Martin Heidegger con el horizonte amplio de la filosofía de la existencia. Conviene iniciar contextualizando la ruptura crítica frente al idealismo de Hegel y la asimilación del método fenomenológico de Husserl, bajo el influjo vitalista y precursor de Kierkegaard. El núcleo del desarrollo debe centrarse en Ser y tiempo, exponiendo la pregunta por el ser, la diferencia ontológica y la analítica existenciaria del Dasein, junto a la temporalidad y el posterior giro hacia la técnica. Para un examen equilibrado, resulta imprescindible contrastar este planteamiento con la ontología fenomenológica de Jean-Paul Sartre, complementándolo con las perspectivas ético-espirituales de Gabriel Marcel, Karl Jaspers y Maurice Merleau-Ponty."
   },
   {
     "id": 68,
@@ -13329,7 +13343,8 @@
         "autor": "W. v. O. Quine",
         "justificacion": "Artículo fundacional en el que refuta la distinción tajante entre enunciados analíticos y sintéticos, defendiendo una concepción holista de la confirmación empírica"
       }
-    ]
+    ],
+    "sinopsis": "Proponemos abordar el tema articulando la tesis nuclear de la corriente analítica: los problemas filosóficos surgen de confusiones en el uso del lenguaje. \nPara estructurar un examen equilibrado, conviene partir del análisis lógico fundacional de Gottlob Frege, adentrándose después en Bertrand Russell. En este autor resultan fundamentales el atomismo lógico y la teoría de las descripciones definidas frente a ontologías innecesarias. \nEl núcleo temático debe vertebrarse en torno a las dos etapas de Ludwig Wittgenstein: el primer Wittgenstein, con la teoría figurativa del Tractatus y el isomorfismo lógico entre lenguaje y hechos, y el segundo Wittgenstein, centrado en el significado como uso, los juegos del lenguaje y la crítica del lenguaje privado en formas de vida compartidas"
   },
   {
     "id": 69,
