@@ -95,7 +95,7 @@ export default function App() {
   };
 
   return (
-    <div className="flex flex-col h-screen w-screen bg-slate-950 text-slate-100 overflow-hidden font-sans select-none">
+    <div className="flex flex-col h-screen w-screen bg-academia-mesh text-slate-100 overflow-hidden font-sans select-none relative">
       
       {/* Menú Desplegable Lateral Izquierdo (Drawer) */}
       <Sidebar
@@ -105,36 +105,37 @@ export default function App() {
         onSelectSection={(section) => setActiveSection(section)}
       />
 
-      {/* Barra de Navegación Superior Responsive */}
-      <header className="border-b border-slate-800 bg-slate-900/95 backdrop-blur-md px-3 sm:px-6 py-2.5 md:py-0 md:h-16 flex flex-col md:flex-row items-stretch md:items-center justify-between z-30 shrink-0 gap-2.5 md:gap-4">
+      {/* Barra de Navegación Superior Glassmorphic */}
+      <header className="border-b border-white/10 bg-slate-950/65 backdrop-blur-xl px-3 sm:px-6 py-2.5 md:py-0 md:h-[68px] flex flex-col md:flex-row items-stretch md:items-center justify-between z-30 shrink-0 gap-2.5 md:gap-4 shadow-[0_12px_40px_rgba(0,0,0,0.45)]">
         
         {/* Fila 1 en móvil / Izquierda en escritorio: Menú hamburguesa, Logotipo, Título y Controles contextuales */}
         <div className="flex items-center justify-between shrink-0 gap-2">
-          <div className="flex items-center gap-2 sm:gap-3">
+          <div className="flex items-center gap-2.5 sm:gap-3.5">
             {/* Botón de apertura del menú lateral */}
             <button
+              type="button"
               onClick={() => setSidebarOpen(true)}
-              className="p-2 rounded-xl text-slate-300 hover:text-white hover:bg-slate-800 transition min-w-[38px] min-h-[38px] flex items-center justify-center border border-slate-700/60 shadow-sm"
+              className="p-2 rounded-xl text-slate-300 hover:text-amber-300 bg-white/[0.03] hover:bg-white/[0.08] transition-all duration-200 min-w-[40px] min-h-[40px] flex items-center justify-center border border-white/10 hover:border-amber-400/30 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
               aria-label="Abrir menú"
               title="Abrir menú"
             >
               <Menu className="w-5 h-5 text-amber-400" />
             </button>
 
-            {/* Logotipo y Título */}
+            {/* Logotipo y Título Editorial */}
             <div
               onClick={() => setActiveSection('atlas')}
-              className="flex items-center gap-2.5 cursor-pointer group"
+              className="flex items-center gap-3 cursor-pointer group"
               title="Volver a la portada del Atlas"
             >
-              <div className="w-8 h-8 sm:w-9 sm:h-9 rounded-xl bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-slate-950 shadow-lg shadow-amber-500/20 shrink-0 group-hover:scale-105 transition-transform">
+              <div className="w-9 h-9 sm:w-10 sm:h-10 rounded-xl bg-amber-400/10 border border-amber-400/30 flex items-center justify-center text-amber-300 shadow-[inset_0_1px_0_rgba(255,255,255,0.12),0_0_24px_rgba(251,191,36,0.12)] shrink-0 group-hover:bg-amber-400 group-hover:text-slate-950 group-hover:scale-105 transition-all duration-300">
                 <Compass className="w-4 h-4 sm:w-5 sm:h-5" />
               </div>
               <div>
-                <h1 className="text-sm sm:text-base md:text-lg font-bold tracking-tight text-white flex items-center gap-2">
-                  Atlas Filosófico
+                <h1 className="font-editorial text-lg sm:text-xl md:text-2xl font-semibold tracking-tight text-white flex items-center gap-2.5 leading-none">
+                  <span>Atlas Filosófico</span>
                   {activeSection !== 'atlas' && (
-                    <span className="text-[10px] font-semibold uppercase px-2 py-0.5 rounded-full bg-amber-400/15 text-amber-300 border border-amber-400/30 hidden sm:inline">
+                    <span className="font-sans text-[11px] font-semibold px-2.5 py-0.5 rounded-full bg-amber-400/10 text-amber-300 border border-amber-400/25 hidden sm:inline-flex items-center">
                       {activeSection === 'ley_vigente'
                         ? 'Ley Vigente'
                         : activeSection === 'temario'
@@ -145,8 +146,8 @@ export default function App() {
                     </span>
                   )}
                 </h1>
-                <p className="text-[11px] text-slate-400 hidden xl:block">
-                  Visualización cronológica y geográfica progresiva
+                <p className="text-[11px] text-slate-400 hidden xl:block tracking-wide mt-0.5">
+                  Cartografía cronológica y geográfica del pensamiento
                 </p>
               </div>
             </div>
@@ -156,19 +157,19 @@ export default function App() {
           {activeSection === 'atlas' ? (
             <div className="flex items-center gap-2 shrink-0">
               <div className="relative">
-                <Search className="w-3.5 h-3.5 absolute left-2.5 top-1/2 -translate-y-1/2 text-slate-500" />
+                <Search className="w-3.5 h-3.5 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
                 <input
                   type="text"
                   placeholder="Buscar filósofo..."
                   value={searchTerm}
                   onChange={(e) => setSearchTerm(e.target.value)}
-                  className="w-28 sm:w-36 lg:w-48 pl-7 sm:pl-8 pr-2.5 sm:pr-3 py-1.5 text-xs rounded-xl bg-slate-800/90 border border-slate-700 text-slate-200 placeholder-slate-500 focus:outline-none focus:border-amber-400 transition"
+                  className="w-28 sm:w-40 lg:w-52 pl-8 pr-3 py-1.5 text-xs rounded-xl bg-white/[0.04] border border-white/10 text-slate-100 placeholder-slate-400 focus:outline-none focus:border-amber-400/60 focus:bg-white/[0.07] transition-all"
                 />
               </div>
 
               {/* Contador sutil de autores visibles */}
               <div
-                className="flex items-center gap-1.5 text-xs font-medium px-2.5 py-1.5 rounded-xl bg-slate-800/90 text-slate-300 border border-slate-700 shadow-sm"
+                className="flex items-center gap-1.5 text-xs font-medium px-3 py-1.5 rounded-xl bg-white/[0.04] text-slate-300 border border-white/10 tabular-nums"
                 title={`Mostrando ${filteredFilosofos.length} autores de un total de ${filosofos.length} en el catálogo`}
               >
                 <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
@@ -178,10 +179,11 @@ export default function App() {
             </div>
           ) : (
             <button
+              type="button"
               onClick={() => setActiveSection('atlas')}
-              className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-800 hover:bg-amber-500 text-slate-300 hover:text-slate-950 font-semibold text-xs border border-slate-700 transition"
+              className="flex items-center gap-2 px-3.5 py-2 rounded-xl bg-white/[0.04] hover:bg-amber-400 text-slate-200 hover:text-slate-950 font-semibold text-xs border border-white/10 hover:border-amber-300 transition-all duration-200 cursor-pointer group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
             >
-              <Compass className="w-3.5 h-3.5 text-amber-400" />
+              <Compass className="w-3.5 h-3.5 text-amber-400 group-hover:text-slate-950 transition-colors" />
               <span>Volver al Atlas</span>
             </button>
           )}
@@ -189,16 +191,17 @@ export default function App() {
 
         {/* Fila 2 en móvil / Centro en escritorio: Solo visible en la vista Atlas */}
         {activeSection === 'atlas' && (
-          <div className="flex items-center justify-between sm:justify-center gap-2 flex-wrap">
+          <div className="flex items-center justify-between sm:justify-center gap-2.5 flex-wrap">
             
             {/* Selector de Vistas (Cronología vs Mapamundi) */}
-            <nav className="flex items-center bg-slate-950/80 p-1 rounded-2xl border border-slate-800 shadow-inner">
+            <nav className="flex items-center bg-white/[0.03] backdrop-blur-md p-1 rounded-2xl border border-white/10">
               <button
+                type="button"
                 onClick={() => setActiveView('cronologica')}
-                className={`min-h-[42px] md:min-h-[36px] flex items-center gap-1.5 px-3 py-2 md:py-1.5 rounded-xl text-xs font-semibold transition-all duration-200 ${
+                className={`min-h-[40px] md:min-h-[34px] flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-all duration-200 cursor-pointer ${
                   activeView === 'cronologica'
-                    ? 'bg-amber-500 text-slate-950 shadow-md shadow-amber-500/25 font-bold'
-                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
+                    ? 'bg-amber-400 text-slate-950 shadow-[0_0_20px_rgba(251,191,36,0.28)] font-bold'
+                    : 'text-slate-300 hover:text-white hover:bg-white/[0.05]'
                 }`}
               >
                 <Clock className="w-3.5 h-3.5" />
@@ -207,11 +210,12 @@ export default function App() {
               </button>
 
               <button
+                type="button"
                 onClick={() => setActiveView('geografica')}
-                className={`min-h-[42px] md:min-h-[36px] flex items-center gap-1.5 px-3 py-2 md:py-1.5 rounded-xl text-xs font-semibold transition-all duration-200 ${
+                className={`min-h-[40px] md:min-h-[34px] flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-all duration-200 cursor-pointer ${
                   activeView === 'geografica'
-                    ? 'bg-amber-500 text-slate-950 shadow-md shadow-amber-500/25 font-bold'
-                    : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
+                    ? 'bg-amber-400 text-slate-950 shadow-[0_0_20px_rgba(251,191,36,0.28)] font-bold'
+                    : 'text-slate-300 hover:text-white hover:bg-white/[0.05]'
                 }`}
               >
                 <Globe className="w-3.5 h-3.5" />
@@ -221,8 +225,8 @@ export default function App() {
             </nav>
 
             {/* Divulgación Progresiva: Filtro Acumulativo de 3 Niveles */}
-            <div className="flex items-center bg-slate-950/80 p-1 rounded-2xl border border-slate-800 shadow-inner">
-              <span className="text-[10px] uppercase font-bold tracking-wider text-slate-500 px-2 hidden xl:inline">
+            <div className="flex items-center bg-white/[0.03] backdrop-blur-md p-1 rounded-2xl border border-white/10">
+              <span className="text-[11px] font-medium text-slate-400 px-2.5 hidden xl:inline">
                 Nivel:
               </span>
               <div className="flex items-center gap-1">
@@ -231,12 +235,13 @@ export default function App() {
                   const isSelected = selectedLevel === lvl.id;
                   return (
                     <button
+                      type="button"
                       key={lvl.id}
                       onClick={() => setSelectedLevel(lvl.id)}
-                      className={`min-h-[42px] md:min-h-[36px] flex items-center gap-1.5 px-2.5 sm:px-3 py-2 md:py-1.5 rounded-xl text-xs font-semibold transition-all duration-200 ${
+                      className={`min-h-[40px] md:min-h-[34px] flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-semibold transition-all duration-200 cursor-pointer ${
                         isSelected
-                          ? 'bg-gradient-to-r from-amber-400 to-amber-500 text-slate-950 shadow-md shadow-amber-500/20 font-bold'
-                          : 'text-slate-400 hover:text-slate-200 hover:bg-slate-800/60'
+                          ? 'bg-amber-400 text-slate-950 shadow-[0_0_20px_rgba(251,191,36,0.25)] font-bold'
+                          : 'text-slate-300 hover:text-white hover:bg-white/[0.05]'
                       }`}
                       title={lvl.description}
                     >
@@ -277,7 +282,7 @@ export default function App() {
         ) : activeSection === 'programacion' ? (
           <React.Suspense
             fallback={
-              <div className="w-full h-full flex items-center justify-center bg-slate-950 text-amber-400 font-mono text-sm">
+              <div className="w-full h-full flex items-center justify-center bg-academia-mesh text-amber-300 font-editorial text-xl italic">
                 Cargando programación didáctica...
               </div>
             }

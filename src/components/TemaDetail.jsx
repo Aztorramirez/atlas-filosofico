@@ -90,164 +90,230 @@ export default function TemaDetail({
   const nextTema = currentIndex < allTemas.length - 1 ? allTemas[currentIndex + 1] : null;
 
   return (
-    <div className="w-full h-full overflow-y-auto bg-slate-950 text-slate-100 p-4 sm:p-6 md:p-8 space-y-8">
+    <div className="w-full h-full overflow-y-auto bg-academia-mesh text-slate-100 px-4 sm:px-8 md:px-10 py-6 sm:py-10 space-y-12 sm:space-y-16">
       
-      {/* Barra superior de navegación */}
-      <div className="max-w-6xl mx-auto flex items-center justify-between gap-3 flex-wrap">
+      {/* Barra superior de navegación flotante */}
+      <nav
+        aria-label="Navegación del temario"
+        className="max-w-6xl mx-auto flex items-center justify-between gap-3 flex-wrap animate-fade-in"
+      >
         <button
+          type="button"
           onClick={onBack}
-          className="inline-flex items-center gap-2 px-3.5 py-2 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-300 hover:text-white text-xs sm:text-sm font-semibold transition cursor-pointer"
+          className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-white/[0.04] hover:bg-white/[0.09] backdrop-blur-md border border-white/10 hover:border-amber-400/40 text-slate-200 hover:text-white text-xs sm:text-sm font-medium transition-all duration-200 cursor-pointer group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
         >
-          <ArrowLeft className="w-4 h-4 text-amber-400" />
-          <span>Volver al listado de temas</span>
+          <ArrowLeft className="w-4 h-4 text-amber-400 group-hover:-translate-x-0.5 transition-transform" />
+          <span>Volver al listado</span>
         </button>
 
         {/* Paginación anterior / siguiente */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5 bg-white/[0.03] backdrop-blur-md p-1 rounded-full border border-white/10">
           {prevTema && (
             <button
+              type="button"
               onClick={() => {
                 setSelectedFilosofo(null);
                 onSelectTema(prevTema);
               }}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-400 hover:text-slate-200 text-xs transition cursor-pointer"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full hover:bg-white/[0.08] text-slate-300 hover:text-white text-xs font-medium transition-all cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
               title={`Tema ${prevTema.num}: ${prevTema.titulo}`}
             >
-              <ChevronLeft className="w-4 h-4" />
+              <ChevronLeft className="w-3.5 h-3.5 text-amber-400" />
               <span>Tema {prevTema.num}</span>
             </button>
           )}
 
-          <span className="text-xs text-slate-500 font-mono px-2">
-            {tema.num} / {allTemas.length}
+          <span className="text-xs text-slate-300 font-mono tabular-nums px-3">
+            {tema.num} <span className="text-slate-500">/</span> {allTemas.length}
           </span>
 
           {nextTema && (
             <button
+              type="button"
               onClick={() => {
                 setSelectedFilosofo(null);
                 onSelectTema(nextTema);
               }}
-              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 text-slate-400 hover:text-slate-200 text-xs transition cursor-pointer"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full hover:bg-white/[0.08] text-slate-300 hover:text-white text-xs font-medium transition-all cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
               title={`Tema ${nextTema.num}: ${nextTema.titulo}`}
             >
               <span>Tema {nextTema.num}</span>
-              <ChevronRight className="w-4 h-4" />
+              <ChevronRight className="w-3.5 h-3.5 text-amber-400" />
             </button>
           )}
         </div>
-      </div>
+      </nav>
 
-      {/* Tarjeta de Encabezado del Tema */}
-      <div className="max-w-6xl mx-auto p-6 sm:p-8 rounded-3xl bg-slate-900/80 border border-slate-800 shadow-2xl space-y-6">
-        <div className="space-y-3">
-          <div className="flex items-center gap-2 flex-wrap">
-            <span className="w-10 h-10 rounded-2xl bg-gradient-to-br from-amber-400 to-amber-600 text-slate-950 font-black font-mono text-base flex items-center justify-center shadow-md shadow-amber-500/20">
-              {tema.num}
+      {/* HERO EDITORIAL ASIMÉTRICO */}
+      <header className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-start animate-fade-in-up">
+        
+        {/* Columna Izquierda (8 cols): Tipografía editorial dramática y sinopsis */}
+        <div className="lg:col-span-8 space-y-6">
+          <div className="flex items-center gap-3.5 flex-wrap">
+            <span className="font-editorial italic text-4xl sm:text-5xl font-semibold text-amber-400 leading-none tabular-nums">
+              {String(tema.num).padStart(2, '0')}
             </span>
-            <span className="px-3 py-1 rounded-full bg-slate-800 text-amber-300 border border-slate-700 text-xs font-semibold">
+            <span className="h-6 w-px bg-white/15" aria-hidden="true" />
+            <span className="px-3.5 py-1 rounded-full bg-amber-400/10 text-amber-300 border border-amber-400/25 text-xs font-semibold tracking-wide">
               {tema.bloque}
             </span>
-            <span className="text-xs text-slate-500 font-mono">
+            <span className="text-xs text-slate-400 font-medium">
               Oposiciones Secundaria • Filosofía
             </span>
           </div>
 
-          <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-white leading-tight">
+          <h1 className="font-editorial text-3xl sm:text-5xl lg:text-[3.35rem] font-semibold tracking-tight text-white leading-[1.08] text-balance">
             {tema.titulo}
           </h1>
-        </div>
 
-        {/* Acciones principales: Sinopsis y Botón de Videoclase de YouTube en cabecera */}
-        <div className="pt-4 border-t border-slate-800/80 flex flex-col gap-4 items-start">
           {tema?.sinopsis && (
-            <div className="mb-6">
-              <p className="text-lg text-slate-300 leading-relaxed text-pretty whitespace-pre-line">
+            <div className="pt-2">
+              <p className="border-l-2 border-amber-400/40 pl-5 sm:pl-6 max-w-[62ch] text-base sm:text-lg text-slate-300 leading-[1.8] text-pretty whitespace-pre-line">
                 {tema.sinopsis}
               </p>
             </div>
           )}
-
-          <div>
-            {tema.video_url ? (
-              <a
-                href={tema.video_url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-300 hover:to-amber-400 text-slate-950 font-bold text-xs sm:text-sm shadow-lg shadow-amber-500/20 transition-all hover:scale-[1.02]"
-              >
-                <Play className="w-4 h-4 fill-current" />
-                <span>Ver Videoclase Explicativa</span>
-                <ExternalLink className="w-3.5 h-3.5 opacity-80" />
-              </a>
-            ) : (
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-950/60 border border-slate-800 text-slate-500 text-xs">
-                <Clock className="w-4 h-4 text-slate-600" />
-                <span>Videoclase explicativa en preparación</span>
-              </div>
-            )}
-          </div>
         </div>
-      </div>
 
-      {/* Píldoras de autores relacionados para acceso directo */}
-      {relatedFilosofos.length > 0 && (
-        <div className="max-w-6xl mx-auto space-y-2">
-          <div className="text-xs font-bold text-slate-400 uppercase tracking-wider flex items-center gap-2">
-            <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-            <span>Pensadores clave en este tema:</span>
+        {/* Columna Derecha (4 cols): Tarjeta Glassmorphic de Videoclase & Ficha */}
+        <aside className="lg:col-span-4 rounded-3xl bg-gradient-to-b from-white/[0.06] to-white/[0.02] backdrop-blur-2xl border border-white/10 p-6 shadow-[0_24px_64px_rgba(0,0,0,0.55)] space-y-6 lg:sticky lg:top-6">
+          <div className="flex items-center justify-between border-b border-white/10 pb-4">
+            <span className="text-xs font-semibold text-slate-300">
+              Dossier del Tema
+            </span>
+            <span className="font-mono text-xs tabular-nums text-amber-300 bg-amber-400/10 border border-amber-400/20 px-2.5 py-0.5 rounded-full">
+              BOE • {tema.num}
+            </span>
           </div>
-          <div className="flex items-center gap-2 flex-wrap">
+
+          <div className="grid grid-cols-2 gap-3 text-left">
+            <div className="p-3 rounded-2xl bg-black/25 border border-white/5">
+              <div className="text-[11px] text-slate-400">Pensadores</div>
+              <div className="font-editorial text-2xl font-semibold text-white tabular-nums mt-0.5">
+                {relatedFilosofos.length}
+              </div>
+            </div>
+            <div className="p-3 rounded-2xl bg-black/25 border border-white/5">
+              <div className="text-[11px] text-slate-400">Obras clave</div>
+              <div className="font-editorial text-2xl font-semibold text-white tabular-nums mt-0.5">
+                {tema?.obras_relacionadas?.length || 0}
+              </div>
+            </div>
+          </div>
+
+          {/* CTA Innovador de Videoclase */}
+          {tema.video_url ? (
+            <a
+              href={tema.video_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group relative flex items-center justify-between gap-3 w-full p-4 rounded-2xl bg-amber-400 hover:bg-amber-300 text-slate-950 transition-all duration-300 hover:-translate-y-0.5 active:scale-[0.99] shadow-[0_12px_32px_rgba(251,191,36,0.22)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+            >
+              <div className="flex items-center gap-3">
+                <span className="w-10 h-10 rounded-xl bg-slate-950 text-amber-400 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
+                  <Play className="w-4 h-4 fill-current ml-0.5" />
+                </span>
+                <div className="text-left">
+                  <div className="text-sm font-extrabold leading-tight">
+                    Ver Videoclase
+                  </div>
+                  <div className="text-[11px] font-semibold text-slate-800">
+                    Explicación completa en YouTube
+                  </div>
+                </div>
+              </div>
+              <ExternalLink className="w-4 h-4 shrink-0 opacity-75 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+            </a>
+          ) : (
+            <div className="flex items-center gap-3 w-full p-4 rounded-2xl bg-black/30 border border-white/10 text-slate-400">
+              <span className="w-10 h-10 rounded-xl bg-white/[0.04] border border-white/10 flex items-center justify-center shrink-0">
+                <Clock className="w-4 h-4 text-slate-400" />
+              </span>
+              <div className="text-left">
+                <div className="text-xs font-semibold text-slate-300">
+                  Videoclase en preparación
+                </div>
+                <div className="text-[11px] text-slate-400">
+                  Próximamente disponible en el archivo
+                </div>
+              </div>
+            </div>
+          )}
+        </aside>
+      </header>
+
+      {/* PÍLDORAS DE AUTORES RELACIONADOS */}
+      {relatedFilosofos.length > 0 && (
+        <section
+          aria-label="Pensadores clave"
+          className="max-w-6xl mx-auto space-y-3.5 animate-fade-in-up"
+          style={{ animationDelay: '80ms' }}
+        >
+          <div className="flex items-center justify-between gap-2">
+            <h2 className="text-xs font-semibold text-slate-300 flex items-center gap-2">
+              <Sparkles className="w-3.5 h-3.5 text-amber-400" />
+              <span>Pensadores clave en este tema</span>
+            </h2>
+            <span className="text-[11px] text-slate-400 hidden sm:inline">
+              1 clic: ficha rápida · 2 clics: biografía
+            </span>
+          </div>
+
+          <div className="flex items-center gap-2.5 flex-wrap">
             {relatedFilosofos.map((f) => {
               const isSelected = selectedFilosofo?.id === f.id;
               return (
                 <button
+                  type="button"
                   key={f.id}
                   onClick={() => setSelectedFilosofo(isSelected ? null : f)}
                   onDoubleClick={() => setModalFilosofo(f)}
-                  className={`px-3 py-1.5 rounded-xl border text-xs font-medium transition flex items-center gap-2 cursor-pointer ${
+                  className={`px-4 py-2 rounded-full border text-xs font-medium transition-all duration-200 flex items-center gap-2 cursor-pointer hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 ${
                     isSelected
-                      ? 'bg-amber-400 text-slate-950 font-bold border-amber-300 shadow-md shadow-amber-500/20'
-                      : 'bg-slate-900/80 hover:bg-slate-800 text-slate-200 border-slate-800 hover:border-slate-700'
+                      ? 'bg-amber-400 text-slate-950 font-bold border-amber-300 shadow-[0_8px_24px_rgba(251,191,36,0.28)]'
+                      : 'bg-white/[0.03] backdrop-blur-md hover:bg-white/[0.08] text-slate-200 border-white/10 hover:border-amber-400/40'
                   }`}
                   title="1 clic: ver ficha | 2 clics: ver biografía completa"
                 >
                   <span>{f.nombre}</span>
                   <span
-                    className={`text-[10px] font-mono ${
-                      isSelected ? 'text-slate-900' : 'text-slate-500'
+                    className={`text-[11px] font-mono tabular-nums ${
+                      isSelected ? 'text-slate-900' : 'text-slate-400'
                     }`}
                   >
-                    ({f.epoca_año})
+                    {f.epoca_año}
                   </span>
                 </button>
               );
             })}
           </div>
-        </div>
+        </section>
       )}
 
-      {/* Sección del TimelineFlow Filtrado */}
-      <div className="max-w-6xl mx-auto space-y-3">
-        <div className="flex items-center justify-between gap-2 flex-wrap">
-          <div>
-            <h2 className="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
-              <Compass className="w-5 h-5 text-amber-400" />
+      {/* SECCIÓN DEL TIMELINEFLOW FILTRADO */}
+      <section
+        className="max-w-6xl mx-auto space-y-5 animate-fade-in-up"
+        style={{ animationDelay: '140ms' }}
+      >
+        <div className="flex items-end justify-between gap-4 flex-wrap">
+          <div className="space-y-1">
+            <h2 className="font-editorial text-2xl sm:text-3xl font-semibold text-white flex items-center gap-2.5 tracking-tight">
+              <Compass className="w-5 h-5 text-amber-400 shrink-0" />
               <span>Línea Temporal Filtrada</span>
             </h2>
-            <p className="text-xs text-slate-400">
-              Marco cronológico interactivo con los pensadores vinculados a este tema de oposición.
+            <p className="text-xs sm:text-sm text-slate-400 max-w-[60ch]">
+              Marco cronológico interactivo con los pensadores vinculados a este tema.
             </p>
           </div>
           {relatedFilosofos.length > 0 && (
-            <span className="text-xs text-amber-400 font-mono bg-amber-400/10 px-2.5 py-1 rounded-lg border border-amber-400/20">
+            <span className="text-xs text-amber-300 font-medium tabular-nums bg-amber-400/10 px-3.5 py-1.5 rounded-full border border-amber-400/25">
               {relatedFilosofos.length} pensadores en escena
             </span>
           )}
         </div>
 
-        {/* Contenedor del TimelineFlow */}
-        <div className="w-full h-[480px] rounded-2xl border border-slate-800 bg-slate-950 overflow-hidden shadow-2xl relative">
+        {/* Contenedor Glassmorphic del TimelineFlow */}
+        <div className="w-full h-[480px] rounded-3xl border border-white/10 bg-[#04070f]/90 backdrop-blur-xl overflow-hidden shadow-[0_30px_90px_rgba(0,0,0,0.75)] relative">
           {relatedFilosofos.length > 0 ? (
             <TimelineFlow
               filosofos={relatedFilosofos}
@@ -256,172 +322,187 @@ export default function TemaDetail({
               onOpenBiography={(f) => setModalFilosofo(f)}
             />
           ) : (
-            <div className="w-full h-full flex flex-col items-center justify-center p-6 text-center space-y-3 bg-slate-950">
-              <div className="w-12 h-12 rounded-2xl bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-600">
+            <div className="w-full h-full flex flex-col items-center justify-center p-6 text-center space-y-3">
+              <div className="w-12 h-12 rounded-2xl bg-white/[0.04] border border-white/10 flex items-center justify-center text-amber-400/80">
                 <BookOpen className="w-6 h-6" />
               </div>
-              <div className="space-y-1 max-w-md">
-                <h3 className="text-sm sm:text-base font-bold text-slate-300">
+              <div className="space-y-1.5 max-w-md">
+                <h3 className="font-editorial text-xl font-semibold text-slate-200">
                   Sin autores vinculados todavía
                 </h3>
-                <p className="text-xs text-slate-500 leading-relaxed">
+                <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">
                   Para visualizar la línea temporal de este tema, añade los IDs de los filósofos correspondientes en el campo{' '}
-                  <code className="text-amber-400 bg-slate-900 px-1 py-0.5 rounded font-mono">
+                  <code className="text-amber-300 bg-white/[0.06] px-1.5 py-0.5 rounded font-mono text-xs">
                     "autores_relacionados"
                   </code>{' '}
-                  de <code className="text-slate-400 font-mono">src/data/temario.json</code>.
+                  de <code className="text-slate-300 font-mono text-xs">src/data/temario.json</code>.
                 </p>
               </div>
             </div>
           )}
         </div>
-      </div>
+      </section>
 
       {/* =========================================================================
-          NUEVA SECCIÓN: JUSTIFICACIÓN CURRICULAR PARA EL EXAMEN
+          SECCIÓN EDITORIAL ASIMÉTRICA: JUSTIFICACIÓN CURRICULAR PARA EL EXAMEN
       ========================================================================= */}
       {(hasAutoresJustificados || hasCorrientesJustificadas || hasObrasJustificadas) && (
-        <div className="max-w-6xl mx-auto space-y-4">
-          <div className="p-6 sm:p-8 rounded-3xl bg-slate-900/80 border border-slate-800 shadow-2xl space-y-6">
-            
-            {/* Cabecera del panel de justificación */}
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-5 border-b border-slate-800/80">
-              <div className="space-y-1">
-                <div className="inline-flex items-center gap-2 text-xs font-bold font-mono uppercase tracking-wider text-amber-400">
-                  <GraduationCap className="w-4 h-4 text-amber-400" />
-                  <span>Preparación de Oposiciones • Argumentario para el Tribunal</span>
+        <section
+          className="max-w-6xl mx-auto pt-8 border-t border-white/10 space-y-12 animate-fade-in-up"
+          style={{ animationDelay: '200ms' }}
+        >
+          {/* Cabecera Editorial */}
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
+            <div className="space-y-2 max-w-2xl">
+              <h2 className="font-editorial text-3xl sm:text-4xl font-semibold text-white tracking-tight flex items-center gap-3">
+                <GraduationCap className="w-7 h-7 text-amber-400 shrink-0" />
+                <span>Justificación Curricular para el Examen</span>
+              </h2>
+              <p className="text-sm text-slate-400 leading-relaxed">
+                Fundamentación conceptual de la presencia de cada autor, corriente y obra en el desarrollo temático ante el tribunal.
+              </p>
+            </div>
+            <span className="text-xs text-slate-300 font-mono tabular-nums bg-white/[0.04] backdrop-blur-md px-3.5 py-1.5 rounded-full border border-white/10 self-start md:self-auto shrink-0">
+              Tema {tema.num} • Argumentario BOE
+            </span>
+          </div>
+
+          {/* Sub-bloque 1: Autores Clave (Layout Asimétrico 4/8) */}
+          {hasAutoresJustificados && (
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-start">
+              <div className="lg:col-span-4 space-y-2 lg:sticky lg:top-6">
+                <div className="flex items-center gap-2 text-amber-300 font-semibold text-sm">
+                  <Users className="w-4 h-4 text-amber-400" />
+                  <h3>Autores Clave y Enfoque</h3>
                 </div>
-                <h3 className="text-xl sm:text-2xl font-extrabold text-white">
-                  Justificación Curricular para el Examen
-                </h3>
-                <p className="text-xs sm:text-sm text-slate-400">
-                  Fundamentación conceptual de la presencia de cada autor, corriente y obra en el desarrollo temático.
+                <p className="text-xs sm:text-sm text-slate-400 leading-relaxed">
+                  Haz clic sobre cualquier pensador para localizarlo y destacarlo en la línea temporal interactiva.
                 </p>
               </div>
-              <span className="text-xs text-slate-400 font-mono bg-slate-950 px-3 py-1.5 rounded-xl border border-slate-800 self-start sm:self-auto">
-                Tema {tema.num} • BOE
-              </span>
-            </div>
 
-            {/* Sub-bloque 1: Autores y su Justificación */}
-            {hasAutoresJustificados && (
-              <div className="space-y-3">
-                <div className="flex items-center gap-2 text-sm font-bold text-amber-300">
-                  <Users className="w-4 h-4 text-amber-400" />
-                  <h4>Autores Clave y Enfoque Filosófico</h4>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {autoresConJustificacion.map(({ filosofo, justificacion, id_filosofo, nombre: authorDisplay }) => {
-                    const nombre = authorDisplay || (filosofo ? filosofo.nombre : id_filosofo);
-                    const epoca = filosofo ? filosofo.epoca_año : '';
-                    return (
-                      <div
-                        key={id_filosofo}
-                        onClick={() => filosofo && setSelectedFilosofo(filosofo)}
-                        className="p-5 rounded-2xl bg-slate-950/70 border border-slate-800/90 hover:border-amber-400/40 hover:bg-slate-950 transition-all space-y-3 cursor-pointer group"
-                        title={filosofo ? "Haz clic para seleccionar en la línea temporal" : ""}
-                      >
-                        <div className="flex items-center justify-between">
-                          <div className="flex items-center gap-2.5">
-                            <span className="w-8 h-8 rounded-xl bg-amber-400/10 text-amber-300 border border-amber-400/20 flex items-center justify-center font-bold text-xs uppercase font-mono group-hover:bg-amber-400 group-hover:text-slate-950 transition-colors">
-                              {nombre.charAt(0)}
-                            </span>
-                            <div>
-                              <div className="text-sm sm:text-base font-bold text-white group-hover:text-amber-300 transition-colors">
-                                {nombre}
+              <div className="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {autoresConJustificacion.map(({ filosofo, justificacion, id_filosofo, nombre: authorDisplay }) => {
+                  const nombre = authorDisplay || (filosofo ? filosofo.nombre : id_filosofo);
+                  const epoca = filosofo ? filosofo.epoca_año : '';
+                  const CardTag = filosofo ? 'button' : 'article';
+                  return (
+                    <CardTag
+                      key={id_filosofo}
+                      {...(filosofo
+                        ? {
+                            type: 'button',
+                            onClick: () => setSelectedFilosofo(filosofo),
+                            title: 'Haz clic para seleccionar en la línea temporal',
+                          }
+                        : {})}
+                      className={`p-6 rounded-3xl bg-white/[0.03] backdrop-blur-xl border border-white/10 text-left w-full transition-all duration-300 space-y-3.5 shadow-[0_16px_40px_rgba(0,0,0,0.35)] ${
+                        filosofo
+                          ? 'hover:border-amber-400/45 hover:bg-white/[0.06] hover:-translate-y-0.5 cursor-pointer group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400'
+                          : ''
+                      }`}
+                    >
+                      <div className="flex items-center justify-between gap-3">
+                        <div className="flex items-center gap-3">
+                          <span className="w-10 h-10 rounded-2xl bg-amber-400/10 text-amber-300 border border-amber-400/25 flex items-center justify-center font-editorial italic font-bold text-xl group-hover:bg-amber-400 group-hover:text-slate-950 transition-colors shrink-0">
+                            {nombre.charAt(0)}
+                          </span>
+                          <div>
+                            <h4 className="text-base font-bold text-white group-hover:text-amber-300 transition-colors">
+                              {nombre}
+                            </h4>
+                            {filosofo?.corrientes?.[0] && (
+                              <div className="text-xs text-slate-400">
+                                {filosofo.corrientes[0]}
                               </div>
-                              {filosofo?.corrientes?.[0] && (
-                                <div className="text-[10px] text-slate-500 font-mono">
-                                  {filosofo.corrientes[0]}
-                                </div>
-                              )}
-                            </div>
+                            )}
                           </div>
-                          {epoca && (
-                            <span className="text-[11px] font-mono text-slate-500">
-                              {epoca}
-                            </span>
-                          )}
                         </div>
-
-                        <p className="text-xs sm:text-sm text-slate-300 leading-relaxed pl-0.5">
-                          {justificacion}
-                        </p>
+                        {epoca && (
+                          <span className="text-xs font-mono tabular-nums text-slate-400 shrink-0">
+                            {epoca}
+                          </span>
+                        )}
                       </div>
-                    );
-                  })}
-                </div>
+
+                      <p className="text-sm text-slate-300 leading-[1.7]">
+                        {justificacion}
+                      </p>
+                    </CardTag>
+                  );
+                })}
               </div>
-            )}
+            </div>
+          )}
 
-            {/* Sub-bloque 2: Corrientes y Tradiciones Filosóficas */}
-            {hasCorrientesJustificadas && (
-              <div className="space-y-3 pt-3 border-t border-slate-800/60">
-                <div className="flex items-center gap-2 text-sm font-bold text-amber-300">
-                  <Layers className="w-4 h-4 text-amber-400" />
-                  <h4>Corrientes y Tradiciones Filosóficas</h4>
-                </div>
+          {/* Sub-bloques 2 y 3: Corrientes y Obras en Composición Asimétrica */}
+          {(hasCorrientesJustificadas || hasObrasJustificadas) && (
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 pt-8 border-t border-white/10">
+              
+              {/* Corrientes y Tradiciones */}
+              {hasCorrientesJustificadas && (
+                <div className={`${hasObrasJustificadas ? 'lg:col-span-5' : 'lg:col-span-12'} space-y-4`}>
+                  <div className="flex items-center gap-2 text-sm font-semibold text-amber-300">
+                    <Layers className="w-4 h-4 text-amber-400" />
+                    <h3>Corrientes y Tradiciones</h3>
+                  </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {corrientesConJustificacion.map((c, idx) => (
-                    <div
-                      key={idx}
-                      className="p-5 rounded-2xl bg-slate-950/70 border border-slate-800/90 hover:border-amber-400/30 transition-all space-y-2.5"
-                    >
-                      <div className="flex items-center gap-2">
-                        <Layers className="w-4 h-4 text-amber-400 shrink-0" />
-                        <h5 className="text-sm sm:text-base font-bold text-amber-300">
+                  <div className="space-y-3">
+                    {corrientesConJustificacion.map((c, idx) => (
+                      <article
+                        key={idx}
+                        className="p-5 rounded-2xl bg-white/[0.025] backdrop-blur-md border border-white/10 hover:border-white/20 transition-colors space-y-2"
+                      >
+                        <h4 className="text-base font-bold text-amber-300">
                           {c.nombre}
-                        </h5>
-                      </div>
-
-                      <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                        {c.justificacion}
-                      </p>
-                    </div>
-                  ))}
+                        </h4>
+                        <p className="text-sm text-slate-300 leading-[1.7]">
+                          {c.justificacion}
+                        </p>
+                      </article>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            )}
+              )}
 
-            {/* Sub-bloque 3: Obras y Tratados Fundamentales */}
-            {hasObrasJustificadas && (
-              <div className="space-y-3 pt-3 border-t border-slate-800/60">
-                <div className="flex items-center gap-2 text-sm font-bold text-amber-300">
-                  <BookOpen className="w-4 h-4 text-amber-400" />
-                  <h4>Obras y Tratados Fundamentales</h4>
-                </div>
+              {/* Obras y Tratados Fundamentales */}
+              {hasObrasJustificadas && (
+                <div className={`${hasCorrientesJustificadas ? 'lg:col-span-7' : 'lg:col-span-12'} space-y-4`}>
+                  <div className="flex items-center gap-2 text-sm font-semibold text-amber-300">
+                    <BookOpen className="w-4 h-4 text-amber-400" />
+                    <h3>Obras y Tratados Fundamentales</h3>
+                  </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  {tema.obras_relacionadas.map((obra, idx) => (
-                    <div
-                      key={idx}
-                      className="p-5 rounded-2xl bg-slate-950/70 border border-slate-800/90 hover:border-amber-400/30 transition-all space-y-2.5"
-                    >
-                      <div className="flex items-center justify-between gap-2 flex-wrap">
-                        <div className="flex items-center gap-2">
-                          <Bookmark className="w-4 h-4 text-amber-400 shrink-0" />
-                          <h5 className="text-sm sm:text-base font-bold text-amber-300 italic">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    {tema.obras_relacionadas.map((obra, idx) => (
+                      <article
+                        key={idx}
+                        className="p-5 rounded-2xl bg-gradient-to-br from-white/[0.04] to-transparent backdrop-blur-md border border-white/10 hover:border-amber-400/35 transition-all duration-300 space-y-3 flex flex-col justify-between"
+                      >
+                        <div className="space-y-2">
+                          <div className="flex items-start justify-between gap-2">
+                            <Bookmark className="w-4 h-4 text-amber-400 shrink-0 mt-1" />
+                            <span className="px-2.5 py-0.5 rounded-full bg-white/[0.06] border border-white/10 text-slate-200 text-[11px] font-semibold">
+                              {obra.autor}
+                            </span>
+                          </div>
+                          <h4 className="font-editorial italic text-xl font-semibold text-amber-200 leading-snug">
                             {obra.titulo}
-                          </h5>
+                          </h4>
                         </div>
-                        <span className="px-2.5 py-0.5 rounded-lg bg-slate-800 border border-slate-700 text-slate-200 text-xs font-semibold">
-                          {obra.autor}
-                        </span>
-                      </div>
 
-                      <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                        {obra.justificacion}
-                      </p>
-                    </div>
-                  ))}
+                        <p className="text-sm text-slate-300 leading-[1.65]">
+                          {obra.justificacion}
+                        </p>
+                      </article>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            )}
+              )}
 
-          </div>
-        </div>
+            </div>
+          )}
+
+        </section>
       )}
 
       {/* Popover Flotante de Autor (1 Clic) */}
