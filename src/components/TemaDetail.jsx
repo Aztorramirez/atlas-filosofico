@@ -161,8 +161,8 @@ export default function TemaDetail({
         {/* Acciones principales: Sinopsis y Botón de Videoclase de YouTube en cabecera */}
         <div className="pt-4 border-t border-slate-800/80 flex flex-col gap-4 items-start">
           {tema?.sinopsis && (
-            <div className="w-full bg-slate-950/50 border-l-4 border-amber-500 p-4 rounded-r-xl shadow-md">
-              <p className="text-slate-300 text-base leading-relaxed text-pretty whitespace-pre-line">
+            <div className="mb-6">
+              <p className="text-lg text-slate-300 leading-relaxed text-pretty whitespace-pre-line">
                 {tema.sinopsis}
               </p>
             </div>
