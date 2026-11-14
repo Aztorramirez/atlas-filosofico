@@ -158,9 +158,17 @@ export default function TemaDetail({
           </h1>
         </div>
 
-        {/* Acciones principales: Botón de Videoclase de YouTube y Sinopsis en cabecera */}
-        <div className="pt-4 border-t border-slate-800/80 flex flex-col md:flex-row gap-4 md:gap-6 items-start">
-          <div className="shrink-0">
+        {/* Acciones principales: Sinopsis y Botón de Videoclase de YouTube en cabecera */}
+        <div className="pt-4 border-t border-slate-800/80 flex flex-col gap-4 items-start">
+          {tema?.sinopsis && (
+            <div className="w-full bg-slate-950/50 border-l-4 border-amber-500 p-4 rounded-r-xl shadow-md">
+              <p className="text-slate-300 text-base leading-relaxed text-pretty whitespace-pre-line">
+                {tema.sinopsis}
+              </p>
+            </div>
+          )}
+
+          <div>
             {tema.video_url ? (
               <a
                 href={tema.video_url}
@@ -179,17 +187,6 @@ export default function TemaDetail({
               </div>
             )}
           </div>
-
-          {tema?.sinopsis && (
-            <div className="flex-1 bg-slate-950/50 border-l-4 border-amber-500 p-4 rounded-r-xl shadow-md">
-              <h3 className="text-amber-400 font-bold text-sm mb-2 flex items-center gap-2">
-                💡 Propuesta del Atlas Filosófico
-              </h3>
-              <p className="text-slate-300 text-sm leading-relaxed text-pretty whitespace-pre-line">
-                {tema.sinopsis}
-              </p>
-            </div>
-          )}
         </div>
       </div>
 
