@@ -304,18 +304,19 @@ export default function GeographicView({
       />
 
       {/* Barra de herramientas flotante del mapa (Esquina superior derecha) */}
-      <div className="absolute top-3 right-3 sm:top-4 sm:right-4 z-20 flex items-center gap-1.5 sm:gap-2 bg-slate-900/90 backdrop-blur-md p-1 sm:p-1.5 rounded-2xl border border-slate-800 shadow-2xl flex-wrap justify-end">
+      <div className="absolute top-3 right-3 sm:top-4 sm:right-4 z-20 flex items-center gap-1.5 sm:gap-2 glass-panel p-1.5 rounded-2xl flex-wrap justify-end">
         {/* Interruptor: Filtro por Año */}
         <button
+          type="button"
           onClick={() => {
             const next = !timelineFilterActive;
             setTimelineFilterActive(next);
             if (!next) setIsPlaying(false);
           }}
-          className={`flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-semibold transition min-h-[38px] ${
+          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-all duration-200 min-h-[36px] cursor-pointer ${
             timelineFilterActive
-              ? 'bg-amber-500 text-slate-950 shadow-md shadow-amber-500/25 font-bold'
-              : 'text-slate-300 hover:text-white hover:bg-slate-800'
+              ? 'bg-amber-400 text-slate-950 shadow-[0_0_20px_rgba(251,191,36,0.3)] font-bold'
+              : 'text-slate-200 hover:text-white hover:bg-white/[0.07]'
           }`}
           title="Línea temporal interactiva con cursor por año"
         >
@@ -323,17 +324,18 @@ export default function GeographicView({
           <span>Filtro por Año</span>
           <span
             className={`w-2 h-2 rounded-full transition-colors ${
-              timelineFilterActive ? 'bg-slate-950 animate-pulse' : 'bg-slate-600'
+              timelineFilterActive ? 'bg-slate-950 animate-pulse' : 'bg-slate-500'
             }`}
           />
         </button>
 
-        <div className="w-px h-4 bg-slate-800 hidden sm:block" />
+        <div className="w-px h-4 bg-white/15 hidden sm:block" />
 
         {/* Selector de capa de mapa */}
         <button
+          type="button"
           onClick={() => setMapStyle(mapStyle === 'dark' ? 'osm' : 'dark')}
-          className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-medium text-slate-300 hover:text-white hover:bg-slate-800 transition min-h-[38px]"
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-medium text-slate-200 hover:text-white hover:bg-white/[0.07] transition-colors min-h-[36px] cursor-pointer"
           title="Cambiar estilo de mapa"
         >
           <Layers className="w-3.5 h-3.5 text-amber-400" />
@@ -341,12 +343,13 @@ export default function GeographicView({
           <span className="sm:hidden">{mapStyle === 'dark' ? 'Oscuro' : 'OSM'}</span>
         </button>
 
-        <div className="w-px h-4 bg-slate-800 hidden sm:block" />
+        <div className="w-px h-4 bg-white/15 hidden sm:block" />
 
         {/* Reencuadrar todos los autores */}
         <button
+          type="button"
           onClick={handleFitAll}
-          className="flex items-center gap-1.5 px-2.5 sm:px-3 py-1.5 rounded-xl text-xs font-medium text-slate-300 hover:text-white hover:bg-slate-800 transition min-h-[38px]"
+          className="flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-medium text-slate-200 hover:text-white hover:bg-white/[0.07] transition-colors min-h-[36px] cursor-pointer"
           title="Ver todos los filósofos"
         >
           <Maximize2 className="w-3.5 h-3.5 text-amber-400" />
@@ -356,14 +359,14 @@ export default function GeographicView({
 
       {/* Leyenda de navegación del mapa en la esquina inferior izquierda (oculta si el slider está activo para evitar colisiones) */}
       <div
-        className={`absolute bottom-6 left-16 z-20 items-center gap-3 bg-slate-900/85 backdrop-blur-md px-3.5 py-2 rounded-xl border border-slate-800/80 text-[11px] text-slate-400 shadow-xl ${
+        className={`absolute bottom-6 left-16 z-20 items-center gap-3 glass-panel px-4 py-2 rounded-full text-[11px] text-slate-300 ${
           timelineFilterActive ? 'hidden' : 'hidden md:flex'
         }`}
       >
-        <span className="flex items-center gap-1 text-slate-300">
+        <span className="flex items-center gap-1.5 text-slate-200">
           <MapPin className="w-3 h-3 text-amber-400" /> Clic en marcador: resumen
         </span>
-        <span className="text-slate-700">•</span>
+        <span className="text-white/20">•</span>
         <span>Doble clic en marcador: biografía completa</span>
       </div>
 
@@ -377,7 +380,7 @@ export default function GeographicView({
           onPointerDown={(e) => e.stopPropagation()}
           onWheel={(e) => e.stopPropagation()}
           onDoubleClick={(e) => e.stopPropagation()}
-          className="absolute bottom-4 left-1/2 -translate-x-1/2 z-30 w-[95%] sm:w-[580px] max-w-xl bg-slate-900/95 backdrop-blur-md border border-amber-500/40 rounded-3xl p-4 sm:p-5 shadow-2xl text-slate-100 flex flex-col gap-3 animate-in fade-in slide-in-from-bottom-4 duration-300"
+          className="absolute bottom-4 left-1/2 -translate-x-1/2 z-30 w-[95%] sm:w-[580px] max-w-xl glass-panel border-amber-400/35 rounded-3xl p-4 sm:p-5 text-slate-100 flex flex-col gap-3 animate-fade-in-up"
         >
           {/* Cabecera del Panel: Título, Año Grande Formateado y Cierre */}
           <div className="flex items-center justify-between">

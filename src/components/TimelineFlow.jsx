@@ -257,21 +257,22 @@ export default function TimelineFlow({
   const tracksContainerHeight = totalTracks * trackHeight + 40;
 
   return (
-    <div className="w-full h-full flex flex-col bg-slate-950 text-slate-100 select-none overflow-hidden relative">
+    <div className="w-full h-full flex flex-col bg-[#050811] text-slate-100 select-none overflow-hidden relative">
       
-      {/* 1. Barra de Herramientas Superior: Épocas, Zoom y Estado de Coetáneos */}
-      <div className="h-14 bg-slate-900/90 border-b border-slate-800 px-3 sm:px-4 flex items-center justify-between shrink-0 z-20 backdrop-blur-md gap-2 sm:gap-3">
+      {/* 1. Barra de Herramientas Superior Glassmorphic: Épocas, Zoom y Estado de Coetáneos */}
+      <div className="h-14 bg-slate-950/75 border-b border-white/10 px-3 sm:px-4 flex items-center justify-between shrink-0 z-20 backdrop-blur-xl gap-2 sm:gap-3 shadow-[0_8px_32px_rgba(0,0,0,0.45)]">
         
         {/* Atajos a grandes épocas históricas */}
         <div className="flex items-center gap-1.5 overflow-x-auto no-scrollbar py-1 touch-pan-x">
-          <span className="text-[11px] font-semibold text-slate-500 uppercase tracking-wider mr-1 hidden sm:inline">
+          <span className="text-[11px] font-semibold text-slate-400 mr-1 hidden sm:inline">
             Épocas:
           </span>
           {ERAS.map((era) => (
             <button
+              type="button"
               key={era.id}
               onClick={() => scrollToEra(era.start)}
-              className="text-xs px-2.5 py-1.5 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white border border-slate-700/60 whitespace-nowrap transition min-h-[36px] flex items-center"
+              className="text-xs px-3 py-1.5 rounded-full bg-white/[0.04] hover:bg-amber-400/15 text-slate-300 hover:text-amber-300 border border-white/10 hover:border-amber-400/35 whitespace-nowrap transition-all duration-200 hover:-translate-y-0.5 min-h-[34px] flex items-center cursor-pointer"
             >
               {era.shortName}
             </button>
@@ -280,34 +281,37 @@ export default function TimelineFlow({
 
         {/* Panel de estado de coetáneos */}
         {coetaneosInfo && (
-          <div className="hidden lg:flex items-center gap-2 px-3 py-1 bg-amber-500/10 border border-amber-400/30 rounded-xl text-xs text-amber-300">
+          <div className="hidden lg:flex items-center gap-2 px-3.5 py-1.5 bg-amber-400/10 border border-amber-400/30 rounded-full text-xs text-amber-300 backdrop-blur-md">
             <Users className="w-3.5 h-3.5 text-amber-400 animate-pulse" />
             <span>
               <strong>{selectedFilosofo.nombre}</strong> coincidió en vida con{' '}
-              <strong>{coetaneosInfo.coetaneos.length}</strong> pensadores
+              <strong className="tabular-nums">{coetaneosInfo.coetaneos.length}</strong> pensadores
             </span>
           </div>
         )}
 
         {/* Controles de Zoom */}
-        <div className="flex items-center gap-1.5 shrink-0 bg-slate-800/60 p-1 rounded-xl border border-slate-700/80">
+        <div className="flex items-center gap-1 shrink-0 bg-white/[0.04] backdrop-blur-md p-1 rounded-full border border-white/10">
           <button
+            type="button"
             onClick={() => setPixelsPerYear((prev) => Math.max(prev - 0.7, 1.2))}
-            className="p-1.5 text-slate-400 hover:text-white hover:bg-slate-700 rounded-lg transition min-w-[32px] min-h-[32px] flex items-center justify-center"
+            className="p-1.5 text-slate-300 hover:text-amber-300 hover:bg-white/[0.08] rounded-full transition-colors min-w-[30px] min-h-[30px] flex items-center justify-center cursor-pointer"
             title="Alejar (Zoom Out)"
           >
             <ZoomOut className="w-4 h-4" />
           </button>
           <button
+            type="button"
             onClick={() => setPixelsPerYear(2.8)}
-            className="px-2 py-1 text-[11px] font-mono text-slate-300 hover:text-white hover:bg-slate-700 rounded-lg transition"
+            className="px-2.5 py-1 text-[11px] font-mono tabular-nums text-slate-200 hover:text-amber-300 hover:bg-white/[0.08] rounded-full transition-colors cursor-pointer"
             title="Restablecer Zoom"
           >
             {Math.round((pixelsPerYear / 2.8) * 100)}%
           </button>
           <button
+            type="button"
             onClick={() => setPixelsPerYear((prev) => Math.min(prev + 0.7, 7.0))}
-            className="p-1.5 text-slate-400 hover:text-white hover:bg-slate-700 rounded-lg transition min-w-[32px] min-h-[32px] flex items-center justify-center"
+            className="p-1.5 text-slate-300 hover:text-amber-300 hover:bg-white/[0.08] rounded-full transition-colors min-w-[30px] min-h-[30px] flex items-center justify-center cursor-pointer"
             title="Acercar (Zoom In)"
           >
             <ZoomIn className="w-4 h-4" />

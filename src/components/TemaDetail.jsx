@@ -89,8 +89,22 @@ export default function TemaDetail({
   const prevTema = currentIndex > 0 ? allTemas[currentIndex - 1] : null;
   const nextTema = currentIndex < allTemas.length - 1 ? allTemas[currentIndex + 1] : null;
 
+  // Micro-interacción magnética Pro Max para el CTA focal (respeta prefers-reduced-motion)
+  const handleMagneticMove = (e) => {
+    if (window.matchMedia?.('(prefers-reduced-motion: reduce)').matches) return;
+    const el = e.currentTarget;
+    const rect = el.getBoundingClientRect();
+    const dx = (e.clientX - rect.left - rect.width / 2) * 0.16;
+    const dy = (e.clientY - rect.top - rect.height / 2) * 0.16;
+    el.style.transform = `translate3d(${dx}px, ${dy}px, 0)`;
+  };
+
+  const handleMagneticLeave = (e) => {
+    e.currentTarget.style.transform = 'translate3d(0, 0, 0)';
+  };
+
   return (
-    <div className="w-full h-full overflow-y-auto bg-academia-mesh text-slate-100 px-4 sm:px-8 md:px-10 py-6 sm:py-10 space-y-12 sm:space-y-16">
+    <div className="w-full h-full overflow-y-auto bg-academia-mesh text-slate-100 px-4 sm:px-8 md:px-10 py-8 sm:py-12 space-y-14 sm:space-y-20">
       
       {/* Barra superior de navegación flotante */}
       <nav
@@ -176,9 +190,9 @@ export default function TemaDetail({
         </div>
 
         {/* Columna Derecha (4 cols): Tarjeta Glassmorphic de Videoclase & Ficha */}
-        <aside className="lg:col-span-4 rounded-3xl bg-gradient-to-b from-white/[0.06] to-white/[0.02] backdrop-blur-2xl border border-white/10 p-6 shadow-[0_24px_64px_rgba(0,0,0,0.55)] space-y-6 lg:sticky lg:top-6">
+        <aside className="lg:col-span-4 glass-panel rounded-3xl p-6 sm:p-7 space-y-6 lg:sticky lg:top-6">
           <div className="flex items-center justify-between border-b border-white/10 pb-4">
-            <span className="text-xs font-semibold text-slate-300">
+            <span className="text-xs font-semibold text-slate-300 tracking-wide">
               Dossier del Tema
             </span>
             <span className="font-mono text-xs tabular-nums text-amber-300 bg-amber-400/10 border border-amber-400/20 px-2.5 py-0.5 rounded-full">
@@ -187,13 +201,13 @@ export default function TemaDetail({
           </div>
 
           <div className="grid grid-cols-2 gap-3 text-left">
-            <div className="p-3 rounded-2xl bg-black/25 border border-white/5">
+            <div className="p-3.5 rounded-2xl bg-black/30 border border-white/5">
               <div className="text-[11px] text-slate-400">Pensadores</div>
               <div className="font-editorial text-2xl font-semibold text-white tabular-nums mt-0.5">
                 {relatedFilosofos.length}
               </div>
             </div>
-            <div className="p-3 rounded-2xl bg-black/25 border border-white/5">
+            <div className="p-3.5 rounded-2xl bg-black/30 border border-white/5">
               <div className="text-[11px] text-slate-400">Obras clave</div>
               <div className="font-editorial text-2xl font-semibold text-white tabular-nums mt-0.5">
                 {tema?.obras_relacionadas?.length || 0}
@@ -201,13 +215,16 @@ export default function TemaDetail({
             </div>
           </div>
 
-          {/* CTA Innovador de Videoclase */}
+          {/* CTA Magnético de Videoclase */}
           {tema.video_url ? (
             <a
               href={tema.video_url}
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative flex items-center justify-between gap-3 w-full p-4 rounded-2xl bg-amber-400 hover:bg-amber-300 text-slate-950 transition-all duration-300 hover:-translate-y-0.5 active:scale-[0.99] shadow-[0_12px_32px_rgba(251,191,36,0.22)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
+              onMouseMove={handleMagneticMove}
+              onMouseLeave={handleMagneticLeave}
+              style={{ willChange: 'transform', transition: 'transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.2s ease, box-shadow 0.25s ease' }}
+              className="group relative flex items-center justify-between gap-3 w-full p-4 rounded-2xl bg-amber-400 hover:bg-amber-300 text-slate-950 active:scale-[0.98] shadow-[0_14px_36px_rgba(251,191,36,0.26)] hover:shadow-[0_18px_44px_rgba(251,191,36,0.36)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-300 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950 cursor-pointer"
             >
               <div className="flex items-center gap-3">
                 <span className="w-10 h-10 rounded-xl bg-slate-950 text-amber-400 flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform">
@@ -260,7 +277,7 @@ export default function TemaDetail({
           </div>
 
           <div className="flex items-center gap-2.5 flex-wrap">
-            {relatedFilosofos.map((f) => {
+            {relatedFilosofos.map((f, idx) => {
               const isSelected = selectedFilosofo?.id === f.id;
               return (
                 <button
@@ -268,7 +285,8 @@ export default function TemaDetail({
                   key={f.id}
                   onClick={() => setSelectedFilosofo(isSelected ? null : f)}
                   onDoubleClick={() => setModalFilosofo(f)}
-                  className={`px-4 py-2 rounded-full border text-xs font-medium transition-all duration-200 flex items-center gap-2 cursor-pointer hover:-translate-y-0.5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 ${
+                  style={{ '--stagger-index': idx }}
+                  className={`stagger-item magnetic-card px-4 py-2 rounded-full border text-xs font-medium flex items-center gap-2 cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 ${
                     isSelected
                       ? 'bg-amber-400 text-slate-950 font-bold border-amber-300 shadow-[0_8px_24px_rgba(251,191,36,0.28)]'
                       : 'bg-white/[0.03] backdrop-blur-md hover:bg-white/[0.08] text-slate-200 border-white/10 hover:border-amber-400/40'
@@ -381,13 +399,14 @@ export default function TemaDetail({
               </div>
 
               <div className="lg:col-span-8 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {autoresConJustificacion.map(({ filosofo, justificacion, id_filosofo, nombre: authorDisplay }) => {
+                {autoresConJustificacion.map(({ filosofo, justificacion, id_filosofo, nombre: authorDisplay }, idx) => {
                   const nombre = authorDisplay || (filosofo ? filosofo.nombre : id_filosofo);
                   const epoca = filosofo ? filosofo.epoca_año : '';
                   const CardTag = filosofo ? 'button' : 'article';
                   return (
                     <CardTag
                       key={id_filosofo}
+                      style={{ '--stagger-index': idx }}
                       {...(filosofo
                         ? {
                             type: 'button',
@@ -395,9 +414,9 @@ export default function TemaDetail({
                             title: 'Haz clic para seleccionar en la línea temporal',
                           }
                         : {})}
-                      className={`p-6 rounded-3xl bg-white/[0.03] backdrop-blur-xl border border-white/10 text-left w-full transition-all duration-300 space-y-3.5 shadow-[0_16px_40px_rgba(0,0,0,0.35)] ${
+                      className={`stagger-item magnetic-card p-6 rounded-3xl glass-panel text-left w-full space-y-3.5 ${
                         filosofo
-                          ? 'hover:border-amber-400/45 hover:bg-white/[0.06] hover:-translate-y-0.5 cursor-pointer group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400'
+                          ? 'hover:border-amber-400/45 cursor-pointer group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400'
                           : ''
                       }`}
                     >
@@ -450,7 +469,8 @@ export default function TemaDetail({
                     {corrientesConJustificacion.map((c, idx) => (
                       <article
                         key={idx}
-                        className="p-5 rounded-2xl bg-white/[0.025] backdrop-blur-md border border-white/10 hover:border-white/20 transition-colors space-y-2"
+                        style={{ '--stagger-index': idx }}
+                        className="stagger-item magnetic-card p-5 rounded-2xl glass-panel space-y-2"
                       >
                         <h4 className="text-base font-bold text-amber-300">
                           {c.nombre}
@@ -476,7 +496,8 @@ export default function TemaDetail({
                     {tema.obras_relacionadas.map((obra, idx) => (
                       <article
                         key={idx}
-                        className="p-5 rounded-2xl bg-gradient-to-br from-white/[0.04] to-transparent backdrop-blur-md border border-white/10 hover:border-amber-400/35 transition-all duration-300 space-y-3 flex flex-col justify-between"
+                        style={{ '--stagger-index': idx }}
+                        className="stagger-item magnetic-card p-5 rounded-2xl glass-panel space-y-3 flex flex-col justify-between"
                       >
                         <div className="space-y-2">
                           <div className="flex items-start justify-between gap-2">
