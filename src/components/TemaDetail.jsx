@@ -158,9 +158,9 @@ export default function TemaDetail({
           </h1>
         </div>
 
-        {/* Acciones principales: Botón de Videoclase de YouTube en cabecera */}
-        <div className="pt-4 border-t border-slate-800/80 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-          <div>
+        {/* Acciones principales: Botón de Videoclase de YouTube y Sinopsis en cabecera */}
+        <div className="pt-4 border-t border-slate-800/80 flex flex-col md:flex-row gap-4 md:gap-6 items-start">
+          <div className="shrink-0">
             {tema.video_url ? (
               <a
                 href={tema.video_url}
@@ -180,41 +180,18 @@ export default function TemaDetail({
             )}
           </div>
 
-          {/* Autores y corrientes resumen */}
-          <div className="flex items-center gap-2 flex-wrap text-xs text-slate-400">
-            <span className="flex items-center gap-1.5 font-semibold text-slate-300">
-              <Users className="w-3.5 h-3.5 text-amber-400" />
-              <span>{relatedFilosofos.length} autores vinculados</span>
-            </span>
-            {tema.corrientes_relacionadas?.length > 0 && (
-              <>
-                <span className="text-slate-600">•</span>
-                <span className="flex items-center gap-1 text-slate-400">
-                  <Layers className="w-3.5 h-3.5 text-amber-400" />
-                  <span>
-                    {tema.corrientes_relacionadas
-                      .map((c) => (typeof c === 'string' ? c : (c.nombre || c.id_corriente || '')))
-                      .filter(Boolean)
-                      .join(', ')}
-                  </span>
-                </span>
-              </>
-            )}
-          </div>
+          {tema?.sinopsis && (
+            <div className="flex-1 bg-slate-950/50 border-l-4 border-amber-500 p-4 rounded-r-xl shadow-md">
+              <h3 className="text-amber-400 font-bold text-sm mb-2 flex items-center gap-2">
+                💡 Propuesta del Atlas Filosófico
+              </h3>
+              <p className="text-slate-300 text-sm leading-relaxed text-pretty whitespace-pre-line">
+                {tema.sinopsis}
+              </p>
+            </div>
+          )}
         </div>
       </div>
-
-      {/* Propuesta editorial / Sinopsis divulgativa */}
-      {tema?.sinopsis && (
-        <div className="max-w-6xl mx-auto mb-6 bg-slate-900/60 border-l-4 border-amber-500 p-4 rounded-r-xl shadow-md">
-          <h3 className="text-amber-400 font-bold text-sm mb-2 flex items-center gap-2">
-            💡 Propuesta del Atlas Filosófico
-          </h3>
-          <p className="text-slate-300 text-sm leading-relaxed text-pretty whitespace-pre-line">
-            {tema.sinopsis}
-          </p>
-        </div>
-      )}
 
       {/* Píldoras de autores relacionados para acceso directo */}
       {relatedFilosofos.length > 0 && (
