@@ -204,6 +204,18 @@ export default function TemaDetail({
         </div>
       </div>
 
+      {/* Propuesta editorial / Sinopsis divulgativa */}
+      {tema?.sinopsis && (
+        <div className="max-w-6xl mx-auto mb-6 bg-slate-900/60 border-l-4 border-amber-500 p-4 rounded-r-xl shadow-md">
+          <h3 className="text-amber-400 font-bold text-sm mb-2 flex items-center gap-2">
+            💡 Propuesta del Atlas Filosófico
+          </h3>
+          <p className="text-slate-300 text-sm leading-relaxed text-pretty whitespace-pre-line">
+            {tema.sinopsis}
+          </p>
+        </div>
+      )}
+
       {/* Píldoras de autores relacionados para acceso directo */}
       {relatedFilosofos.length > 0 && (
         <div className="max-w-6xl mx-auto space-y-2">
