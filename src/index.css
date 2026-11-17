@@ -91,6 +91,17 @@
   font-family: var(--font-editorial);
 }
 
+/* Diferimiento de renderizado off-screen (Baseline content-visibility) */
+.deferred-card {
+  content-visibility: auto;
+  contain-intrinsic-size: auto none auto 110px;
+}
+
+.deferred-section {
+  content-visibility: auto;
+  contain-intrinsic-size: auto none auto 600px;
+}
+
 /* Superficie de cristal esmerilado con bisel especular superior */
 .glass-panel {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.055) 0%, rgba(255, 255, 255, 0.018) 100%);

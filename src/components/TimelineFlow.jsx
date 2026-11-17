@@ -326,13 +326,11 @@ export default function TimelineFlow({
         onMouseMove={handleMouseMove}
         onMouseUp={handleMouseUp}
         onMouseLeave={handleMouseUp}
-        className={`flex-1 overflow-x-auto overflow-y-auto relative cursor-grab active:cursor-grabbing touch-pan-x touch-pan-y ${
+        className={`flex-1 overflow-x-auto overflow-y-auto overscroll-contain relative cursor-grab active:cursor-grabbing touch-pan-x touch-pan-y ${
           isDragging ? 'cursor-grabbing' : ''
         }`}
         style={{
           scrollBehavior: isDragging ? 'auto' : 'smooth',
-          WebkitOverflowScrolling: 'touch',
-          touchAction: 'pan-x pan-y',
         }}
       >
         <div

@@ -297,7 +297,7 @@ export default function GeographicView({
       {/* Contenedor Leaflet */}
       <div
         ref={mapContainerRef}
-        className={`w-full h-full z-0 transition-opacity duration-300 ${
+        className={`w-full h-full z-0 overscroll-contain transition-opacity duration-300 ${
           mapStyle === 'dark' ? 'leaflet-dark-mode' : ''
         }`}
         style={{ backgroundColor: '#1a1a1a' }}
@@ -380,7 +380,7 @@ export default function GeographicView({
           onPointerDown={(e) => e.stopPropagation()}
           onWheel={(e) => e.stopPropagation()}
           onDoubleClick={(e) => e.stopPropagation()}
-          className="absolute bottom-4 left-1/2 -translate-x-1/2 z-30 w-[95%] sm:w-[580px] max-w-xl glass-panel border-amber-400/35 rounded-3xl p-4 sm:p-5 text-slate-100 flex flex-col gap-3 animate-fade-in-up"
+          className="absolute bottom-4 left-1/2 -translate-x-1/2 z-30 w-[95%] sm:w-[580px] max-w-xl glass-panel border-amber-400/35 rounded-3xl p-4 sm:p-5 text-slate-100 flex flex-col gap-3 overscroll-contain animate-fade-in-up"
         >
           {/* Cabecera del Panel: Título, Año Grande Formateado y Cierre */}
           <div className="flex items-center justify-between">

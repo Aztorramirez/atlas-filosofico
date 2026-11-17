@@ -94,8 +94,10 @@ export default function App() {
     setModalFilosofo(filosofo);
   };
 
+  const isBackgroundInert = sidebarOpen || Boolean(modalFilosofo);
+
   return (
-    <div className="flex flex-col h-screen w-screen bg-academia-mesh text-slate-100 overflow-hidden font-sans select-none relative">
+    <div className="flex flex-col h-dvh w-full bg-academia-mesh text-slate-100 overflow-hidden font-sans select-none relative">
       
       {/* Menú Desplegable Lateral Izquierdo (Drawer) */}
       <Sidebar
@@ -106,7 +108,10 @@ export default function App() {
       />
 
       {/* Barra de Navegación Superior Glassmorphic */}
-      <header className="border-b border-white/10 bg-slate-950/65 backdrop-blur-xl px-3 sm:px-6 py-2.5 md:py-0 md:h-[68px] flex flex-col md:flex-row items-stretch md:items-center justify-between z-30 shrink-0 gap-2.5 md:gap-4 shadow-[0_12px_40px_rgba(0,0,0,0.45)]">
+      <header
+        inert={isBackgroundInert || undefined}
+        className="border-b border-white/10 bg-slate-950/65 backdrop-blur-xl px-3 sm:px-6 py-2.5 md:py-0 md:h-[68px] flex flex-col md:flex-row items-stretch md:items-center justify-between z-30 shrink-0 gap-2.5 md:gap-4 shadow-[0_12px_40px_rgba(0,0,0,0.45)]"
+      >
         
         {/* Fila 1 en móvil / Izquierda en escritorio: Menú hamburguesa, Logotipo, Título y Controles contextuales */}
         <div className="flex items-center justify-between shrink-0 gap-2">
@@ -258,7 +263,10 @@ export default function App() {
       </header>
 
       {/* Área Principal de Visualización según la sección activa */}
-      <main className="flex-1 relative w-full overflow-hidden">
+      <main
+        inert={isBackgroundInert || undefined}
+        className="flex-1 relative w-full overflow-hidden"
+      >
         {activeSection === 'atlas' ? (
           activeView === 'cronologica' ? (
             <TimelineFlow

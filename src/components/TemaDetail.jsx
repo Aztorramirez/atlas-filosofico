@@ -366,7 +366,7 @@ export default function TemaDetail({
       ========================================================================= */}
       {(hasAutoresJustificados || hasCorrientesJustificadas || hasObrasJustificadas) && (
         <section
-          className="max-w-6xl mx-auto pt-8 border-t border-white/10 space-y-12 animate-fade-in-up"
+          className="max-w-6xl mx-auto pt-8 border-t border-white/10 space-y-12 animate-fade-in-up deferred-section"
           style={{ animationDelay: '200ms' }}
         >
           {/* Cabecera Editorial */}

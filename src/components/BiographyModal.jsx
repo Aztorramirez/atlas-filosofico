@@ -14,15 +14,21 @@ export default function BiographyModal({ filosofo, onClose }) {
   if (!filosofo) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 md:p-8">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 md:p-8 overscroll-contain">
       {/* Fondo oscuro con desenfoque */}
       <div
-        className="fixed inset-0 bg-slate-950/80 backdrop-blur-md transition-opacity duration-300"
+        className="fixed inset-0 bg-slate-950/80 backdrop-blur-md transition-opacity duration-300 overscroll-contain"
         onClick={onClose}
+        aria-hidden="true"
       />
 
       {/* Contenedor del Modal Centrado y Responsive */}
-      <div className="relative w-full max-w-[92vw] sm:max-w-3xl bg-slate-900 border border-slate-700/80 rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden z-10 flex flex-col max-h-[85vh] animate-in fade-in zoom-in-95 duration-200">
+      <div
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="bio-modal-title"
+        className="relative w-full max-w-[92vw] sm:max-w-3xl bg-slate-900 border border-slate-700/80 rounded-2xl sm:rounded-3xl shadow-2xl overflow-hidden z-10 flex flex-col max-h-[85dvh] overscroll-contain animate-in fade-in zoom-in-95 duration-200"
+      >
         
         {/* Cabecera del modal */}
         <div className="px-5 py-4 sm:px-8 sm:py-6 border-b border-slate-800 bg-slate-900/90 flex items-start justify-between shrink-0">
@@ -39,7 +45,7 @@ export default function BiographyModal({ filosofo, onClose }) {
                 ID: {filosofo.id}
               </span>
             </div>
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white tracking-tight mt-1">
+            <h2 id="bio-modal-title" className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-white tracking-tight mt-1">
               {filosofo.nombre}
             </h2>
             <div className="flex flex-wrap items-center gap-2 sm:gap-3 text-xs text-slate-300 pt-1">
@@ -66,8 +72,9 @@ export default function BiographyModal({ filosofo, onClose }) {
 
           {/* Botón de cerrar superior */}
           <button
+            type="button"
             onClick={onClose}
-            className="p-2 min-w-[40px] min-h-[40px] flex items-center justify-center text-slate-400 hover:text-white bg-slate-800/80 hover:bg-slate-800 border border-slate-700 rounded-xl transition-all shrink-0"
+            className="p-2 min-w-[40px] min-h-[40px] flex items-center justify-center text-slate-400 hover:text-white bg-slate-800/80 hover:bg-slate-800 border border-slate-700 rounded-xl transition-all shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
             aria-label="Cerrar modal"
             title="Cerrar (Esc)"
           >
@@ -75,11 +82,8 @@ export default function BiographyModal({ filosofo, onClose }) {
           </button>
         </div>
 
-        {/* Cuerpo del modal (Lectura de la biografía) con scroll táctil */}
-        <div
-          className="p-5 sm:p-8 overflow-y-auto space-y-5 sm:space-y-6 text-slate-200 leading-relaxed text-sm sm:text-base"
-          style={{ WebkitOverflowScrolling: 'touch' }}
-        >
+        {/* Cuerpo del modal (Lectura de la biografía) */}
+        <div className="p-5 sm:p-8 overflow-y-auto overscroll-contain space-y-5 sm:space-y-6 text-slate-200 leading-relaxed text-sm sm:text-base">
           {/* Tarjeta de resumen introductorio */}
           <div className="bg-slate-800/50 border border-slate-800 rounded-2xl p-4 text-xs sm:text-sm text-slate-300 italic border-l-4 border-l-amber-400">
             "{filosofo.resumen_breve}"

@@ -158,10 +158,13 @@ export default function TemarioView({ onNavigateToAtlas }) {
                 const hasAutores = tema.autores_relacionados && tema.autores_relacionados.length > 0;
 
                 return (
-                  <div
+                  <button
+                    type="button"
                     key={tema.id}
                     onClick={() => setSelectedTemaId(tema.id)}
-                    className="p-3.5 rounded-xl bg-slate-950/70 border border-slate-800/80 hover:border-amber-400/50 hover:bg-slate-900/90 hover:scale-[1.008] transition-all flex items-start justify-between gap-3 group cursor-pointer"
+                    className={`w-full text-left p-3.5 rounded-xl bg-slate-950/70 border border-slate-800/80 hover:border-amber-400/50 hover:bg-slate-900/90 hover:scale-[1.008] transition-all flex items-start justify-between gap-3 group cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-amber-400 ${
+                      bIdx > 0 ? 'deferred-card' : ''
+                    }`}
                   >
                     <div className="flex items-start gap-3 flex-1">
                       <span className="w-8 h-8 rounded-lg bg-amber-400/10 text-amber-300 border border-amber-400/20 flex items-center justify-center font-mono font-bold text-xs shrink-0 group-hover:bg-amber-400 group-hover:text-slate-950 transition-colors">
@@ -210,7 +213,7 @@ export default function TemarioView({ onNavigateToAtlas }) {
                     <div className="p-1 rounded-lg text-slate-600 group-hover:text-amber-400 transition-colors shrink-0 mt-1">
                       <ChevronRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
                     </div>
-                  </div>
+                  </button>
                 );
               })}
             </div>

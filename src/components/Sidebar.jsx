@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import {
   Compass,
   GraduationCap,
@@ -24,18 +24,33 @@ export default function Sidebar({
     activeSection === 'ley_vigente' || activeSection === 'temario' || activeSection === 'programacion'
   );
 
+  useEffect(() => {
+    if (!isOpen) return undefined;
+    const handleKeyDown = (e) => {
+      if (e.key === 'Escape') onClose();
+    };
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [isOpen, onClose]);
+
   if (!isOpen) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex">
+    <div className="fixed inset-0 z-50 flex overscroll-contain">
       {/* Fondo oscuro con desenfoque que cierra el menú al hacer clic */}
       <div
-        className="fixed inset-0 bg-[#050811]/75 backdrop-blur-md animate-fade-in"
+        className="fixed inset-0 bg-[#050811]/75 backdrop-blur-md animate-fade-in overscroll-contain"
         onClick={onClose}
+        aria-hidden="true"
       />
 
       {/* Panel lateral deslizante Dark Academia */}
-      <div className="relative w-80 max-w-[85vw] bg-slate-950/85 backdrop-blur-2xl border-r border-white/10 h-full shadow-[24px_0_80px_rgba(0,0,0,0.85)] flex flex-col z-10 animate-slide-in-left">
+      <div
+        role="dialog"
+        aria-modal="true"
+        aria-label="Menú de navegación"
+        className="relative w-80 max-w-[85vw] bg-slate-950/85 backdrop-blur-2xl border-r border-white/10 h-full shadow-[24px_0_80px_rgba(0,0,0,0.85)] flex flex-col z-10 animate-slide-in-left overscroll-contain"
+      >
         
         {/* Cabecera del Sidebar */}
         <div className="p-5 border-b border-white/10 flex items-center justify-between shrink-0 bg-gradient-to-b from-amber-500/[0.06] to-transparent">
@@ -64,7 +79,7 @@ export default function Sidebar({
         </div>
 
         {/* Lista de Navegación */}
-        <nav className="flex-1 overflow-y-auto p-4 space-y-2.5">
+        <nav className="flex-1 overflow-y-auto overscroll-contain p-4 space-y-2.5">
           
           {/* Opción 1: Atlas Filosófico */}
           <button
